@@ -1,0 +1,859 @@
+@charset "UTF-8";
+
+/* @import css
+=================================================================== */
+@import url("reset.css");
+@import url("responsive.gs.12col.css");
+
+/* baseline
+=================================================================== */
+html{box-sizing: border-box;}
+body {
+	-webkit-text-size-adjust: 100%;
+	font-family: Helvetica,Arial,"Hiragino Kaku Gothic Pro","メイリオ","ＭＳ Ｐゴシック","MS UI Gothic",sans-serif;
+	color: #333333;
+	font-size: 12px;
+	background: url(http://a-dreamlaw.com/common/images/back_grid.jpg);
+}
+.container{
+	background: #fff;
+}
+a{
+	color: #333333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.fade {
+    -webkit-transition: 0.3s ease-in-out;
+       -moz-transition: 0.3s ease-in-out;
+         -o-transition: 0.3s ease-in-out;
+            transition: 0.3s ease-in-out;
+}
+.fade:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=60);
+}
+
+/* h1_h2_h3 */
+.sct_h1{
+	color: #000;
+	font-weight: bold;
+	font-size: 20px;
+	border-bottom: 3px solid #006400;
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+}
+.sct_h2{
+	clear: both;
+	border-left: 4px solid #006400;
+	border-radius: 3px;
+	font-size: 18px;
+	color: #000;
+	padding: 12px 0 10px 12px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 25px;
+}
+.sct_h3{
+	border-bottom: 1px dotted #006400;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	padding: 12px 0 0 12px;
+	margin: 20px 0 25px 0;
+	letter-spacing: 1px;
+}
+.mt_h{
+	margin-top: 0;
+}
+/* img logo */
+figcaption{
+	margin-top: -20px;
+}
+figcaption p{
+	text-align: center;
+}
+figure a:hover{
+	text-decoration: none;
+}
+@media only screen and (max-width: 700px) {
+	.anchor_btn li{
+	}
+}
+.logo{
+	padding-left: 10px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.img_rounded{
+	border-radius: 50%;
+}
+.img_corners{
+	border-radius: 5px;
+}
+.img_b{
+	border: 1px solid #333;
+}
+.img_center{
+	text-align: center;
+	display: block;
+}
+.img_right{
+	display: block;
+	padding: 3px;
+	float: right;
+	margin-left:20px;
+	margin-bottom: 10px;
+}
+.img_left{
+	display: block;
+	float: left;
+	padding: 3px;
+	margin: 0 20px 10px 20px;
+}
+/* page-top*/
+#page-top {
+	position: fixed;
+	bottom: 70px;
+	right: 15px;
+}
+#page-top a {
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	display: block;
+}
+#page-top a:hover {
+	text-decoration: none;
+}
+/* icon */
+.icon_pdf{
+	background: url(http://a-dreamlaw.com/common/images/icon/icon_pdf.jpg) right no-repeat;
+	padding: 3px 20px 0 0;
+	background-size: 24px 24px;
+}
+.out_link{
+	background: url(http://a-dreamlaw.com/common/images/icon/out_ink.jpg) right no-repeat;
+	padding: 3px 20px 0 0;
+}
+
+/* margin_padding */
+.mt_5{ margin-top: 5px;}
+.mt_10{ margin-top: 10px;}
+.mt_20{ margin-top: 20px;}
+.mt_30{ margin-top: 30px;}
+.mt_50{ margin-top: 50px;}
+.mb_5{ margin-bottom: 5px;}
+.mb_10{margin-bottom: 10px;}
+.mb_15{ margin-bottom: 15px;}
+.mb_20{ margin-bottom: 20px;}
+.pb_20{ padding-bottom: 20px;}
+.ml_5{ margin-left: 5px;}
+.pt_10{ padding-top: 10px;}
+.pb_10{ padding-bottom: 10px;}
+.pb_5{ padding-bottom: 5px;}
+.pl_10{ padding-left: 10px;}
+.pt_5{ padding-top: 5px;}
+.font_s{ font-size: 10px;}
+.mb_50{margin-bottom: 50px;}
+.ml_30{margin-left: 30px;}
+.m_0{margin-top: 0; margin-bottom: 0;}
+
+/* txt */
+.font_B{
+	font-weight: bold;
+}
+.txt_red{
+	color: #ed200b;
+	font-weight: bold;
+}
+.txt_yellow{
+	color: #e39319;
+}
+.txt_orange{
+	color: #ff4500;
+}
+.txt_R{
+	text-align: right;
+}
+.txt_L{
+	text-align: left;
+}
+.txt_C{
+	text-align: center;
+}
+.txt_rgba{
+	color: rgba(102,102,102,1.00);
+}
+.txt_B{
+	font-size: 16px;
+	font-weight: bold;
+}
+.font_W{
+	color: #fff;
+}
+.red_border{
+	border:1px solid #E80000;
+	padding: 5px;
+}
+@media only screen and (max-width: 768px) {
+	.dis_n{
+		display: none;
+	}
+}
+
+/* arrow
+=================================================================== */
+/* link_arrow */
+.arrow{
+	background: url(http://a-dreamlaw.com/common/images/icon/arrow.jpg) left no-repeat;
+	background-size: 10px 10px;
+	padding: 4px 0 0 13px;
+}
+.arrow_R{
+	background: url(http://a-dreamlaw.com/common/images/icon/R_link_arrow.jpg) right no-repeat;
+	background-size: 15px 15px;
+	padding: 3px 16px 0 0;
+}
+.arrow_L{
+	background: url(http://a-dreamlaw.com/common/images/icon/L_link_arrow.jpg) left no-repeat;
+	background-size: 15px 15px;
+	padding: 2px 0 0 17px;
+}
+.second_link{
+	padding: 10px;
+}
+
+/* list_arrow */
+.list_arrow{
+	margin: 20px 0 20px 20px;
+}
+.list_arrow li {
+	position: relative;
+	padding-left: 19px;
+	margin-bottom: 5px;
+}
+.list_arrow li::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: .7em;
+	left: 3px;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	border: 3px solid #006400;
+	border-radius: 100%;
+}
+.list_arrow li::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: .7em;
+	left: 3px;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	border: 3px solid #006400;
+	border-radius: 100%;
+}
+.list_arrow .link_R::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: .7em;
+	left: 3px;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	border: 3px solid #006400;
+	border-radius: 100%;
+}
+.list_arrow .link_R::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: .7em;
+	left: 3px;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	border: 3px solid #006400;
+	border-radius: 100%;
+}
+
+/* footer_arrow */
+.footer_arrow li {
+	position: relative;
+}
+.footer_arrow li::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: .5em;
+	left: 40px;
+	width: 6px;
+	height: 6px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+/* tb_device_max-width: 768px */
+
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px) {
+.img_right{
+	margin: 0;
+	text-align: center;
+	float: none;
+	width: auto;
+	padding: 0 10px 0 10px;
+	}
+	.img_left{
+		margin: 0;
+	text-align: center;
+	float: none;
+	width: auto;
+	padding: 0 10px 0 10px;
+	}
+}
+/* btn
+=================================================================== */
+/*next_transitions_btn*/
+.next_btn {
+  background: #028539;
+  background-image: -webkit-linear-gradient(top, #028539, #469f54);
+  background-image: -moz-linear-gradient(top, #028539, #469f54);
+  background-image: -ms-linear-gradient(top, #028539, #469f54);
+  background-image: -o-linear-gradient(top, #028539, #469f54);
+  background-image: linear-gradient(to bottom, #028539, #469f54);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.next_btn:hover {
+  background: #469f54;
+  background-image: -webkit-linear-gradient(top, #469f54, #028539);
+  background-image: -moz-linear-gradient(top, #469f54, #028539);
+  background-image: -ms-linear-gradient(top, #469f54, #028539);
+  background-image: -o-linear-gradient(top, #469f54, #028539);
+  background-image: linear-gradient(to bottom, #469f54, #028539);
+  text-decoration: none;
+}
+/*contact_btn*/
+.btn{
+	width: 282px;
+}
+.contact_btn{
+	width: 282px;
+	height: 45px;
+		border-radius: 5px;
+	border: 1px solid #b29077;
+	background: -webkit-linear-gradient(#ff9d4c,#ff8901);
+	background: -moz-linear-gradient(#ff9d4c,#ff8901);
+	background: -ms-linear-gradient(#ff9d4c,#ff8901);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(204, 204, 204, 1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+		font-size: 14px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+}
+.contact_btn span{
+	background: url(http://a-dreamlaw.com/common/images/header_mail_sp.png) no-repeat;
+	padding: 2px 5px 5px 30px;
+	font-weight: bold;
+}
+.contact_btn:hover{
+	text-decoration: none;
+		background: -webkit-linear-gradient(#ff8901,#ff9d4c);
+		background: -moz-linear-gradient(#ff8901,#ff9d4c);
+		background: -ms-linear-gradient(#ff8901,#ff9d4c);
+}
+
+/* header
+=================================================================== */
+header{
+	background: #fff;
+	height: 90px;
+	padding: 0;
+	border-top: 3px solid #028539;
+}
+.header_inner{
+}
+.header_left{
+	padding-left: 10px;
+}
+.header_right{
+	padding-left: 17px;
+	position: relative;
+}
+.info_mail{
+	position: absolute;
+	top: 30px;
+	right: 23px;
+	z-index: 10;
+}
+.sp_contact{
+	display: none;
+}
+.sp_tel-mail{
+	display: none;
+}
+.header_contact_sp{
+	display: none;
+}
+.header_appeal{
+	display: none;
+}
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px) {
+.btn{
+	width: auto;
+}
+.contact_btn{
+}
+.sp_txt_C{
+	text-align: center;
+}
+header{
+	width: auto;
+	height: auto;
+	padding: 0 10px 0 10px;
+}
+
+.logo{
+	text-align: center;
+	padding: 0 10px;
+}
+.logo img{
+	width: auto;
+}
+.info{
+	display: none;
+}
+.header_contact_sp{
+	display: block;
+	width: 290px;
+	margin: 0 auto;
+	padding: 10px;
+	background: #fff;
+}
+.fixed_01 {
+  position: fixed;
+  left: 50%;
+  bottom: 0px;
+  width: 290px;
+  margin-left: -145px;
+  z-index: 2;
+  background-color: #FFD300;
+  opacity: 0.9;
+}
+        
+.header_sp_left{
+	width: 170px;
+	height: 50px;
+	float: left;
+	margin-right: 20px;
+}
+.header_sp_left img .header_sp_right img{
+	border-radius: 5px;
+}
+.header_sp_right{
+	float: left;
+	text-align: center;
+	width: 80px;
+	height: 50px;
+	color: #FFFFFF;
+	display: block;
+}
+.header_appeal{
+	background: #fff;
+	text-align: center;
+	color: #ed200b;
+	font-weight: bold;
+	font-size: 14px;
+}
+.header_appeal{
+	display: block;
+}
+}
+
+/* menu
+=================================================================== */
+#menu {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: #fff;
+	position: relative;
+}
+#menu li{
+	display: block;
+	float: left;
+	width: 16.6669%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 5px solid #028539;
+}
+#menu li a{
+	display: block;
+	padding: 10px 0 10px;
+	background-color: #fff;
+	color: rgba(102,102,102,1.00);
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	border-right: 1px solid rgba(221,221,221,1.00);
+}
+#menu li:last-child a{
+	border: none;
+}
+#toggle {
+	display: none;
+}
+#toggle a{
+	font-size: 14px;
+}
+
+
+/* tb_device_max-width: 768px */
+@media only screen and (max-width: 768px) {
+	#menu li {
+		width: 25%;
+		border-bottom: 1px solid #028539;
+	}
+}
+
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 480px) {
+#menu {
+	display: none;
+}
+#menu li {
+	width: 100%;
+}
+#toggle {
+	display: block;
+	position: relative;
+	width: 100%;
+	background: #028539;
+	margin-top: 10px;
+}
+#toggle a{
+		display: block;
+		position: relative;
+		padding: 20px 0 15px;
+		border-bottom: 1px solid #000;
+		color:#FFF;
+		text-align: center;
+		text-decoration: none;
+}
+#toggle:before {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	background: #FFF;
+}
+#toggle a:before, #toggle a:after {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	width: 30px;
+	height: 6px;
+	background: #028539;
+}
+#toggle a:before {
+		margin-top:-9px;
+}
+#toggle a:after {
+	margin-top: 3px;
+}
+}
+
+/* contact_banner
+=================================================================== */
+.contact_banner{
+	background: #fff;
+	border-top: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.contact_banner-inner{
+	padding: 8px 0 8px 0;
+}
+.contact_banner-tel{
+	height: 50px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1;
+	margin-right: 20px;
+	text-align: center;
+	padding: 3px 10px 0 10px;
+}
+.contact_banner-tel span{
+	background: url(http://a-dreamlaw.com/common/images/icon/tel.jpg) no-repeat;
+	background-size: 30px 30px;
+	padding: 0 0 0 33px;
+}
+.contact_banner-tel a{
+	color: #028539;
+	text-decoration: none;
+}
+.contact_banner-tel p{
+	font-size: 14px;
+	text-align: center;
+	color: #028539;
+}
+.contact_banner-tel img{
+	width: 170px;
+	height: 50px;
+}
+.office_hours{
+	background: url(http://a-dreamlaw.com/common/images/office_hours-back.jpg) no-repeat right;
+	margin-top: 5px;
+}
+.contact_banner_sp{
+	display: none;
+}
+
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px) {
+	.contact_banner{
+		display: none;
+	}
+	.contact_banner{
+		width: auto;
+		padding: 0 10px 0 10px;
+	}
+	.contact_banner-tel span{
+		font-size: 28px;
+		padding-top: 2px;
+	}
+	.office_hours{
+		display: none;
+		float: none;
+	}
+	.contact_btn{
+		float: none;
+		margin-bottom: 10px;
+	}
+
+.contact_banner_sp{
+	background: #fff;
+	display: block;
+	padding:10px 10px;
+	border-top: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+	margin-bottom: 10px;
+}
+.contact_banner-tel{
+	margin: 0px 0px 32px 0px;
+	padding: 0;
+}
+.contact_btn{
+	margin: 0;
+	width: 100%;
+}
+}
+/* footer
+=================================================================== */
+footer {
+	width: 100%;
+	background: -webkit-linear-gradient(#006400,#3c9748);
+	background: -moz-linear-gradient(#006400,#3c9748);
+	background: -ms-linear-gradient(#006400,#3c9748);
+}
+.footer_inner{
+	margin: 0 auto;
+	color: #fff;
+	padding: 15px 0 15px 0;
+	background: -webkit-linear-gradient(#006400,#3c9748);
+		background: -moz-linear-gradient(#006400,#3c9748);
+		background: -ms-linear-gradient(#006400,#3c9748);
+}
+.footer_box{
+	width: 25%;
+	float: left;
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	height: 200px;
+}
+.footer_box li{
+	margin-bottom: 10px;
+	padding: 0 30px 0 60px
+}
+.footer_inner a{
+	color: #fff;
+}
+.footer_h{
+	font-size: 14px;
+	padding-left: 40px;
+	margin-bottom: 9px;
+}
+.footer_link-sns-box img{
+	margin-left: 15px;
+}
+.footer_link-sns-box p{
+	margin-bottom: 8px;
+}
+.footer_link-sns-box li{
+	float: left;
+	margin: 0 0 0 35px;
+}
+.footer_link-sns-box li img{
+	border-radius: 50px;
+}
+.copy{
+	padding: 15px 15px;
+}
+.establishment{
+	float: left;
+}
+.copyright{
+	float: left;
+}
+.sp_footer{
+	display: none;
+}
+
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px) {
+	footer{
+	width: auto;
+	padding: 0 10px 0 10px;
+}
+footer li{
+	text-align: center;
+}
+.map img{
+	margin-left: 0;
+}
+.footer_inner{
+	display: none;
+}
+.sp_footer{
+	display: block;
+}
+.sp_footer li{
+	padding-top: 10px;
+}
+.sp_footer a{
+	color: #fff;
+}
+.sp_footer p{
+	color: #ccc;
+}
+.footer_link-sns-box_sp{
+	text-align: center;
+}
+.footer_link-sns-box_sp li{
+	display: inline;
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 20px;
+}
+.footer_link-sns-box_sp img{
+}
+.footer_link-sns-box_sp li img{
+	border-radius: 50%;
+}
+.sp_footer p{
+	margin: 10px 10px;
+}
+.copy{
+	display: none;
+}
+
+/* トップページメイン画像の黒ポチ取り除き用 */
+.bigimg{
+	width : 100%;
+}
+
+
+/* オーバーレイ追尾エリア */
+
+<style type="text/css" media="screen">
+.code {margin-top: 25px;}
+.close-meerkat {
+  position: absolute;
+  display: block;
+  height: 18px;
+  width: 18px;
+  background: url('images/close-x.png') no-repeat 0 0;
+  cursor: pointer;
+  text-indent: -9000px;
+  z-index: 10;
+}
+.dont-show {
+  position: absolute;
+  display: block;
+  height: 18px;
+  width: 160px;
+  cursor: pointer;
+  z-index: 10;
+  color: #EC7700;
+}
+a.dont-show:hover {color:#FFF;}
+.adsense {z-index: 5;}
+.meerkat {
+  color: #FFF;
+  display: none;
+}
+.pos-bot .adsense {
+  width: 728px;
+  height: 90px;
+  position: absolute;
+  left: 50%;
+  margin-left: -364px;
+}
+.pos-bot .adsense {top: 20px;}
+.pos-bot .close-meerkat {right: 10px; top: 20px;}
+.pos-bot .dont-show {right: -10px; top: 100px;}
+.pos-bot .dont-show {top: 100px;}
+</style>
+
+
+/* PC・スマホでの表示オン・オフ 20160519　*/
+.pc_display {
+	display: block;
+}
+.sp_display {
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+    .pc_display {
+		display: none;
+	}
+	.sp_display {
+		display: block;
+	}
+}
+

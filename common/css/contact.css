@@ -1,0 +1,430 @@
+@charset "UTF-8";
+
+/* 「すぐ使えるメールフォーム」共通スタイルシート */
+
+/* フォームの IME 入力モードの設定 */
+.noime{
+	ime-mode: disabled; /* always off */
+}
+.imeoff{
+	ime-mode: inactive; /* default off */
+}
+.imeon{
+	ime-mode: active;
+}
+.imeauto {
+	ime-mode: auto; /* no change */
+}
+.out_link2{
+	background: url(http://a-dreamlaw.com/common/images/icon/out_ink.png) right no-repeat;
+	padding:0 22px 0 0;
+}
+/* スペーサー */
+span.space1
+,span.space0_5
+,span.space1_5
+,span.space2
+ {
+	display: inline-block;
+}
+.space1 {width: 1em;}
+.space0_5 {width: 0.5em;}
+.space1_5 {width: 1.5em;}
+.space2 {width: 2em;}
+div.height0_5 {height: 0.5em;}
+div.height1 {height: 1em;}
+div.height1_5 {height: 1.5em;}
+div.height2 {height: 2em;}
+
+/* エラー時色設定 */
+.control-group.error > label
+, .control-group.error .checkbox
+, .control-group.error .radio
+, .control-group.error select
+, .control-group.error textarea
+,{
+    color: red; /* same as body */
+}
+
+/* 必須項目表示 */
+abbr[title], abbr[data-original-title] {
+	border-bottom: none;
+}
+/* 設置時リンクパス確認用 */
+.msg_link_check
+,.msg_link_check a
+{
+	color: #ffffff;
+}
+/* 項目ヘルプ */
+.form-horizontal .help-block {
+	margin-bottom: 5px;
+}
+.form-horizontal input + .help-block,
+.form-horizontal select + .help-block,
+.form-horizontal textarea + .help-block {
+  margin: 5px 0 0 5px;
+}
+
+/* 必須項目表示 */
+.required span.required,
+.required abbr.required {
+	color: #b94a48;
+	font-weight: bold;
+}
+
+
+/*============================
+puls css
+===============================*/
+label {
+  white-space: nowrap;
+}
+.help-conf{
+	color: #0059ce;
+}
+.contact_header{
+	border-bottom: 5px solid #028539;
+}
+.form_lavel_info{
+	font-size: 12px;
+}
+.form_input_info{
+	font-size: 12px;
+	margin-right: 10px;
+}
+form{
+	font-size: 14px;
+	padding: 0 5px;
+}
+fieldset{
+	border: 1px solid #ccc;
+}
+select{
+	width: 30%;
+border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+	background: #fff;
+	background: -webkit-gradient( linear, left top, left bottom, from(#eee), to(#fff) );
+	background: -moz-linear-gradient( top, #eee, #fff );
+	background: -ms-linear-gradient(#eee, #fff);
+	background: linear-gradient(#eee, #fff);
+}
+.input-large{
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+	background: #fff;
+	background: -webkit-gradient( linear, left top, left bottom, from(#eee), to(#fff) );
+	background: -moz-linear-gradient( top, #eee, #fff );
+	background: -ms-linear-gradient(#eee, #fff);
+	background: linear-gradient(#eee, #fff);
+	width: 40%;
+	padding: 5px;
+}
+.input-mini,.input-small,.input-medium{
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+	background: #fff;
+	background: -webkit-gradient( linear, left top, left bottom, from(#eee), to(#fff) );
+	background: -moz-linear-gradient( top, #eee, #fff );
+	background: -ms-linear-gradient(#eee, #fff);
+	background: linear-gradient(#eee, #fff);
+	width: 30%;
+	padding: 5px;
+}
+.flow_active{
+	background-color: #006400;
+	 width:32%;  //stepの数に合わせてwidth指定
+ box-sizing:border-box;  //padding,marginを含めて24%に指定
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ -ms-box-sizing:border-box;
+ -o-box-sizing:border-box;
+ float:left;
+ padding:5px 20px;
+ margin-right:3px;
+ color:#fff;
+ position:relative;
+ text-align:center;
+}
+.control-group{
+	width: 100%;
+	clear: both;
+	border-bottom: 1px solid #ccc;
+}
+.control-label{
+	padding: 10px;
+	height: auto;
+	width: 25%;
+	float: left;
+	font-weight: bold;
+}
+.controls{
+	padding: 10px;
+	height: auto;
+	float: left;
+	width: 70%;
+	border-left: 1px dotted #ccc;
+}
+
+.text-error{
+	color: #b94a48;
+}
+.help-block{
+	color: #b94a48;
+}
+textarea{
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+	background: #fff;
+	background: -webkit-gradient( linear, left top, left bottom, from(#eee), to(#fff) );
+	background: -moz-linear-gradient( top, #eee, #fff );
+	background: -ms-linear-gradient(#eee, #fff);
+	background: linear-gradient(#eee, #fff);
+}
+textarea{
+	width: 50%;
+}
+
+.radio,.checkbox{
+	cursor: pointer;
+}
+.radio{
+	margin-left: 8px;
+	display: inline-block;
+}
+.radio:first-child{
+	margin-left: 0;
+}
+.checkbox_style01{
+	margin-left: 8px;
+}
+.checkbox:first-child{
+	margin-left: 0;
+}
+.checkbox_style01:nth-child(7){
+	margin-left: 0;
+}
+.checkbox_style02{
+	margin-left: 8px;
+}
+.checkbox_style02:nth-child(9){
+	margin-left: 0;
+}
+/* 進捗バー */
+.flow-list{
+ list-style:none;
+ padding:0;
+ margin:0;
+}
+.flow-list:after{  //clearfix
+ height: 0;
+ visibility: hidden;
+ content: ".";
+ display: block;
+ clear: both;
+}
+.flow{
+ width:32%;  //stepの数に合わせてwidth指定
+ box-sizing:border-box;  //padding,marginを含めて24%に指定
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ -ms-box-sizing:border-box;
+ -o-box-sizing:border-box;
+ float:left;
+ padding:5px 20px;
+ margin-right:3px;
+ background:#333;
+ color:#fff;
+ position:relative;
+ text-align:center;
+}
+.flow_active:before{
+ content:"";
+ display:block;
+ position:absolute;
+ top:0;
+ right:-24px;
+ width:0;
+ height:0;
+ border-top:solid 14px transparent;
+ border-right:solid 14px transparent;
+ border-bottom:solid 14px transparent;
+ border-left:solid 10px #006400;
+ -moz-border-top:solid 14px transparent;
+ -moz-border-right:solid 14px transparent;
+ -moz-border-bottom:solid 14px transparent;
+ -moz-border-left:solid 10px #006400;
+ z-index:10;  //黒が上に重なるように指定
+}
+.flow:before{
+ content:"";
+ display:block;
+ position:absolute;
+ top:0;
+ right:-24px;
+ width:0;
+ height:0;
+ border-top:solid 14px transparent;
+ border-right:solid 14px transparent;
+ border-bottom:solid 14px transparent;
+ border-left:solid 10px #333;
+ -moz-border-top:solid 14px transparent;
+ -moz-border-right:solid 14px transparent;
+ -moz-border-bottom:solid 14px transparent;
+ -moz-border-left:solid 10px #333;
+ z-index:10;  //黒が上に重なるように指定
+}
+.flow-list li:after{
+ content:"";
+ display:block;
+ position:absolute;
+ top:0;
+ left:0;
+ width:0;
+ height:0;
+ border-top:solid 14px transparent;
+ border-right:solid 14px transparent;
+ border-bottom:solid 14px transparent;
+ -moz-border-top:solid 14px transparent;
+ -moz-border-right:solid 14px transparent;
+ -moz-border-bottom:solid 14px transparent;
+ border-left:solid 10px #fff;
+}
+.flow-list li:first-child:after{
+ display:none;
+}
+.form_info{
+	padding: 0 5px;
+	border: 1px solid #ccc;
+}
+button{
+	width: 100%;
+		margin: 0 300px 0 300px;
+	border: none;
+	background-color: #fff;
+}
+.form_btn{
+	width: 360px;
+	background: #028539;
+  background-image: -webkit-linear-gradient(top, #028539, #469f54);
+  background-image: -moz-linear-gradient(top, #028539, #469f54);
+  background-image: -ms-linear-gradient(top, #028539, #469f54);
+  background-image: -o-linear-gradient(top, #028539, #469f54);
+  background-image: linear-gradient(to bottom, #028539, #469f54);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.form_btn:hover {
+  background: #469f54;
+  background-image: -webkit-linear-gradient(top, #469f54, #028539);
+  background-image: -moz-linear-gradient(top, #469f54, #028539);
+  background-image: -ms-linear-gradient(top, #469f54, #028539);
+  background-image: -o-linear-gradient(top, #469f54, #028539);
+  background-image: linear-gradient(to bottom, #469f54, #028539);
+  text-decoration: none;
+}
+.form_btn_back{
+	width: 360px;
+	background: #535353;
+  background-image: -webkit-linear-gradient(top, #535353, #686868);
+  background-image: -moz-linear-gradient(top, #535353, #686868);
+  background-image: -ms-linear-gradient(top, #535353, #686868);
+  background-image: -o-linear-gradient(top, #535353, #686868);
+  background-image: linear-gradient(to bottom, #535353, #686868);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.form_btn_back:hover {
+	  background: #686868;
+  background-image: -webkit-linear-gradient(top, #686868, #535353);
+  background-image: -moz-linear-gradient(top, #686868, #535353);
+  background-image: -ms-linear-gradient(top, #686868, #535353);
+  background-image: -o-linear-gradient(top, #686868, #535353);
+  background-image: linear-gradient(to bottom, #686868, #535353);
+  text-decoration: none;
+}
+.form_head_sp{
+	display: none;
+}
+.form_fotter_menu{
+	height: 50px;
+	margin-left: 240px;
+	padding: 10px 0 10px 0;
+}
+.form_fotter_menu li{
+	margin-left: 10px;
+	padding-left: 54px;
+	float: left;
+}
+.thank_block{
+	padding: 20px 0;
+}
+.thank_txt01{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #006400;
+}
+@media only screen and (max-width: 768px){
+	form{
+		padding: 0;
+		width: auto;
+		margin: 0;
+	}
+	.control-group{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	float: none;
+}
+.form_head_sp{
+	display: block;
+	background-color: #fff;
+	padding: 10px 0;
+}
+.control-label{
+	display: block;
+	padding: 10px;
+	height: auto;
+	width: auto;
+	float: none;
+	font-weight: bold;
+}
+.controls{
+	padding: 10px;
+	height: auto;
+	width: auto;
+	float: none;
+	border-left: none;
+}
+
+textarea,.input-large,.input-mini,.input-small,.input-medium,select{
+	width: 100%;
+}
+.flow{
+	width: 30%;
+}
+.flow_active{
+	width: 30%;
+}
+button{
+	margin: 0;
+}
+.form_btn{
+	width: 100%;
+}
+}

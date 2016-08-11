@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.qa_block{
+     width:100%;
+     line-height:1.8em;
+     overflow: hidden;
+     _zoom: 1;
+     border-bottom: 1px #000 dotted;
+     margin-bottom: 20px;
+}
+
+.qa_block dd,
+.qa_block dt{
+     text-indent: -2.6em;
+     padding: 0 20px 0px 60px;
+}
+
+.qa_block dt{
+     margin:20px 20px 0 0;
+}
+
+.qa_block dd:first-letter,
+.qa_block dt:first-letter{
+     font-size: 1.6em;
+     font-weight: bold;
+     margin-right:10px;
+     padding:5px;
+     font-family: 'Nunito', sans-serif;
+}
+
+
+.qa_block dd{
+     margin: 20px 0 -1px 0;
+     padding-bottom:20px;
+}
+
+
+.qa_block dt:first-letter{
+     color: #0F78E1;
+}
+.qa_block dd:first-letter{
+     color: #ff6767;
+}
+.q_list{
+     width:100%;
+     line-height:1em;
+     overflow: hidden;
+     _zoom: 1;
+     margin-bottom: 20px;
+}
+
+.q_list li{
+     text-indent: -2.6em;
+     padding: 0 20px 0px 60px;
+}
+
+.q_list li{
+     margin:20px 20px 0 0;
+}
+.q_list li:first-letter{
+     font-size: 1.6em;
+     font-weight: bold;
+     margin-right:10px;
+     padding:5px;
+     font-family: 'Nunito', sans-serif;
+}
+
+
+.q_list li{
+     margin: 20px 0 -1px 0;
+     padding-bottom:20px;
+}
+
+
+.q_list li:first-letter{
+     color: #0F78E1;
+}
+
