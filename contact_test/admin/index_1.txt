@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<TITLE>Webサイト管理ツール</TITLE>
+<STYLE type="text/css">
+<!--
+p, ol, ul, li {
+	line-height: 150%;
+}
+H1 {font-size: 1.3em;}
+H2 {font-size: 1.2em;}
+H3 {font-size: 1.1em;}
+H4 {font-size: 1em;}
+.theader {
+	color: #ffffff;
+	font-weight: normal;
+	background: #336633;
+}
+.contents {
+	background: #ffffff;
+}
+.button {
+	text-align: center;
+	background: #ffffff;
+}
+.msg_info {
+	color: #990066;
+}
+.msg_error {
+	color: #ff0000;
+}
+.errorno {
+	font-size: x-small;
+	color: #999999;
+}
+.copyright {
+	color: #003300;
+	font-size: x-small;
+}
+.pagethis {font-weight: bold; text-decoration: none;}
+.pageother {}
+-->
+</STYLE>
+<script type="text/javascript"><!--
+var ifsubwin = 0;
+function set_param(d,m,s,n){
+	document.forms[0].s.value = s;
+	document.forms[0].d.value = d;
+	document.forms[0].m.value = m;
+	document.forms[0].n.value = n;
+	if (m == 9 && s == 4){
+		return do_conf();
+	}
+}
+
+function close_subwin(){
+	if (ifsubwin == 1){
+		mysubwin.close();
+	}
+	return true;
+}
+function show_wait(){
+	mysubwin = window.open('','subwin','scrollbars=no,resizable=no,width=300,height=200');
+	mysubwin.document.open("text/html;charset=UTF-8");
+	mysubwin.document.write('<'+'body bgcolor="#ffffff"'+'><'+'h1>');
+	mysubwin.document.write('書き出し中です...</');
+	mysubwin.document.write('h1><'+'p>このウィンドウが閉じるまでお待ち下さい。</');
+	mysubwin.document.write('p></'+'body>');
+	mysubwin.document.close();
+	mysubwin.focus();
+}
+function do_conf(){
+	if (confirm("現在の設定とテンプレートを反映して全てのページを書き出します。\n数分がかかる場合があります。\nよろしいですか？")){
+		show_wait();
+		ifsubwin = 1;	
+		return true;
+	} else {
+		return false;
+	}
+}
+// --></script>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" onUnload="close_subwin();">
+<H1>Webサイト管理ツール</H1>
+<FORM ACTION="%_myname_%" METHOD="post">
+<INPUT TYPE="hidden" name="s" value="">
+<INPUT TYPE="hidden" name="m" value="">
+<INPUT TYPE="hidden" name="d" value="">
+<INPUT TYPE="hidden" name="cd" value="">
+<INPUT TYPE="hidden" name="n" value="">
+<INPUT type="submit" onClick="set_param('',0,2,0)" value="新規登録">&nbsp;
+<INPUT type="button" onClick="window.location='%_myname_%'" value="一覧を最新に更新">&nbsp;&nbsp;
+編集結果をチェック：
+[<A HREF="%_relative_web_dir_%%_index_filename_%" TARGET="check">全一覧</A>]
+[<A HREF="%_relative_web_dir_%%_short_list_filename_%" TARGET="check">短い一覧</A>]
+[<A HREF="%_relative_web_dir_%%_top_filename_%" TARGET="check">最新</A>]
+[<A HREF="%_relative_web_dir_%%_rss_list_filename_%" TARGET="check">RSS</A>]
+
+<INPUT type="submit" onClick="return set_param('','',8,0)" value="ログアウト">
+
+<NOSCRIPT><P CLASS="msg_error">JavaScriptを有効にして下さい。</P></NOSCRIPT>
+<P>%_msg_instruct_%</P>
+
+<TABLE border="0" cellspacing="1" cellpadding="6" WIDTH="750" BGCOLOR="#333333">
+<TR>
+<TH CLASS="theader">日付</TH>
+<TH CLASS="theader">タイトル</TH>
+<TH CLASS="theader">編集</TH>
+<TH CLASS="theader">削除</TH>
+<TH CLASS="theader">チェック</TH>
+</TR>
+
+<!-- article list : generate from 1.txt -->
+%_article_list_%
+
+
+</TABLE>
+
+<INPUT type="submit" onClick="return set_param('',9,4,0)" value="再構築（テンプレート変更反映）">
+
+</FORM>
+</BODY>
+</HTML>

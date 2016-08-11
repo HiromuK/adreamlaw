@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>ライセンス情報 | メールフォーム管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- styles -->
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 20px;
+      }
+	.fkey%_reg_field_type_%{
+		display: none;
+	}
+	.bkey%_reg_button_type_%{
+		display: none;
+	}
+    </style>
+    <link href="../css/admin.css" rel="stylesheet">
+
+    <!--[if lt IE 7]>
+  	  <link href="../css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../img/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../img/favicon.png">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand hide-text" href="index.cgi">メールフォーム管理</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.cgi">データ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">設定 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mail.cgi">メール</a></li>
+                  <li><a href="field.cgi">項目</a></li>
+                  <li><a href="csv.cgi">CSV</a></li>
+                  <li><a href="reset.cgi">リセット</a></li>
+                </ul>
+              </li>
+              <li><a href="%_contact_relative_dir_%" target="_blank">フォーム</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#"><i class="icon-cog"></i> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:set_param('','',8,0,'mainform')">ログアウト</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span12">
+          <h2>ライセンス情報
+          <a href="%_myname_%?s=5" title="このページを再読み込み" class="reload-button muted" tabindex="-1"><span class="pull-right"><i class="icon-refresh"></i></span></a></h2>
+
+			<noscript>
+			<div class="alert">
+				<p>JavaScriptを有効にして下さい。</p>
+			</div>
+			</noscript>
+
+		<!-- 
+		%_msg_class_%		エラーがある時「error」ない時「info」、メッセージが無い時「none」
+		-->
+			<div id="msg_instruct" class="alert alert-%_msg_class_%">
+				<a class="close" data-dismiss="alert" href="#">&times;</a>
+				<p class="text-%_msg_class_%">%_msg_instruct_%</p>
+			</div>
+
+<form action="http://sugutsukaeru.jp/c/download/reg_viewinfo.html" id="buyform" method="post" target="_blank">
+<input type="hidden" name="dl_key" value="%_did_html_%">
+<input type="hidden" name="mail_key" value="%_mail_key_html_%">
+<button class="btn %_reg_button_type_%">レギュラー版ライセンス購入</button>
+</form>
+<form action="%_myname_%" method="post" id="resetform">
+<input type="hidden" name="s" value="9">
+</form>
+
+<form action="%_myname_%" method="post" id="mainform">
+<input type="hidden" name="s" value="">
+<input type="hidden" name="t" value="">
+<input type="hidden" name="m" value="">
+<input type="hidden" name="d" value="">
+<input type="hidden" name="cd" value="%_cd_%">
+<input type="hidden" name="tempdir" value="%_tempdir_%">
+<input type="hidden" name="file_order" value="%_file_order_%">
+</form>
+
+<form action="%_myname_%" method="post" id="regform">
+<input type="hidden" name="s" value="0">
+<input type="hidden" name="cd" value="">
+
+<dl class="dl-horizontal form-confirm">
+
+<dt>製品名</dt>
+<dd><a href="%_prod_url_%" target="_blank">%_product_name_% Ver. %_product_ver_%</a> (%_product_desc_%)</dd>
+
+<dt>製品コード</dt>
+<dd>%_pid_%</dd>
+
+<dt>登録状況</dt>
+<dd>%_if_registered_html_%</dd>
+
+<dt>登録日時</dt>
+<dd>%_reg_date_html_%&nbsp;</dd>
+
+<dt>利用開始日時</dt>
+<dd>%_down_date_html_%</dd>
+
+<dt>ダウンロードID</dt>
+<dd>%_did_html_%</dd>
+
+<dt>確認キー</dt>
+<dd>%_mail_key_html_%</dd>
+
+<dt>ライセンスキー</dt>
+<dd>
+<span class="fkeytext" id="lkey">%_license_key_html_%</span>
+<span class="bkeyhidden fkeytext" id="changelink">
+[<a href="javascript:void(0)" onclick="show_form('%_myname_%')">ライセンスキー変更</a>]
+[<a href="javascript:void(0)" onclick="reset_form('%_myname_%')">フリー版に戻す</a>]
+</span>
+<span class="bkeyhidden form-inline" id="regfield">
+<input name="license_key" type="text" size="40" value="%_license_key_%">
+<button name="reg" id="reg" class="btn" type="button" onclick="javascript:reg_form()">登録</button>
+</span>
+</dd>
+
+</dl>
+
+</form>
+
+        </div>
+
+
+      </div><!-- /row -->
+
+
+      <footer>
+		<hr>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-1_8_2_min.js"></script>
+    <script src="../js/bootstrap_min.js"></script>
+    <script src="../js/admin.js"></script>
+
+
+	<script>
+		$(document).ready(function(){
+			// bootstrap tooltips
+			$('.helpinfo a').tooltip({
+				placement: 'right'
+			});
+		});
+		function show_form(){
+			myFM = document.getElementById("regform");
+			if (myFM != null){
+				myFM.reg.disabled = false;
+			}
+			myKey = document.getElementById("lkey");
+			if (myKey != null){
+				myKey.style.display = 'none';
+			}
+			myLink = document.getElementById("changelink");
+			if (myLink != null){
+				myLink.style.display = 'none';
+			}
+			myFld = document.getElementById("regfield");
+			if (myFld != null){
+				myFld.style.display = 'inline';
+			}
+		}
+
+		function reg_form(){
+			myFM = document.getElementById("regform");
+			if (myFM){
+				myFM.submit();
+			}
+		}
+
+		function reset_form(ACTN){
+			myFM = document.getElementById("resetform");
+			if (myFM) {
+				myFM.action = ACTN;
+				if (confirm('フリー版に戻ると追加で使用していた項目やメールは使えなくなります。よろしいですか？')){
+					myFM.submit();
+				}
+			}
+		}
+	</script>
+
+  </body>
+</html>

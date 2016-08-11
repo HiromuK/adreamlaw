@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>データDL | メールフォーム管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- styles -->
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 20px;
+      }
+    </style>
+    <link href="../css/admin.css" rel="stylesheet">
+
+    <!--[if lt IE 7]>
+  	  <link href="../css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../img/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../img/favicon.png">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand hide-text" href="index.cgi">メールフォーム管理</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.cgi">データ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">設定 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mail.cgi">メール</a></li>
+                  <li><a href="field.cgi">項目</a></li>
+                  <li><a href="csv.cgi">CSV</a></li>
+                  <li><a href="reset.cgi">リセット</a></li>
+                </ul>
+              </li>
+              <li><a href="%_contact_relative_dir_%" target="_blank">フォーム</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#"><i class="icon-cog"></i> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:set_param('','',8,0,'mainform')">ログアウト</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+	<form action="%_myname_%" method="post" id="mainform">
+
+    <div class="container">
+
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>現在情報
+          <a href="%_myname_%" title="このページを再読み込み" class="reload-button muted" tabindex="-1"><i class="icon-refresh"></i></a></h2>
+              <dl>
+			    <dt>件数</dt>
+			    <dd>%_total_d_% 件</dd>
+			    <dt>番号</dt>
+			    <dd>%_min_d_% - %_max_d_%</dd>
+			    <dt>日時</dt>
+			    <dd>%_min_date_% - %_max_date_%</dd>
+			    <dt>最終番号</dt>
+			    <dd>%_lastno_%</dd>
+			    </dl>
+        </div>
+        <div class="span8">
+
+          <h2>データダウンロード</h2>
+
+		<noscript>
+		<div class="alert">
+			<p>JavaScriptを有効にして下さい。</p>
+		</div>
+		</noscript>
+		<div id="check-if-js-linked"><p class="msg_link_check">この文字が見える場合、CSS や Javascript ファイルへのリンクが切れています。ソースから、css/ や js/ 、img/ 、font/ ディレクトリの中にあるファイルへのリンクがうまく行っているか確認して下さい。ファイル一式を cgi-bin/ という名前のディレクトリの下に入れてテストをしている場合は、<a href="http://email-form.sugutsukaeru.jp/ja/contact/#no-css" target="_blank">このFAQ情報</a> をご参照の上、ディレクトリを移動して下さい。（設定が問題なく完了したらこのメッセージは &lt;div&gt; タグごと削除して下さい。）</p></div>
+
+		<!-- 
+		%_msg_class_%		エラーがある時「error」ない時「info」、メッセージが無い時「none」
+		-->
+		<div id="msg_instruct" class="alert alert-%_msg_class_%">
+			<a class="close" data-dismiss="alert" href="#">&times;</a>
+			<p class="text-%_msg_class_%">%_msg_instruct_%</p>
+		</div>
+
+		<fieldset>
+
+		<h3><small>範囲指定（オプション）</small></h3>
+
+		<div class="form-inline control-group">
+		<label class="radio">
+		<input name="range_type" type="radio" value="all" id="range_type_0" %_range_type_all_%>
+		全部
+		</label>
+		</div>
+
+		<div class="form-inline control-group">
+		<label class="radio">
+		<input name="range_type" type="radio" value="bydate" id="range_type_1" %_range_type_bydate_%>
+		日付
+		</label>
+		<input name="range_date_min" type="text" class="input-small noime" maxlength="10" value="%_range_date_min_%" onchange="javascript:set_checked('range_type_1')">
+		から
+		<input name="range_date_max" type="text" class="input-small noime" maxlength="10" value="%_range_date_max_%" onchange="javascript:set_checked('range_type_1')">
+		<span class="help-inline">例：2013-03-31 （半角）
+          	<span class="helpinfo">
+          	<a href="javascript:void(0);" data-toggle="tooltip" title="開始日の0時から終了日の23時59分まで">
+          	<i class="icon-question-sign"></i></a>
+          	</span>
+        </span>
+		</div>
+
+
+		<div class="form-inline control-group">
+		<label class="radio">
+		<input name="range_type" type="radio" value="bynumber" id="range_type_2" %_range_type_bynumber_%>
+		番号
+		</label>
+		<input name="range_num_min" type="text" class="input-small noime" maxlength="10" value="%_range_num_min_%" onchange="javascript:set_checked('range_type_2')">
+		から
+		<input name="range_num_max" type="text" class="input-small noime" maxlength="10" value="%_range_num_max_%" onchange="javascript:set_checked('range_type_2')">
+		<span class="help-inline">半角数字
+          	<span class="helpinfo">
+          	<a href="javascript:void(0);" data-toggle="tooltip" title="両端の番号を含む">
+          	<i class="icon-question-sign"></i></a>
+          	</span>
+		</span>
+		</div>
+
+		<div class="height0_5"></div>
+
+		<button class="btn btn-large btn-primary" type="submit" onclick="javascript:set_param('',0,2,0,'mainform')"><i class="icon-download-alt"></i> ダウンロード</button>
+
+		</fieldset>
+
+        </div><!-- /span8 -->
+      </div><!-- /row -->
+
+      <footer>
+		<hr>
+      </footer>
+
+    </div> <!-- /container -->
+
+	<input type="hidden" name="s" value="">
+	<input type="hidden" name="m" value="">
+	<input type="hidden" name="d" value="">
+	<input type="hidden" name="cd" value="">
+	<input type="hidden" name="t" value="">
+	</form>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-1_8_2_min.js"></script>
+    <script src="../js/bootstrap_min.js"></script>
+    <script src="../js/admin.js"></script>
+
+
+	<script>
+		$(document).ready(function(){
+			// bootstrap tooltips
+			$('.helpinfo a').tooltip({
+				placement: 'right'
+			});
+		});
+		//disable reload
+		var if_ctrl = 0;
+		var if_r = 0;
+		document.onkeydown = catchkeydown;
+		document.onkeyup = catchkeyup;
+	</script>
+
+  </body>
+</html>

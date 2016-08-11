@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* 「すぐ使えるメールフォーム」フォーム用スタイルシート */
+/* このファイルで Bootstrap の初期設定を上書きしています。 */
+
+/*ベース*/
+
+/* 項目ヘルプ */
+.form-horizontal .help-block {
+	margin-bottom: 5px;
+}
+.form-horizontal input + .help-block,
+.form-horizontal select + .help-block,
+.form-horizontal textarea + .help-block {
+  margin-top: 5px;
+}
+
+/* 必須項目表示 */
+.required span.required,
+.required abbr.required {
+	color: #b94a48;
+	font-weight: bold;
+}
+
+/* 進捗バー */
+ol.progress {
+	margin-left: 0;
+	height: 36px;
+}
+.progress li {
+	display: block;
+}
+.progress .bar
+{
+	padding-top: 8px;
+	font-size: 20px;
+}
+.progress .current {
+	font-weight: bold;
+}
+.progress li.progress-striped,
+.progress-striped .bar {
+  background-color: #126484;
+  background-image: -moz-linear-gradient(top, #149bdf, #126484);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#126484));
+  background-image: -webkit-linear-gradient(top, #149bdf, #126484);
+  background-image: -o-linear-gradient(top, #149bdf, #126484);
+  background-image: linear-gradient(to bottom, #149bdf, #126484);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff126484', GradientType=0);
+}
+
+/* 製品情報 */
+.prodinfo {
+	text-align: center;
+	margin: 20px auto;
+}

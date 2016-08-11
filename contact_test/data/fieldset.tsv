@@ -1,0 +1,107 @@
+															
+1	surname	text			1	姓		30	0	0	is_ok	0	25		
+10	bldg	text			0	ビル名/会社名		50	1	0	is_ok	0	19		
+11	message	area			0	お問合せ内容		4000	0	0	is_ok	1	9		
+12	text_01	text			1	氏名			0	0	is_ok	1	3		
+13	text_02	text			1	氏名（かな）			0	0	is_hira_zen	0	12		
+14	text_03	text			0	ご相談希望日			0	0	is_ok	0	18		
+15	text_04	text			0	法人名			0	0	is_ok	1	4		
+16	text_05	text			1	トラブル相手の氏名			0	0	is_ok	0	10	"トラブルの相手の氏名
+
+利益相反確認のため（受任している依頼者や相談者と利害が対立するために、法律や弁護士職務基本規定によって、事件を受けられない場合があるため）にご協力ください"	
+17	text_06	text			0	1行テキスト06			0	0		0	26		
+18	text_07	text			0	1行テキスト07			0	0		0	27		
+19	text_08	text			0	1行テキスト08			0	0		0	28		
+2	firstname	text			1	名		30	0	0	is_ok	0	24		
+20	text_09	text			0	1行テキスト09			0	0		0	29		
+21	text_10	text			0	1行テキスト10			0	0		0	30		
+22	text_11	text			0	1行テキスト11			0	0		0	31		
+23	text_12	text			0	1行テキスト12			0	0		0	32		
+24	text_13	text			0	1行テキスト13			0	0		0	33		
+25	text_14	text			0	1行テキスト14			0	0		0	34		
+26	text_15	text			0	1行テキスト15			0	0		0	35		
+27	text_16	text			0	1行テキスト16			0	0		0	36		
+28	text_17	text			0	1行テキスト17			0	0		0	37		
+29	text_18	text			0	1行テキスト18			0	0		0	38		
+3	mail	text			0	メールアドレス			-1	0	is_mail	1	0		
+30	text_19	text			0	1行テキスト19			0	0		0	39		
+31	text_20	text			0	1行テキスト20			0	0		0	40		
+32	area_01	area			0	内容			0	0	is_ok	0	11		
+33	area_02	area			0	テキストエリア02			0	0		0	41		
+34	area_03	area			0	テキストエリア03			0	0		0	42		
+35	area_04	area			0	テキストエリア04			0	0		0	43		
+36	area_05	area			0	テキストエリア05			0	0		0	44		
+37	radio_01	radio	"お電話
+メール
+どちらでもよい"		1	当法人からの連絡方法			0	0	is_ok	1	6		
+38	radio_02	radio	"同居している
+別居している"		0	現在のご状況			0	0	is_ok	0	16		
+39	radio_03	radio			0	ラジオボタン03			0	0		0	45		
+4	mail_conf	text			0	メールアドレス（確認）			-1	0	is_ok	1	8		
+40	radio_04	radio	"男性
+女性"		1	性別			0	0	is_ok	1	5		
+41	radio_05	radio			0	ラジオボタン05			0	0		0	46		
+42	radio_06	radio			0	ラジオボタン06			0	0		0	47		
+43	radio_07	radio			0	ラジオボタン07			0	0		0	48		
+44	radio_08	radio			0	ラジオボタン08			0	0		0	49		
+45	radio_09	radio			0	ラジオボタン09			0	0		0	50		
+46	radio_10	radio			0	ラジオボタン10			0	0		0	51		
+47	checkbox_01	checkbox	"浮気された
+浮気した
+DV
+モラハラ
+財産分与について
+婚姻費用について
+慰謝料について
+親権について
+養育費について
+セカンドオピニオン※"		0	離婚相談したい内容			0	0	is_ok	0	14		
+48	checkbox_02	checkbox	"特になし
+男性
+女性
+松江仁美※
+松江頼篤
+入江秀子
+氏家大輔
+清水理聖
+三好涼子
+山下洋美"		0	希望弁護士			0	0	is_ok	0	13		
+49	checkbox_03	checkbox	"インターネット検索から
+弁護士ドットコムなどのポータルサイト
+広告バナーから
+紹介で知った
+その他"		0	当法人を何で知りましたか			0	0	is_ok	1	7		
+5	tel	text			1	電話番号		20	-1	0	is_tel	1	1		
+50	checkbox_04	checkbox	"離婚したい
+離婚を求められている
+離婚しようか迷っている"		0	離婚の意思			0	0	is_ok	0	17		
+51	checkbox_05	checkbox			0	チェックボックス05			0	0		0	52		
+52	select_01	select	"離婚・相続問題（家事）
+不動産・建築（企業法務）
+その他"		1	ご相談内容			0	0	is_ok	1	2		
+53	select_02	select	"0人
+1人
+2人
+3人以上"		0	お子様			0	0	is_ok	0	15		
+54	select_03	select			0	選択リスト03			0	0		0	53		
+55	select_04	select			0	選択リスト04			0	0		0	54		
+56	select_05	select			0	選択リスト05			0	0		0	55		
+6	zip	text			0	郵便番号		8	-1	0	is_zip	0	23		
+7	pref	select	"東京都
+神奈川県
+埼玉県
+千葉県
+栃木県
+群馬県
+茨城県
+甲信越
+北陸
+東海
+関西
+北海道
+東北圏
+中国圏
+四国圏
+九州圏"		1	都道府県	3	4	0	0	is_ok	0	22		
+8	city	text			0	市区町村		15	0	0	is_ok	0	21		
+9	street	text			0	町名・番地		50	1	0	is_ok	0	20		

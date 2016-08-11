@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>お問い合わせフォーム | 弁護士法人淡路町ドリーム</title>
+<meta name="description" content="離婚・相続問題（家事）、建築問題に強い、弁護士法人淡路町ドリーム。所属する7名の弁護士が専門性を発揮し、ご相談者様に笑顔を届けます。淡路町駅、小川町駅徒歩1分。03-3525-8010" />
+<meta name="keywords" content="弁護士,離婚,モラハラ,不倫,不貞,別居,DV,女性,調停,協議離婚,訴訟,建築,不動産,淡路町,千代田区,東京,弁護士,淡路町ドリーム" />
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" href="http://a-dreamlaw.com/common/images/favicon.ico" >
+<link rel="stylesheet" media="all" href="http://a-dreamlaw.com/common/css/base.css" />
+<link rel="stylesheet" media="all" href="http://a-dreamlaw.com/common/css/second.css" />
+<link rel="stylesheet" media="all" href="http://a-dreamlaw.com/common/css/contact.css" />
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '200999973585283');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=200999973585283&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WL2L4J"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WL2L4J');</script>
+<!-- End Google Tag Manager -->
+
+<!-- <header> -->
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php'); ?>
+<!-- </header> -->
+
+	<div class="form_head_sp">
+	<figure class="img_center">
+				<a onclick="goog_report_conversion('tel:0335258010');ga('send', 'event', 'adreamlaw', 'tel', 'label');return false;" href="tel:0335258010" ><img src="http://a-dreamlaw.com/common/images/header_tel.jpg" alt="電話でのお問い合わせ" width="160" height="50"></a>
+			</figure>
+		</div>
+		<div class="contact_header"></div>
+<!--/include_head-->
+<div class="row container">
+<div class="span12">
+<h1 class="sct_h1">お問合せフォーム</h1>
+<ul class="flow-list">
+ <li class="flow_active">入力</li>
+ <li class="flow">確認</li>
+ <li class="flow">完了</li>
+</ul>
+
+<!--
+info		エラーがある時「error」ない時「info」
+<p>項目にご記入の上「確認画面へ」ボタンを押して下さい。</p>	メッセージ
+-->
+
+<div class="text-info mb_20 pl_10">
+<p>項目にご記入の上「確認画面へ」ボタンを押して下さい。</p><br>
+<span class="txt_red">※</span>がついている箇所は必須項目となります。
+</div>
+<h2 class="sct_h2">お客様情報</h2>
+<!-- form の id 属性は変更不可 -->
+<form class="form-horizontal" method="post" action="index.cgi" id="sugu_mainform">
+<input type="hidden" name="s" value="2">
+<input type="hidden" name="i" value="%_i_%">
+
+<!--
+フィールドの設定です。
+管理画面で「使用しない」を選んだ項目については
+コメントで挿入されている xxx begin  から  xxx end までが
+自動的に削除されます。
+
+管理画面での設定と関係なくこれらのフィールドの表示を残したい場合は
+コメントを削除して下さい。
+
+
+コメントで挿入されている xxx_item begin から xxx_item end までは、
+管理画面で設定した繰り返しの選択肢の表示に使われます。
+もし個別に表示する内容を設定したい場合は、このコメントを削除して編集して下さい。
+
+
+
+id属性やname属性、コメントに含まれている 「inputfield_xxx」の部分は
+プログラムでフィールドの識別に使いますので変更しないで下さい。
+
+入力エラーなどの状態によって、いくつかの値はそれぞれ以下のように置き換えられます。
+フィールドを組み合わせる場合などは削除して別の設定を行って構いません。
+
+			管理画面で設定した「項目名」
+		管理画面で必須設定がされていれば「required」
+		管理画面で設定されていれば最大文字長さ
+		xxxx の項目の入力にエラーがあれば「error」
+				そのフィールドにエラーがあった場合、エラーの内容
+
+-->
+
+<fieldset>
+<!--
+<legend>ご連絡先情報</legend>
+-->
+<!-- inputfield_select_01 begin -->
+<!-- 選択リスト01 -->
+<div class="control-group  required">
+<label class="control-label" for="select_01">ご相談内容 </span><abbr id="select_01_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls">
+	
+	<select name="select_01" id="select_01">
+	<option value="">選択して下さい</option>
+	
+	<option value="離婚・相続問題（家事）" id="select_01_01">離婚・相続問題（家事）</option>
+	
+	<option value="不動産・建築（企業法務）" id="select_01_02">不動産・建築（企業法務）</option>
+	
+	<option value="その他" id="select_01_03">その他</option>
+	
+	</select>
+	</div>
+</div>
+<!-- inputfield_select_01 end -->
+<!-- inputfield_text_01 begin -->
+<!-- 1行テキスト01 -->
+<div class="control-group  required">
+<label class="control-label" for="text_01">氏名 <abbr id="text_01_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls">
+	
+	<input class="input-mini" type="text" name="text_01" id="text_01" value="" placeholder="フルネームでご記入ください" >
+	</div>
+</div>
+<!-- inputfield_text_01 end -->
+
+<!-- inputfield_text_04 begin -->
+<!-- 1行テキスト04 -->
+<div class="control-group  ">
+<label class="control-label" for="text_04">法人名 </label>
+	<div class="controls">
+	
+	<input class="input-large" type="text" name="text_04" id="text_04" value="" placeholder="例：弁護士法人　淡路町ドリーム"  ><br>
+	<span class="form_lavel_info">法人名でお問い合わせのお客様はご記入ください。</span>
+	</div>
+</div>
+<!-- inputfield_text_04 end -->
+<!-- inputfield_radio_04 begin -->
+<!-- ラジオボタン04 -->
+<div class="control-group  required">
+<label class="control-label">性別 <abbr id="radio_04_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls">
+	
+	
+	<label class="radio">
+	<input type="radio" name="radio_04" id="radio_04_01" value="男性">男性
+	</label>
+	
+	<label class="radio">
+	<input type="radio" name="radio_04" id="radio_04_02" value="女性">女性
+	</label>
+	
+	</div>
+</div>
+<!-- inputfield_radio_04 end -->
+
+
+
+
+<!-- inputfield_tel begin -->
+<!-- 電話番号 -->
+<div class="control-group  required">
+<label class="control-label" for="tel">電話番号 <abbr id="tel_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls">
+	
+	<input class="input-medium" type="tel" name="tel" id="tel" value="" placeholder="例：03-1234-5678" maxlength="20" >
+	</div>
+</div>
+<!-- inputfield_tel end -->
+
+<!-- inputfield_mail begin -->
+<!-- メールアドレス -->
+<div class="control-group  ">
+<label class="control-label" for="mail">メールアドレス </label>
+	<div class="controls">
+	
+	<input class="input-large" type="email" name="mail" id="mail" value="" placeholder="半角で入力して下さい"  >
+	</div>
+</div>
+<!-- inputfield_mail end -->
+
+
+<!-- inputfield_mail_conf begin -->
+<!-- メールアドレス（確認） -->
+<div class="control-group  ">
+<label class="control-label" for="mail_conf">メールアドレス（確認） </label>
+	<div class="controls">
+	
+	<input class="input-large" type="email" name="mail_conf" id="mail_conf" value="" placeholder="確認用にもう一度入力して下さい"  >
+	</div>
+</div>
+<!-- iinputfield_mail_conf end -->
+<!-- inputfield_radio_01 begin -->
+<!-- ラジオボタン01 -->
+<div class="control-group  required">
+<label class="control-label">当法人からの連絡方法 <abbr id="radio_01_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls radio_style1">
+	
+	
+	<label class="radio">
+	<input type="radio" name="radio_01" id="radio_01_01" value="お電話">お電話
+	</label>
+	
+	<label class="radio">
+	<input type="radio" name="radio_01" id="radio_01_02" value="メール">メール
+	</label>
+	
+	<label class="radio">
+	<input type="radio" name="radio_01" id="radio_01_03" value="どちらでもよい">どちらでもよい
+	</label>
+	
+	</div>
+</div>
+<!-- inputfield_radio_01 end -->
+
+
+<!-- inputfield_message begin -->
+<!-- お問合せ内容 -->
+<div class="control-group  ">
+<label class="control-label" for="message">お問合せ内容 </label>
+	<div class="controls">
+	
+	<textarea class="input-xxlarge" rows="5" name="message" id="message" placeholder="ご相談内容をお書きください。"></textarea>
+	</div>
+</div>
+<!-- inputfield_message end -->
+<!-- inputfield_checkbox_03 begin -->
+<!-- チェックボックス03 -->
+<div class="control-group  ">
+<label class="control-label">当法人を何で知りましたか </label>
+	<div class="controls">
+	
+	
+	<label class="checkbox inline">
+	<input type="checkbox" name="checkbox_03" id="checkbox_03_01" value="インターネット検索から">インターネット検索から
+	</label>
+	
+	<label class="checkbox inline">
+	<input type="checkbox" name="checkbox_03" id="checkbox_03_02" value="弁護士ドットコムなどのポータルサイト">弁護士ドットコムなどのポータルサイト
+	</label>
+	
+	<label class="checkbox inline">
+	<input type="checkbox" name="checkbox_03" id="checkbox_03_03" value="広告バナーから">広告バナーから
+	</label>
+	
+	<label class="checkbox inline">
+	<input type="checkbox" name="checkbox_03" id="checkbox_03_04" value="紹介で知った">紹介で知った
+	</label>
+	
+	<label class="checkbox inline">
+	<input type="checkbox" name="checkbox_03" id="checkbox_03_05" value="その他">その他
+	</label>
+	
+	</div>
+</div>
+<!-- inputfield_checkbox_03 end -->
+</fieldset>
+
+<!-- 離婚非必須項目2015/09/16非表示分　<h3 class="sct_h3">以下は離婚・相続問題（家事）の項目になります。</h3>
+<fieldset> -->
+	
+
+
+
+
+
+</fieldset>
+<!--    not    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 姓・名
+<div class="control-group    ">
+<label class="control-label" for="fullname">お名前 <abbr id="surname_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls form-inline" id="fullname">
+	
+	姓・名-->
+	
+	
+	<!--
+	</div>
+</div>
+-->
+
+
+
+
+
+
+
+
+<!--    /not    -->
+
+<!--
+<div class="container second_txt form_info mt_20">
+	<ul class="list_arrow">
+		<li>※セカンドオピニオンのお客様はご相談料として1時間１万円（消費税別）を頂戴しております。</li>
+		<li>※松江仁美をご希望の場合指名料として1万円（消費税別）が掛かります。<br><p class="txt_R"><a href="http://a-dreamlaw.com/lawyer/" target="blank" class="out_link">当法人の弁護士はこちら</a></p></li>
+		<li>ご入力いただいた情報が外部に漏れることは一切ありません。当法人の個人情報の取り扱いについては、下記「プライバシーポリシー」からご確認ください。</li>
+		<li>お問い合わせいただいた内容は、1～2営業日以内にスタッフよりご連絡いたします。</li>
+	</ul>
+</div>
+-->
+
+<div class="container mt_10 mb_50">
+<button type="submit" class="form_btn" id="contact_check_btn_gtm">確認画面へ</button>
+</div>
+</form>
+
+</div><!-- /span12 -->
+</div><!-- /row -->
+		<footer class="row gutters col">
+		<div class="footer_inner container row">
+			<div>
+			<ul class="form_fotter_menu footer_arrow">
+			<li ><a href="http://a-dreamlaw.com/">トップページへ</a></li>
+			<li><a href="http://a-dreamlaw.com/sitemap/">サイトマップ</a></li>
+			<li class="out_link2"><a href="http://a-dreamlaw.com/public/" target="blank">プライバシーポリシー</a></li>
+		</ul>
+			</div>
+			</div>
+		</div>
+	</footer>
+	<footer class="sp_footer row">
+		<ul>
+			<li><a href="http://a-dreamlaw.com/">トップページへ</a></li>
+			<li><a href="http://a-dreamlaw.com/sitemap/">サイトマップ</a></li>
+			<li><a href="http://a-dreamlaw.com/public/" target="blank">プライバシーポリシー</a></li>
+		</ul>
+			<p class="txt_C">&copy; Copyright 2015 弁護士法人 淡路町ドリーム All Rights Reserved.</p>
+	</footer>
+	<div class="container copy row">
+			<p class="txt_C">創業平成9年 法律問題でお悩みなら弁護士法人 淡路町ドリーム</p>
+			<p class="txt_C">&copy; Copyright 2015 弁護士法人 淡路町ドリーム All Rights Reserved.</p>
+	</div>
+<script src="http://a-dreamlaw.com/common/scripts/jquery-2.1.3.min.js"></script>
+<script src="http://a-dreamlaw.com/common/scripts/respond.min.js"></script>
+<script>
+$(function() {
+  var isChanged = false;
+
+  $(window).bind("beforeunload", function() {
+    console.log(isChanged);
+    if (isChanged) {
+      return "このページを離れようとしています。";
+    }
+  });
+  $("form input, form select, form textarea").change(function() {
+    isChanged = true;
+  });
+  $("button[type=submit]").click(function() {
+    // フォームをサブミットする前にフラグを落とします。
+    // ※ これをやらないと、サブミット時に確認メッセージが表示されてしまいます。
+    isChanged = false;
+  });
+});
+
+//トグルメニュー
+ $(function(){
+  $("#toggle").click(function(){
+    $("#menu").slideToggle();
+    return false;
+  });
+  $(window).resize(function(){
+    var win = $(window).width();
+    var p = 480;
+    if(win > p){
+      $("#menu").show();
+    } else {
+      $("#menu").hide();
+    }
+  });
+});
+
+ //トップへ戻る
+ $(function() {
+    var topBtn = $('#page-top');
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 10) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+
+	   //電話発信制御
+	$(function() {
+    if (!isPhone())
+        return;
+
+    $('span[data-action=call]').each(function() {
+        var $ele = $(this);
+        $ele.wrap('<a href="tel:' + $ele.data('tel') + '"></a>');
+    });
+});
+
+function isPhone() {
+    return (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('Android') > 0);
+}
+</script>
+<script src="//sitest.jp/tracking/sitest_js?p=55ee78579cc2d"></script>
+
+<!-- GS Yahoo! Tag Manager -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=2y6GWNB";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=2y6GWNB" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- GS Yahoo! Tag Manager -->
+
+</body>
+
+
+
+</html>

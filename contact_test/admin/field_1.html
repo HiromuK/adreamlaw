@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>項目の設定 | メールフォーム管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- styles -->
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 20px;
+      }
+    </style>
+    <link href="../css/admin.css" rel="stylesheet">
+
+    <!--[if lt IE 7]>
+  	  <link href="../css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../img/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../img/favicon.png">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand hide-text" href="index.cgi">メールフォーム管理</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.cgi">データ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">設定 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mail.cgi">メール</a></li>
+                  <li class="active"><a href="field.cgi">項目</a></li>
+                  <li><a href="csv.cgi">CSV</a></li>
+                  <li><a href="reset.cgi">リセット</a></li>
+                </ul>
+              </li>
+              <li><a href="%_contact_relative_dir_%" target="_blank">フォーム</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#"><i class="icon-cog"></i> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:set_param('','',8,0,'mainform')">ログアウト</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+	<form action="%_myname_%" method="post" id="mainform">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="span12">
+          <h2>項目の設定
+          <a href="%_myname_%" title="このページを再読み込み" class="reload-button muted" tabindex="-1"><span class="pull-right"><i class="icon-refresh"></i></span></a></h2>
+
+		<noscript>
+		<div class="alert">
+			<p>JavaScriptを有効にして下さい。</p>
+		</div>
+		</noscript>
+		<div id="check-if-js-linked"><p class="msg_link_check">この文字が見える場合、CSS や Javascript ファイルへのリンクが切れています。ソースから、css/ や js/ 、img/ 、font/ ディレクトリの中にあるファイルへのリンクがうまく行っているか確認して下さい。ファイル一式を cgi-bin/ という名前のディレクトリの下に入れてテストをしている場合は、<a href="http://email-form.sugutsukaeru.jp/ja/contact/#no-css" target="_blank">このFAQ情報</a> をご参照の上、ディレクトリを移動して下さい。（設定が問題なく完了したらこのメッセージは &lt;div&gt; タグごと削除して下さい。）</p></div>
+
+<!-- 
+%_msg_class_%		エラーがある時「error」ない時「info」、メッセージが無い時「none」
+-->
+<div id="msg_instruct" class="alert alert-%_msg_class_%">
+	<a class="close" data-dismiss="alert" href="#">&times;</a>
+	<p class="text-%_msg_class_%">%_msg_instruct_%</p>
+	<p class="text-%_msg_class_%">%_msg_important_%</p>
+</div>
+
+<table class="table-bordered table-hover table-condensed table-striped settinglist">
+<caption>項目一覧</caption>
+<thead>
+<tr>
+
+<th>項目名</th>
+<th>管理名</th>
+<th>タイプ
+  	<span class="helpinfo">
+  	<a href="javascript:void(0);" data-toggle="tooltip" title="「フリー入力」は複数行テキスト（テキストエリア）です。" data-placement="top">
+  	<i class="icon-question-sign"></i></a>
+  	</span>
+</th>
+<th>使用</th>
+<th>必須</th>
+<th>設定</th>
+<th colspan="2">CSVでの順番
+  	<span class="helpinfo">
+  	<a href="javascript:void(0);" data-toggle="tooltip" title="CSVファイルでの初期設定の表示順になります。フォーム画面の表示順はテンプレートを編集して下さい。" data-placement="top">
+  	<i class="icon-question-sign"></i></a>
+  	</span>
+</th>
+</tr>
+</thead>
+
+<tbody>
+%_article_list_%
+</tbody>
+
+</table>
+
+        </div><!-- /span12 -->
+      </div><!-- /row -->
+
+      <footer>
+		<hr>
+      </footer>
+
+    </div> <!-- /container -->
+
+	<input type="hidden" name="s" value="">
+	<input type="hidden" name="m" value="">
+	<input type="hidden" name="d" value="">
+	<input type="hidden" name="cd" value="">
+	</form>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-1_8_2_min.js"></script>
+    <script src="../js/bootstrap_min.js"></script>
+    <script src="../js/admin.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			// bootstrap tooltips
+			$('.helpinfo a').tooltip({
+				placement: 'right'
+			});
+		});
+
+		//disable reload
+		var if_ctrl = 0;
+		var if_r = 0;
+		document.onkeydown = catchkeydown;
+		document.onkeyup = catchkeyup;
+	</script>
+
+  </body>
+</html>

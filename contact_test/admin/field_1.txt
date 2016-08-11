@@ -1,0 +1,18 @@
+<!-- utf-8 で保存して下さい -->
+<tr class="active_%_active_val_%">
+<td>%_local_name_%</td>
+<td>%_field_name_%</td>
+<td>%_type_%</td>
+<td class="center"><span class="active_%_active_val_%">%_active_%</span></td>
+<td class="center"><span class="if_required_%_if_required_val_% mute-if-inactive">%_if_required_%</span></td>
+<td class="center"><button class="btn btn-small btn-primary" type="submit" 
+onclick="set_param(%_d_%,1,2,0,'mainform')"><i class="icon-pencil"></i><span class="hidden-phone"> 
+設定</span></button></td>
+<td class="center"><button class="btn btn-small mute-if-inactive" type="submit" 
+onclick="set_param(%_d_%,3,4,0,'mainform')"><i class="icon-arrow-up"></i><span class="hidden-phone"> 
+上へ</span></button></td>
+<td class="center"><button class="btn btn-small mute-if-inactive" type="submit" 
+onclick="set_param(%_d_%,4,4,0,'mainform')"><i class="icon-arrow-down"></i><span class="hidden-phone"> 
+下へ</span></button>
+</td>
+</tr>

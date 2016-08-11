@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>項目の設定 | メールフォーム管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- styles -->
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 20px;
+      }
+    </style>
+    <link href="../css/admin.css" rel="stylesheet">
+
+    <!--[if lt IE 7]>
+  	  <link href="../css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../img/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../img/favicon.png">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand hide-text" href="index.cgi">メールフォーム管理</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.cgi">データ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">設定 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mail.cgi">メール</a></li>
+                  <li class="active"><a href="field.cgi">項目</a></li>
+                  <li><a href="csv.cgi">CSV</a></li>
+                  <li><a href="reset.cgi">リセット</a></li>
+                </ul>
+              </li>
+              <li><a href="%_contact_relative_dir_%" target="_blank">フォーム</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#"><i class="icon-cog"></i> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:set_param('','',8,0,'mainform')">ログアウト</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+	<form action="%_myname_%" method="post" id="mainform">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="span12">
+          <h2>項目の%_mode_title_%</h2>
+
+<div class="navbar">
+<div class="navbar-inner">
+<ol class="nav" id="steps">
+<li class="active"><a href="javascript:void(0)">入力</a></li>
+<li><a href="javascript:void(0)">確認</a></li>
+<li><a href="javascript:void(0)">完了</a></li>
+</ol>
+</div>
+</div>
+
+		<noscript>
+		<div class="alert">
+			<p>JavaScriptを有効にして下さい。</p>
+		</div>
+		</noscript>
+
+<!-- 
+%_msg_class_%		エラーがある時「error」ない時「info」、メッセージが無い時「none」
+-->
+<div id="msg_instruct" class="alert alert-%_msg_class_%">
+	<a class="close" data-dismiss="alert" href="#">&times;</a>
+	<p class="text-%_msg_class_%">%_msg_instruct_%</p>
+</div>
+
+<fieldset class="form-horizontal">
+
+<div class="control-group %_local_name_if_error_%">
+<label class="control-label" for="local_name">表示名 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls">
+	<span class="help-block">%_local_name_msg_%</span>
+	<input name="local_name" id="local_name" type="text" class="input-medium imeon" maxlength="" value="%_local_name_%" placeholder="">
+	<span class="help-inline">項目名やエラーメッセージ内で利用されます。</span>
+	</div>
+</div>
+
+
+<div class="control-group">
+<label class="control-label" for="field_name">管理名 <abbr title="編集不可"><i class="icon-lock"></i></abbr></label>
+	<div class="controls">
+	<span class="help-inline">%_field_name_%</span>
+	</div>
+</div>
+
+<div class="control-group">
+<label class="control-label" for="type">タイプ <abbr title="編集不可"><i class="icon-lock"></i></abbr></label>
+	<div class="controls">
+	<span class="help-inline">%_type_html_%</span>
+	</div>
+</div>
+
+<div class="control-group %_memo_if_error_%">
+<label class="control-label" for="memo">管理用メモ</label>
+	<div class="controls">
+	<span class="help-block">%_memo_msg_%</span>
+	<textarea name="memo" id="memo" rows="3" class="input-xxlarge imeon" placeholder="">%_memo_%</textarea>
+	</div>
+</div>
+
+<div class="control-group %_custom_code_if_error_%" style="display: none;">
+<label class="control-label" for="custom_code">カスタム表示(HTML)</label>
+	<div class="controls">
+	<span class="help-block">%_custom_code_msg_%</span>
+	<textarea name="custom_code" id="custom_code" rows="3" class="input-xlarge imeon" placeholder="">%_custom_code_%</textarea>
+	</div>
+</div>
+
+<div class="control-group %_active_if_error_%">
+<label class="control-label" for="active">使用 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls form-inline">
+	<span class="help-block">%_active_msg_%</span>
+	<label class="radio"><input name="active" name="active_1" type="radio" value="1" %_active_1_%> 使用する</label><span class="space1"></span>
+	<label class="radio"><input name="active" name="active_2" type="radio" value="0" %_active_0_%> 使用しない</label>
+	<span class="help-inline"></span>
+	</div>
+</div>
+
+<div class="control-group %_if_required_if_error_%">
+<label class="control-label" for="if_required">必須 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls form-inline">
+	<span class="help-block">%_if_required_msg_%</span>
+	<label class="radio"><input name="if_required" id="if_required_1" type="radio" value="1" %_if_required_1_%> 必須</label><span class="space1_5"></span>
+	<label class="radio"><input name="if_required" id="if_required_2" type="radio" value="0" %_if_required_0_%> 未入力可</label>
+	</div>
+</div>
+
+<div class="control-group %_optionlist_if_error_% hide_if_%_type_%">
+<label class="control-label" for="optionlist">選択肢 <abbr class="required" title="選択項目では必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls">
+	<span class="help-block">%_optionlist_msg_%</span>
+	<span class="help-block">選択肢を1行に1つ入力して下さい。</span>
+	<textarea name="optionlist" id="optionlist" rows="3" class="input-xlarge imeon" placeholder="1行に一つ..">%_optionlist_%</textarea>
+	</div>
+</div>
+
+<div class="control-group %_inicial_value_if_error_%">
+<label class="control-label" for="inicial_value">初期値</label>
+	<div class="controls">
+	<span class="help-block">%_inicial_value_msg_%</span>
+	<span class="help-block">初期値を1行に1つ入力して下さい。選択肢から選ぶ場合複数指定できます。</span>
+	<textarea name="inicial_value" id="inicial_value" rows="3" class="input-xlarge imeon" placeholder="必要な場合...">%_inicial_value_%</textarea>
+	</div>
+</div>
+
+
+<div class="control-group %_minlength_if_error_%">
+<label class="control-label" for="minlength">最短文字数</label>
+	<div class="controls">
+	<span class="help-block">%_minlength_msg_%</span>
+	<input name="minlength" id="minlength" type="text" class="input-small noime" maxlength="" value="%_minlength_%" placeholder="">
+	<span class="help-inline">チェックする場合文字数を半角数字で指定して下さい。</span>
+	</div>
+</div>
+
+<div class="control-group %_maxlength_if_error_%">
+<label class="control-label" for="maxlength">最長文字数</label>
+	<div class="controls">
+	<span class="help-block">%_maxlength_msg_%</span>
+	<input name="maxlength" id="maxlength" type="text" class="input-small noime" maxlength="" value="%_maxlength_%" placeholder="">
+	<span class="help-inline">チェックする場合文字数を半角数字で指定して下さい。</span>
+	</div>
+</div>
+
+
+<div class="control-group %_if_conv_zen_if_error_%">
+<label class="control-label" for="if_conv_zen">全/半変換 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls form-inline">
+	<span class="help-block">%_if_conv_zen_msg_%</span>
+	<span class="help-inline">英数字と記号を</span><span class="space1"></span>
+	<label class="radio"><input name="if_conv_zen" id="if_conv_zen_1" type="radio" value="-1" %_if_conv_zen_-1_%> 半角に変換</label><span class="space1"></span>
+	<label class="radio"><input name="if_conv_zen" id="if_conv_zen_2" type="radio" value="1" %_if_conv_zen_1_%> 全角に変換</label><span class="space1"></span>
+	<label class="radio"><input name="if_conv_zen" id="if_conv_zen_3" type="radio" value="0" %_if_conv_zen_0_%> 変換なし</label>
+	</div>
+</div>
+
+
+<div class="control-group %_if_conv_kata_if_error_%">
+<label class="control-label" for="if_conv_kata">ひら/カタ変換 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls form-inline">
+	<span class="help-block">%_if_conv_zen_msg_%</span>
+	<label class="radio"><input name="if_conv_kata" id="if_conv_kata_1" type="radio" value="-1" %_if_conv_kata_-1_%> カタカナをひらがなに変換</label><span class="space1"></span>
+	<label class="radio"><input name="if_conv_kata" id="if_conv_kata_2" type="radio" value="1" %_if_conv_kata_1_%> ひらがなをカタカナに変換</label><span class="space1"></span>
+	<label class="radio"><input name="if_conv_kata" id="if_conv_kata_3" type="radio" value="0" %_if_conv_kata_0_%> 変換なし</label>
+	</div>
+</div>
+
+<div class="control-group %_format_select_if_error_%">
+<label class="control-label" for="format_select">フォーマットチェック <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls">
+	<span class="help-block">%_format_select_msg_%</span>
+	<span class="help-block">上記の変換後に
+		<span class="helpinfo">
+	  	<a href="javascript:void(0);" data-toggle="tooltip" title="上で「全角に変換」を選択していない場合は、数字と記号は半角。">
+	  	<i class="icon-question-sign"></i></a>
+	  	</span>
+	</span>
+	<div class="height0_5"></div>
+<label class="radio"><input name="format_select" id="format_select_1" type="radio" value="is_ok" %_format_select_is_ok_%> チェックなし</label>
+<label class="radio"><input name="format_select" id="format_select_2" type="radio" value="is_num" %_format_select_is_num_%> 数字のみ</label>
+<label class="radio"><input name="format_select" id="format_select_3" type="radio" value="is_alpha" %_format_select_is_alpha_%> アルファベットのみ</label>
+<label class="radio"><input name="format_select" id="format_select_4" type="radio" value="is_alnum" %_format_select_is_alnum_%> アルファベットと数字のみ</label>
+<label class="radio"><input name="format_select" id="format_select_5" type="radio" value="is_ascii" %_format_select_is_ascii_%> アルファベットと数字、記号</label>
+<label class="radio"><input name="format_select" id="format_select_6" type="radio" value="is_latin" %_format_select_is_latin_%> アルファベットと数字、記号、空白、改行</label>
+<label class="radio"><input name="format_select" id="format_select_10" type="radio" value="is_kata_zen" %_format_select_is_kata_zen_%> 全角カタカナ</label>
+<label class="radio"><input name="format_select" id="format_select_11" type="radio" value="is_hira_zen" %_format_select_is_hira_zen_%> 全角ひらがな</label>
+<label class="radio"><input name="format_select" id="format_select_7" type="radio" value="is_tel" %_format_select_is_tel_%> 電話番号形式（ハイフン）</label>
+<label class="radio"><input name="format_select" id="format_select_8" type="radio" value="is_zip" %_format_select_is_zip_%> 郵便番号形式（ハイフン）</label>
+<label class="radio"><input name="format_select" id="format_select_9" type="radio" value="is_mail" %_format_select_is_mail_%> メールアドレス形式（半角のみ）</label>
+%_custom_formats_%
+	</div>
+</div>
+
+<div class="control-group">
+	<div class="controls form-inline">
+		<button class="btn btn-primary" type="submit" tabindex="100"> 更新（確認）</button>
+		<a href="%_myname_%" class="btn btn-link pull-right">中止（一覧に戻る）</a>
+	</div>
+</div>
+
+</fieldset>
+
+        </div><!-- /span12 -->
+      </div><!-- /row -->
+
+      <footer>
+		<hr>
+      </footer>
+
+    </div> <!-- /container -->
+
+	<input type="hidden" name="s" value="3">
+	<input type="hidden" name="t" value="">
+	<input type="hidden" name="m" value="%_m_%">
+	<input type="hidden" name="d" value="%_d_%">
+	<input type="hidden" name="cd" value="%_cd_%">
+	<input type="hidden" name="tempdir" value="%_tempdir_%">
+	<input type="hidden" name="file_order" value="%_file_order_%">
+	<input type="hidden" name="field_name" value="%_field_name_%">
+	<input type="hidden" name="type" value="%_type_%">
+	</form>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-1_8_2_min.js"></script>
+    <script src="../js/bootstrap_min.js"></script>
+    <script src="../js/admin.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			// bootstrap tooltips
+			$('.helpinfo a').tooltip({
+				placement: 'right'
+			});
+		});
+	</script>
+
+  </body>
+</html>

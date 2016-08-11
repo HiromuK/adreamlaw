@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>メールの設定 | メールフォーム管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- styles -->
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 20px;
+      }
+    </style>
+    <link href="../css/admin.css" rel="stylesheet">
+
+    <!--[if lt IE 7]>
+  	  <link href="../css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../img/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../img/favicon.png">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand hide-text" href="index.cgi">メールフォーム管理</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.cgi">データ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">設定 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li class="active"><a href="mail.cgi">メール</a></li>
+                  <li><a href="field.cgi">項目</a></li>
+                  <li><a href="csv.cgi">CSV</a></li>
+                  <li><a href="reset.cgi">リセット</a></li>
+                </ul>
+              </li>
+              <li><a href="%_contact_relative_dir_%" target="_blank">フォーム</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#"><i class="icon-cog"></i> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:set_param('','',8,0,'mainform')">ログアウト</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+	<form action="%_myname_%" method="post" id="mainform">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="span12">
+          <h2>メールの%_mode_title_%</h2>
+
+<div class="navbar">
+<div class="navbar-inner">
+<ol class="nav" id="steps">
+<li class="active"><a href="javascript:void(0)">入力</a></li>
+<li><a href="javascript:void(0)">確認</a></li>
+<li><a href="javascript:void(0)">完了</a></li>
+</ol>
+</div>
+</div>
+
+		<noscript>
+		<div class="alert">
+			<p>JavaScriptを有効にして下さい。</p>
+		</div>
+		</noscript>
+
+<!-- 
+%_msg_class_%		エラーがある時「error」ない時「info」、メッセージが無い時「none」
+-->
+<div id="msg_instruct" class="alert alert-%_msg_class_%">
+	<a class="close" data-dismiss="alert" href="#">&times;</a>
+	<p class="text-%_msg_class_%">%_msg_instruct_%</p>
+</div>
+
+
+<fieldset class="form-horizontal">
+
+<div class="control-group %_name_if_error_%">
+<label class="control-label" for="name">メールの名前（管理用） <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls">
+	<span class="help-block">%_name_msg_%</span>
+	<input name="name" id="name" type="text" class="input-xxlarge imeon" maxlength="" value="%_name_%" placeholder="">
+	</div>
+</div>
+
+<div class="control-group %_active_if_error_%">
+<label class="control-label" for="active">有効 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls form-inline">
+	<span class="help-block">%_active_msg_%</span>
+	<label class="radio"><input name="active" id="active_1" type="radio" value="1" %_active_1_%> このメールを送る</label><span class="space1_5"></span>
+	<label class="radio"><input name="active" id="active_2" type="radio" value="0" %_active_0_%> 無効</label>
+	</div>
+</div>
+
+<div class="control-group %_if_to_user_if_error_%">
+<label class="control-label" for="if_to_user">入力メールに自動返信
+          	<span class="helpinfo">
+          	<a href="javascript:void(0);" data-toggle="tooltip" title="公開側のフォームから入力されたメールアドレスに自動返信する際の送り方を選択して下さい。">
+          	<i class="icon-question-sign"></i></a>
+          	</span>
+<abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls form-inline">
+	<span class="help-block">%_if_to_user_msg_%</span>
+	<label class="radio"><input name="if_to_user" id="if_to_user_1" type="radio" value="to" %_if_to_user_to_%> to で送る</label><span class="space1_5"></span>
+	<label class="radio"><input name="if_to_user" id="if_to_user_2" type="radio" value="cc" %_if_to_user_cc_%> cc で送る</label><span class="space1_5"></span>
+	<label class="radio"><input name="if_to_user" id="if_to_user_3" type="radio" value="bcc" %_if_to_user_bcc_%> bcc で送る</label><span class="space1_5"></span>
+	<label class="radio"><input name="if_to_user" id="if_to_user_4" type="radio" value="no" %_if_to_user_no_%> 送らない</label>
+	</div>
+</div>
+
+<div class="control-group %_to_if_error_%">
+<label class="control-label" for="to">その他の宛先
+          	<span class="helpinfo">
+          	<a href="javascript:void(0);" data-toggle="tooltip" title="管理者など固定で送信する宛先があれば指定して下さい。カンマ区切りで複数指定できます。">
+          	<i class="icon-question-sign"></i></a>
+          	</span>
+to</label>
+	<div class="controls">
+	<span class="help-block">%_to_msg_%</span>
+	<input name="to" id="to" type="text" class="input-xxlarge imeauto" maxlength="" value="%_to_%" placeholder="複数はカンマ区切り">
+	</div>
+</div>
+
+<div class="control-group %_cc_if_error_%">
+<label class="control-label" for="cc">cc</label>
+	<div class="controls">
+	<span class="help-block">%_cc_msg_%</span>
+	<input name="cc" id="cc" type="text" class="input-xxlarge imeauto" maxlength="" value="%_cc_%" placeholder="複数はカンマ区切り">
+	</div>
+</div>
+
+<div class="control-group %_bcc_if_error_%">
+<label class="control-label" for="bcc">bcc</label>
+	<div class="controls">
+	<span class="help-block">%_bcc_msg_%</span>
+	<input name="bcc" id="bcc" type="text" class="input-xxlarge imeauto" maxlength="" value="%_bcc_%" placeholder="複数はカンマ区切り">
+	</div>
+</div>
+
+
+<div class="control-group %_subject_if_error_%">
+<label class="control-label" for="subject">件名 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls">
+	<span class="help-block">%_subject_msg_%</span>
+	<input name="subject" id="subject" type="text" class="input-xxlarge imeauto" maxlength="" value="%_subject_%" placeholder="">
+	</div>
+</div>
+
+<div class="control-group %_body_if_error_%">
+<label class="control-label" for="body">本文 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></label>
+	<div class="controls">
+
+		<ul class="nav nav-tabs">
+		<li class="active"><a href="#bodyinput" data-toggle="tab">本文設定</a></li>
+		<li><a href="#columnlist" data-toggle="tab">差し込み可能な項目</a></li>
+		</ul>
+		 
+		<div class="tab-content">
+			<div class="tab-pane active" id="bodyinput">
+				<span class="help-block">%_body_msg_%</span>
+				<input id="lengthcheck" type="text" class="input-xxlarge mailbody imeauto" maxlength="" value="あああああああああ10あああああああああ20あああああああああ30ああああ半72" placeholder="">
+				<span class="help-inline">本分幅チェック用</span>
+				<textarea name="body" id="body" rows="30" class="input-xxlarge mailbody imeauto" placeholder="">%_body_%</textarea>
+			</div>
+			<div class="tab-pane" id="columnlist">
+				<span class="help-block">現在有効な項目の一覧です。コピーして使って下さい。</span>
+				<textarea id="available_values" rows="30" class="input-xlarge mailbody imeauto">%_available_values_%</textarea>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+<div class="control-group">
+	<div class="controls form-inline">
+		<button class="btn btn-primary" type="submit" tabindex="100"> 更新（確認）</button>
+		<a href="%_myname_%" class="btn btn-link pull-right">中止（一覧に戻る）</a>
+	</div>
+</div>
+
+</fieldset>
+
+        </div><!-- /span12 -->
+      </div><!-- /row -->
+
+
+      <footer>
+		<hr>
+      </footer>
+
+    </div> <!-- /container -->
+
+	<input type="hidden" name="s" value="3">
+	<input type="hidden" name="t" value="">
+	<input type="hidden" name="m" value="%_m_%">
+	<input type="hidden" name="d" value="%_d_%">
+	<input type="hidden" name="cd" value="%_cd_%">
+	<input type="hidden" name="tempdir" value="%_tempdir_%">
+	<input type="hidden" name="file_order" value="%_file_order_%">
+	</form>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-1_8_2_min.js"></script>
+    <script src="../js/bootstrap_min.js"></script>
+    <script src="../js/admin.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			// bootstrap tooltips
+			$('.helpinfo a').tooltip({
+				placement: 'right'
+			});
+		});
+	</script>
+
+  </body>
+</html>

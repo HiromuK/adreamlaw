@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>項目の設定 | メールフォーム管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- styles -->
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 20px;
+      }
+    </style>
+    <link href="../css/admin.css" rel="stylesheet">
+
+    <!--[if lt IE 7]>
+  	  <link href="../css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../img/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../img/favicon.png">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand hide-text" href="index.cgi">メールフォーム管理</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.cgi">データ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">設定 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mail.cgi">メール</a></li>
+                  <li class="active"><a href="field.cgi">項目</a></li>
+                  <li><a href="csv.cgi">CSV</a></li>
+                  <li><a href="reset.cgi">リセット</a></li>
+                </ul>
+              </li>
+              <li><a href="%_contact_relative_dir_%" target="_blank">フォーム</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#"><i class="icon-cog"></i> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:set_param('','',8,0,'mainform')">ログアウト</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+	<form action="%_myname_%" method="post" id="mainform">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="span12">
+          <h2>項目の%_mode_title_%</h2>
+
+<div class="navbar">
+<div class="navbar-inner">
+<ol class="nav" id="steps">
+<li><a href="javascript:document.getElementById('backform').submit()">入力</a></li>
+<li class="active"><a href="javascript:void(0)">確認</a></li>
+<li><a href="javascript:void(0)">完了</a></li>
+</ol>
+</div>
+</div>
+
+		<noscript>
+		<div class="alert">
+			<p>JavaScriptを有効にして下さい。</p>
+		</div>
+		</noscript>
+
+<!-- 
+%_msg_class_%		エラーがある時「error」ない時「info」、メッセージが無い時「none」
+-->
+<div id="msg_instruct" class="alert alert-%_msg_class_%">
+	<a class="close" data-dismiss="alert" href="#">&times;</a>
+	<p class="text-%_msg_class_%">%_msg_instruct_%</p>
+</div>
+
+<dl class="dl-horizontal form-confirm">
+
+
+<dt>表示名 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></dt>
+<dd>%_local_name_%</dd>
+
+<dt>管理名 <abbr title="編集不可"><i class="icon-lock"></i></abbr></dt>
+<dd>%_field_name_%</dd>
+
+<dt>タイプ <abbr title="編集不可"><i class="icon-lock"></i></abbr></dt>
+<dd>%_type_%</dd>
+
+<dt>管理用メモ</dt>
+<dd>%_memo_%&nbsp;</dd>
+
+<dt style="display: none;">カスタム表示</dt>
+<dd style="display: none;">%_custom_code_%&nbsp;</dd>
+
+<dt>使用 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></dt>
+<dd>%_active_%</dd>
+
+<dt>必須 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></dt>
+<dd>%_if_required_%</dd>
+
+<dt class="hide_if_%_type_val_%">選択肢 <abbr class="required" title="選択項目では必須"><i class="icon-ok"></i></abbr></dt>
+<dd class="hide_if_%_type_val_%">%_optionlist_%&nbsp;</dd>
+
+<dt>初期値</dt>
+<dd>%_inicial_value_%&nbsp;</dd>
+
+<dt>最短文字数</label>
+<dd>%_minlength_%&nbsp;</dd>
+
+<dt>最長文字数</label>
+<dd>%_maxlength_%&nbsp;</dd>
+
+<dt>全/半変換 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></dt>
+<dd>%_if_conv_zen_%</dd>
+
+<dt>ひら/カタ変換 <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></dt>
+<dd>%_if_conv_kata_%</dd>
+
+<dt>フォーマットチェック <abbr class="required" title="必須"><i class="icon-ok"></i></abbr></dt>
+<dd>%_format_select_%</dd>
+
+</dl>
+
+<fieldset class="form-horizontal">
+<div class="control-group">
+	<div class="controls form-inline">
+		<button class="btn btn-primary" type="submit" tabindex="100">%_mode_title_%確定</button>
+		<span class="space0_5"></span>
+		<a href="javascript:document.getElementById('backform').submit()" class="btn %_bkbtn_switch_%">修正</a>
+		<a href="%_myname_%" class="btn btn-link pull-right">中止（一覧に戻る）</a>
+	</div>
+</div>
+</fieldset>
+
+        </div><!-- /span12 -->
+      </div><!-- /row -->
+
+      <footer>
+		<hr>
+      </footer>
+
+    </div> <!-- /container -->
+
+	<input type="hidden" name="s" value="4">
+	<input type="hidden" name="m" value="%_m_%">
+	<input type="hidden" name="d" value="%_d_%">
+	<input type="hidden" name="cd" value="%_cd_%">
+	<input type="hidden" name="tempdir" value="%_tempdir_%">
+	<input type="hidden" name="file_order" value="%_file_order_%">
+	</form>
+
+	<form action="%_myname_%" method="post" id="backform">
+	<input type="hidden" name="s" value="2">
+	<input type="hidden" name="m" value="%_m_%">
+	<input type="hidden" name="d" value="%_d_%">
+	<input type="hidden" name="cd" value="%_cd_%">
+	<input type="hidden" name="tempdir" value="%_tempdir_%">
+	<input type="hidden" name="file_order" value="%_file_order_%">
+	</form>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-1_8_2_min.js"></script>
+    <script src="../js/bootstrap_min.js"></script>
+    <script src="../js/admin.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			// bootstrap tooltips
+			$('.helpinfo a').tooltip({
+				placement: 'right'
+			});
+		});
+	</script>
+
+  </body>
+</html>

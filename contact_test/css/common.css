@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* 「すぐ使えるメールフォーム」共通スタイルシート */
+
+/* フォームの IME 入力モードの設定 */
+.noime{
+	ime-mode: disabled; /* always off */
+}
+.imeoff{
+	ime-mode: inactive; /* default off */
+}
+.imeon{
+	ime-mode: active;
+}
+.imeauto {
+	ime-mode: auto; /* no change */
+}
+
+/* スペーサー */
+span.space1
+,span.space0_5
+,span.space1_5
+,span.space2
+ {
+	display: inline-block;
+}
+.space1 {width: 1em;}
+.space0_5 {width: 0.5em;}
+.space1_5 {width: 1.5em;}
+.space2 {width: 2em;}
+div.height0_5 {height: 0.5em;}
+div.height1 {height: 1em;}
+div.height1_5 {height: 1.5em;}
+div.height2 {height: 2em;}
+
+/* Bootstrap の設定を上書き */
+
+/* 日本語フォント、色濃目 */
+body
+,input
+,button
+,select
+,textarea
+,.navbar-search .search-query
+{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "Helvetica", "Arial", sans-serif !important;
+    color: #222222;
+}
+.help-block, .help-inline {
+    color: #442222;
+}
+
+/* エラー時色設定 */
+.control-group.error > label
+, .control-group.error .checkbox
+, .control-group.error .radio
+, .control-group.error select
+, .control-group.error textarea {
+    color: #222222; /* same as body */
+}
+
+/* 必須項目表示 */
+abbr[title], abbr[data-original-title] {
+	border-bottom: none;
+}
+
+/* 設置時リンクパス確認用 */
+.msg_link_check
+,.msg_link_check a
+{
+	color: #ffffff;
+}

@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/* 「すぐ使えるメールフォーム」共通スタイルシート */
+
+/* フォームの IME 入力モードの設定 */
+.noime{
+	ime-mode: disabled; /* always off */
+}
+.imeoff{
+	ime-mode: inactive; /* default off */
+}
+.imeon{
+	ime-mode: active;
+}
+.imeauto {
+	ime-mode: auto; /* no change */
+}
+
+/* スペーサー */
+span.space1
+,span.space0_5
+,span.space1_5
+,span.space2
+ {
+	display: inline-block;
+}
+.space1 {width: 1em;}
+.space0_5 {width: 0.5em;}
+.space1_5 {width: 1.5em;}
+.space2 {width: 2em;}
+div.height0_5 {height: 0.5em;}
+div.height1 {height: 1em;}
+div.height1_5 {height: 1.5em;}
+div.height2 {height: 2em;}
+
+
+
+/* エラー時色設定 */
+.control-group.error > label
+, .control-group.error .checkbox
+, .control-group.error .radio
+, .control-group.error select
+, .control-group.error textarea
+,{
+    color: red; /* same as body */
+}
+
+/* 必須項目表示 */
+abbr[title], abbr[data-original-title] {
+	border-bottom: none;
+}
+
+/* 設置時リンクパス確認用 */
+.msg_link_check
+,.msg_link_check a
+{
+	color: #ffffff;
+}
+
+/* 「すぐ使えるメールフォーム」フォーム用スタイルシート */
+/* このファイルで Bootstrap の初期設定を上書きしています。 */
+
+/*ベース*/
+
+
+/* 項目ヘルプ */
+.form-horizontal .help-block {
+	margin-bottom: 5px;
+}
+.form-horizontal input + .help-block,
+.form-horizontal select + .help-block,
+.form-horizontal textarea + .help-block {
+  margin-top: 5px;
+}
+
+/* 必須項目表示 */
+.required span.required,
+.required abbr.required {
+	color: #b94a48;
+	font-weight: bold;
+}
+
+
+/*============================
+追加したCSS
+===============================*/
+
+input{
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+	background: #fff;
+	background: -webkit-gradient( linear, left top, left bottom, from(#eee), to(#fff) );
+	background: -moz-linear-gradient( top, #eee, #fff );
+	background: -ms-linear-gradient(#eee, #fff);
+	background: linear-gradient(#eee, #fff);
+}
+label{
+	float: left;
+	width: 30%;
+}
+.form-horizontal{
+	width: 80%;
+	margin: 0 auto;
+}
+.form_lavel_info{
+	font-size: 12px;
+}
+
+/* 進捗バー */
+.flow-list{
+ list-style:none;
+ padding:0;
+ margin:0;
+}
+.flow-list:after{  //clearfix
+ height: 0;
+ visibility: hidden;
+ content: ".";
+ display: block;
+ clear: both;
+}
+.flow-list li{
+ width:32%;  //stepの数に合わせてwidth指定
+ box-sizing:border-box;  //padding,marginを含めて24%に指定
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ -ms-box-sizing:border-box;
+ -o-box-sizing:border-box;
+ float:left;
+ padding:5px 20px;
+ margin-right:3px;
+ background:#333;
+ color:#fff;
+ position:relative;
+ text-align:center;
+}
+.flow-list li:before{
+ content:"";
+ display:block;
+ position:absolute;
+ top:0;
+ right:-24px;
+ width:0;
+ height:0;
+ border-top:solid 14px transparent;
+ border-right:solid 14px transparent;
+ border-bottom:solid 14px transparent;
+ border-left:solid 10px #333;
+ z-index:10;  //黒が上に重なるように指定
+}
+.flow-list li:after{
+ content:"";
+ display:block;
+ position:absolute;
+ top:0;
+ left:0;
+ width:0;
+ height:0;
+ border-top:solid 14px transparent;
+ border-right:solid 14px transparent;
+ border-bottom:solid 14px transparent;
+ border-left:solid 10px #fff;
+}
+.flow-list li:first-child:after{
+ display:none;
+}
+.controls{
+	margin-bottom: 20px;
+}
+.input-xxlarge{
+	border:1px solid #000;
+}
+
+
+/* 製品情報 */
+
