@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.toppage_h1 {
+  font-size: 25px;
+  text-align: center;
+  color: #028539;
+  font-weight: bold;
+  font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.toppage_h2 {
+  font-size: 18px;
+  padding: 20px 80px 0px;
+}
+
+.toppage_ol {
+  list-style-type: decimal;
+  padding: 10px 100px 10px;
+  font-size: 14px;
+}
+
+.toppage_atag {
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+  .toppage_h1 {
+    font-size: 18px;
+    padding: 0px 5px 0px;
+  }
+
+  .toppage_h2 {
+    font-size: 16px;
+    padding: 20px 20px 0px;
+    text-align: center;
+  }
+
+  .toppage_ol {
+    font-size: 14px;
+    padding: 10px 50px 10px;
+  }
+
+  .toppage_atag {
+    margin-left: 30%;
+  }
+}

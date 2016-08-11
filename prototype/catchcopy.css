@@ -1,0 +1,35 @@
+.hikaku {
+	border: 2px solid #333333;
+	border-radius: 5px;
+	padding: 3px 2px;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 2px;
+}
+.hikaku > a {
+	display: inline-block;
+}
+.hikaku > p {
+	vertical-align: middle;
+	float: left;
+	margin-top: 11px;
+}
+.picto {
+	width: 50px;
+}
+.hikaku-h2 {
+	font-size: 25px;
+}
+@media only screen and (max-width: 768px) {
+    .hikaku-h2 {
+    	font-size: 19px;
+    }
+}
+.hikaku-p {
+	font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .hikaku-p {
+    	font-size: 16px;
+    }
+}
