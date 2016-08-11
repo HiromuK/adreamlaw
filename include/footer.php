@@ -103,9 +103,9 @@
 				<li><a href="https://ja-jp.facebook.com/pages/%E5%BC%81%E8%AD%B7%E5%A3%AB%E6%B3%95%E4%BA%BA%E6%B7%A1%E8%B7%AF%E7%94%BA%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0/1440368016199684" target="blank"><img src="http://a-dreamlaw.com/common/images/icon/facebook.jpg" width="50" height="50" alt="淡路町ドリームfacebook公式アカウント"></a></li>
 				<li><a href="http://twitter.com/adreamlaw" target="blank"><img src="http://a-dreamlaw.com/common/images/icon/twitter.jpg" width="50" height="50" alt="淡路町ドリームTwitter公式アカウント"></a></li>
 			</ul>
-			<p class="txt_C">&copy; Copyright 2015 弁護士法人 淡路町ドリーム All Rights Reserved.</p>
+			<p class="txt_C">&copy; Copyright 2016 弁護士法人 淡路町ドリーム All Rights Reserved.</p>
 </footer>
 <div class="container copy row">
 	<p class="txt_C">創業平成9年 離婚・相続問題／不動産・建築問題などの法律問題でお悩みなら弁護士法人 淡路町ドリーム</p>
-	<p class="txt_C">&copy; Copyright 2015 弁護士法人 淡路町ドリーム All Rights Reserved.</p>
+	<p class="txt_C">&copy; Copyright 2016 弁護士法人 淡路町ドリーム All Rights Reserved.</p>
 </div>
