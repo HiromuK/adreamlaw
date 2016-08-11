@@ -1,0 +1,584 @@
+@charset "UTF-8";
+/* bxslider
+=================================================================== */
+#pc_slide img{
+	height: 380px;
+}
+#sp_slide{
+	display: none;
+}
+.bxslider{
+	margin: 5px 0 5px 0;
+}
+
+@media only screen and (max-width: 480px) {
+#pc_slide{
+	display: none;
+}
+#sp_slide{
+	display: block;
+}
+}
+/* main
+=================================================================== */
+.main{
+}
+.h_strength{
+	padding-top: 10px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 1em;
+	color: #028539;
+	font-weight: bold;
+}
+.tab_content ul{
+	border-radius: 5px;
+}
+.tab_content li{
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 10px;
+	width: 200px;
+}
+.tab_content a{
+	text-decoration: none;
+}
+.block_title{
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+}
+.block_description{
+	font-size: 13px;
+	color: #666;
+	letter-spacing: 1px;
+}
+.tab_content a:hover{
+	position: relative;}
+#divorce_block,#kbuilding_block{
+	text-align: center;
+}
+#tabwrap {
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+.tabs {
+	overflow: hidden;
+	width: auto;
+	padding: 0 5px;
+}
+.tabs li {
+	list-style: none;
+}
+.tabs li a {
+	border-radius: 5px 5px 0 0;
+	float: left;
+	display: block;
+	padding: 10px;
+	width: 33.3333%;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	background: #dadada;
+	border-bottom: 5px solid #028539;
+}
+.tabs li a:hover {
+	background: #469f54;
+}
+
+/* 木村追加　*/
+}
+.txt_Compact { 
+	font-size : 14px;
+	}
+
+.font_12 {
+	font-size : 12px;
+}
+
+.img_lpright {
+		float : right;
+		width : 180px;
+		margin-left : 2em;
+}
+
+.img_lpcenter {
+	width : 180px;
+	float : center;
+	margin-left : 1em;
+}
+
+.fee_group_pc{
+	border-radius: 5px;
+	border: 2px solid #028539;
+	margin-bottom: 15px;
+}
+.fee_group_sp{
+	display: none;
+}
+.anchor{
+	margin-left: 20px;
+	padding: 5px 0 5px 0;
+}
+.anchor_btn{
+	display: inline-block;
+}
+.anchor_btn li{
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;・	border-radius: 4px;
+	border: 2px solid #028539;
+	padding: 2px 8px 2px 7px;
+}
+.fee_divorce-border{
+	border: 2px solid #ff69b4;
+}
+.fee_building-border{
+	border: 2px solid #8b4513;
+}
+.anchor_btn li a{
+	background: url(http://a-dreamlaw.com/common/images/icon/anchor.jpg) right no-repeat;
+	font-size: 18px;
+	padding-right: 14px;
+	background-size: 10px 15px;
+}
+
+.sct_h1{
+	font-size : 35px;
+}
+
+.sct_h2{
+	font-size : 30px;
+	background-color: #FAFAFA;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+	.sct_h1{
+		color: #000;
+		font-weight: bold;
+		font-size: 20px;
+		border-bottom: 3px solid #006400;
+		text-align: center;
+		margin-top: 10px;
+		padding-bottom: 5px;
+		letter-spacing: 3px;
+		margin-bottom: 10px;
+		}
+	.sct_h2{
+		clear: both;
+		border-left: 4px solid #006400;
+		border-radius: 3px;
+		font-size: 18px;
+		color: #000;
+		padding: 12px 0 10px 12px;
+		margin-bottom: 25px;
+		margin-left: 15px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		margin-top: 25px;
+		}
+	.img_lpcenter{
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+		width: 180px;
+		padding: 0 10px 0 10px;
+		}
+}
+
+.lp_contact_mail{
+	width: 250px;
+	height: 45px;
+		border-radius: 5px;
+	border: 1px solid #b29077;
+	background: -webkit-linear-gradient(#FF9D4C,#FF8901);
+	background: -moz-linear-gradient(#FF9D4C,#FF8901);
+	background: -ms-linear-gradient(#FF9D4C,#FF8901);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(204, 204, 204, 1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+		font-size: 14px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+}
+.lp_contact_mail a {
+	display : block;
+	color: #fff;
+	text-align : center;
+	font-size : 13px;
+}
+
+.lp_contact_tel{
+	width: 250px;
+	height: 45px;
+		border-radius: 5px;
+	border: 1px solid #b29077;
+	background: -webkit-linear-gradient(#28AC2F,#1E7E24);
+	background: -moz-linear-gradient(#28AC2F,#1E7E24);
+	background: -ms-linear-gradient(#28AC2F,#1E7E24);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(204, 204, 204, 1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+		font-size: 14px;
+	display: inline-block;
+	float: right;
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+}
+.lp_contact_tel a {
+	display : block;
+	color : #fff;
+	text-align : center;
+}
+
+@media only screen and (max-width: 700px) {
+	.lp_contact_mail{
+		float : none;
+		margin: 0 auto;
+	}
+
+	.lp_contact_tel{
+		float : none;
+		margin: 0 auto;
+		margin-top : 1em;
+	}
+}
+
+.lpcontact_area {
+		width: 80%;
+		margin: 0 auto;
+		border-top: 1px dotted #ccc;
+		border-bottom: 1px dotted #ccc;
+}
+
+.lp_maincontact_mail{
+	width : 300px;
+	height: 70px;
+		border-radius: 5px;
+	border: 1px solid #b29077;
+	background: -webkit-linear-gradient(#ff9d4c,#ff8901);
+	background: -moz-linear-gradient(#ff9d4c,#ff8901);
+	background: -ms-linear-gradient(#ff9d4c,#ff8901);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(204, 204, 204, 1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+		font-size: 14px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+}
+.lp_maincontact_mail a {
+	display : block;
+	color: #fff;
+	text-align : center;
+	font-size : 22px;
+	background: rgba(0, 0, 0, 0) url("http://a-dreamlaw.com/common/images/header_mail_sp.png") no-repeat scroll 0 0;
+	background-position: left 50%;
+	padding: 2px 5px 5px 30px;
+}
+
+.lp_maincontact_tel{
+	width : 300px;
+	height: 70px;
+		border-radius: 5px;
+	border: 1px solid #b29077;
+	background: -webkit-linear-gradient(#28AC2F,#1E7E24);
+	background: -moz-linear-gradient(#28AC2F,#1E7E24);
+	background: -ms-linear-gradient(#28AC2F,#1E7E24);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(204, 204, 204, 1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+		font-size: 14px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 10px;
+	color: #fff;
+}
+.lp_maincontact_tel a {
+	display : block;
+	color : #fff;
+	text-align : center;
+	font-size: 22px;
+	background: rgba(0, 0, 0, 0) url("http://a-dreamlaw.com/common/images/icon/tel.jpg") no-repeat scroll 0 0 / 30px 30px;
+	background-position: left 50%;
+	padding: 2px 5px 5px 30px;
+}
+
+@media only screen and (max-width: 700px) {
+	.lp_maincontact_mail{
+		float : none;
+		margin: 0 auto;
+	}
+
+	.lp_maincontact_tel{
+		float : none;
+		margin: 0 auto;
+		margin-top : 1em;
+	}
+}
+
+.float_clear{
+	clear: both;
+}
+.float_left{
+	float: left;
+}
+.ml_60{
+	margin-left: 60px;
+}
+.mr_60{
+	margin-right: 60px;
+}
+.float_right{
+	float: right;
+}
+.font_100{
+	font-size: 100px;
+}
+.font_50{
+	font-size: 25px;
+}
+.font_30{
+	font-size: 17px;
+}
+@media only screen and (max-width: 700px) {
+	.ml_60{
+		margin-left: 10%;
+	}
+	.mr_60{
+		margin-right: 10%;
+	}
+	.font_100{
+		font-size: 50px;
+	}
+	.font_50{
+	font-size: 20px;
+	}
+	.font_30{
+		font-size: 14px;
+	}
+}
+
+
+/* 木村追加ここまで */
+
+.tabs li:first-child a { border-left: 0; margin-left: 0;}
+.tabs li:last-child a { border-right: 0; }
+.tabs li.current a {
+	background: #028539;
+	color: #fff;
+}
+.tab_content > div {
+	padding: 20px;
+	line-height: 19px;
+	color: #000;
+}
+.tab_content .current { display: block; }
+.tab_content #strength.first { display: block; }
+.tab_content p { margin: 0 0 20px 0;}
+.delay-show{
+}
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 700px) {
+.img_bk{
+}
+.main{
+	width: auto;
+	padding: 0 10px 0 10px;
+}
+.tab_content li{
+	width: auto;
+	padding: 0 10px 0 10px;
+}
+.tabs li a {
+	height: 60px;
+	padding: 5px;
+	font-size: 14px;
+}
+.tab_content li{
+	float: none;
+}
+.top_h3{
+	margin-left: 0;
+}
+.tab_content li{
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #ccc;
+}
+}
+
+/* main_inner
+=================================================================== */
+.main_inner{
+	margin-bottom: 40px;
+}
+.topics{
+	float: left;
+}
+.new_topics{
+	overflow: scroll;
+	border: 1px solid #dcdcdc;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	height: 215px;
+}
+.new_topics dt{
+	float: left;
+	clear: both;
+	padding:10px 0 10px 0.5em;
+    width:7em;
+    line-height:1.5em;
+}
+.new_topics dd{
+	padding:10px 0.5em 15px 7em;
+	border-bottom:1px dotted #CCC;
+}
+.dd_last{
+	border-bottom: 1px solid #dcdcdc;
+}
+.access{
+	float: left;
+}
+.map img{
+	margin-left: 50px;
+	border: 1px solid #b29077;
+}
+
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 700px) {
+.topics{
+	width: auto;
+	padding-bottom: 10px;
+}
+.new_topics{
+	height: auto;
+	margin: 0;
+}
+.main_inner{
+	width: auto;
+	padding: 0 10px 0 10px;
+}
+.map img{
+	margin-left: 0;
+}
+}
+
+/**	特長見出し　ここから	**/
+.delay-show li{
+	border: 1px solid #028539;
+	background: #FFFFFA;
+	padding: 10px 0;
+/** 	-webkit-transform: skew(0deg, -5deg);
+	-moz-transform: skew(0deg, -5deg);
+ 	-ms-transform: skew(0deg, -5deg);
+ 	-o-transform: skew(0deg, -5deg);
+  	transform: skew(0deg, -5deg);
+**/
+  	}
+
+.delay-show li p{
+/**	-webkit-transform: skew(0deg, -5deg);
+ 	-moz-transform: skew(0deg, -5deg);
+ 	-ms-transform: skew(0deg, -5deg);
+ 	-o-transform: skew(0deg, -5deg);
+ 	transform: skew(0deg, 5deg);
+**/
+ 	text-align: center;
+	}
+
+.delay-show li p.title {
+  padding-top: 10px;
+  line-height: 150%;
+}
+
+.delay-show li p.text {
+  width: 80%;
+  margin: 25px auto;
+  color: #000;
+}
+
+/**	特長見出し　ここまで	**/
+
+
+.txt_green{
+	color: #028539;
+	}
+
+/**	アンカーナビ　ここから	**/
+.btn_other {
+     border: none;
+     font-family: inherit;
+     font-size: inherit;
+     color: inherit;
+     background: none;
+     cursor: pointer;
+     display: inline-block;
+     text-align: center;
+     letter-spacing: 1px;
+     font-weight: 700;
+     margin: 5px;
+     outline: none;
+     position: relative;
+}
+ 
+/* Button 1 */
+.btn-1 {
+  border: 3px solid #006400;
+  color: #006400;
+  width: 150px;
+  height: 55px;
+  background: rgba(0, 0, 0, 0) url("http://a-dreamlaw.com/common/images/icon/anchor.jpg") no-repeat scroll right center / 10px 15px;
+  background-position: 20px;
+}
+.btn-1:hover {
+  color: #999;
+  text-decoration: underline;
+}
+/**	アンカーナビ　ここまで	**/
+
+.user dt{
+	width: 80px;
+	float: left;
+}
+
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px){
+	.user{
+		margin-top: 0;
+	}
+	.user dt{
+		margin-left: 100px;
+	}
+}
+
+
+.flipper {
+	display: block;
+	margin: 0 auto;
+	}
+
+.lawyer_photo_main {
+	width: 70%;
+	height: auto;
+	float: left;
+}
+
+
+.lawyer_photo_sub {
+	width: 30%;
+	height: auto;
+	float: right;
+}
+
+

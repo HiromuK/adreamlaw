@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+
+.daihyou-img {
+	float: left;
+	width: 400px;
+}
+.daihyou-img > img {
+	margin-top: 40px;
+	margin-left: 100px;
+	height: 470px;
+}
+.daihyou-pr {
+	background-color: #EEEEEE;
+	font-size: 15px;
+}
+.daihyou-pr-sp {
+	display: none;
+}
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px) {
+	.daihyou-img {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		width: auto;
+	}
+	.daihyou-img > img {
+		height: 200px;
+		margin-left: 0;
+		text-align: center;
+	}
+	.daihyou-pr {
+		background-color: #FFFFFF;
+		text-align: center;
+		font-size: 13px;
+	}
+	.daihyou-pr-sp {
+		display: block;
+		background-color: #EEEEEE;
+		font-size: 13px;
+	}
+}
+
+.h2 {
+	background-color: #ff7f50;
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 2px;
+	font-family:"メイリオ","Meiryo","ヒラギノ角ゴ ProN W3",
+	"Hiragino Kaku Gothic ProN","ＭＳ Ｐゴシック",
+	"MS P Gothic",Verdana, Arial, Helvetica, sans-serif;
+	border-radius: 15px;
+}
+
+.attention {
+	background-color: #ff7f50;
+	font-size: 23px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 5px;
+	font-family:"メイリオ","Meiryo","ヒラギノ角ゴ ProN W3",
+	"Hiragino Kaku Gothic ProN","ＭＳ Ｐゴシック",
+	"MS P Gothic",Verdana, Arial, Helvetica, sans-serif;
+	border-radius: 15px;
+	display: inline-block;
+}
+
+.strong {
+	font-size: 50px;
+	color: #dc143c;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.6),
+	-1px -1px 1px rgba(255, 255, 255, 0.5);
+}
+
+
+.second_txt {
+	font-size: 17px;
+}
+
+.ft_10 {
+	font-size: 10px;
+}
+.ft_12 {
+	font-size: 12px;
+}
+.ft_13 {
+	font-size: 13px;
+}
+.ft_15 {
+	font-size: 15px;
+}
+.ft_20 {
+	font-size: 20px;
+}
+.ft_25 {
+	font-size: 25px;
+}
+.ft_30 {
+	font-size: 30px;
+}
+
+
+.clear-both {
+	clear: both;
+}
+
+.img_L {
+	width: 400px;
+	height: 250px;
+	float: left;
+	margin-left: 40px;
+}
+.img_R {
+	width: 400px;
+	height: 250px;
+	float: right;
+	margin-right: 40px;
+}
+
+.media-img {
+	height: 195px;
+	position: relative;
+	float: left;
+	margin-left: 50px;
+}
+
+.map img {
+	border: 1px solid #b29077;
+}
+
+figure > p {
+	text-align: center;
+}
+
+.case_group_pc{
+	border-radius: 5px;
+	border: 2px solid #028539;
+	margin-bottom: 15px;
+}
+.anchor{
+	margin-left: 20px;
+	padding: 5px 0 5px 0;
+}
+.anchor_btn{
+	display: inline-block;
+}
+.anchor_btn li{
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	border: 2px solid #028539;
+	padding: 2px 8px 2px 7px;
+}
+.case_divorce-border{
+	border-radius: 5px;
+}
+.anchor_btn > li > a {
+	display: block;
+}
+
+.fee_lavel {
+	border-radius: 4px;
+	border: 2px solid #028539;
+	padding: 3px;
+	font-weight: bold;
+	margin-left: 20px;
+	display: inline-block;
+	font-size: 15px;
+}
+
+
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px) {
+.img_box{
+	float: none;
+}
+.container{
+	width: auto;
+	padding: 0 10px;
+}
+.second_main{
+	width: 100%;
+	}
+.second_txt{
+	padding: 0;
+}
+.second_txt p{
+	padding: 0;
+}
+.subnavi{
+	width: auto;
+	margin: 0 auto;
+}
+.lawyer_colum{
+	margin-left: 0;
+}
+.lawyer_link{
+	margin-top: 10px;
+}
+.sp_txtC{
+	text-align: center;
+}
+.second_sub{
+	display: none;
+}
+.img_L{
+	float: none;
+	margin: 0 auto;
+	width: auto;
+}
+.img_R{
+	float: none;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: auto;
+}
+.media-img {
+	float: none;
+	margin-left: 0;
+	margin-top: 30px;
+	text-align: center;
+}
+.strong {
+	font-size: 32px;
+}
+
+.sp_mt30 {
+	margin-top: 30px;
+}
+}
+
+#formWrap {
+	width:100%;
+	margin:0 auto;
+	color:#555;
+	line-height:120%;
+	font-size: 16px;
+}
+table.formTable{
+	width:100%;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+table.formTable td,table.formTable th{
+	padding:10px;
+}
+table.formTable th{
+	width: 100%;
+	font-weight:normal;
+	background:#efefef;
+	text-align: center;
+}
+table.formTable td{
+	width: 100%;
+	font-weight:normal;
+	background:#efefef;
+	text-align: center;
+}
+table.formTable th input {
+	margin-top: 5px;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+}
+.submit-button {
+	background-color: #85DBB7;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 4px #333333;
+}
+
+
+.intro-hako {
+	margin-left: 1%;
+}
+.intro-logo {
+	width: 30%;
+	background-color: #339933;
+	-moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    float: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+.intro-logo p {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+}
+.intro-name {
+	font-size: 45px;
+	font-weight: bold;
+	padding-left: 15px;
+	margin-left: 30%;
+	position: relative;
+}
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px) {
+	.intro-hako {
+		margin-left: 0;
+		margin: 0 35px;
+	}
+	.intro-logo p {
+		font-size: 14px;
+	}
+	.intro-name {
+		font-size: 25px;
+		padding-top: 23px;
+	}
+}
+
+.img_Left {
+	clear: left;
+	float: left;
+	width: 500px;
+}
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px) {
+	.img_Left {
+		text-align: center;
+		float: none;
+		width: auto;
+		padding: 0 10px 0 10px;
+	}
+}
+
+.seminar-detail-1 {
+		margin-left: 5;
+		width: 200px;
+		float: left;
+	}
+.seminar-detail-2 {
+		margin-left: 5;
+		width: 280px;
+		float: left;
+	}
+/*sp_device_max-width: 480px*/
+@media only screen and (max-width: 768px) {
+	.seminar-detail-1 {
+		margin-left: 0;
+		width: 100%;
+		clear: both;
+	}
+	.seminar-detail-2 {
+		margin-left: 0;
+		width: 100%;
+		clear: both;
+	}
+}
+
+
+
+/* PC・スマホでの表示オン・オフ　*/
+.pc_display {
+	display: block;
+}
+.sp_display {
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+    .pc_display {
+		display: none;
+	}
+	.sp_display {
+		display: block;
+	}
+}
+
+.seminar-list {
+	font-size: 23px;
+}
+@media only screen and (max-width: 768px) {
+    .seminar-list {
+		font-size: 18px;
+	}
+}
