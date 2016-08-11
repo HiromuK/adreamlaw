@@ -1,0 +1,92 @@
+.second_main p {
+	font-size: 16px;
+}
+
+/* h1_h2_h3 */
+.sct_h1{
+	border-bottom: 3px solid #E22061;
+	font-size: 30px;
+	text-align: left;
+}
+.sct_h2{
+	border-left: 4px solid #E22061;
+	background-color: #EFE5D9;
+	font-size: 25px;
+}
+.sct_h3{
+	border-bottom: 1px dotted #E22061;
+	font-size: 20px;
+}
+
+.txt_green {
+	color: #028539;
+}
+
+.width-80 {
+	font-size: 13px;
+	width: 80%;
+	margin-left: 10%;
+	background-color: #FAFAFA;
+}
+
+.width-80 > p {
+	font-size: 16px;
+}
+.width-80 h3 {
+	font-size: 16px;
+}
+/* subnavi */
+.subnavi{
+	border: 2px solid #FF92A2;
+	border-top: 6px solid #FF92A2;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.subnavi h3{
+	color: #74542B;
+	font-size: 16px;
+	padding: 5px 0 15px 0;
+	text-align: center;
+	font-weight: bold;
+}
+.subnavi_arrow li::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: .5em;
+	left: 2px;
+	width: 6px;
+	height: 6px;
+	border-right: 1px solid #E22061;
+	border-bottom: 1px solid #E22061;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.second_link ul li {
+	font-size: 14px;
+}
+
+.list_arrow li {
+	font-size: 16px;
+}
+
+/* PC・スマホでの表示オン・オフ 20160519　*/
+.pc_display {
+	display: block;
+}
+.sp_display {
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+    .pc_display {
+		display: none;
+	}
+	.sp_display {
+		display: block;
+	}
+	.sp_display > p {
+		font-size: 12px;
+	}
+}
+
