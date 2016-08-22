@@ -61,16 +61,7 @@
                 </li>
             </ul>
         </li>
-        <li><a href="http://a-dreamlaw.com/business/case-index.html">解決事例</a>
-           	<span id="s4"></span>
-           	<ul class="subs">
-           		<li><a href="#">解決事例</a>
-	      			<ul>
-	                	<li><a href="http://a-dreamlaw.com/business/divorce/case/">離婚・相続問題の解決事例</a></li>
-	                	<li><a href="http://a-dreamlaw.com/business/building/case/">不動産・建築問題の解決事例</a></li>
-	                </ul>
-                </li>
-             </ul>
+        <li><a href="http://a-dreamlaw.com/business/enquete/index.html">お客様の声</a>
         </li>
         <li><a href="http://a-dreamlaw.com/fee/">弁護士費用</a>
         	<span id="s5"></span>
