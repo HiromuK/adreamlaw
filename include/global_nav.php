@@ -66,20 +66,9 @@
         <li><a href="http://a-dreamlaw.com/fee/">弁護士費用</a>
         	<span id="s5"></span>
         	<ul class="subs">
-        		<li><a href="http://a-dreamlaw.com/fee/">離婚に関する費用</a>
-        			<ul>
-        				<li><a href="http://a-dreamlaw.com/fee/#consult">初回ご相談</a></li>
-        				<li><a href="http://a-dreamlaw.com/fee/#agreement">協議離婚サポート</a></li>
-        				<li><a href="http://a-dreamlaw.com/fee/#mediation">交渉／調停</a></li>
-        				<li><a href="http://a-dreamlaw.com/fee/#lawsuit">訴訟</a></li>
-        				<li><a href="http://a-dreamlaw.com/fee/#other">その他の料金</a></li>
-        			</ul>
+        		<li><a href="http://a-dreamlaw.com/fee/#divorce-fee">離婚に関する弁護士費用</a>
         		</li>
-        		<li><a href="http://a-dreamlaw.com/fee/#reward">建築に関する費用</a>
-        			<ul>
-        				<li><a href="http://a-dreamlaw.com/fee/#b_consult">初回ご相談</a></li>
-        				<li><a href="http://a-dreamlaw.com/fee/#reward">建築・不動産の弁護士費用</a></li>
-        			</ul>
+        		<li><a href="http://a-dreamlaw.com/fee/#build-fee">建築に関する弁護士費用</a>
         		</li>
         	</ul>
         </li>
