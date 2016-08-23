@@ -247,3 +247,25 @@ margin: 0;
 		font-weight: bold;
 	}
 }
+
+/*　20160823の弁護士費用改修に伴うスタイル追加 */
+.fee-h2 {
+  font-size: 25px;
+}
+@media only screen and (max-width:768px){
+  .fee-h2 {
+    text-align: left;
+  }
+}
+.fee-h3 {
+  font-size: 18px;
+  color: #006400;
+}
+
+.fee-attention-text {
+  line-height: 1.5em;
+  font-size: 14px;
+}
+.fs_16 {
+  font-size: 16px;
+}
