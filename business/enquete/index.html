@@ -18,7 +18,7 @@
   <script language="JavaScript"><!--
   function displayPieChart() {
     var data = {
-        labels: ["解決の結果", "弁護士の親身な対応", "弁護士の対応スピード", "弁護士の分かりやすい説明", "スタッフの親身な対応"],
+        labels: ["解決の結果：3.38点", "弁護士の対応：3.74点", "対応スピード：3.49点", "弁護士の説明：3.79点", "スタッフの対応：3.53点"],
         datasets: [
             {
                 label: "enquete",
@@ -37,11 +37,12 @@
     var options = {
       scaleShowLabels: true,
       scaleBeginAtZero: true,
+      responsive: true,
       scaleOverride : true,
-      scaleSteps : 8, //目盛の数
-      scaleStepWidth : 0.5, //目盛間隔
+      scaleSteps : 4, //目盛の数
+      scaleStepWidth : 1, //目盛間隔
       scaleStartValue : 0, //目盛の最小値
-      legendTemplate : "<% for (var i=0; i<datasets.length; i++){%><span style=\"background-color:<%=datasets[i].strokeColor%>\">&nbsp;&nbsp;&nbsp;</span>&nbsp;<%if(datasets[i].label){%><%=datasets[i].label%><%}%><br><%}%>",
+      legendTemplate : "<% for (var i=0; i<datasets.length; i++){%><span style=\"background-color:<%=datasets[i].strokeColor%>\">&nbsp;&nbsp;&nbsp;</span>&nbsp;<%if(datasets[i].label){%><%=datasets[i].label%><%}点%><br><%}%>",
     };
     var radarChart = new Chart(ctx).Radar(data, options);
     document.getElementById("legend").innerHTML = radarChart.generateLegend();
@@ -100,7 +101,7 @@
 			<p class="mb_20">当事務所に依頼されたお客様から弁護士への声が届きました。弁護士の評価、印象等が記載されておりますので、参考になさってください。</p>
       <div class="box txt_C">
         <canvas id="radarChart"></canvas>
-        <p class="txt_C"><strong class="txt_B">事務所全体の総合平均評価（４段階評価）</strong></p>
+        <p class="txt_C"><strong class="txt_B">事務所全体の総合平均評価（最高４点評価）</strong></p>
       </div>
 			<div class="case_btn_lyout row mt_10">
 				<label class="font_B pb_20">弁護士一覧</label><br>
