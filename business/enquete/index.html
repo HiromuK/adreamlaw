@@ -43,6 +43,7 @@
       scaleStepWidth : 1, //目盛間隔
       scaleStartValue : 0, //目盛の最小値
       legendTemplate : "<% for (var i=0; i<datasets.length; i++){%><span style=\"background-color:<%=datasets[i].strokeColor%>\">&nbsp;&nbsp;&nbsp;</span>&nbsp;<%if(datasets[i].label){%><%=datasets[i].label%><%}点%><br><%}%>",
+      tooltipTemplate: "<%=label%>"
     };
     var radarChart = new Chart(ctx).Radar(data, options);
     document.getElementById("legend").innerHTML = radarChart.generateLegend();
