@@ -29,12 +29,19 @@
                 pointHighlightFill: "pink",
                 pointHighlightStroke: "pink",
                 data: [3.38, 3.74, 3.49, 3.79, 3.53]
+
             },
         ]
     };
     var ctx = document.getElementById("radarChart").getContext("2d");
     var options = {
-      legendTemplate : "<% for (var i=0; i<datasets.length; i++){%><span style=\"background-color:<%=datasets[i].strokeColor%>\">&nbsp;&nbsp;&nbsp;</span>&nbsp;<%if(datasets[i].label){%><%=datasets[i].label%><%}%><br><%}%>"
+      scaleShowLabels: true,
+      scaleBeginAtZero: true,
+      scaleOverride : true,
+      scaleSteps : 8, //目盛の数
+      scaleStepWidth : 0.5, //目盛間隔
+      scaleStartValue : 0, //目盛の最小値
+      legendTemplate : "<% for (var i=0; i<datasets.length; i++){%><span style=\"background-color:<%=datasets[i].strokeColor%>\">&nbsp;&nbsp;&nbsp;</span>&nbsp;<%if(datasets[i].label){%><%=datasets[i].label%><%}%><br><%}%>",
     };
     var radarChart = new Chart(ctx).Radar(data, options);
     document.getElementById("legend").innerHTML = radarChart.generateLegend();
