@@ -11,6 +11,9 @@
 .toppage_h2 {
   font-size: 18px;
   padding: 20px 80px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .toppage_ol {
