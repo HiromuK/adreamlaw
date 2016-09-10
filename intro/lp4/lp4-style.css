@@ -1,0 +1,229 @@
+.lp4__header {
+  width: 100%;
+}
+
+.lp4__header-mainsubhedding {
+  font: 5px 'MS 明朝';
+  color: #ccc;
+}
+
+
+.column__right {
+  width: 910px;
+  float: right;
+}
+
+.column__left {
+  width: 250px;
+  float: left;
+}
+
+.centraize {
+  text-align: center;
+  margin: auto;
+}
+
+.lawyer__photos {
+  height: 100px;
+  width: 200px;
+  float: left;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 2px;
+}
+
+.lawyer__photos-individual {
+  height: 100px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.message {
+  border: 1px solid #b5ac3e;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 10px 30px;
+  clear: both;
+  float: left;
+}
+
+.message-background {
+  /*background: #ffafd1;*/
+  /*background: #ff92a2; pink*/
+  /*background: #F8F5ED; ベンコム風 */
+  border: 3px solid #ffc4ca;
+  padding: 5px 5px;
+  width: 830px;
+}
+
+.message__mainhedding-white {
+  margin: 6px 0;
+  padding: 10px 20px;
+  /*color: #de8225;*/
+  background: rgba(255,200,200,0.8);
+  /*background: rgba(255,38,38,0.8); red*/
+  /*color: #fff;*/
+  text-shadow: 2px 2px 4px #e69696;
+  border-radius: 5px;
+  float: left;
+  width: 577px;
+  font-weight: bold;
+  font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-size: 22px;
+}
+
+.message__mainhedding {
+  font-size: 20px;
+  color: #f190c6;
+}
+
+.message__pragraph {
+  padding: 5px 10px;
+}
+
+.point__lists-mainhedding {
+  font-size: 25px;
+  color: #ff9aac;
+  padding: 40px 0 20px;
+  clear: both;
+}
+
+.point__lists {
+  width: 801px;
+  clear: both;
+  margin-bottom: 10px;
+  border: 2px solid orange;
+  border-radius: 15px;
+}
+
+.point__list-number {
+  width: 100px;
+  font-size: 25px;
+  text-align: center;
+  padding: 60px 30px;
+  display: inline-block;
+  font-weight: bold;
+  /*border-radius: 100px;
+  border: 1px solid pink;*/
+}
+
+.point__list-number-left {
+  float: left;
+}
+
+.point__list-number-right {
+  float: right;
+}
+
+.point__list-contents {
+  width: 600px;
+  padding: 17px;
+  position: relative;
+  display: inline-block;
+}
+
+.point__list-contents-left {
+  float: left;
+}
+
+.point__list-contents-right {
+  float: right;
+}
+
+.point__list-contents__border-left {
+  border-left: 1px solid #ccc;
+}
+
+.point__list-contents__border-right {
+  border-right: 1px solid #ccc;
+}
+
+.point__list-contents-subhedding {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.point__list_link {
+  float: right;
+  text-decoration: underline;
+}
+
+.solution-case__box {
+  width: 230px;
+  float: left;
+  border: 2px solid orange;
+  margin: 15px 0;
+  padding: 10px 0;
+}
+
+.solution-case__box-middle {
+  margin: 15px 45px;
+}
+
+.sex-divorce__box {
+  width: 800px;
+  margin: auto;
+  padding: 30px 0;
+  clear: both;
+}
+
+.sex-divorce__box-individual {
+  width: 350px;
+  margin: 0 24px;
+  float: left;
+  border: 1px solid pink;
+  padding: 25px 0;
+  font-size: 23px;
+  display: block;
+  color: pink;
+}
+
+.sex-divorce__box-individual-blue {
+  border-color: lightblue;
+  color: lightblue;
+}
+
+.contact__wrapper {
+  width: 800px;
+  margin: auto;
+  clear: both;
+  padding: 30px 0;
+}
+
+.contact__wrapper-border {
+  border: 1px solid darkorange;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.contact__sub-wrapper-left {
+  float: left;
+  width: 545px;
+  padding: 10px 0 10px 0;
+}
+
+.contact__sub-wrapper-right {
+  float: left;
+  width: 250px;
+}
+
+.contact__sales-bold {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.contact__sales-note {
+  text-decoration: underline;
+  margin: 0.75em 0 0 1em;
+}
+
+.contact__button {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  background: darkorange;
+  color: #fff;
+  font-weight: bold;
+}
