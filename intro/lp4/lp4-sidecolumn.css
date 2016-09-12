@@ -33,6 +33,7 @@ strong {
 
 .sidecolumn__paragraph-orange {
   color: darkorange;
+  padding: .5em 0 .5em 0;
 }
 
 .sidecontents__border {
@@ -128,3 +129,41 @@ strong {
   background-repeat: no-repeat;*/
   padding: 0 0 10px 0;
 }
+
+.sidecontents__logo {
+  width: 95%;
+  margin: 7px 5px;
+}
+
+/* ----------------------------------------------------------------------ここからレスポンシブ-----------------------------------------------------------------*/
+@media only screen and (max-width: 700px) {
+  .sidecolumn__border {
+    border-radius: 7px;
+  }
+
+  .sidecontents__border {
+    margin: 20px 0;
+    border-radius: 7px;
+  }
+
+  .lp4__sumaho-footer {
+    width: 100%;
+    margin: 2%;
+  }
+
+  .sidecontents__lists {
+    margin: 0 0 20px 0;
+  }
+
+  .sidecontents__lists li {
+    margin: 2em 0 0 0;
+  }
+
+  .sidecontents__lists-child li {
+    margin: 1em 0 1em 0;
+  }
+
+}
+
+/*author: yuta kimura
+githubID: https://github.com/Masterwood*/

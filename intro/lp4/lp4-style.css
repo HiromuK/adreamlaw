@@ -7,7 +7,6 @@
   color: #ccc;
 }
 
-
 .column__right {
   width: 910px;
   float: right;
@@ -23,6 +22,16 @@
   margin: auto;
 }
 
+.lawyer__wrapper {
+  width: 1160px;
+  margin: auto;
+}
+
+.lawyer__subwrapper-left {
+  float: left;
+  width: 620px;
+}
+
 .lawyer__photos {
   height: 100px;
   width: 200px;
@@ -36,6 +45,19 @@
   height: 100px;
   width: 200px;
   border-radius: 5px;
+}
+
+.lawyer__subwrapper-right {
+  float: left;
+  width: 165px;
+}
+
+.lawyer__subwrapper-right-photo {
+  width: 186px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  position: relative;
 }
 
 .message {
@@ -60,10 +82,10 @@
   margin: 6px 0;
   padding: 10px 20px;
   /*color: #de8225;*/
-  background: rgba(255,200,200,0.8);
+  background: rgba(255, 200, 200, 0.8);
   /*background: rgba(255,38,38,0.8); red*/
   /*color: #fff;*/
-  text-shadow: 2px 2px 4px #e69696;
+  text-shadow: 1px 1px 2px #e69696;
   border-radius: 5px;
   float: left;
   width: 577px;
@@ -77,6 +99,14 @@
   color: #f190c6;
 }
 
+.message_photo {
+  height: 150px;
+  display: inline-block;
+  float: left;
+  border-radius: 75px;
+  margin-right: 20px;
+}
+
 .message__pragraph {
   padding: 5px 10px;
 }
@@ -86,6 +116,11 @@
   color: #ff9aac;
   padding: 40px 0 20px;
   clear: both;
+}
+
+.point__lists__wrapper {
+  width: 801px;
+  margin: auto;
 }
 
 .point__lists {
@@ -109,10 +144,6 @@
 
 .point__list-number-left {
   float: left;
-}
-
-.point__list-number-right {
-  float: right;
 }
 
 .point__list-contents {
@@ -147,6 +178,12 @@
 .point__list_link {
   float: right;
   text-decoration: underline;
+}
+
+.solution__wrapper {
+  width: 800px;
+  margin: auto;
+  clear: both;
 }
 
 .solution-case__box {
@@ -227,3 +264,235 @@
   color: #fff;
   font-weight: bold;
 }
+
+.lp4__sumaho-display {
+  display: none;
+}
+
+/* ----------------------------------------------------------------------ここからレスポンシブ-----------------------------------------------------------------*/
+@media only screen and (max-width: 700px) {
+  .column__right {
+    margin: 2%;
+    width: 100%;
+    float: left;
+  }
+
+  .column__left {
+    width: 90%;
+    float: left;
+    margin: 0 10%;
+  }
+
+  .lawyer__wrapper {
+    width: 100%;
+    margin: auto;
+    float: left;
+  }
+
+  .lawyer__subwrapper-left {
+    float: left;
+    width: 100%;
+  }
+
+  .lawyer__photos {
+    height: auto;
+    width: 32%;
+    float: left;
+    border: 0;
+    margin: 0 2px;
+  }
+
+  .lawyer__photos-individual {
+    height: auto;
+    width: 100%;
+  }
+
+  .lawyer__subwrapper-right {
+    display: none;
+  }
+
+  .lawyer__subwrapper-right-photo {
+    display: none;
+  }
+
+  .message {
+    padding: 10px 5px;
+    margin: 10px 0.5%;
+    clear: both;
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+
+  .message-background {
+    padding: 5px 5px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .message__mainhedding-white {
+    margin: 6px 4px;
+    padding: 10px 5px;
+    float: left;
+    width: 95%;
+    font-size: 24px;
+  }
+
+  .message__mainhedding {
+    font-size: 18px;
+  }
+
+  .message__pragraph {
+    padding: 5px 10px;
+    width: 95%;
+  }
+
+  .lp4__responsive-float {
+    float: left;
+    margin: 0 2%;
+    width: 100%;
+  }
+
+  .point__lists__wrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .point__lists {
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+  }
+
+  .point__list-number {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+    font-weight: bold;
+    /*border-radius: 100px;
+    border: 1px solid pink;*/
+  }
+
+  .point__list-number-left {
+    display: none;
+  }
+
+  .point__list-number-right {
+    display: none;
+  }
+
+  .point__list-contents {
+    width: 90%;
+    padding: 17px 5%;
+    position: none;
+    display: inline-block;
+  }
+
+  .point__list-contents-left {
+    float: left;
+  }
+
+  .point__list-contents-right {
+    float: left;
+  }
+
+  .point__list-contents__border-left {
+    border-left: 0;
+  }
+
+  .point__list-contents__border-right {
+    border-right: 0;
+  }
+
+  .point__list-contents-subhedding {
+    font-size: 20px;
+    margin: 0 0 1em 0;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .point__list_link {
+    float: right;
+    text-decoration: underline;
+  }
+
+  .solution__wrapper {
+    width: 100%;
+    margin: auto;
+    clear: both;
+  }
+
+  .solution-case__box {
+    width: 90%;
+    float: none;
+    border: 2px solid orange;
+    margin: 15px auto;
+    padding: 10px 0;
+    border-radius: 7px;
+  }
+
+  .solution-case__box-middle {
+    margin: 15px auto;
+  }
+
+  .sex-divorce__box {
+    width: 100%;
+    margin: auto;
+    padding: 30px 3%;
+    clear: both;
+  }
+
+  .sex-divorce__box-individual {
+    width: 90%;
+    margin: 15px 3%;
+    float: left;
+    padding: 25px 0;
+    font-size: 23px;
+    border-radius: 10px;
+  }
+
+  .contact__wrapper {
+    width: 100%;
+    margin: auto;
+    clear: both;
+    padding: 30px 0;
+  }
+
+  .contact__wrapper-border {
+    border: 1px solid darkorange;
+    float: left;
+    width: 100%;
+    margin: auto 2%;
+    margin-bottom: 50px;
+  }
+
+  .contact__sub-wrapper-left {
+    width: 100%;
+  }
+
+  .contact__sales-bold {
+    margin: 0.5em;
+  }
+
+  .contact__sub-wrapper-right {
+    width: 100%;
+  }
+
+  .contact__button {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+
+  .lp4__sumaho-display {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}
+
+/*author: yuta kimura
+githubID: https://github.com/Masterwood*/
