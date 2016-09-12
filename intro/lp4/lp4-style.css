@@ -269,6 +269,16 @@
   display: none;
 }
 
+.footer__wrapper {
+  clear: both;
+}
+
+.footer__paragraph {
+  font-size: 11px;
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
 /* ----------------------------------------------------------------------ここからレスポンシブ-----------------------------------------------------------------*/
 @media only screen and (max-width: 700px) {
   .column__right {
