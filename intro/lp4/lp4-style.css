@@ -283,6 +283,11 @@
     margin: 0 10%;
   }
 
+  .lp4__header-logo {
+    width: 70%;
+    margin: 5px 19% -20px;
+  }
+
   .lawyer__wrapper {
     width: 100%;
     margin: auto;
