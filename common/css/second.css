@@ -135,7 +135,7 @@ height: 100%;
 	line-height: 1;
 	color: #028539;
 	text-decoration: none;
-	background: url(http://a-dreamlaw.com/common/images/icon/tel.jpg) no-repeat;
+	background: url(/common/images/icon/tel.jpg) no-repeat;
 	background-size: 30px 30px;
 }
 .tel_txt span{
@@ -476,7 +476,7 @@ height: 100%;
 }
 @media all and (max-width : 960px) {
     .casecontact_area {
-            text-align: center; 
+            text-align: center;
     }
 }
 
