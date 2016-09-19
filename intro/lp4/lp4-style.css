@@ -1,3 +1,8 @@
+.lawyer__wrapper {
+  width: 1160px;
+  margin: auto;
+}
+
 .lp4__header {
   width: 100%;
 }
@@ -19,11 +24,6 @@
 
 .centraize {
   text-align: center;
-  margin: auto;
-}
-
-.lawyer__wrapper {
-  width: 1160px;
   margin: auto;
 }
 
