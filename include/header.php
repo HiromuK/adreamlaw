@@ -17,9 +17,9 @@
 		</div>
 		</div>
 	</header><!--/header-->
-	<ul class="header_contact_sp row header">
+	<ul class="header_contact_sp row">
 		<li class="header_sp_left"><a href="tel:03-3525-8010" onclick="ga('send', 'event', 'adreamlaw', 'tel', 'label');">
-<img src="/common/images/header_tel.jpg" alt="Call:03-3525-8010" width="400" height="100" onclick="yahoo_report_conversion(undefined); goog_report_conversion('tel:03-3525-8010')" /></a></li>
+      <img src="/common/images/header_tel.jpg" alt="Call:03-3525-8010" width="400" height="100" onclick="yahoo_report_conversion(undefined); goog_report_conversion('tel:03-3525-8010')" /></a></li>
 		<li class="header_sp_right"><a href="/contact/"><img src="/common/images/header_mail_sp.jpg" alt="メールでのお問い合わせ"></a></li>
 	</ul>
 	<p class="txt_C txt_red header_appeal">無料相談 土日祝日対応<br>ご相談は、ご来所が必要です。</p>
