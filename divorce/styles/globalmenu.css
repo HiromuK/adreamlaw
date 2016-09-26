@@ -1,0 +1,33 @@
+.globalmenu {
+  width: 100%;
+  background: #f6f6f6;
+  height: 40px;
+  margin: 0 0 10px 0;
+}
+
+.globalmenu__lists {
+  width: 100%;
+  padding: 7px 0;
+}
+
+.globalmenu__list {
+  float: left;
+  margin: 0 0 0 30px;
+  padding: 0 0 5px 0;
+}
+
+.globalmenu__list:hover {
+  border-bottom: 2px solid orange;
+}
+
+.globalmenu__list a {
+  color: #383838;
+}
+
+.globalmenu__logo {
+  width: 40px;
+}
+
+.globalmenu__list-underline-no:hover {
+  border-bottom: none;
+}
