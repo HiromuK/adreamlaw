@@ -68,6 +68,8 @@
             <ul class="subs">
                 <li><a href="/fee/#divorce-fee">離婚に関する弁護士費用</a>
                 </li>
+               	<li><a href="/fee/#succession-fee">相続に関する弁護士費用</a>
+               	</li>
                 <li><a href="/fee/#build-fee">建築に関する弁護士費用</a>
                 </li>
             </ul>
