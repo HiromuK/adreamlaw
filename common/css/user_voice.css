@@ -1,0 +1,15 @@
+.user_voice__border{
+	margin-bottom: 15px;
+	border-bottom: 1px dotted #ccc;
+  border-right: 1px dotted #ccc;
+	width: 50%;
+  padding: 0 10px 0 0;
+  float: left;
+}
+
+@media only screen and (max-width: 768px){
+  .user_voice__border {
+    width: 100%;
+    border-right: none;
+  }
+}
