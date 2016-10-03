@@ -1,3 +1,7 @@
+p {
+  line-height: 1.5em;
+}
+
 .lawyer__wrapper {
   width: 1160px;
   margin: auto;
@@ -428,6 +432,7 @@
     margin: 0 0 1em 0;
     font-weight: bold;
     text-align: center;
+    line-height: 1.5em;
   }
 
   .point__list_link {
@@ -540,6 +545,19 @@
 
 .user_voice__list {
   margin: .5em 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .user_voice__box {
+    width: 100%;
+    margin: 0 2%;
+  }
+  .user_voice__h3 {
+    padding: 0 20px;
+  }
+  .user_voice__lists {
+    line-height: 1.5em;
+  }
 }
 
 /*breadcrumb*/
