@@ -531,7 +531,7 @@ p {
 .user_voice__box {
   font-size: 15px;
   border: 1px solid #cec81b;
-  border-radius: 30px;
+  border-radius: 15px;
   display: inline-block;
   width: 90%;
   margin: 5px 0;
