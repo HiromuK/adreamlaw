@@ -509,6 +509,39 @@
 
 }
 
+/*user_voice*/
+.user_voice__wrapper {
+  margin: 40px auto;
+  text-align: center;
+  display: inline-block;
+}
+
+.user_voice__h3 {
+  color: lightpink;
+  font-size: 20px;
+  margin: 20px 0;
+
+}
+
+.user_voice__box {
+  font-size: 15px;
+  border: 1px solid #cec81b;
+  border-radius: 10px;
+  display: inline-block;
+  width: 90%;
+  margin: 5px 0;
+  padding: 10px 0 20px 0;
+}
+
+.user_voice__lists {
+  list-style: disc;
+  padding: 0 2em;
+}
+
+.user_voice__list {
+  margin: .5em 0;
+}
+
 /*breadcrumb*/
 #breadcrumbs {
   clear: both;
