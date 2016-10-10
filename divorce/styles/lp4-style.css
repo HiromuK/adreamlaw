@@ -56,9 +56,11 @@ p {
   width: 300px;
 }
 
-.header-mainsubhedding {
+.header-mainhedding {
   font: 20px 'MS 明朝';
+  color: lightpink;
   font-weight: bold;;
+  line-height: 0.5em;
 }
 
 .column__right {
