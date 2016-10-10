@@ -9,11 +9,56 @@ p {
 
 .lp4__header {
   width: 100%;
+  clear: both;
+  margin: 10px 0 0 0;
 }
 
-.lp4__header-mainsubhedding {
-  font: 5px 'MS 明朝';
-  color: #ccc;
+.header__wrapper {
+  width: 1120px;
+  margin: auto;
+}
+
+.header__childwrapper-left {
+  width: 25%;
+  float: left;
+}
+
+.header__childwrapper-right {
+  float: right;
+}
+
+.header__childwrapper-right_left {
+  float: left;
+  margin-left: 20px;
+}
+
+.header__childwrapper-right_right {
+  float: right;
+}
+
+.header__tel_number {
+  font-size: 26px;
+  color: #000;
+}
+
+.header__message {
+  float: right;
+  font-size: 15px;
+}
+
+.header__time {
+  clear: both;
+  border-top: 1px dotted #000;
+  font-size: 13px;
+}
+
+.header__logo {
+  width: 300px;
+}
+
+.header-mainsubhedding {
+  font: 20px 'MS 明朝';
+  font-weight: bold;;
 }
 
 .column__right {
@@ -37,17 +82,19 @@ p {
 }
 
 .lawyer__photos {
-  height: 100px;
-  width: 200px;
+  /*height: 100px;*/
+  width: 13.9%;
   float: left;
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   border-radius: 5px;
   margin: 0 2px;
 }
 
 .lawyer__photos-individual {
-  height: 100px;
-  width: 200px;
+  /*height: 100px;
+  width: 200px;*/
+  /*width: 172px;*/
+  width: 100%;
   border-radius: 5px;
 }
 
@@ -60,7 +107,7 @@ p {
   width: 186px;
   margin: 10px 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   position: relative;
 }
 
@@ -99,8 +146,9 @@ p {
 }
 
 .message__mainhedding {
-  font-size: 20px;
+  font-size: 25px;
   color: #f190c6;
+  font-weight: bold;
 }
 
 .message_photo {
@@ -120,30 +168,40 @@ p {
   color: #ff9aac;
   padding: 40px 0 20px;
   clear: both;
+  font-weight: bold;
 }
 
 .point__lists__wrapper {
-  width: 801px;
+  width: 900px;
   margin: auto;
 }
 
 .point__lists {
-  width: 801px;
+  width: 840px;
   clear: both;
-  margin-bottom: 10px;
-  border: 2px solid orange;
+  margin: 10px auto;
+  /*border: 2px solid orange;*/
+  background: #FEA230;
+  color: #fff;
   border-radius: 15px;
+  padding: 30px 10px;
+  box-sizing: border-box;
 }
 
 .point__list-number {
-  width: 100px;
-  font-size: 25px;
+  width: 50px;
+  font-size: 18px;
   text-align: center;
-  padding: 60px 30px;
+  padding: 50px 10px;
   display: inline-block;
-  font-weight: bold;
+  /*font-weight: bold;*/
   /*border-radius: 100px;
   border: 1px solid pink;*/
+}
+
+.point__list-number span {
+  font-size: 28px;
+  line-height: 1.5em;
 }
 
 .point__list-number-left {
@@ -151,8 +209,8 @@ p {
 }
 
 .point__list-contents {
-  width: 600px;
-  padding: 17px;
+  width: 690px;
+  padding: 17px 17px 17px 30px;
   position: relative;
   display: inline-block;
 }
@@ -166,22 +224,25 @@ p {
 }
 
 .point__list-contents__border-left {
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #fff;
 }
 
 .point__list-contents__border-right {
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #fff;
 }
 
 .point__list-contents-subhedding {
-  font-size: 20px;
+  font-size: 25px;
+  line-height: 2em;
+  padding: 0 0 20px 0;
   font-weight: bold;
   text-align: center;
 }
 
 .point__list_link {
   float: right;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  color: #fff;
 }
 
 .solution__wrapper {
@@ -281,6 +342,76 @@ p {
   font-size: 11px;
   margin: 0 0 15px 0;
   color: #333;
+}
+
+
+/*--------------------------------------------------------------------Kimura original----------------------------------------------------*/
+.mainvisual {
+  margin: auto;
+  width: 70%;
+}
+
+.mainvisual__left {
+  width: 70%;
+  float: left;
+  display: inline-block;
+}
+
+.mainvisual__left-wrapper {
+  margin: auto;
+  width: 90%;
+  padding: 30px 0 0 0;
+}
+
+.mainvisual__mainhedding {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mainvisual__left-childwrapper {
+  margin: 20px 0 0 0;
+}
+
+.catch__prase {
+  color: #30bd00;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  padding: 20px 40px;
+  background: #36d900;
+  border-radius: 15px;
+  box-shadow: 3px 4px 0 #ccc;
+  border: 1px solid #888;
+}
+
+.button:hover {
+  background: #3cf300;
+}
+
+.button__paragraph {
+  color: #fff;
+  font-size: 25px;
+}
+
+.button__tel {
+  font-size: 35px;
+  color: #000;
+}
+
+.button__tel_number {
+  padding: 0 15px;
+  font-weight: bold;
+}
+
+.button-header {
+  padding: 14px;
+}
+
+.button-header_paragraph {
+  color: #fff;
+  font-size: 17px;
 }
 
 /* ----------------------------------------------------------------------ここからレスポンシブ-----------------------------------------------------------------*/
@@ -514,24 +645,25 @@ p {
 
 }
 
-/*user_voice*/
+/*--------------------------------------------------------------------------user_voice------------------------------*/
 .user_voice__wrapper {
-  margin: 40px auto;
+  margin: 50px auto 10px;
   text-align: center;
   display: inline-block;
 }
 
 .user_voice__h3 {
-  color: lightpink;
-  font-size: 20px;
-  margin: 20px 0;
+  color: #ff9aac;
+  font-size: 25px;
+  margin: 20px 0 10px 0;
+  font-weight: bold;
 
 }
 
 .user_voice__box {
   font-size: 15px;
-  border: 1px solid #cec81b;
-  border-radius: 15px;
+  /*border: 1px solid #cec81b;
+  border-radius: 15px;*/
   display: inline-block;
   width: 90%;
   margin: 5px 0;
@@ -539,12 +671,24 @@ p {
 }
 
 .user_voice__lists {
-  list-style: disc;
-  padding: 0 2em;
+  /*list-style: disc;
+  padding: 0 2em;*/
+  padding: 1em;
+  background: #fffde1;
+  border: 3px solid #fffaae;
+  border-radius: 10px;
 }
 
 .user_voice__list {
   margin: .5em 0;
+  padding: 1em .5em;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.user_voice__list strong {
+  font-size: 120%;
 }
 
 @media only screen and (max-width: 700px) {
