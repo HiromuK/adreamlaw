@@ -1,8 +1,11 @@
 .globalmenu {
   width: 100%;
-  background: #f6f6f6;
+  /*background: #f6f6f6;*/
+  /*background: #ff8a00;*/
+  background: orange;
   height: 40px;
   margin: 0 0 10px 0;
+  clear: both;
 }
 
 .globalmenu__lists {
@@ -16,12 +19,12 @@
   padding: 0 0 5px 0;
 }
 
-.globalmenu__list:hover {
-  border-bottom: 2px solid orange;
+.globalmenu__list a:hover {
+  color: yellow;
 }
 
 .globalmenu__list a {
-  color: #383838;
+  color: #fff;
 }
 
 .globalmenu__logo {
