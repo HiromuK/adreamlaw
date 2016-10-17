@@ -21,6 +21,10 @@ strong {
   margin: 5px 0;
 }
 
+.sidecolumn__button-fade:hover {
+  opacity: 0.5;
+}
+
 .sidecolumn__emphasis {
   font-size: 140%;
 }
@@ -134,6 +138,8 @@ strong {
   width: 95%;
   margin: 7px 5px;
 }
+
+
 
 /* ----------------------------------------------------------------------ここからレスポンシブ-----------------------------------------------------------------*/
 @media only screen and (max-width: 700px) {

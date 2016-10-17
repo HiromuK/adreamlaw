@@ -243,14 +243,35 @@ p {
 
 .point__list_link {
   float: right;
-  /*text-decoration: underline;*/
+  border-bottom: 1px dotted #fff;
   color: #fff;
+}
+
+.point__list_link:hover {
+  color: yellow;
 }
 
 .solution__wrapper {
   width: 800px;
   margin: auto;
   clear: both;
+}
+
+.solution-case__button {
+  border-radius: 15px;
+  border: 1px solid darkorange;
+  box-shadow: 3px 4px 0 #ccc;
+  width: 287px;
+  margin: 10px auto;
+  padding: 14px;
+  display: inline-block;
+  color: darkorange;
+  font-size: 23px;
+}
+
+.solution-case__button:hover {
+  background: darkorange;
+  color: #fff;
 }
 
 .solution-case__box {
@@ -570,7 +591,6 @@ p {
 
   .point__list_link {
     float: right;
-    text-decoration: underline;
   }
 
   .solution__wrapper {
@@ -659,7 +679,9 @@ p {
   font-size: 25px;
   margin: 20px 0 10px 0;
   font-weight: bold;
-
+  border-bottom: 3px solid lightpink;
+  display: inline-block;
+  padding: .5em 2em;
 }
 
 .user_voice__box {
@@ -676,13 +698,16 @@ p {
   /*list-style: disc;
   padding: 0 2em;*/
   padding: 1em;
-  background: #fffde1;
-  border: 3px solid #fffaae;
+  /*background: #fffde1;*/
+  background: #fffaae;
+  /*border: 3px solid #fffaae;*/
   border-radius: 10px;
+  width: 90%;
+  margin: auto;
 }
 
 .user_voice__list {
-  margin: .5em 0;
+  margin: .5em auto;
   padding: 1em .5em;
   border: 1px solid #ccc;
   border-radius: 15px;
