@@ -148,16 +148,16 @@ p {
 }
 
 .message__mainhedding {
-  font-size: 25px;
+  font-size: 22px;
   color: #f190c6;
   font-weight: bold;
 }
 
 .message_photo {
-  height: 150px;
+  height: 200px;
   display: inline-block;
   float: left;
-  border-radius: 75px;
+  border-radius: 100px;
   margin-right: 20px;
 }
 
@@ -183,7 +183,7 @@ p {
   clear: both;
   margin: 10px auto;
   /*border: 2px solid orange;*/
-  background: #FEA230;
+  background: #ffafd1;
   color: #fff;
   border-radius: 15px;
   padding: 30px 10px;
@@ -371,7 +371,7 @@ p {
 /*--------------------------------------------------------------------Kimura original----------------------------------------------------*/
 .mainvisual {
   margin: auto;
-  width: 70%;
+  width: 1120px;
 }
 
 .mainvisual__left {
@@ -402,7 +402,7 @@ p {
 
 .button {
   display: inline-block;
-  padding: 20px 40px;
+  padding: 15px 30px;
   background: #36d900;
   border-radius: 15px;
   box-shadow: 3px 4px 0 #ccc;
@@ -669,7 +669,7 @@ p {
 
 /*--------------------------------------------------------------------------user_voice------------------------------*/
 .user_voice__wrapper {
-  margin: 50px auto 10px;
+  margin: 10px auto 10px;
   text-align: center;
   display: inline-block;
 }
@@ -699,7 +699,7 @@ p {
   padding: 0 2em;*/
   padding: 1em;
   /*background: #fffde1;*/
-  background: #fffaae;
+  background: #beffae;
   /*border: 3px solid #fffaae;*/
   border-radius: 10px;
   width: 90%;
@@ -741,6 +741,21 @@ p {
   font-size: 12px;
   margin-left: 1em;
 }
+
+
+/*----------------------------------------------------------- topvisual --------------------------*/
+.topvisual-bg {
+  background: url("../images/topvisual3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 447px;
+}
+
+.topvisual-mask {
+  background: rgba(255,255,255,0.3);
+  height: 447px;
+}
+
 
 /*author: yuta kimura
 githubID: https://github.com/Masterwood*/
