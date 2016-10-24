@@ -113,11 +113,15 @@ p {
   position: relative;
 }
 
+.message__wrapper {
+  width: 90%;
+}
+
 .message {
-  border: 1px solid #b5ac3e;
+  /*border: 1px solid #b5ac3e;*/
   border-radius: 10px;
   padding: 10px 30px;
-  margin: 10px 30px;
+  margin: 30px 30px 10px;
   clear: both;
   float: left;
 }
@@ -435,6 +439,46 @@ p {
 .button-header_paragraph {
   color: #fff;
   font-size: 17px;
+}
+
+.advance {
+  margin: 30px 0 0;
+  width: 100%;
+  clear: both;
+  background: orange;
+}
+
+.advance__wrapper {
+  margin: 0;
+  color: #fff;
+  padding: 10px 40px 30px;
+  display: inline-block;
+}
+
+.advance__hedding {
+  padding: 10px 30px 0;
+  margin: 0 0 20px;
+  font-size: 20px;
+  border-bottom: 2px dotted pink;
+}
+
+.advance__block {
+  float: left;
+  width: 280px;
+}
+
+.advance__images {
+  height: 150px;
+  border-radius: 75px;
+}
+
+.advance__paragraph {
+  padding: 0 10px;
+}
+
+.advance__paragraph span {
+  font-size: 150%;
+  font-weight: bold;
 }
 
 /* ----------------------------------------------------------------------ここからレスポンシブ-----------------------------------------------------------------*/
@@ -756,6 +800,34 @@ p {
   height: 447px;
 }
 
+.topvisual__paragraph {
+  padding-top: 340px;
+  width: 900px;
+}
+
+.topvisual__button-left {
+  float: left;
+}
+
+.topvisual__button-left_paragraph {
+  background: rgba(255,255,255,0.9);
+  width: 400px;
+  padding: 5px 0;
+}
+
+.topvisual__button-right {
+  float: right;
+  background: rgba(255,255,255,0.9);
+}
+
+.topvisual__butoon-right_paragraph {
+  padding: 10px 0 5px;
+}
+
+.topvisual__button-tel {
+  color: lightpink;
+  font-size: 45px;
+}
 
 /*author: yuta kimura
 githubID: https://github.com/Masterwood*/
