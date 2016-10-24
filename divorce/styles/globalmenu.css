@@ -2,7 +2,8 @@
   width: 100%;
   /*background: #f6f6f6;*/
   /*background: #ff8a00;*/
-  background: orange;
+  /*background: orange;*/
+  background: #ffbfdd;
   clear: both;
   display: inline-flex;
 }
@@ -20,7 +21,7 @@
 }
 
 .globalmenu__list a:hover {
-  color: yellow;
+  color: #f9f9f9;
 }
 
 .globalmenu__list a {
