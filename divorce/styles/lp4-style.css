@@ -796,8 +796,8 @@ p {
 }
 
 .topvisual-mask {
-  background: rgba(255,255,255,0.3);
-  height: 447px;
+  /*background: rgba(255,255,255,0.3);
+  height: 447px;*/
 }
 
 .topvisual__paragraph {
