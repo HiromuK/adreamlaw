@@ -449,9 +449,10 @@ p {
 }
 
 .advance__wrapper {
-  margin: 0;
+  width: 1120px;
+  margin: auto;
   color: #fff;
-  padding: 10px 40px 30px;
+  padding: 10px 0 30px;
   display: inline-block;
 }
 
@@ -468,16 +469,17 @@ p {
 }
 
 .advance__images {
-  height: 150px;
+  height: 140px;
   border-radius: 75px;
 }
 
 .advance__paragraph {
   padding: 0 10px;
+  font-size: 16px;
 }
 
 .advance__paragraph span {
-  font-size: 150%;
+  font-size: 140%;
   font-weight: bold;
 }
 
