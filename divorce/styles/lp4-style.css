@@ -485,14 +485,56 @@ p {
 
 /* ----------------------------------------------------------------------ここからレスポンシブ-----------------------------------------------------------------*/
 @media only screen and (max-width: 700px) {
+  .header__wrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .header__childwrapper-left {
+    width: 100%;
+    float: none;
+  }
+
+  .header__childwrapper-right {
+    float: none;
+    margin: 15px 0 0;
+  }
+
+  .header__childwrapper-right_left {
+    float: left;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .header__childwrapper-right_right {
+    float: right;
+  }
+
+  .header__childwrapper-right_left-sp-padding {
+    padding: 10px 0 5px;
+  }
+
+  .header__tel_number {
+    font-size: 16px;
+  }
+
+  .header__message {
+    float: right;
+    font-size: 15px;
+  }
+
+  .header__time {
+    font-size: 10px;
+  }
+
   .column__right {
     margin: 2%;
-    width: 100%;
+    width: 96%;
     float: left;
   }
 
   .column__left {
-    width: 90%;
+    width: 80%;
     float: left;
     margin: 0 10%;
   }
@@ -536,7 +578,7 @@ p {
 
   .message {
     padding: 10px 5px;
-    margin: 10px 0.5%;
+    margin: 200px 0.5%;
     clear: both;
     float: left;
     position: relative;
@@ -559,6 +601,12 @@ p {
 
   .message__mainhedding {
     font-size: 18px;
+  }
+
+  .message_photo {
+    height: 150px;
+    border-radius: 100px;
+    margin-right: 20px;
   }
 
   .message__pragraph {
@@ -645,6 +693,12 @@ p {
     clear: both;
   }
 
+  .solution-case__button {
+    width: 80%;
+    margin: auto;
+    font-size: 23px;
+  }
+
   .solution-case__box {
     width: 90%;
     float: none;
@@ -659,7 +713,7 @@ p {
   }
 
   .sex-divorce__box {
-    width: 100%;
+    width: 94%;
     margin: auto;
     padding: 30px 3%;
     clear: both;
@@ -684,7 +738,7 @@ p {
   .contact__wrapper-border {
     border: 1px solid darkorange;
     float: left;
-    width: 100%;
+    width: 90%;
     margin: auto 2%;
     margin-bottom: 50px;
   }
@@ -708,8 +762,88 @@ p {
 
   .lp4__sumaho-display {
     display: block;
-    margin-bottom: 20px;
   }
+
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #36d900;
+    border-radius: 15px;
+    box-shadow: 3px 4px 0 #ccc;
+    border: 1px solid #888;
+  }
+
+  .button:hover {
+    background: #3cf300;
+  }
+
+  .button__paragraph {
+    color: #fff;
+    font-size: 17px;
+  }
+
+  .button__tel {
+    font-size: 35px;
+    color: #000;
+  }
+
+  .button__tel_number {
+    padding: 0 15px;
+    font-weight: bold;
+  }
+
+  .button-header {
+    padding: 14px 10px;
+    width: 35%;
+  }
+
+  .button-header_paragraph {
+    color: #fff;
+    font-size: 13px;
+  }
+
+  .advance {
+    margin: 30px 0 0;
+    width: 100%;
+    clear: both;
+    background: orange;
+  }
+
+  .advance__wrapper {
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    padding: 10px 0 30px;
+    display: inline-block;
+  }
+
+  .advance__hedding {
+    padding: 10px 30px 0;
+    margin: 0 0 20px;
+    font-size: 20px;
+    border-bottom: 2px dotted pink;
+  }
+
+  .advance__block {
+    float: left;
+    width: 280px;
+  }
+
+  .advance__images {
+    height: 140px;
+    border-radius: 75px;
+  }
+
+  .advance__paragraph {
+    padding: 0 10px;
+    font-size: 16px;
+  }
+
+  .advance__paragraph span {
+    font-size: 140%;
+    font-weight: bold;
+  }
+
 
 }
 
@@ -718,6 +852,7 @@ p {
   margin: 10px auto 10px;
   text-align: center;
   display: inline-block;
+  width: 100%;
 }
 
 .user_voice__h3 {
@@ -765,6 +900,10 @@ p {
 }
 
 @media only screen and (max-width: 700px) {
+  .user_voice__wrapper {
+    width: 95%;
+  }
+
   .user_voice__box {
     width: 100%;
     margin: 0 2%;
@@ -790,6 +929,7 @@ p {
 
 
 /*----------------------------------------------------------- topvisual --------------------------*/
+
 .topvisual-bg {
   background: url("../images/topvisual3.jpg");
   background-repeat: no-repeat;
@@ -829,6 +969,51 @@ p {
 .topvisual__button-tel {
   color: lightpink;
   font-size: 45px;
+}
+
+/* topvisual responsive */
+@media only screen and (max-width: 700px) {
+  .topvisual-bg {
+    background: url("../images/topvisual3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 170px;
+    background-size: contain;
+  }
+
+  .topvisual__paragraph {
+    padding-top: 170px;
+    width: 90%;
+  }
+
+  .topvisual__button-left {
+    float: none;
+  }
+
+  .topvisual__button-left_paragraph {
+    background: rgba(255,255,255,0.9);
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .topvisual__button-right {
+    float: none;
+    background: rgba(255,255,255,0.9);
+  }
+
+  .topvisual__butoon-right_paragraph {
+    padding: 10px 0 5px;
+    font-size: 13px;
+  }
+
+  .topvisual__button-tel {
+    color: lightpink;
+    font-size: 45px;
+  }
+
+  .topvisual__button-sp {
+    margin: auto 2%;
+  }
 }
 
 /*author: yuta kimura
