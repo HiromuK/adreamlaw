@@ -490,6 +490,11 @@ p {
     margin: auto;
   }
 
+  .header__logo {
+    width: 84%;
+    margin: auto 8%;
+  }
+
   .header__childwrapper-left {
     width: 100%;
     float: none;
@@ -800,6 +805,7 @@ p {
   .button-header_paragraph {
     color: #fff;
     font-size: 13px;
+    text-align: center;
   }
 
   .advance {
