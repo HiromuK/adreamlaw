@@ -30,7 +30,7 @@ strong {
 }
 
 .sidecolumn__subhedding-orange {
-  background: darkorange;
+  background: #7de42e;
   color: white;
   padding: 5px 10px;
 }
@@ -41,7 +41,7 @@ strong {
 }
 
 .sidecontents__border {
-  border: 2px solid #ffcf87;
+  border: 2px solid #5de0b0;
   border-radius: 4px;
   margin: 5px 0;
 }
