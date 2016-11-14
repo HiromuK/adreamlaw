@@ -14,6 +14,17 @@
   <link rel="stylesheet" media="all" href="styles/lp4-sidecolumn.css" />
   <link rel="stylesheet" media="all" href="styles/globalmenu.css" />
   <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+  <script>
+  $(function(){
+
+    $(".globalmenu").click(function(){
+      if(".globalmenu__lists"=.show){$(".globalmenu__lists").hide();}else{$(".globalmenu__lists").show();}
+
+    });
+
+  });
+  </script>
 </head>
 <body>
   <!--
@@ -62,10 +73,10 @@
               </p>
             </div>
           </a>
-          <a href="tel:0335258010" class="lp4__sumaho-display" style="float: right; width: 45%;">
-            <div class="button" style="padding: 14px; background: orange;">
+          <a href="tel:0335258010" class="lp4__sumaho-display" style="float: right; width: 56%;">
+            <div class="button" style="padding: 14px;">
               <p class="button-header_paragraph">
-                <i class="fa fa-phone" aria-hidden="true"></i> 法律相談予約
+                <i class="fa fa-phone" aria-hidden="true"></i> お電話でのお問い合わせ
               </p>
             </div>
           </a>
@@ -240,21 +251,27 @@
         <div class="user_voice__box">
           <ul class="user_voice__lists">
             <li class="user_voice__list">
+              <span>・ご依頼者の声</span><br>
               「離婚案件に強く、<strong>弁護士の頼もしい言葉や態度に非常に信頼感</strong>がありました」（女性）
             </li>
             <li class="user_voice__list">
+              <span>・ご依頼者の声</span><br>
               「離婚問題で途中から状況が変わったりしましたが、<strong>現実にあわせた対応</strong>をして頂きました」（女性）
             </li>
             <li class="user_voice__list">
+              <span>・ご依頼者の声</span><br>
               「何人かの弁護士に会いましたが、<strong>一番私の気持ちを理解</strong>してくれました」（女性）
             </li>
             <li class="user_voice__list">
+              <span>・ご依頼者の声</span><br>
               「離婚問題だったので女性の弁護士を希望し、対応して頂きました。初回の無料相談も丁寧かつ的確な対応で、<strong>他社には感じられなかった親密さに安心</strong>しました」（女性）
             </li>
             <li class="user_voice__list">
+              <span>・ご依頼者の声</span><br>
               「私の気持ちや立場になって迅速に解決して頂き、大変感謝です。<strong>今は新たな出発をし、充実した毎日</strong>を送っています」（女性）
             </li>
             <li class="user_voice__list">
+              <span>・ご依頼者の声</span><br>
               「ちょっとした質問でも丁寧に対応して頂き、私の気持ちに寄り添い、提案して頂きました。<strong>終始安心してお任せ</strong>できたのも心強かったです」（女性）
             </li>
           </ul>
@@ -343,14 +360,14 @@
         </div>
       </section>
 
-      <section class="sex-divorce__box">
+      <!-- <section class="sex-divorce__box">
           <a href="/business/divorce/women/"><div class="sex-divorce__box-individual">
             <h3 class="centraize">女性のための離婚</h3>
           </div></a>
           <a href="/business/divorce/men/"><div class="sex-divorce__box-individual sex-divorce__box-individual-blue">
             <h3 class="centraize">男性のための離婚</h3>
           </div></a>
-      </section>
+      </section> -->
 
       <section>
         <div class="contact__wrapper">
@@ -425,6 +442,22 @@
             <div class="sidecontents__border sidecontents__child__money">
               <h4 class="centraize sidecontents__subhedding sidecontents__paragraph">考えるべきこと</h4>
               <p class="centraize sidecontents__emphasis sidecontents__paragraph-only">お金と子ども</p>
+            </div>
+          </a>
+        </section>
+
+        <section>
+          <a href="/divorce/contents/separate.html">
+            <div  class="sidecontents__border sidecontents__separate">
+              <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">女性のための離婚</h4>
+            </div>
+          </a>
+        </section>
+
+        <section>
+          <a href="/divorce/contents/separate.html">
+            <div  class="sidecontents__border sidecontents__separate">
+              <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">男性のための離婚</h4>
             </div>
           </a>
         </section>
