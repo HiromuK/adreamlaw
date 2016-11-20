@@ -631,6 +631,10 @@ p {
     width: 100%;
   }
 
+  .point__lists-mainhedding {
+    width: auto;
+  }
+
   .point__lists__wrapper {
     width: 100%;
     margin: auto;
@@ -640,7 +644,6 @@ p {
     width: 100%;
     clear: both;
     margin-bottom: 10px;
-    border: 2px solid orange;
     border-radius: 15px;
   }
 
@@ -924,18 +927,22 @@ p {
 
 @media only screen and (max-width: 700px) {
   .user_voice__wrapper {
-    width: 95%;
+    width: auto;
   }
 
   .user_voice__box {
     width: 100%;
-    margin: 0 2%;
+    margin: 0;
   }
   .user_voice__h3 {
-    padding: 0 20px;
+    width: auto;
   }
   .user_voice__lists {
     line-height: 1.5em;
+  }
+  .user_voice__list {
+    width: auto;
+    height: auto;
   }
 }
 
