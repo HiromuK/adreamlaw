@@ -191,9 +191,8 @@ p {
   clear: both;
   margin: 10px auto;
   /*border: 2px solid orange;*/
-  background: #ffafd1;
-  color: #fff;
-  border-radius: 15px;
+  color: #333;
+  border-bottom: 1px dotted #ccc;
   padding: 30px 10px;
   box-sizing: border-box;
 }
@@ -234,7 +233,7 @@ p {
 }
 
 .point__list-contents__border-left {
-  border-left: 1px solid #fff;
+  border-left: 1px dotted #333;
 }
 
 .point__list-contents__border-right {
@@ -251,12 +250,12 @@ p {
 
 .point__list_link {
   float: right;
-  border-bottom: 1px dotted #fff;
-  color: #fff;
+  border-bottom: 1px dotted lightblue;
+  color: blue;
 }
 
 .point__list_link:hover {
-  color: yellow;
+  color: lightblue;
 }
 
 .solution__wrapper {
@@ -450,13 +449,13 @@ p {
   width: 100%;
   clear: both;
   /*background: #ffafd1;*/
-  background: #ff9cca;
+  background: #ffdbec;
 }
 
 .advance__wrapper {
   width: 1120px;
   margin: auto;
-  color: #fff;
+  color: #463b42;
   padding: 10px 0 30px;
   display: inline-block;
 }
