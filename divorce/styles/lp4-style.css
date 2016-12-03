@@ -69,6 +69,7 @@ p {
 }
 
 .column__left {
+  margin-top: 50px;
   width: 250px;
   float: left;
 }
@@ -172,8 +173,8 @@ p {
 .point__lists-mainhedding {
   font-size: 25px;
   /*color: #ff9aac;*/
-  color: #fff;
-  background: #ff9aac;
+  background: #f3e9dc;
+  border-left: 5px solid #ff9aac;
   width: 80%;
   padding: .5em 2em;
   margin: 20px auto;
@@ -192,7 +193,8 @@ p {
   margin: 10px auto;
   /*border: 2px solid orange;*/
   color: #333;
-  border-bottom: 1px dotted #ccc;
+  border: 2px solid #f3e9dc;
+  border-radius: 15px;
   padding: 30px 10px;
   box-sizing: border-box;
 }
@@ -450,6 +452,7 @@ p {
   clear: both;
   /*background: #ffafd1;*/
   background: #ffdbec;
+  box-shadow: 3px 0 10px #ccc;
 }
 
 .advance__wrapper {
@@ -461,10 +464,11 @@ p {
 }
 
 .advance__hedding {
+  color: #e4419c;
   padding: 10px 30px 0;
   margin: 0 0 20px;
   font-size: 20px;
-  border-bottom: 2px dotted #f5e7e9;
+  text-align: center;
 }
 
 .advance__block {
@@ -871,8 +875,8 @@ p {
 
 .user_voice__h3 {
   /*color: #ff9aac;*/
-  color: #fff;
-  background: #ff9aac;
+  border-left: 5px solid #ff9aac;
+  background: #F3E9DC;
   width: 80%;
   font-size: 25px;
   margin: 20px auto 0;
@@ -906,7 +910,8 @@ p {
 .user_voice__list {
   margin: .5em 5px;
   padding: 1em .5em;
-  border: 1px solid #ccc;
+  border-radius: 10px;
+  border: 1px solid #f3e9dc;
   width: 29%;
   height: 150px;
   float: left;
