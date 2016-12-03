@@ -491,6 +491,33 @@ p {
   font-weight: bold;
 }
 
+.new__wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.new__topics {
+  border: 2px solid #f3e9dc;
+  font-size: 13px;
+}
+
+.new__topics dt {
+  float: left;
+  clear: both;
+  padding: 10px .5em 0;
+}
+
+.new__topics dd {
+  padding: 10px .5em 15px 7em;
+}
+
+.hot {
+  background: #f55856;
+  color: #fff;
+  padding: 3px;
+  margin-top: 5px;
+}
+
 /* ----------------------------------------------------------------------ここからレスポンシブ-----------------------------------------------------------------*/
 @media only screen and (max-width: 700px) {
   .header__wrapper {
