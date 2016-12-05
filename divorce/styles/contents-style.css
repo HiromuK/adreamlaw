@@ -10,7 +10,7 @@ small {
 .contents__box {
   border: 1px solid #ccc;
   width: 90%;
-  margin: auto;
+  margin: 15px auto;
   color: #383838;
 }
 
