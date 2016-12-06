@@ -142,6 +142,10 @@
               <button class="filter" data-filter=".debt">借金</button>
             </fieldset>
 
+            <p class="or-1">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </p>
+
             <fieldset>
               <h4>争点編</h4>
 
@@ -151,6 +155,10 @@
               <button class="filter" data-filter=".house">住まい</button>
               <button class="filter" data-filter=".breach">婚約破棄</button>
             </fieldset>
+
+            <p class="or-2">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </p>
 
             <fieldset>
               <h4>男女別・職業別編</h4>
@@ -162,11 +170,13 @@
               <button class="filter" data-filter=".wife">専業主婦</button>
             </fieldset>
 
-            <button id="Reset">すべて表示</button>
+            <div class="Reset__button">
+              <button id="Reset">すべて表示</button>
+            </div>
           </form>
 
           <div id="Container" class="container">
-          	<div class="mix child no-character woman">
+          	<div class="mix child no-character woman case__block">
               <figure class="img_left">
 						    <img src="/common/images/business/case_women.jpg" width="60" height="60">
 					    </figure>
@@ -174,28 +184,33 @@
 					    <p class="category_font">調停</p>
 					    <p class="wi_500"><a href="/business/divorce/case/mediation/case001.html" class="arrow pb_5">相手方が突如家を出て離婚すると一方的に告げられた</a></p>
             </div>
-          	<div class="mix category-2" data-value="2">②カテゴリー2に属する</div>
-          	<div class="mix category-1" data-value="3">③カテゴリー1に属する</div>
-          	<div class="mix category-2" data-value="4">④カテゴリー2に属する</div>
+          	<div class="mix dv woman case__block" data-value="2">
+              <figure class="img_left">
+    						<img src="/common/images/business/case_women.jpg" width="60" height="60">
+    					</figure>
+    					<span class="font_B case_type">（女性／20代／パート）</span>
+    					<p class="category_font">調停</p>
+    					<p class="wi_500"><a href="/business/divorce/case/mediation/case002.html" class="arrow pb_5">毎日殴る蹴るの暴行を受けていたＤＶの事案</a></p>
+            </div>
+          	<div class="mix woman debt compensation case__block" data-value="3">
+              <figure class="img_left">
+    						<img src="/common/images/business/case_women.jpg" width="60" height="60">
+    					</figure>
+    					<span class="font_B case_type">（女性／20代／会社員）</span>
+    					<p class="category_font">調停</p>
+    					<p class="wi_500"><a href="/business/divorce/case/mediation/case003.html" class="arrow pb_5">借金だらけの会社社長に愛想が尽きた</a></p>
+            </div>
+          	<div class="mix man owner distribution case__block" data-value="4">
+              <figure class="img_left">
+    						<img src="/common/images/business/case_men.jpg" width="60" height="60">
+    					</figure>
+    					<span class="font_B case_type">（男性／50代／自営業）</span>
+    					<p class="category_font">調停</p>
+    					<p class="wi_500"><a href="/business/divorce/case/mediation/case004.html" class="arrow pb_5">実家の跡継ぎ問題でトラブル</a></p>
+            </div>
           </div>
 
 
-          <section>
-            <header>
-              <h2 id="index3" class="contents__subhedding">まとめ</h2>
-            </header>
-            <p class="contents__paragraph">以上のとおり、「別居」は、離婚を成立させるための武器であり、離婚に伴う財産分与にも関わる重要な意味をもつことがおわかりいただけたでしょうか。</p>
-            <p class="contents__paragraph">ところで、時折、当面別居するという中間的な合意をして、しばらく問題を先送りにするという夫婦もあります。もちろん、夫婦関係が冷え切っている家庭内別居状態で、険悪で荒んだ夫婦関係を続け、子供らに悪しき夫婦のお手本を見せ続けるよりは、とにかく別居した方がいいでしょう。</p>
-            <p class="contents__paragraph">しかし、離婚という大事業が面倒で、問題を先送りにしておこうというのはあまりお勧めできません。<br>
-            そもそも、冷却期間をおくと言っても、既に冷え切った夫婦関係をさらに冷やしても何も生まれないことが多いのです。<br>
-            そしてなにより、人生は短いのです。</p>
-            <p class="contents__paragraph">特に収入の十分でない女性の場合は、夫の不貞行為により離婚をすることになったような場合、ショックから立ち直り、自分の人生を切り開いて行くのにはある程度の時間がかかります。<br>
-            問題を先送りしても、いずれそれは大きなツケとなって自分に返ってきます。</p>
-            <p class="contents__paragraph">この記事をお読みの誰もが、１００年経てば間違いなく白骨です。その程度の長さしかない人生、幸せでない人生を享受する必要はありません。<br>
-            条件が許せば、新しい人生に向かって、１日でも早く幸せになる道を探してほしいと思います。</p>
-            <p class="contents__paragraph">今後どのようにご自身の状況に対応していくべきか、迷った時には専門家の知恵も借りてみてください。<br>
-            １回の相談で見えてくることもあります。私たち淡路町ドリームの無料法律相談を是非ご利用ください。</p>
-          </section>
         </section>
         <section class="contents__box-bottom">
           <div class="contact__wrapper">
@@ -221,7 +236,8 @@
 
         <section class="sidecolumn__border">
           <a href="/contact/">
-            <h3 class="centraize sidecolumn__subhedding sidecolumn__emphasis sidecolumn__subhedding-orange"><strong>はじめての離婚相談<br><b>60分無料</b></strong></h3>
+            <img src="/divorce/images/side_CTA.jpg">
+            <!-- <h3 class="centraize sidecolumn__subhedding sidecolumn__emphasis sidecolumn__subhedding-orange"><strong>はじめての離婚相談<br><b>60分無料</b></strong></h3>
             <p class="centraize sidecontents__paragraph-only">平日21時まで</p>
             <p class="centraize sidecontents__paragraph-only">土日祝日も対応</p>
             <p class="centraize sidecontents__paragraph-only">男女別選択可</p>
@@ -230,22 +246,20 @@
               <img src="https://a-dreamlaw.com/common/images/logo.png" class="sidecontents__logo">
             </div>
             <p class="centraize sidecontents__paragraph-only"><b>03-3525-8010</b></p>
-            <p class="centraize sidecolumn__paragraph-orange"><strong>メールはこちら</strong></p>
+            <p class="centraize sidecolumn__paragraph-orange"><strong>メールはこちら</strong></p> -->
           </a>
         </section>
 
         <section>
-          <a href="/divorce/contents/merit.html">
-            <div class="sidecolumn__border">
-              <h3 class="centraize sidecolumn__subhedding sidecontents__paragraph">「離婚」が頭をよぎったら</h3>
-              <p class="centraize sidecolumn__emphasis sidecontents__paragraph-only">弁護士に<b>早めに</b><br>
-                相談するメリット</p>
+          <a href="/flow/lawyer_merit.html">
+            <div class="sidecolumn__button-fade">
+              <img src="/divorce/images/early_consultant.jpg" style="width: 100%; border: 1px solid #ccc; border-radius: 15px;">
             </div>
           </a>
         </section>
 
         <section>
-          <a href="/divorce/contents/first-consultation.html">
+          <a href="/intro/lp3/">
             <div class="sidecolumn__border">
               <h3 class="centraize sidecolumn__subhedding sidecontents__paragraph">はじめての離婚相談</h3>
               <p class="centraize sidecolumn__emphasis sidecontents__paragraph-only">ご相談前の疑問・不安にお答えします。</p>
@@ -259,7 +273,7 @@
         <h3 class="centraize sidecolumn__emphasis">Contents</h3>
 
         <section>
-          <a href="/divorce/contents/actual-compensation.html">
+          <a href="/business/divorce/rikon/cheat">
             <div class="sidecontents__border sidecontents__solatium">
               <h4 class="centraize sidecontents__subhedding sidecontents__paragraph">請求したい？請求された？</h4>
               <p class="centraize sidecontents__emphasis sidecontents__paragraph-only">慰謝料のホント</p>
@@ -268,10 +282,26 @@
         </section>
 
         <section>
-          <a href="/divorce/contents/money&child.html">
+          <a href="/business/divorce/money/child_support.html">
             <div class="sidecontents__border sidecontents__child__money">
               <h4 class="centraize sidecontents__subhedding sidecontents__paragraph">考えるべきこと</h4>
               <p class="centraize sidecontents__emphasis sidecontents__paragraph-only">お金と子ども</p>
+            </div>
+          </a>
+        </section>
+
+        <section>
+          <a href="/divorce/contents/separate.html">
+            <div  class="sidecontents__border sidecontents__separate">
+              <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">女性のための離婚</h4>
+            </div>
+          </a>
+        </section>
+
+        <section>
+          <a href="/divorce/contents/separate.html">
+            <div  class="sidecontents__border sidecontents__separate">
+              <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">男性のための離婚</h4>
             </div>
           </a>
         </section>
@@ -285,7 +315,7 @@
         </section>
 
         <section>
-          <a href="/divorce/contents/qa/">
+          <a href="/business/divorce/qa/">
             <div class="sidecontents__border sidecontents__qanda2">
               <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">離婚Q＆A</h4>
             </div>
@@ -293,7 +323,7 @@
         </section>
 
         <section>
-          <a href="/divorce/contents/case/">
+          <a href="/business/divorce/case/">
             <div class="sidecontents__border sidecontents__case">
               <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">解決事例</h4>
             </div>
@@ -304,34 +334,34 @@
           <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">離婚の知識と法律</h4>
           <ul class="sidecontents__lists">
             <li>離婚原因</li>
-            <li><a href="/divorce/contents/type/">離婚の種類</a></li>
+            <li><a href="/business/divorce/type/">離婚の種類</a></li>
               <ul class="sidecontents__lists-child">
-                <li><a href="/divorce/contents/type/consent.html">協議離婚</a></li>
-                <li><a href="/divorce/contents/type/arbitration.html">調停離婚</a></li>
-                <li><a href="/divorce/contents/type/judgement.html">審判離婚</a></li>
-                <li><a href="/divorce/contents/type/adjudicated.html">裁判離婚</a></li>
+                <li><a href="/business/divorce/type/consent.html">協議離婚</a></li>
+                <li><a href="/business/divorce/type/arbitration.html">調停離婚</a></li>
+                <li><a href="/business/divorce/type/judgement.html">審判離婚</a></li>
+                <li><a href="/business/divorce/type/adjudicated.html">裁判離婚</a></li>
               </ul>
             <li>離婚手続きの流れ</li>
-            <li><a href="/divorce/contents/kyougisyo.html">離婚協議書</a></li>
-            <li><a href="/divorce/contents/money/">離婚とお金</a></li>
+            <li><a href="/fee/why/kyougisyo.html">離婚協議書</a></li>
+            <li><a href="/business/divorce/money/">離婚とお金</a></li>
               <ul class="sidecontents__lists-child">
-                <li><a href="/divorce/contents/money/compensation.html">慰謝料</a></li>
-                <li><a href="/divorce/contents/money/distribution.html">財産分与</a></li>
-                <li><a href="/divorce/contents/money/notification.html">婚姻費用</a></li>
-                <li><a href="/divorce/contents/money/child_support.html">養育費</a></li>
-                <li><a href="/divorce/contents/money/loan.html">住宅ローン</a></li>
-                <li><a href="/divorce/contents/money/pension.html">年金分割</a></li>
-                <li><a href="/divorce/contents/money/enforcement.html">強制執行</a></li>
+                <li><a href="/business/divorce/money/compensation.html">慰謝料</a></li>
+                <li><a href="/business/divorce/money/distribution.html">財産分与</a></li>
+                <li><a href="/business/divorce/money/notification.html">婚姻費用</a></li>
+                <li><a href="/business/divorce/money/child_support.html">養育費</a></li>
+                <li><a href="/business/divorce/money/loan.html">住宅ローン</a></li>
+                <li><a href="/business/divorce/money/pension.html">年金分割</a></li>
+                <li><a href="/business/divorce/money/enforcement.html">強制執行</a></li>
               </ul>
-            <li><a href="/divorce/contents/child/">離婚と子供</a></li>
+            <li><a href="/business/divorce/child/">離婚と子供</a></li>
               <ul class="sidecontents__lists-child">
-                <li><a href="/divorce/contents/child/custody.html">親権</a></li>
-                <li><a href="/divorce/contents/child/custody02.html">監護権</a></li>
-                <li><a href="/divorce/contents/child/visitation.html">面会交流権</a></li>
-                <li><a href="/divorce/contents/child/habeas.html">子の引渡し請求</a></li>
+                <li><a href="/business/divorce/child/custody.html">親権</a></li>
+                <li><a href="/business/divorce/child/custody02.html">監護権</a></li>
+                <li><a href="/business/divorce/child/visitation.html">面会交流権</a></li>
+                <li><a href="/business/divorce/child/habeas.html">子の引渡し請求</a></li>
               </ul>
-            <li><a href="/divorce/contents/dv/">DV(ドメスティックバイオレンス)</a></li>
-            <li><a href="/divorce/contents/morahara/">モラルハラスメント</a></li>
+            <li><a href="/business/divorce/dv/">DV(ドメスティックバイオレンス)</a></li>
+            <li><a href="/business/divorce/morahara/">モラルハラスメント</a></li>
           </ul>
         </section>
 
@@ -345,7 +375,7 @@
         </section>
 
         <section>
-          <a href="/divorce/contents/media.html">
+          <a href="/info/">
             <div class="sidecontents__border">
               <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">メディア実績</h4>
             </div>
@@ -353,7 +383,7 @@
         </section>
 
         <section>
-          <a href="/divorce/contents/immorality/">
+          <a href="/business/divorce/immorality/">
             <div class="sidecontents__border">
               <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">離婚弁護士の選び方<br>（動画）</h4>
             </div>
