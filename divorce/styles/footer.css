@@ -1,7 +1,41 @@
-.footer__wrapper {
-	background: #383838;
-	height: 100%;
+.footer {
+  width: 100%;
+  clear: both;
+  background: #383838;
 }
+
+.footer__wrapper {
+	width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  background: #383838;
+}
+
+.footer__box {
+  width: 25%;
+  float: left;
+}
+
+.footer__lists {
+  clear: both;
+}
+
+.footer__lists a {
+  color: #fff;
+}
+
+.footer__links-sns-box {
+  float: left;
+  width: 25%;
+}
+
+.footer__copyright {
+  color: #fff;
+  clear: both;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
 
 .footer_nav {
 	width: 95%;
