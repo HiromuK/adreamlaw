@@ -15,9 +15,22 @@
   width: 25%;
   float: left;
 }
+@media screen and (max-width: 700px) {
+  .footer__box {
+    width: 50%;
+    float: left;
+    font-size: 14px;
+  }
+}
 
 .footer__lists {
   clear: both;
+}
+@media screen and (max-width: 700px) {
+  .footer__lists li {
+    text-align: center;
+    padding: 10px 0;
+  }
 }
 
 .footer__lists a {
@@ -27,6 +40,12 @@
 .footer__links-sns-box {
   float: left;
   width: 25%;
+}
+@media screen and (max-width: 700px) {
+  .footer__links-sns-box {
+    clear: both;
+    width: 100%;
+  }
 }
 
 .footer__copyright {
