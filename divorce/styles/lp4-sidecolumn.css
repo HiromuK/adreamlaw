@@ -65,7 +65,6 @@ strong {
 }
 
 .sidecontents__child__money {
-  background: url("https://a-dreamlaw.com/common/images/thumbnail/child_thumbnail.jpg");
   background-size: 20% 100%;
   padding: 0 0 10px 0;
   background-repeat: no-repeat;
@@ -90,45 +89,40 @@ strong {
 }
 
 .sidecontents__solatium {
-  /*background: url("https://a-dreamlaw.com/common/images/thumbnail/money_thumbnail.jpg");*/
   background-size: 20% 100%;
   padding: 0 0 5px 0;
   background-repeat: no-repeat;
 }
 
 .sidecontents__separate {
-  /*background: url("https://a-dreamlaw.com/common/images/thumbnail/separation_thumbnail.jpg");*/
   background-size: 20% 100%;
   background-repeat: no-repeat;
 }
 
 .sidecontents__qanda {
-  /*background: url("https://a-dreamlaw.com/common/images/thumbnail/qa_thumbnail.jpg");
+  /*
   background-size: auto 100%;
   padding: 0 0 10px 0;
   background-repeat: no-repeat;*/
 }
 
 .sidecontents__qanda2 {
-  /*background: url("https://a-dreamlaw.com/common/images/thumbnail/qa_thumbnail.jpg");*/
   background-size: 20% 100%;
   background-repeat: no-repeat;
 }
 
 .sidecontents__case {
-  /*background: url("https://a-dreamlaw.com/common/images/thumbnail/divorce_case_thumbnail.jpg");*/
   background-size: 20% 100%;
   background-repeat: no-repeat;
 }
 
 .sidecontents__lawyer_merit {
-  /*background: url("https://a-dreamlaw.com/common/images/second/flow_step1.jpg");*/
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
 .sidecontents__fee {
-  /*background: url("https://a-dreamlaw.com/common/images/second/fee_catch.jpg");
+  /*
   background-size: 100% auto;
   background-repeat: no-repeat;*/
   padding: 0 0 10px 0;
