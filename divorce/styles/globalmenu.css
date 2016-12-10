@@ -12,18 +12,19 @@
 .globalmenu__lists {
   width: 1120px;
   margin: auto;
-  padding: 14px 0;
   /*display: inline-block;*/
   font-weight: bold;
 }
 
 .globalmenu__list {
   float: left;
-  padding: 0 0 0 30px;
+  padding: 14px 10px;
+  margin: 0 0 0 20px;
+  background: #ff9cca;
 }
 
-.globalmenu__list a:hover {
-  color: #f9f9f9;
+.globalmenu__list:hover {
+  background: lightpink;
 }
 
 .globalmenu__list a {
