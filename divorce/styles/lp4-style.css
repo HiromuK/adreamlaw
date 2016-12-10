@@ -273,54 +273,19 @@ a {
 
 .solution-case__button {
   border-radius: 15px;
-  border: 1px solid darkorange;
+  border: 1px solid #e4439d;
   box-shadow: 3px 4px 0 #ccc;
   width: 287px;
   margin: 10px auto;
   padding: 14px;
   display: inline-block;
-  color: darkorange;
+  color: #e4419c;
   font-size: 23px;
 }
 
 .solution-case__button:hover {
-  background: darkorange;
+  background: #e4419c;
   color: #fff;
-}
-
-.solution-case__box {
-  width: 230px;
-  float: left;
-  border: 2px solid orange;
-  margin: 15px 0;
-  padding: 10px 0;
-}
-
-.solution-case__box-middle {
-  margin: 15px 45px;
-}
-
-.sex-divorce__box {
-  width: 800px;
-  margin: auto;
-  padding: 30px 0;
-  clear: both;
-}
-
-.sex-divorce__box-individual {
-  width: 350px;
-  margin: 0 24px;
-  float: left;
-  border: 1px solid pink;
-  padding: 25px 0;
-  font-size: 23px;
-  display: block;
-  color: pink;
-}
-
-.sex-divorce__box-individual-blue {
-  border-color: lightblue;
-  color: lightblue;
 }
 
 .contact__wrapper {
@@ -503,7 +468,19 @@ a {
 
 .new__wrapper {
   width: 80%;
-  margin: auto;
+  margin: 50px auto 10px;
+}
+@media only screen and (max-width: 700px) {
+  .new__wrapper {
+    width: 95%;
+    clear: both;
+    padding: 30px 0 0;
+  }
+}
+
+.new__mainhedding {
+  font-size: 20px;
+  color: #e4419c;
 }
 
 .new__topics {
@@ -749,37 +726,8 @@ a {
 
   .solution-case__button {
     width: 80%;
-    margin: auto;
+    margin: 20px auto;
     font-size: 23px;
-  }
-
-  .solution-case__box {
-    width: 90%;
-    float: none;
-    border: 2px solid orange;
-    margin: 15px auto;
-    padding: 10px 0;
-    border-radius: 7px;
-  }
-
-  .solution-case__box-middle {
-    margin: 15px auto;
-  }
-
-  .sex-divorce__box {
-    width: 94%;
-    margin: auto;
-    padding: 30px 3%;
-    clear: both;
-  }
-
-  .sex-divorce__box-individual {
-    width: 90%;
-    margin: 15px 3%;
-    float: left;
-    padding: 25px 0;
-    font-size: 23px;
-    border-radius: 10px;
   }
 
   .contact__wrapper {
@@ -790,7 +738,7 @@ a {
   }
 
   .contact__wrapper-border {
-    border: 1px solid darkorange;
+    border: 5px solid #ffdbec;
     float: left;
     margin: auto;
     margin-bottom: 50px;
