@@ -243,6 +243,7 @@ p {
 }
 
 .point__list-contents-subhedding {
+  color: sienna;
   font-size: 25px;
   line-height: 2em;
   padding: 0 0 20px 0;

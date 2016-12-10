@@ -71,7 +71,7 @@ strong {
 }
 
 .sidecontents__paragraph {
-  background: rgba(255, 200, 125, 0.8);
+  background: #efd6b6;
   color: #74542B;
   line-height: 1.25em;
   padding: 5px 2px;
@@ -82,51 +82,6 @@ strong {
   padding: 0 10px 0 10px;
 }
 
-.sidecontents__paragraph-white {
-  background: rgba(255,255,255,0.95);
-  color: #74542B;
-  padding: 0 10px 0 10px;
-}
-
-.sidecontents__solatium {
-  background-size: 20% 100%;
-  padding: 0 0 5px 0;
-  background-repeat: no-repeat;
-}
-
-.sidecontents__separate {
-  background-size: 20% 100%;
-  background-repeat: no-repeat;
-}
-
-.sidecontents__qanda {
-  /*
-  background-size: auto 100%;
-  padding: 0 0 10px 0;
-  background-repeat: no-repeat;*/
-}
-
-.sidecontents__qanda2 {
-  background-size: 20% 100%;
-  background-repeat: no-repeat;
-}
-
-.sidecontents__case {
-  background-size: 20% 100%;
-  background-repeat: no-repeat;
-}
-
-.sidecontents__lawyer_merit {
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-
-.sidecontents__fee {
-  /*
-  background-size: 100% auto;
-  background-repeat: no-repeat;*/
-  padding: 0 0 10px 0;
-}
 
 .sidecontents__logo {
   width: 95%;
