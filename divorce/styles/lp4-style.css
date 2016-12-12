@@ -316,6 +316,31 @@ a {
   color: #fff;
 }
 
+.contact__middle {
+  width: 90%;
+  margin-bottom: 50px;
+  position: relative;
+}
+@media screen and (max-width: 700px) {
+  .contact__middle {
+    width: 100%;
+  }
+}
+
+
+.contact__middle-left {
+  width: 45%;
+}
+@media screen and (max-width: 700px) {
+  .contact__middle-left {
+    width: 100%;
+  }
+}
+
+.contact__middle-left .button {
+  width: 80%;
+}
+
 .contact__wrapper {
   width: 800px;
   margin: auto;
