@@ -225,8 +225,34 @@ a {
   float: left;
 }
 
+.point__list-img {
+  width: 40%;
+  float: left;
+  padding: 15px;
+}
+@media screen and (max-width: 700px) {
+  .point__list-img {
+    width: 90%;
+  }
+}
+
+.point__list-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.point__list-img-right {
+  float: right;
+}
+@media screen and (max-width: 700px) {
+  .point__list-img-right {
+    float: left;
+  }
+}
+
+
 .point__list-contents {
-  width: 690px;
+  width: 50%;
   padding: 17px 17px 17px 30px;
   position: relative;
   display: inline-block;
@@ -251,7 +277,7 @@ a {
 .point__list-contents-subhedding {
   color: sienna;
   font-size: 25px;
-  line-height: 2em;
+  line-height: 1.5em;
   padding: 0 0 20px 0;
   font-weight: bold;
   text-align: center;
