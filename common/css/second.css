@@ -5,6 +5,7 @@
 =================================================================== */
 #breadcrumbs{
 	margin: 10px 0 10px 0;
+  clear: both;
 }
 nav#breadcrumbs ol li {
   display: inline;

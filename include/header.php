@@ -6,6 +6,11 @@
 				<a href="/"><img src="/common/images/logo.png" width="308" height="47" alt="弁護士法人淡路町ドリーム"></a>
 				<p class="sp_txt_C">営業　8:00～21:00（平日）/ 9:00～18:00（土日・祝）<br>
         受付　24時間対応</p>
+        <p style="color: red; clear: both;">
+          2016年12月29日〜2017年1月4日まで冬季休暇とさせていただきます。<br>
+          ご予約の受付は、上記期間中であってもお受付しております。
+          <br>上記期間中でのご相談はお受けしておりませんので、お気をつけくださいませ。
+        </p>
 			</div>
 		</div>
 		<div class="header_right col span_6">
