@@ -1,0 +1,101 @@
+.bxslider__wrapper {
+  width: 80%;
+  padding: 30px 0;
+  margin: auto;
+}
+@media only screen and (max-width: 700px) {
+  .bxslider__wrapper {
+    width: 100%;
+    padding: 250px 0 0;
+  }
+}
+
+.bxslider__block {
+  width: 50%;
+  padding: 10px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  height: 125px;
+  border-radius: 15px;
+}
+
+.bx-controls {
+  /*display: none;*/
+}
+
+.fa-woman {
+  color: pink;
+}
+
+.fa-man {
+  color: lightblue;
+}
+
+.bx-pager {
+  display: none;
+}
+
+.bx-wrapper {
+  position: relative;
+}
+@media only screen and (max-width: 700px) {
+  .bx-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+@media only screen and (max-width: 700px) {
+
+}
+
+.bx-wrapper .bx-prev {
+  left: -44px;
+  background: url(../images/prev-button2.jpg) no-repeat 0 0;
+  opacity: 0.4;
+  background-size: 30px;
+}
+@media only screen and (max-width: 700px) {
+  .bx-wrapper .bx-prev {
+    left: -33px;
+  }
+}
+
+.bx-wrapper .bx-next {
+  right: -44px;
+  background: url(../images/next-button2.jpg) no-repeat 0 0;
+  opacity: 0.4;
+  background-size: 30px;
+}
+@media only screen and (max-width: 700px) {
+  .bx-wrapper .bx-next {
+    right: -33px;
+  }
+}
+
+.bxslider__wrapper-pc {
+  display: block;
+}
+
+.bxslider__wrapper-sp {
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  .bxslider__wrapper-pc {
+    display: none;
+  }
+
+  .bxslider__wrapper-sp {
+    display: block;
+  }
+}
