@@ -1,0 +1,155 @@
+header {
+  display: block;
+}
+
+small {
+  font-size: 15px;
+  color: #6c6a6a;
+}
+
+.contents__box {
+  border: 1px solid #ccc;
+  width: 90%;
+  margin: 15px auto;
+  color: #383838;
+}
+@media screen and (max-width: 700px) {
+  .contents__box {
+    border: none;
+    width: 100%;
+  }
+}
+
+.contents__box a {
+  color: #54b2de;
+}
+
+.contents__boxin {
+  width: 90%;
+  margin: auto;
+}
+@media screen and (max-width: 700px) {
+  .contents__boxin {
+    width: 95%;
+  }
+  .contents__boxin p {
+    font-size: 15px;
+  }
+}
+
+
+.contents__mainhedding {
+  font-size: 30px;
+  clear: both;
+  padding: 40px 0 10px 0;
+  margin: 0 0 40px 0;
+  border-bottom: 2px solid pink;
+  font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+  .contents__mainhedding {
+    font-size: 20px;
+  }
+}
+
+
+.contents__subhedding {
+  font-size: 22px;
+  margin: 20px 0;
+  font-weight: bold;
+  border-left: 5px solid pink;
+  line-height: 3em;
+  background: #F6F6F6;
+  padding: 0 0 0 10px;
+}
+@media screen and (max-width: 700px) {
+  .contents__subhedding {
+    font-size: 18px;
+  }
+}
+
+.contents__h3 {
+  font-weight: bold;
+  margin: 2em 0 -0.5em 0;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+  border-bottom: 2px solid pink;
+}
+@media screen and (max-width: 700px) {
+  .contents__h3 {
+    font-size: 16px;
+  }
+}
+
+.contents__h4 {
+  color: darkorange;
+  font-weight: bold;
+  margin: 2em 0 -0.5em 0;
+}
+
+.contents__index {
+  margin: 30px 0px;
+  border: 1px solid pink;
+  padding: 10px;
+}
+
+.p__gray {
+  color: #A9A099;
+}
+
+.contents__index-lists {
+  list-style: disc;
+  margin-left: 1em;
+  line-height: 1.7em;
+  font-size: 15px;
+}
+
+.contents__index-list {
+
+}
+
+.contents__img {
+  margin: auto;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  .contents__img img {
+    width: 100%;
+  }
+}
+
+.link__underline:hover {
+  text-decoration: underline;
+}
+
+.font-red {
+  color: #ff5454;
+}
+
+.contents__paragraph {
+  margin: 2em 0;
+  line-height: 2em;
+}
+
+.contents__box-bottom {
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+}
+
+.contents__sub-head {
+  font-size: 15px;
+  color: #6c6a6a;
+  padding-top: 25px;
+}
+
+.contents__lists {
+  list-style: disc;
+  margin-left: 1em;
+  line-height: 1.7em;
+  font-size: 16px;
+}
+
+.contents__list {
+
+}
