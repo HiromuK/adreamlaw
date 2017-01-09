@@ -119,26 +119,16 @@ a {
 }
 
 .message__wrapper {
-  width: 95%;
-  display: inline-block;
+  width: 90%;
 }
 
 .message {
   /*border: 1px solid #b5ac3e;*/
   border-radius: 10px;
   padding: 10px 30px;
-  margin: 30px auto 10px;
-  width: 90%;
-  margin: auto;
-  background: #ffc4e0;
-  box-shadow: 3px 0 10px #ccc;
-  display: inline-block;
-  color: #ffffff;
-  /*float: left;*/
-  position: relative;
-}
-.message:hover {
-  opacity: 0.7;
+  margin: 30px 30px 10px;
+  clear: both;
+  float: left;
 }
 
 .message-background {
@@ -159,7 +149,7 @@ a {
   /*color: #fff;*/
   text-shadow: 1px 1px 2px #e69696;
   border-radius: 5px;
-  /*float: left;*/
+  float: left;
   width: 577px;
   font-weight: bold;
   font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
@@ -168,26 +158,20 @@ a {
 
 .message__mainhedding {
   font-size: 22px;
+  color: #f190c6;
   font-weight: bold;
-  /*position: absolute;
-  top: 30%;
-  left: 300px;*/
 }
 
 .message_photo {
-  height: 150px;
+  height: 200px;
   display: inline-block;
   float: left;
-  border-radius: 75px;
+  border-radius: 100px;
   margin-right: 20px;
 }
 
 .message__pragraph {
-  float: right;
-}
-
-.message__pragraph i {
-  margin: 1em 1em 0 0;
+  padding: 5px 10px;
 }
 
 .point__lists-mainhedding {
@@ -211,7 +195,7 @@ a {
 .point__lists {
   width: 840px;
   clear: both;
-  margin: 0 auto 10px;
+  margin: 10px auto;
   /*border: 2px solid orange;*/
   color: #333;
   /*border: 2px solid #f3e9dc;*/
@@ -495,13 +479,12 @@ a {
   width: 100%;
   clear: both;
   /*background: #ffafd1;*/
-  /*background: #ffdbec;*/
-  /*background: #f6f6f6;*/
-  /*box-shadow: 3px 0 10px #ccc;*/
+  background: #ffdbec;
+  box-shadow: 3px 0 10px #ccc;
 }
 
 .advance__wrapper {
-  /*width: 1120px;*/
+  width: 1120px;
   margin: auto;
   color: #463b42;
   padding: 10px 0 30px;
@@ -509,19 +492,16 @@ a {
 }
 
 .advance__hedding {
-  /*color: #e4419c;
-  color: #f170b8;*/
+  color: #e4419c;
+  padding: 10px 30px 0;
   margin: 0 0 20px;
-  padding: 5px 0;
-  font-weight: bold;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
-  color: #f190c6;
 }
 
 .advance__block {
   float: left;
-  width: 240px;
+  width: 280px;
 }
 
 .advance__images {
@@ -677,10 +657,10 @@ a {
   }
 
   .message {
-    padding: 0 0 10px;
-    margin: 15px auto;
+    padding: 10px 0;
+    margin: 230px 0 30px;
     clear: both;
-    float: none;
+    float: left;
     position: relative;
     width: 100%;
   }
@@ -700,20 +680,20 @@ a {
   }
 
   .message__mainhedding {
-    font-size: 13px;
+    font-size: 16px;
+    margin: 20px 0 0;
     line-height: 2em;
   }
 
   .message_photo {
     height: 75px;
     border-radius: 100px;
-    margin: 15px 0 20px 20px;
+    margin: 30px 20px 20px;
   }
 
   .message__pragraph {
-    float: right;
-    font-size: 12px;
-    margin-right: 2em;
+    padding: 5px 10px;
+    width: 95%;
   }
 
   .lp4__responsive-float {
@@ -892,10 +872,10 @@ a {
   }
 
   .advance__hedding {
-    padding: 0;
+    padding: 10px 30px 0;
     margin: 0 0 20px;
     font-size: 20px;
-    /*border-bottom: 2px dotted pink;*/
+    border-bottom: 2px dotted pink;
     text-align: center;
   }
 
@@ -972,9 +952,8 @@ a {
   border-radius: 10px;
   /*border: 1px solid #f3e9dc;*/
   border: 1px solid #e6e6e6;
-  width: 47%;
-  height: 100px;
-  font-size: 15px;
+  width: 29%;
+  height: 150px;
   float: left;
 }
 
@@ -1117,105 +1096,6 @@ a {
     margin: auto 6%;
     width: 79%;
   }
-}
-
-
-/*  お悩みのところ */
-.trouble__lists {
- width: 90%;
- margin: auto;
- padding: 10px 0;
- display: inline-block;
-}
-
-.trouble__lists li {
-  margin: 10px;
-  width: 70px;
-  text-align: center;
-  float: left;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.trouble__list {
-
-}
-
-.trouble__wrapper {
-  clear: both;
-  margin: auto;
-  width: 90%;
-}
-
-.trouble__block {
-  border: 1px solid #ccc;
-  padding: 10px 30px;
-  margin: 20px 5px;
-  width: 40%;
-  height: 100px;
-  float: left;
-}
-
-.trouble__block p {
-  font-size: 15px;
-  color: #666;
-  float: right;
-}
-
-.trouble__block_heading-blue {
-  color: lightblue;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.inner { display: none;}
-
-.toggle-wrapper {
-  width: 90%;
-  margin: auto;
-}
-
-.toggle-heading {
-  border: 1px solid #ccc;
-  padding: 5px 30px;
-  display: inline-block;
-  width: 90%;
-}
-
-.toggle-heading-1 {
-  width: 19%;
-  float: left;
-  text-align: center;
-  font-size: 25px;
-  border-right: 1px solid #ccc;
-}
-.toggle-heading-1 p {
-  text-align: center;
-}
-
-.toggle-heading-2 {
-  width: 80%;
-  float: left;
-  text-align: center;
-}
-.toggle-heading-2 h4 {
-  text-align: center;
-  font-size: 21px;
-}
-.toggle-heading-2 p {
-  font-size: 15px;
-}
-
-.toggle-heading-3 {
-  width: 19%;
-  float: right;
-  text-align: center;
-  font-size: 25px;
-  border-left: 1px solid #ccc;
-}
-.toggle-heading-3 p {
-  text-align: center;
 }
 
 /*author: yuta kimura
