@@ -57,6 +57,10 @@
   text-decoration: underline;
 }
 
+.footer__arrow a:visited {
+  color: #ffffff;
+}
+
 .footer__links-sns-box {
   float: left;
   width: 25%;
