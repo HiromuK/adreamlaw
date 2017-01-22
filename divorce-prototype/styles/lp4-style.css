@@ -118,11 +118,11 @@ a {
   position: relative;
 }
 
-.message__wrapper {
-  width: 90%;
+.message {
+  width: 80%;
 }
 
-.message {
+.message__wrapper {
   /*border: 1px solid #b5ac3e;*/
   border-radius: 10px;
   padding: 10px 30px;
@@ -157,13 +157,17 @@ a {
 }
 
 .message__mainhedding {
-  font-size: 22px;
+  font-size: 20px;
   color: #f190c6;
   font-weight: bold;
 }
 
+.message__mainhedding-bigger {
+  font-size: 25px;
+}
+
 .message_photo {
-  height: 200px;
+  height: 175px;
   display: inline-block;
   float: left;
   border-radius: 100px;
@@ -171,7 +175,8 @@ a {
 }
 
 .message__pragraph {
-  padding: 5px 10px;
+  padding: 35px 10px;
+  width: 90%;
 }
 
 
@@ -664,6 +669,10 @@ a {
   }
 
   .message {
+    margin: 250px auto 0;
+  }
+
+  .message__wrapper {
     padding: 0 0 10px;
     margin: 15px auto;
     clear: both;
@@ -691,14 +700,21 @@ a {
     line-height: 2em;
   }
 
+  .message__mainhedding-bigger {
+    font-size: 20px;
+  }
+
   .message_photo {
     height: 75px;
     border-radius: 100px;
-    margin: 15px 0 20px 20px;
+    margin: 15px auto 10px;
+    display: block;
+    clear: both;
+    float: none;
   }
 
   .message__pragraph {
-    float: right;
+    float: none;
     font-size: 12px;
     margin-right: 2em;
   }
@@ -1091,8 +1107,9 @@ a {
 
   .topvisual__button-tel {
     color: #fff;
-    font-size: 30px;
-    background: orange;
+    font-size: 17px;
+    width: 79%;
+    background: #36d900;
     text-align: center;
     display: inline-block;
     border-radius: 15px;
