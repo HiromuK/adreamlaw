@@ -48,6 +48,11 @@
   }
 }
 
+.sns_ico {
+  margin: 0 5px;
+  float: left;
+}
+
 .footer__copyright {
   color: #fff;
   clear: both;
