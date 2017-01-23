@@ -128,7 +128,7 @@
     <section>
       <a href="/fee/">
       <div class="sidecontents__border sidecolumn__button-fade">
-        <h4 class="centraize sidecontents__subhedding sidecontents__paragraph">裁判や調停の「日当」なしで安心</h4>
+        <h4 class="centraize sidecontents__subhedding sidecontents__paragraph">弁護士が<br>「裁判所に行く費用なし」で安心</h4>
         <p class="centraize sidecontents__emphasis sidecontents__paragraph-only">弁護士費用</p>
       </div>
       </a>

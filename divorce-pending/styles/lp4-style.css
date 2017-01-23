@@ -67,10 +67,6 @@ a {
   line-height: 0.5em;
 }
 
-
-/*
---------------- Main contents --------*/
-
 .column__right {
   width: 910px;
   float: right;
@@ -122,11 +118,11 @@ a {
   position: relative;
 }
 
-.message {
-  width: 80%;
+.message__wrapper {
+  width: 90%;
 }
 
-.message__wrapper {
+.message {
   /*border: 1px solid #b5ac3e;*/
   border-radius: 10px;
   padding: 10px 30px;
@@ -153,7 +149,7 @@ a {
   /*color: #fff;*/
   text-shadow: 1px 1px 2px #e69696;
   border-radius: 5px;
-  /*float: left;*/
+  float: left;
   width: 577px;
   font-weight: bold;
   font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
@@ -161,17 +157,13 @@ a {
 }
 
 .message__mainhedding {
-  font-size: 20px;
+  font-size: 22px;
   color: #f190c6;
   font-weight: bold;
 }
 
-.message__mainhedding-bigger {
-  font-size: 25px;
-}
-
 .message_photo {
-  height: 175px;
+  height: 200px;
   display: inline-block;
   float: left;
   border-radius: 100px;
@@ -179,12 +171,10 @@ a {
 }
 
 .message__pragraph {
-  padding: 35px 10px;
-  width: 90%;
+  padding: 5px 10px;
 }
 
-
-.point__mainhedding {
+.point__lists-mainhedding {
   font-size: 25px;
   /*color: #ff9aac;*/
   /*background: #f3e9dc;*/
@@ -198,19 +188,19 @@ a {
 }
 
 .point__lists__wrapper {
-  width: 840px;
+  width: 900px;
   margin: 30px auto;
 }
 
 .point__lists {
   width: 840px;
   clear: both;
-  margin: 0 auto 10px;
-  display: inline-block;
+  margin: 10px auto;
   /*border: 2px solid orange;*/
   color: #333;
   /*border: 2px solid #f3e9dc;*/
-  border-bottom: 2px dotted #e6e6e6;
+  border: 2px solid #e6e6e6;
+  border-radius: 15px;
   padding: 30px 10px;
   box-sizing: border-box;
 }
@@ -288,7 +278,7 @@ a {
   color: sienna;
   font-size: 25px;
   line-height: 1.5em;
-  padding: 10px 0 20px 0;
+  padding: 0 0 20px 0;
   font-weight: bold;
   text-align: center;
 }
@@ -334,7 +324,6 @@ a {
 @media screen and (max-width: 700px) {
   .contact__middle {
     width: 100%;
-    margin-bottom: 0;
   }
 }
 
@@ -489,16 +478,13 @@ a {
   margin: 30px 0 0;
   width: 100%;
   clear: both;
+  /*background: #ffafd1;*/
   background: #ffdbec;
   box-shadow: 3px 0 10px #ccc;
-  /*background: #ffafd1;*/
-  /*background: #ffdbec;*/
-  /*background: #f6f6f6;*/
-  /*box-shadow: 3px 0 10px #ccc;*/
 }
 
 .advance__wrapper {
-  /*width: 1120px;*/
+  width: 1120px;
   margin: auto;
   color: #463b42;
   padding: 10px 0 30px;
@@ -506,19 +492,16 @@ a {
 }
 
 .advance__hedding {
-  /*color: #e4419c;
-  color: #f170b8;*/
+  color: #e4419c;
+  padding: 10px 30px 0;
   margin: 0 0 20px;
-  padding: 5px 0;
-  font-weight: bold;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
-  color: #f190c6;
 }
 
 .advance__block {
   float: left;
-  width: 240px;
+  width: 280px;
 }
 
 .advance__images {
@@ -601,7 +584,6 @@ a {
     float: left;
     margin-left: 20px;
     width: 90%;
-    position: sticky;
   }
 
   .header__childwrapper-right_right {
@@ -675,14 +657,10 @@ a {
   }
 
   .message {
-    margin: 250px auto 0;
-  }
-
-  .message__wrapper {
-    padding: 0 0 10px;
-    margin: 15px auto;
+    padding: 10px 0;
+    margin: 230px 0 30px;
     clear: both;
-    float: none;
+    float: left;
     position: relative;
     width: 100%;
   }
@@ -702,33 +680,29 @@ a {
   }
 
   .message__mainhedding {
-    font-size: 13px;
+    font-size: 16px;
+    margin: 20px 0 0;
     line-height: 2em;
   }
 
-  .message__mainhedding-bigger {
-    font-size: 20px;
-  }
-
   .message_photo {
-    height: 100px;
+    height: 75px;
     border-radius: 100px;
-    margin: 15px auto 10px;
-    display: block;
-    clear: both;
-    float: none;
+    margin: 30px 20px 20px;
   }
 
   .message__pragraph {
-    float: none;
-    font-size: 12px;
-    margin-right: 2em;
-    padding: 15px 10px;
+    padding: 5px 10px;
+    width: 95%;
   }
 
-  .point__mainhedding {
+  .lp4__responsive-float {
+    float: left;
+    width: 100%;
+  }
+
+  .point__lists-mainhedding {
     width: auto;
-    font-size: 18px;
   }
 
   .point__lists__wrapper {
@@ -791,7 +765,6 @@ a {
     font-weight: bold;
     text-align: center;
     line-height: 1.5em;
-    padding: 0;
   }
 
   .point__list_link {
@@ -899,10 +872,10 @@ a {
   }
 
   .advance__hedding {
-    padding: 0;
+    padding: 10px 30px 0;
     margin: 0 0 20px;
     font-size: 20px;
-    /*border-bottom: 2px dotted pink;*/
+    border-bottom: 2px dotted pink;
     text-align: center;
   }
 
@@ -979,9 +952,8 @@ a {
   border-radius: 10px;
   /*border: 1px solid #f3e9dc;*/
   border: 1px solid #e6e6e6;
-  width: 47%;
-  height: 100px;
-  font-size: 15px;
+  width: 29%;
+  height: 150px;
   float: left;
 }
 
@@ -1097,7 +1069,6 @@ a {
     background: rgba(255,255,255,0.9);
     width: 100%;
     padding: 5px 0;
-    font-size: 15px;
   }
 
   .topvisual__button-right {
@@ -1112,9 +1083,8 @@ a {
 
   .topvisual__button-tel {
     color: #fff;
-    font-size: 17px;
-    width: 79%;
-    background: #36d900;
+    font-size: 30px;
+    background: orange;
     text-align: center;
     display: inline-block;
     border-radius: 15px;
@@ -1126,172 +1096,6 @@ a {
     margin: auto 6%;
     width: 79%;
   }
-}
-
-
-/*  お悩みのところ */
-.troble {
-  display: inline-block;
-  margin: 0 auto 10px;
-}
-
-.trouble__wrapper {
-  clear: both;
-  margin: 0 auto 30px;
-  width: 90%;
-  /*border: 2px solid #e6e6e6;*/
-  border-radius: 15px;
-}
-
-.troble__mainhedding {
-  font-size: 25px;
-  /*color: #ff9aac;*/
-  /*background: #f3e9dc;*/
-  background: #f6f6f6;
-  border-left: 5px solid #ff9aac;
-  width: 80%;
-  padding: .5em 2em;
-  margin: 20px auto;
-  clear: both;
-  font-weight: bold;
-}
-
-@media only screen and (max-width: 700px) {
-  .troble__mainhedding {
-    width: auto;
-    font-size: 18px;
-  }
-}
-
-.troble__category-lists {
-  margin: 15px auto 20px;
-  display: inline-block;
-  width: 100%;
-}
-
-.troble__category-list {
-  float: left;
-  padding: 3px 2.5%;
-  border-radius: 5px;
-  margin: 3px;
-  background: #fff3f8;
-  color: #333;
-  font-weight: bold;
-}
-
-@media only screen and (max-width: 700px) {
-  .troble__category-list {
-    font-size: 12px;
-    padding: 3px 2%;
-    margin: 1.5px;
-  }
-}
-
-.troble__lists {
- padding-left: 2em;
- margin: 30px auto;
-}
-
-.troble__list {
-  padding-bottom: .5em;
-  font-size: 18px;
-}
-
-.troble__list i {
-  padding-right: 1em;
-  color: #666;
-}
-
-@media only screen and (max-width: 700px) {
-  .troble__lists {
-    padding: 0 1em;
-    margin: 0;
-  }
-
-  .troble__list {
-    font-size: 16px;
-  }
-
-  .troble__list i {
-    padding-right: .5em;
-  }
-}
-
-.troble__arrow {
-  color: #aaa;
-  margin: 10px auto 0;
-}
-
-.troble__paragraph {
-  width: 90%;
-  font-size: 18px;
-  padding: 1em 0 1.5em;
-  margin: 30px auto 50px;
-}
-
-.troble__paragraph strong {
-  /*border-bottom: .2em solid orange;*/
-  font-size: 1.2em;
-}
-
-@media only screen and (max-width: 700px) {
-  .troble__paragraph {
-    font-size: 16px;
-    margin: 0 auto;
-  }
-  .troble__paragraph strong {
-    font-size: 1em;
-  }
-}
-
-
-.inner { display: none;}
-
-.toggle-wrapper {
-  width: 90%;
-  margin: auto;
-}
-
-.toggle-heading {
-  border: 1px solid #ccc;
-  padding: 5px 30px;
-  display: inline-block;
-  width: 90%;
-}
-
-.toggle-heading-1 {
-  width: 19%;
-  float: left;
-  text-align: center;
-  font-size: 25px;
-  border-right: 1px solid #ccc;
-}
-.toggle-heading-1 p {
-  text-align: center;
-}
-
-.toggle-heading-2 {
-  width: 80%;
-  float: left;
-  text-align: center;
-}
-.toggle-heading-2 h4 {
-  text-align: center;
-  font-size: 21px;
-}
-.toggle-heading-2 p {
-  font-size: 15px;
-}
-
-.toggle-heading-3 {
-  width: 19%;
-  float: right;
-  text-align: center;
-  font-size: 25px;
-  border-left: 1px solid #ccc;
-}
-.toggle-heading-3 p {
-  text-align: center;
 }
 
 /*author: yuta kimura
