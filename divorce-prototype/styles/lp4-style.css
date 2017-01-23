@@ -206,8 +206,7 @@ a {
   /*border: 2px solid orange;*/
   color: #333;
   /*border: 2px solid #f3e9dc;*/
-  border: 2px solid #e6e6e6;
-  border-radius: 15px;
+  border-bottom: 2px dotted #e6e6e6;
   padding: 30px 10px;
   box-sizing: border-box;
 }
@@ -285,7 +284,7 @@ a {
   color: sienna;
   font-size: 25px;
   line-height: 1.5em;
-  padding: 0 0 20px 0;
+  padding: 10px 0 20px 0;
   font-weight: bold;
   text-align: center;
 }
@@ -1134,7 +1133,7 @@ a {
   clear: both;
   margin: 0 auto 30px;
   width: 90%;
-  border: 2px solid #e6e6e6;
+  /*border: 2px solid #e6e6e6;*/
   border-radius: 15px;
 }
 
@@ -1169,7 +1168,7 @@ a {
   padding: 3px 2.5%;
   border-radius: 5px;
   margin: 3px;
-  background: #f6f6f6;
+  background: #fff3f8;
   color: #333;
   font-weight: bold;
 }
@@ -1184,6 +1183,7 @@ a {
 
 .troble__lists {
  padding-left: 2em;
+ margin: 30px auto;
 }
 
 .troble__list {
@@ -1199,6 +1199,7 @@ a {
 @media only screen and (max-width: 700px) {
   .troble__lists {
     padding: 0 1em;
+    margin: 0;
   }
 
   .troble__list {
@@ -1212,6 +1213,7 @@ a {
 
 .troble__arrow {
   color: #aaa;
+  margin: 10px auto 0;
 }
 
 .troble__paragraph {
@@ -1219,16 +1221,21 @@ a {
   font-size: 18px;
   padding: 1em 0 1.5em;
   text-align: center;
-  margin: auto;
+  margin: 30px auto 50px;
 }
 
 .troble__paragraph strong {
-  border-bottom: .2em solid orange;
+  /*border-bottom: .2em solid orange;*/
+  font-size: 1.2em;
 }
 
 @media only screen and (max-width: 700px) {
   .troble__paragraph {
     font-size: 16px;
+    margin: 0 auto;
+  }
+  .troble__paragraph strong {
+    font-size: 1em;
   }
 }
 
