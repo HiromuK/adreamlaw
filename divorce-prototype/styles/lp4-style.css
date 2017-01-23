@@ -180,7 +180,7 @@ a {
 }
 
 
-.point__lists-mainhedding {
+.point__mainhedding {
   font-size: 25px;
   /*color: #ff9aac;*/
   /*background: #f3e9dc;*/
@@ -331,6 +331,7 @@ a {
 @media screen and (max-width: 700px) {
   .contact__middle {
     width: 100%;
+    margin-bottom: 0;
   }
 }
 
@@ -706,7 +707,7 @@ a {
   }
 
   .message_photo {
-    height: 75px;
+    height: 100px;
     border-radius: 100px;
     margin: 15px auto 10px;
     display: block;
@@ -718,10 +719,12 @@ a {
     float: none;
     font-size: 12px;
     margin-right: 2em;
+    padding: 15px 10px;
   }
 
-  .point__lists-mainhedding {
+  .point__mainhedding {
     width: auto;
+    font-size: 18px;
   }
 
   .point__lists__wrapper {
@@ -784,6 +787,7 @@ a {
     font-weight: bold;
     text-align: center;
     line-height: 1.5em;
+    padding: 0;
   }
 
   .point__list_link {
@@ -1122,12 +1126,13 @@ a {
 
 /*  お悩みのところ */
 .troble {
-
+  display: inline-block;
+  margin: 0 auto 10px;
 }
 
 .trouble__wrapper {
   clear: both;
-  margin: auto;
+  margin: 0 auto 30px;
   width: 90%;
   border: 2px solid #e6e6e6;
   border-radius: 15px;
@@ -1146,6 +1151,13 @@ a {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 700px) {
+  .troble__mainhedding {
+    width: auto;
+    font-size: 18px;
+  }
+}
+
 .troble__category-lists {
   margin: 15px auto 20px;
   display: inline-block;
@@ -1162,6 +1174,14 @@ a {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 700px) {
+  .troble__category-list {
+    font-size: 12px;
+    padding: 3px 2%;
+    margin: 1.5px;
+  }
+}
+
 .troble__lists {
  padding-left: 2em;
 }
@@ -1176,8 +1196,22 @@ a {
   color: #666;
 }
 
+@media only screen and (max-width: 700px) {
+  .troble__lists {
+    padding: 0 1em;
+  }
+
+  .troble__list {
+    font-size: 16px;
+  }
+
+  .troble__list i {
+    padding-right: .5em;
+  }
+}
+
 .troble__arrow {
-  color: #666;
+  color: #aaa;
 }
 
 .troble__paragraph {
@@ -1190,6 +1224,12 @@ a {
 
 .troble__paragraph strong {
   border-bottom: .2em solid orange;
+}
+
+@media only screen and (max-width: 700px) {
+  .troble__paragraph {
+    font-size: 16px;
+  }
 }
 
 
