@@ -67,6 +67,10 @@ a {
   line-height: 0.5em;
 }
 
+
+/*
+--------------- Main contents --------*/
+
 .column__right {
   width: 910px;
   float: right;
@@ -597,6 +601,7 @@ a {
     float: left;
     margin-left: 20px;
     width: 90%;
+    position: sticky;
   }
 
   .header__childwrapper-right_right {
@@ -1092,6 +1097,7 @@ a {
     background: rgba(255,255,255,0.9);
     width: 100%;
     padding: 5px 0;
+    font-size: 15px;
   }
 
   .topvisual__button-right {
@@ -1220,7 +1226,6 @@ a {
   width: 90%;
   font-size: 18px;
   padding: 1em 0 1.5em;
-  text-align: center;
   margin: 30px auto 50px;
 }
 
