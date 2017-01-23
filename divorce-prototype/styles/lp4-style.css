@@ -194,7 +194,7 @@ a {
 }
 
 .point__lists__wrapper {
-  width: 900px;
+  width: 840px;
   margin: 30px auto;
 }
 
@@ -202,6 +202,7 @@ a {
   width: 840px;
   clear: both;
   margin: 0 auto 10px;
+  display: inline-block;
   /*border: 2px solid orange;*/
   color: #333;
   /*border: 2px solid #f3e9dc;*/
