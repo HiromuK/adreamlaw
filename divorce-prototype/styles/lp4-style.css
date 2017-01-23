@@ -720,11 +720,6 @@ a {
     margin-right: 2em;
   }
 
-  .lp4__responsive-float {
-    float: left;
-    width: 100%;
-  }
-
   .point__lists-mainhedding {
     width: auto;
   }
@@ -1126,24 +1121,7 @@ a {
 
 
 /*  お悩みのところ */
-.trouble__lists {
- width: 90%;
- margin: auto;
- padding: 10px 0;
- display: inline-block;
-}
-
-.trouble__lists li {
-  margin: 10px;
-  width: 70px;
-  text-align: center;
-  float: left;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.trouble__list {
+.troble {
 
 }
 
@@ -1151,28 +1129,69 @@ a {
   clear: both;
   margin: auto;
   width: 90%;
+  border: 2px solid #e6e6e6;
+  border-radius: 15px;
 }
 
-.trouble__block {
-  border: 1px solid #ccc;
-  padding: 10px 30px;
-  margin: 20px 5px;
-  width: 40%;
-  height: 100px;
-  float: left;
-}
-
-.trouble__block p {
-  font-size: 15px;
-  color: #666;
-  float: right;
-}
-
-.trouble__block_heading-blue {
-  color: lightblue;
-  font-size: 20px;
+.troble__mainhedding {
+  font-size: 25px;
+  /*color: #ff9aac;*/
+  /*background: #f3e9dc;*/
+  background: #f6f6f6;
+  border-left: 5px solid #ff9aac;
+  width: 80%;
+  padding: .5em 2em;
+  margin: 20px auto;
+  clear: both;
   font-weight: bold;
 }
+
+.troble__category-lists {
+  margin: 15px auto 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.troble__category-list {
+  float: left;
+  padding: 3px 2.5%;
+  border-radius: 5px;
+  margin: 3px;
+  background: #f6f6f6;
+  color: #333;
+  font-weight: bold;
+}
+
+.troble__lists {
+ padding-left: 2em;
+}
+
+.troble__list {
+  padding-bottom: .5em;
+  font-size: 18px;
+}
+
+.troble__list i {
+  padding-right: 1.5em;
+  color: #666;
+}
+
+.troble__arrow {
+  color: #666;
+}
+
+.troble__paragraph {
+  width: 90%;
+  font-size: 18px;
+  padding: 1em 0 1.5em;
+  text-align: center;
+  margin: auto;
+}
+
+.troble__paragraph strong {
+  border-bottom: .2em solid orange;
+}
+
 
 .inner { display: none;}
 
