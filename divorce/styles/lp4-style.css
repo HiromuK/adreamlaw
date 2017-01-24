@@ -184,6 +184,12 @@ a {
   width: 90%;
 }
 
+.message__next-button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 30px;
+  display: inline-block;
+}
 
 .point__mainhedding {
   font-size: 25px;
@@ -296,7 +302,7 @@ a {
 
 .point__list_link {
   float: right;
-  border-bottom: 1px dotted lightblue;
+  border-bottom: 1px solid #ccc;
   color: blue;
 }
 
