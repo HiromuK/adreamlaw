@@ -5,7 +5,7 @@
 }
 
 .footer__wrapper {
-	width: 80%;
+  width: 80%;
   margin: auto;
   padding: 20px 0;
   background: #383838;
@@ -21,6 +21,39 @@
     float: left;
     font-size: 14px;
   }
+}
+
+.footer__arrow li {
+  margin-bottom: 10px !important;
+  position: relative !important;
+}
+
+.footer__arrow li::after {
+  display: block !important;
+  content: '';
+  position: absolute !important;
+  top: 0.3em !important;
+  left: -16px !important;
+  width: 6px !important;
+  height: 6px !important;
+  border-right: 1px solid #fff !important;
+  border-bottom: 1px solid #fff !important;
+  -webkit-transform: rotate(-45deg) !important;
+  -moz-transform: rotate(-45deg) !important;
+  transform: rotate(-45deg) !important;
+}
+
+.footer__arrow a {
+  color: #ffffff !important;
+  font-size: 14px !important;
+}
+
+.footer__arrow a:hover {
+  text-decoration: underline !important;
+}
+
+.footer__arrow a:visited {
+  color: #ffffff !important;
 }
 
 .footer__lists {
@@ -63,52 +96,52 @@
 
 
 .footer_nav {
-	width: 95%;
-	height: 20px;
-	padding: 10px 2% 20px 2%;
+  width: 95%;
+  height: 20px;
+  padding: 10px 2% 20px 2%;
 }
 
 .footer_nav li:hover {
-	box-shadow: 0 0 20px #000000;
+  box-shadow: 0 0 20px #000000;
 }
 
 .footer_list {
-	float: left;
+  float: left;
 }
 
 .footer_list a {
-	color: #fff;
+  color: #fff;
 }
 
 .footer_list a:hover {
-	color: #f9f9f9;
+  color: #f9f9f9;
 }
 
 .link_bt {
-	display: block;
-	padding: 10px 30px;
+  display: block;
+  padding: 10px 30px;
 }
 
 @media screen and (min-width: 964px) {
-	.footer__paragraph {
-		height: 20px;
-		padding-top: 20px;
-		color: #fff;
-	}
+  .footer__paragraph {
+    height: 20px;
+    padding-top: 20px;
+    color: #fff;
+  }
 }
 @media screen and (min-width: 680px) and (max-width: 963px) {
-	.footer__paragraph {
-		height: 20px;
-		padding-top: 50px;
-		color: #fff;
-	}
+  .footer__paragraph {
+    height: 20px;
+    padding-top: 50px;
+    color: #fff;
+  }
 }
 @media screen and (min-width: 540px) and (max-width: 679px) {
-	.footer__paragraph {
-		height: 20px;
-		padding-top: 80px;
-		color: #fff;
-	}
+  .footer__paragraph {
+    height: 20px;
+    padding-top: 80px;
+    color: #fff;
+  }
 }
 
 .footer__access {
