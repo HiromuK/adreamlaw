@@ -1,0 +1,31 @@
+.lawyer-introduction {
+  margin: auto;
+}
+
+.lawyer-introduction__wrapper {
+  width: 100%;
+}
+
+.lawyer-introduction__block {
+  width: 200px;
+  float: left;
+  margin: auto 15px 30px;
+}
+.lawyer-introduction__block:hover {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  opacity: 0.7;
+}
+
+.lawyer-introduction__image {
+  width: 200px;
+  border-radius: 50px;
+}
+
+.lawyer-introduction__paragraph {
+  text-align: center;
+  color: #333;
+}
