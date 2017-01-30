@@ -131,6 +131,11 @@ small {
   line-height: 2em;
 }
 
+.contents__paragraph-note {
+  font-size: 80%;
+  line-height: normal;
+}
+
 .contents__box-bottom {
   display: inline-block;
   margin: auto;
