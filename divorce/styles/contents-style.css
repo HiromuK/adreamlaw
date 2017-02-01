@@ -1,3 +1,13 @@
+/******************************************
+  /divorce/contents/ディレクトリ下のスタイルシート
+    author: hiromu kusumoto
+  githubID: https://github.com/HiromK
+******************************************/
+
+/******************
+    PC(common)
+******************/
+
 header {
   display: block;
 }
@@ -13,12 +23,6 @@ small {
   margin: 15px auto;
   color: #383838;
 }
-@media screen and (max-width: 700px) {
-  .contents__box {
-    border: none;
-    width: 100%;
-  }
-}
 
 .contents__box a {
   color: #54b2de;
@@ -28,15 +32,6 @@ small {
   width: 90%;
   margin: auto;
 }
-@media screen and (max-width: 700px) {
-  .contents__boxin {
-    width: 95%;
-  }
-  .contents__boxin p {
-    font-size: 15px;
-  }
-}
-
 
 .contents__mainhedding {
   font-size: 30px;
@@ -46,12 +41,6 @@ small {
   border-bottom: 2px solid pink;
   font-weight: bold;
 }
-@media screen and (max-width: 700px) {
-  .contents__mainhedding {
-    font-size: 20px;
-  }
-}
-
 
 .contents__subhedding {
   font-size: 22px;
@@ -62,11 +51,6 @@ small {
   background: #F6F6F6;
   padding: 1em 0 1em 10px;
 }
-@media screen and (max-width: 700px) {
-  .contents__subhedding {
-    font-size: 18px;
-  }
-}
 
 .contents__h3 {
   font-weight: bold;
@@ -74,11 +58,6 @@ small {
   font-size: 20px;
   padding: 0 0 10px 0;
   border-bottom: 2px solid pink;
-}
-@media screen and (max-width: 700px) {
-  .contents__h3 {
-    font-size: 16px;
-  }
 }
 
 .contents__h4 {
@@ -112,11 +91,6 @@ small {
   margin: auto;
   text-align: center;
 }
-@media screen and (max-width: 700px) {
-  .contents__img img {
-    width: 100%;
-  }
-}
 
 .link__underline:hover {
   text-decoration: underline;
@@ -124,6 +98,15 @@ small {
 
 .font-red {
   color: #ff5454;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-highlight {
+  color: #ff5454;
+  font-weight: bold;
 }
 
 .contents__paragraph {
@@ -157,4 +140,146 @@ small {
 
 .contents__list {
 
+}
+
+.contents__lists_n {
+  list-style: none;
+  margin-left: 1em;
+  line-height: 1.7em;
+  font-size: 16px;
+}
+
+.det_btn {
+  width: 140px;
+  height: 31px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #ffc0cb;
+  margin-top: 10px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+.det_btn:hover{
+  background-color: #fbdae0;
+}
+.det_btn a {
+  padding: 8.6px 18.0px;
+}
+.det_btn a:hover {
+  text-decoration: underline;
+}
+
+.img_center {
+  text-align: center;
+  display: block;
+}
+
+/* Q&A */
+.gunre {
+  list-style: none;
+  height: 80px;
+  margin: 10px;
+}
+.gunre li {
+  float: left;
+  margin: 4px;
+  padding: 8px 2px;
+  background-color: #333;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.gunre a {
+  padding: 8px 4px;
+}
+
+.ans_btn {
+  width: 140px;
+  height: 31px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #ffc0cb;
+  margin: 10px 0 0 16px;
+  padding-top: 5px;
+}
+.ans_btn:hover{
+  background-color: #fbdae0;
+}
+.ans_btn a {
+  padding: 8.6px 18.0px;
+}
+.ans_btn a:hover {
+  text-decoration: underline;
+}
+
+.sidecontents__lists li {
+  margin-bottom: 5px;
+}
+
+.sidecontents__lists a:hover {
+  text-decoration: underline;
+}
+
+/******************
+    Responsive
+******************/
+
+@media screen and (max-width: 700px) {
+  .contents__box {
+    border: none;
+    width: 100%;
+  }
+  
+  .contents__boxin {
+    width: 95%;
+  }
+  
+  .contents__boxin p {
+    font-size: 15px;
+  }
+  
+  .contents__mainhedding {
+    font-size: 20px;
+  }
+  
+  .contents__subhedding {
+    font-size: 18px;
+  }
+  
+  .contents__h3 {
+    font-size: 16px;
+  }
+  
+  .contents__img img {
+    width: 100%;
+  }
+  
+  .contents__lists {
+    margin-left: 30px;
+  }
+  
+  .contents__lists_n li {
+    margin-bottom: 10px;
+  }
+  
+  .gunre {
+    list-style: none;
+    height: 120px;
+    margin: 10px;
+  }
+
+  .ans_btn {
+    width: 120px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #ffc0cb;
+    margin: 10px 0 0 16px;
+    padding-top: 4px;
+  }
 }
