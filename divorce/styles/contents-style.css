@@ -133,6 +133,7 @@ small {
 
 .contents__lists {
   list-style: disc;
+  margin-top: 20px;
   margin-left: 1em;
   line-height: 1.7em;
   font-size: 16px;
@@ -144,6 +145,7 @@ small {
 
 .contents__lists_n {
   list-style: none;
+  margin-top: 20px;
   margin-left: 1em;
   line-height: 1.7em;
   font-size: 16px;
@@ -175,6 +177,7 @@ small {
   text-align: center;
   display: block;
 }
+
 
 /* Q&A */
 .gunre {
@@ -223,6 +226,134 @@ small {
   text-decoration: underline;
 }
 
+
+/* office */
+.g-map {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  margin-top: 40px; 
+  height: 0;
+  overflow: hidden;
+}
+
+.g-map iframe,
+.g-map object,
+.g-map embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* media */
+.media_inner{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.media_inner dt{
+  width: 100px;
+  padding: 10px 0 3px 5px;
+  float: left;
+}
+
+.media_inner dd{
+  width: 100%;
+  height: auto;
+  padding: 10px 10px;
+  border-bottom: 1px dotted rgba(204,204,204,1.00);
+}
+
+.media_inner i {
+  padding-right: 12px; 
+}
+
+.txt_R {
+  text-align: right;
+}
+
+@media only screen and (max-width: 480px) {
+  .media_inner dt{
+    float: none;
+  }
+}
+
+
+/* サイトマップ */
+.sitemaplists {
+  margin: 10px 15px;
+  width: 100%;
+  height: 60px;
+}
+
+.sitemaplist {
+  float: left;
+  margin: 0 10px 10px 10px;
+  padding-left: 5px;
+  position: relative;
+}
+
+.sitemaplist::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0.3em;
+  left: -7px;
+  width: 6px;
+  height: 6px;
+  border-right: 1px solid #54b2de;
+  border-bottom: 1px solid #54b2de;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.sitemaplist a {
+  color: #54b2de;
+}
+
+.sitemaplist a:hover {
+  text-decoration: underline;
+}
+
+.sitemaplists2 {
+  margin: 30px 15px 10px 15px;
+  width: 100%;
+  height: 60px;
+}
+
+.sitemaplist2 {
+  float: left;
+  margin: 0 10px 10px 10px;
+  padding-left: 5px;
+  position: relative;
+}
+
+.sitemaplist2::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0.3em;
+  left: -7px;
+  width: 6px;
+  height: 6px;
+  border-right: 1px solid #54b2de;
+  border-bottom: 1px solid #54b2de;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.sitemaplist2 a {
+  color: #54b2de;
+}
+
+.sitemaplist2 a:hover {
+  text-decoration: underline;
+}
+
 /******************
     Responsive
 ******************/
@@ -265,6 +396,8 @@ small {
     margin-bottom: 10px;
   }
   
+
+  /* Q&A */
   .gunre {
     list-style: none;
     height: 120px;
@@ -281,5 +414,33 @@ small {
     background-color: #ffc0cb;
     margin: 10px 0 0 16px;
     padding-top: 4px;
+  }
+
+
+  /* サイトマップ */
+  .sitemaplists {
+    margin: 10px 15px;
+    width: 80%;
+    height: 200px;
+  }
+
+  .sitemaplist {
+    float: left;
+    margin: 0 10px 10px 10px;
+    padding-left: 5px;
+    position: relative;
+  }
+
+  .sitemaplists2 {
+    margin: 30px 15px 10px 15px;
+    width: 80%;
+    height: 100px;
+  }
+
+  .sitemaplist2 {
+    float: left;
+    margin: 0 10px 10px 10px;
+    padding-left: 5px;
+    position: relative;
   }
 }
