@@ -10,8 +10,7 @@
     <section>
       <a href="/divorce/contents/merit.html">
       <div class="sidecolumn__button-fade sidecolumn__border">
-        <h3 class="centraize sidecolumn__subhedding sidecontents__paragraph">「離婚」が頭をよぎったら</h3>
-        <p class="centraize sidecolumn__emphasis sidecontents__paragraph-only">弁護士に早めに相談するメリット</p>
+        <img src="/divorce/images/early_consultant.jpg" style="width: 240px;">
       </div>
       </a>
     </section>
@@ -126,7 +125,7 @@
     </section>
 
     <section>
-      <a href="/info/">
+      <a href="/divorce/media/">
       <div class="sidecontents__border sidecolumn__button-fade">
         <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">メディア実績</h4>
       </div>

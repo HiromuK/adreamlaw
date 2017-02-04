@@ -5,9 +5,9 @@
         <li><a href="/divorce/contents/merit.html">早めに相談するメリット</a></li>
         <li><a href="/divorce/lawyer/">弁護士紹介</a></li>
         <li><a href="/divorce/fee/">弁護士費用</a></li>
-        <li><a href="/office/">当法人について</a></li>
-        <li><a href="/sitemap/">サイトマップ</a></li>
-        <li><a href="/public/">プライバシーポリシー</a></li>
+        <li><a href="/divorce/office/">当法人について</a></li>
+        <li><a href="/divorce/sitemap/">サイトマップ</a></li>
+        <li><a href="/divorce/public/">プライバシーポリシー</a></li>
       </ul>
     </div>
     <div class="footer__box">
