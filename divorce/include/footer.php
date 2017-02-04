@@ -44,5 +44,5 @@
       </ul>
     </div>
   </div>
-  <p class="centraize footer__copyright">Copyright (c) 2016 Copyright 弁護士法人淡路町ドリーム All Rights Reserved.</p>
+  <p class="centraize footer__copyright">Copyright (c) 2017 Copyright 弁護士法人淡路町ドリーム All Rights Reserved.</p>
 </footer>
