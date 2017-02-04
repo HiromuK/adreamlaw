@@ -73,9 +73,9 @@
     </section>
 
     <section>
-      <a href="/business/divorce/case/">
+      <a href="/divorce/case/">
       <div class="sidecontents__border sidecolumn__button-fade">
-        <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">解決事例</h4>
+        <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">解決実績</h4>
       </div>
       </a>
     </section>

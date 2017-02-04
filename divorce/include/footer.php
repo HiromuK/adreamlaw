@@ -17,7 +17,7 @@
         <li><a href="/divorce/contents/child/">離婚と子供</a></li>
         <li><a href="/divorce/contents/separate.html">「別居」が意味するもの</a></li>
         <li><a href="/divorce/contents/qa/">離婚問題のQ&amp;A</a></li>
-        <li><a href="/divorce/case/">解決事例</a></li>
+        <li><a href="/divorce/case/">解決実績</a></li>
       </ul>
     </div>
     <div class="footer__links-sns-box">
