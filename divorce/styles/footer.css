@@ -11,14 +11,22 @@
   background: #383838;
 }
 
+@media screen and (max-width: 700px) {
+  .footer__wrapper {
+    width: 90%;
+  }
+}
+
+
 .footer__box {
   width: 25%;
   float: left;
 }
 @media screen and (max-width: 700px) {
   .footer__box {
-    width: 50%;
-    float: left;
+    width: 90%;
+    margin: auto;
+    float: none;
     font-size: 14px;
   }
 }
@@ -156,7 +164,7 @@
 }
 
 .footer__access-googlemap {
-  width: 100%;
+  width: 90%;
 }
 
 .footer__access-aside {
