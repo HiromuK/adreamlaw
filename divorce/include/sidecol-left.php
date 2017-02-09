@@ -39,7 +39,7 @@
     </section>
 
     <section>
-      <a href="/divorce/contents/divorce-money.html">
+      <a href="/divorce/contents/money/">
       <div class="sidecontents__border sidecolumn__button-fade">
         <h4 class="centraize sidecontents__subhedding sidecontents__paragraph">考えるべきこと</h4>
         <p class="centraize sidecontents__emphasis sidecontents__paragraph-only">離婚とお金</p>
