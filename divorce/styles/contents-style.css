@@ -190,12 +190,13 @@ small {
   float: left;
   margin: 4px;
   padding: 8px 2px;
-  background-color: #333;
+  background-color: #ffa500;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
 .gunre a {
   padding: 8px 4px;
+  color: #ffffff;
 }
 
 .ans_btn {
@@ -213,7 +214,7 @@ small {
   background-color: #fbdae0;
 }
 .ans_btn a {
-  padding: 8.6px 18.0px;
+  padding: 4.6px 14.8px;
 }
 .ans_btn a:hover {
   text-decoration: underline;
@@ -400,7 +401,7 @@ small {
   /* Q&A */
   .gunre {
     list-style: none;
-    height: 120px;
+    height: 200px;
     margin: 10px;
   }
 
