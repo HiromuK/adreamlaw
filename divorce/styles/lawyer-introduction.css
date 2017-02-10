@@ -9,7 +9,9 @@
 .lawyer-introduction__block {
   width: 200px;
   float: left;
-  margin: auto 15px 30px;
+  margin: auto 10px 30px;
+  position: relative;
+  left: 3em;
 }
 .lawyer-introduction__block:hover {
   -webkit-transition: all .5s;

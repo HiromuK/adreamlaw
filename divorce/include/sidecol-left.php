@@ -3,14 +3,14 @@
 
     <section class="centraize sidecolumn__button-fade">
       <a href="/contact/">
-      	<img src="/divorce/images/side_CTA.jpg">
+      	<img src="/divorce/images/side_CTA.jpg" alt="お問い合わせバナー">
       </a>
     </section>
 
     <section>
       <a href="/divorce/contents/merit.html">
       <div class="sidecolumn__button-fade sidecolumn__border">
-        <img src="/divorce/images/early_consultant.jpg" style="width: 240px;">
+        <img src="/divorce/images/early_consultant.jpg" style="width: 240px;" alt="弁護士に早めに相談するメリット">
       </div>
       </a>
     </section>
@@ -86,10 +86,10 @@
         <li><a href="/divorce/contents/factor.html">離婚原因</a></li>
         <li><a href="/divorce/contents/type/">離婚の種類</a></li>
         <ul class="sidecontents__lists-child">
-          <li><a href="/business/divorce/type/consent.html">協議離婚</a></li>
-          <li><a href="/business/divorce/type/arbitration.html">調停離婚</a></li>
-          <li><a href="/business/divorce/type/judgement.html">審判離婚</a></li>
-          <li><a href="/business/divorce/type/adjudicated.html">裁判離婚</a></li>
+          <li><a href="/divorce/contents/type/consent.html">協議離婚</a></li>
+          <li><a href="/divorce/contents/type/arbitration.html">調停離婚</a></li>
+          <li><a href="/divorce/contents/type/judgement.html">審判離婚</a></li>
+          <li><a href="/divorce/contents/type/adjudicated.html">裁判離婚</a></li>
         </ul>
         <li><a href="/divorce/contents/flow.html">離婚手続きの流れ</a></li>
         <li><a href="/divorce/contents/kyougisyo.html">離婚協議書</a></li>

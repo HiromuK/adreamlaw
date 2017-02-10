@@ -2,7 +2,7 @@
   <div class="header__wrapper">
     <div class="header__childwrapper-left">
       <a href="/divorce/">
-        <img src="https://a-dreamlaw.com/common/images/logo.png" class="header__logo">
+        <img src="https://a-dreamlaw.com/common/images/logo.png" class="header__logo"　alt="淡路町ドリーム　ロゴ">
       </a>
       <p class="centraize header-mainhedding">離婚相談</p>
     </div>
