@@ -3,14 +3,14 @@
 
     <section class="centraize sidecolumn__button-fade">
       <a href="/contact/">
-      	<img src="/divorce/images/side_CTA.jpg">
+      	<img src="/divorce/images/side_CTA.jpg" alt="お問い合わせバナー">
       </a>
     </section>
 
     <section>
       <a href="/divorce/contents/merit.html">
       <div class="sidecolumn__button-fade sidecolumn__border">
-        <img src="/divorce/images/early_consultant.jpg" style="width: 240px;">
+        <img src="/divorce/images/early_consultant.jpg" style="width: 240px;" alt="弁護士に早めに相談するメリット">
       </div>
       </a>
     </section>
