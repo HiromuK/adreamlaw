@@ -200,18 +200,10 @@ small {
 }
 
 .ans_btn {
-  width: 140px;
-  height: 31px;
   font-size: 18px;
   font-weight: bold;
-  text-align: center;
   color: #fff;
-  background-color: #ffc0cb;
-  margin: 10px 0 0 16px;
-  padding-top: 5px;
-}
-.ans_btn:hover{
-  background-color: #fbdae0;
+  margin-top: 10px;
 }
 .ans_btn a {
   padding: 4.6px 14.8px;
