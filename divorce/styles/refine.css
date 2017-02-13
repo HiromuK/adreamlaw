@@ -7,13 +7,13 @@ button{
   padding: .4em .8em;
   background: #f5a5b3;
   border: 0;
-  margin: 5px 0;
+  margin: 5px 2px;
   float: left;
-  clear: both;
   color: #fff;
   font-size: 15px;
   font-weight: 300;
   border-radius: .25em;
+  box-shadow: 2px 3px 0 #ccc;
   cursor: pointer;
 }
 
@@ -44,11 +44,10 @@ button:focus{
 fieldset{
   display: inline-block;
   vertical-align: top;
-  margin: 0 30px 0 0;
+  margin: 0;
   padding: .5em;
-  border-radius: 3px;
-  width: 23%;
-  background: #eee;
+  width: 98%;
+  background: #f6f6f6;
 }
 
 .refine__Reset {
@@ -73,13 +72,5 @@ fieldset{
 
   fieldset{
     width: 95%;
-    margin: 0;
   }
-
-  button{
-    margin: 5px 2px;
-    float: left;
-    clear: none;
-  }
-
 }
