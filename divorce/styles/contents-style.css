@@ -398,13 +398,9 @@ small {
   }
 
   .ans_btn {
-    width: 120px;
-    height: 22px;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    color: #fff;
-    background-color: #ffc0cb;
     margin: 10px 0 0 16px;
     padding-top: 4px;
   }
@@ -464,3 +460,31 @@ small {
     display: none;
   }
 }
+
+  .case__lawyer-link {
+    text-align: right;
+  }
+
+  .case__lawyer-link a::before {
+    content: "\f054";
+    font-family: FontAwesome;
+    margin-right: 5px;
+  }
+
+  .user_data {
+  }
+
+  .user_left {
+    float: left;
+    margin-right: 30px;
+  }
+
+  .user {
+    font-size: 80%;
+  }
+
+  .user dt {
+    float: left;
+    margin-right: 10px;
+    width: 3em;
+  }
