@@ -179,39 +179,6 @@ small {
   display: block;
 }
 
-
-/* Q&A */
-.gunre {
-  list-style: none;
-  height: 80px;
-  margin: 10px;
-}
-.gunre li {
-  float: left;
-  margin: 4px;
-  padding: 8px 2px;
-  background-color: #ffa500;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-.gunre a {
-  padding: 8px 4px;
-  color: #ffffff;
-}
-
-.ans_btn {
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-  margin-top: 10px;
-}
-.ans_btn a {
-  padding: 4.6px 14.8px;
-}
-.ans_btn a:hover {
-  text-decoration: underline;
-}
-
 .sidecontents__lists li {
   margin-bottom: 5px;
 }
@@ -403,9 +370,12 @@ small {
     text-align: center;
     margin: 10px 0 0 16px;
     padding-top: 4px;
+    
+  /* フロー */
+  .sp_size {
+    width: 100%;
   }
-
-
+  
   /* サイトマップ */
   .sitemaplists {
     margin: 10px 15px;
@@ -434,17 +404,16 @@ small {
   }
 }
 
-
-  /* 解決事例 */
-  .case__block {
-    width: 45%;
-    border: 1px solid #ccc;
-    display: inline-block;
-    margin: 10px 5px;
-    padding: 10px;
-    height: 170px;
-    float: left;
-  }
+/* 解決事例 */
+.case__block {
+  width: 45%;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px;
+  height: 170px;
+  float: left;
+}
 
 .case_type {
   font-size: 14px;
