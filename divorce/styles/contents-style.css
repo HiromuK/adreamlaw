@@ -370,12 +370,13 @@ small {
     text-align: center;
     margin: 10px 0 0 16px;
     padding-top: 4px;
-    
+  }
+
   /* フロー */
   .sp_size {
     width: 100%;
   }
-  
+
   /* サイトマップ */
   .sitemaplists {
     margin: 10px 15px;
