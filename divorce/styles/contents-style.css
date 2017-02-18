@@ -389,17 +389,16 @@ small {
   }
 }
 
-
-  /* 解決事例 */
-  .case__block {
-    width: 45%;
-    border: 1px solid #ccc;
-    display: inline-block;
-    margin: 10px 5px;
-    padding: 10px;
-    height: 170px;
-    float: left;
-  }
+/* 解決事例 */
+.case__block {
+  width: 45%;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px;
+  height: 170px;
+  float: left;
+}
 
 .case_type {
   font-size: 14px;
