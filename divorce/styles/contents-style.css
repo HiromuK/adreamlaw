@@ -356,6 +356,21 @@ small {
     margin-bottom: 10px;
   }
 
+
+  /* Q&A */
+  .gunre {
+    list-style: none;
+    height: 200px;
+    margin: 10px;
+  }
+
+  .ans_btn {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0 16px;
+    padding-top: 4px;
+    
   /* フロー */
   .sp_size {
     width: 100%;
@@ -414,3 +429,31 @@ small {
     display: none;
   }
 }
+
+  .case__lawyer-link {
+    text-align: right;
+  }
+
+  .case__lawyer-link a::before {
+    content: "\f054";
+    font-family: FontAwesome;
+    margin-right: 5px;
+  }
+
+  .user_data {
+  }
+
+  .user_left {
+    float: left;
+    margin-right: 30px;
+  }
+
+  .user {
+    font-size: 80%;
+  }
+
+  .user dt {
+    float: left;
+    margin-right: 10px;
+    width: 3em;
+  }
