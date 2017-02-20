@@ -32,8 +32,8 @@
     <section>
       <a href="/divorce/contents/actual-compensation.html">
       <div class="sidecontents__border sidecolumn__button-fade">
-        <h4 class="centraize sidecontents__subhedding sidecontents__paragraph">請求したい？請求された？</h4>
-        <p class="centraize sidecontents__emphasis sidecontents__paragraph-only">慰謝料のホント</p>
+        <p class="centraize sidecontents__subhedding sidecontents__paragraph">請求したい？請求された？</p>
+        <h4 class="centraize sidecontents__emphasis sidecontents__paragraph-only">慰謝料のホント</h4>
       </div>
       </a>
     </section>
@@ -41,8 +41,8 @@
     <section>
       <a href="/divorce/contents/divorce-money.html">
       <div class="sidecontents__border sidecolumn__button-fade">
-        <h4 class="centraize sidecontents__subhedding sidecontents__paragraph">考えるべきこと</h4>
-        <p class="centraize sidecontents__emphasis sidecontents__paragraph-only">離婚とお金</p>
+        <p class="centraize sidecontents__subhedding sidecontents__paragraph">考えるべきこと</p>
+        <h4 class="centraize sidecontents__emphasis sidecontents__paragraph-only">離婚とお金</h4>
       </div>
       </a>
     </section>
@@ -118,8 +118,8 @@
     <section>
       <a href="/divorce/fee/">
       <div class="sidecontents__border sidecolumn__button-fade">
-        <h4 class="centraize sidecontents__subhedding sidecontents__paragraph">裁判や調停の「日当」なしで安心</h4>
-        <p class="centraize sidecontents__emphasis sidecontents__paragraph-only">弁護士費用</p>
+        <p class="centraize sidecontents__subhedding sidecontents__paragraph">裁判や調停の「日当」なしで安心</p>
+        <h4 class="centraize sidecontents__emphasis sidecontents__paragraph-only">弁護士費用</h4>
       </div>
       </a>
     </section>
@@ -133,14 +133,17 @@
     </section>
 
     <section>
-      <a href="/business/divorce/immorality/">
+      <a href="http://myben54.com/" rel="nofollow">
       <div class="sidecontents__border sidecolumn__button-fade">
-        <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">離婚弁護士の選び方<br>（動画）</h4>
+        <p class="centraize sidecontents__subhedding sidecontents__paragraph">弁護士が説明する離婚に関する情報メディア</p>
+        <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">MY弁護士</h4>
       </div>
       </a>
     </section>
+
   </section>
 </div>
+
 <div class="lp4__sumaho-footer">
   <section class="lp4__sumaho-display">
     <div class="contact__wrapper">
