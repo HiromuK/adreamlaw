@@ -133,9 +133,9 @@
     </section>
 
     <section>
-      <a href="http://myben54.com/" rel="nofollow">
+      <a href="http://myben54.com/" rel="nofollow" target="_blank">
       <div class="sidecontents__border sidecolumn__button-fade">
-        <p class="centraize sidecontents__subhedding sidecontents__paragraph">弁護士が説明する離婚に関する情報メディア</p>
+        <p class="centraize sidecontents__subhedding sidecontents__paragraph">弁護士が説明する<br>離婚に関する情報メディア</p>
         <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">MY弁護士</h4>
       </div>
       </a>
