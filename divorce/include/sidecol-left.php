@@ -125,6 +125,14 @@
     </section>
 
     <section>
+      <a href="/divorce/media/">
+      <div class="sidecontents__border sidecolumn__button-fade">
+        <h4 class="centraize sidecontents__subhedding sidecontents__emphasis sidecontents__paragraph-only">メディア実績</h4>
+      </div>
+      </a>
+    </section>
+
+    <section>
       <a href="http://myben54.com/" rel="nofollow">
       <div class="sidecontents__border sidecolumn__button-fade">
         <p class="centraize sidecontents__subhedding sidecontents__paragraph">弁護士が説明する離婚に関する情報メディア</p>
