@@ -1301,5 +1301,16 @@ a {
   text-align: center;
 }
 
+.img_left {
+  display: block;
+  float: left;
+  padding: 3px;
+  margin: 20px 20px 10px 20px;
+}
+
+.img_left figcaption{
+  padding-left: 40px;
+}
+
 /*author: yuta kimura
 githubID: https://github.com/Masterwood*/
