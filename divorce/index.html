@@ -11,53 +11,16 @@
   <link rel="stylesheet" media="all" href="https://a-dreamlaw.com/common/css/reset.css" />
   <link rel="stylesheet" media="all" href="styles/lp4-style.css" />
   <link rel="stylesheet" media="all" href="styles/lp4-sidecolumn.css" />
+  <link rel="stylesheet" media="all" href="styles/contents-style.css" />
   <link rel="stylesheet" media="all" href="styles/globalmenu.css" />
   <link rel="stylesheet" media="all" href="styles/footer.css" />
   <link rel="stylesheet" media="all" href="styles/bxslider.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>
-  $(function(){
 
-    $(".globalmenu").click(function(){
-      if(".globalmenu__lists"=.show){$(".globalmenu__lists").hide();}else{$(".globalmenu__lists").show();}
-
-    });
-
-  });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.js"></script>
-  <script>
-        $(function () {
-          $('.bxslider').bxSlider({
-            slideWidth: 1000,
-            speed: 600,
-            auto: true,
-            pause: 5000,
-            slideMargin: 10,
-            maxSlides: 4,
-            minSlides: 4,
-            moveSlides: 1
-          });
-        });
-
-        $(function () {
-          $('.bxslider-sp').bxSlider({
-            slideWidth: 1000,
-            speed: 600,
-            auto: true,
-            pause: 5000,
-            slideMargin: 10,
-            maxSlides: 1,
-            minSlides: 1,
-            moveSlides: 1
-          });
-        });
-  </script>
-  <script src="js/accordion.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fixed-sticky/0.1.7/fixedsticky.min.js"></script>
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
 </head>
-<body>
+<body class="drawer drawer--left">
   <!--
    計測用タグ
    -->
@@ -444,10 +407,70 @@
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/sidecol-left.php'); ?>
     <!-- 左カラム終了 -->
   </section>
+
+  <!-- sp用サイドカラム開始 -->
+  <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/sp_side.php'); ?>
+  <!-- sp用サイドカラム終了 -->
+
   <!-- フッター開始 -->
   <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/footer.php'); ?>
   <!-- フッター終了 -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="/common/scripts/respond.min.js"></script>
+<script src="/divorce/js/accordion.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fixed-sticky/0.1.7/fixedsticky.min.js"></script>
+<script>
+  // グローバルメニュー
+  $(document).ready(function() {
+    $('.drawer').drawer({
+      class: {
+        nav: 'drawer-nav',
+        toggle: 'drawer-toggle',
+        overlay: 'drawer-overlay',
+        open: 'drawer-open',
+        close: 'drawer-close',
+        dropdown: 'drawer-dropdown'
+      },
+      iscroll: {
+        // Configuring the iScroll
+        // https://github.com/cubiq/iscroll#configuring-the-iscroll
+        mouseWheel: true,
+        preventDefault: false
+      },
+      showOverlay: true
+    });
+  });
+
+  // ボックススライダー
+  $(function () {
+    $('.bxslider').bxSlider({
+      slideWidth: 1000,
+      speed: 600,
+      auto: true,
+      pause: 5000,
+      slideMargin: 10,
+      maxSlides: 4,
+      minSlides: 4,
+      moveSlides: 1
+    });
+  });
+  $(function () {
+    $('.bxslider-sp').bxSlider({
+      slideWidth: 1000,
+      speed: 600,
+      auto: true,
+      pause: 5000,
+      slideMargin: 10,
+      maxSlides: 1,
+      minSlides: 1,
+      moveSlides: 1
+    });
+  });
+</script>
 </body>
 </html>
 <!-- author: yuta kimura
