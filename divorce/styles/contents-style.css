@@ -467,10 +467,10 @@ small {
     cursor: pointer;
   }
   .acMenu1 li p span {
-    background: url(/divorce/images/i_swich.png) 307px -69px no-repeat;
+    background: url(/divorce/images/i_swich.png) 290px -69px no-repeat;
   }
   .acMenu1 li p span.active {
-    background: url(/divorce/images/i_swich.png) 307px 18px no-repeat;
+    background: url(/divorce/images/i_swich.png) 290px 18px no-repeat;
   }
   .acMenu1 li ul li {
     background: #f2f2f2;
