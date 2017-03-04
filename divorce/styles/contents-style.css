@@ -314,11 +314,19 @@ small {
   text-decoration: underline;
 }
 
+.sp_side-col {
+    display: none;
+}
+
 /******************
     Responsive
 ******************/
 
 @media screen and (max-width: 700px) {
+  section {
+    float: left;
+  }
+
   .contents__box {
     border: none;
     width: 100%;
@@ -402,6 +410,116 @@ small {
     margin: 0 10px 10px 10px;
     padding-left: 5px;
     position: relative;
+  }
+
+  .column__left {
+    display: none;
+  }
+
+  /* sp用サイドカラム */
+  .sp_side-col {
+    width: 90%;
+    margin: 0 5%;
+    display: block;
+  }
+  .sp_img-banner {
+    width: 90%;
+    margin: 0 10%;
+    display: block;
+  }
+  .acMenu {
+    width: 100%;
+  }
+  .acMenu1 {
+    background: #ffdbec;
+    width: 94%;
+    margin: 0 auto 30px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .acMenu1 a {
+    display: block;
+    padding: 10px;
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .acMenu1 span {
+    display: block;
+    padding: 10px;
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    color: #333;
+    font-weight: bold;
+  }
+  .acMenu1 ul {
+    display: none;
+  }
+  .acMenu1 li {
+    background: -moz-linear-gradient(top, #C6F0FE, #27BCF9);
+    background: -webkit-gradient(linear, left top, left bottom, from(#c6fee2), to(#4ef927));
+  }
+  .acMenu1 li p {
+    background: -moz-linear-gradient(top, #C6F0FE, #27BCF9);
+    background: -webkit-gradient(linear, left top, left bottom, from(#c6fee2), to(#4ef927));
+    cursor: pointer;
+  }
+  .acMenu1 li p span {
+    background: url(/divorce/images/i_swich.png) 290px -69px no-repeat;
+  }
+  .acMenu1 li p span.active {
+    background: url(/divorce/images/i_swich.png) 290px 18px no-repeat;
+  }
+  .acMenu1 li ul li {
+    background: #f2f2f2;
+    border-bottom: 1px solid #fff;
+  }
+  .acMenu1 li ul li p {
+    background:#999;
+  }
+  .acMenu1 li ul li ul li:last-child {
+    border:none;
+  }
+  /*.acMenu1 li ul li a {
+    background:url(../img/go.png) no-repeat 98% center;
+  }
+  .acMenu1 li ul li ul li {
+    background:#FFF;
+    border-bottom:#666 1px dotted;
+  }
+  */
+
+  .acMenu2 dt {
+    display:block;
+    width:313px;
+    height:50px;
+    margin: 0 25px;
+    line-height:50px;
+    text-align:center;
+    border:#666 1px solid;
+    cursor:pointer;
+    background:url(/divorce/images/i_swich.png) 287px -69px no-repeat;
+    padding-right:15px;
+  }
+  .acMenu2 dd {
+    background:#f2f2f2;
+    width:328px;
+    height:50px;
+    margin: 0 25px;
+    line-height:50px;
+    text-align:center;
+    border:#666 1px solid;
+    display:none;
+  }
+  .acMenu2 dt.active {
+    background:url(/divorce/images/i_swich.png) 287px 18px no-repeat;
+  }
+
+  /* フッター */
+  .footer__box {
+    display: none;
   }
 }
 
