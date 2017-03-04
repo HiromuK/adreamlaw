@@ -9,14 +9,12 @@
   clear: both;
   display: inline-flex;
 }
-
 .globalmenu__lists {
   width: 1120px;
   margin: auto;
   /*display: inline-block;*/
   font-weight: bold;
 }
-
 .globalmenu__list {
   float: left;
   padding: 14px 10px;
@@ -24,28 +22,28 @@
   background: #ff9cca;
   color: #fff;
 }
-@media only screen and (max-width: 700px) {
-  .globalmenu__list {
-    float: left;
-    padding: 5px 5px;
-    margin: 0 0 0 5px;
-    background: #ff9cca;
-    color: #fff;
-  }
-}
-
 .globalmenu__list:hover {
   background: lightpink;
 }
-
 .globalmenu__list a {
   color: #fff;
 }
-
 .globalmenu__logo {
   width: 40px;
 }
-
 .globalmenu__list-underline-no:hover {
   border-bottom: none;
+}
+button.drawer-toggle.drawer-hamburger {
+  display: none;
+}
+
+/* sp用グローバルメニュー */
+@media only screen and (max-width: 700px) {
+  .globalmenu {
+    display: none;
+  }
+  button.drawer-toggle.drawer-hamburger {
+    display: block;
+  }
 }
