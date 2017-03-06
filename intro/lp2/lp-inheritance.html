@@ -12,6 +12,7 @@
 <link rel="stylesheet" media="all" href="https://a-dreamlaw.com/common/css/base.css" />
 <link rel="stylesheet" media="all" href="https://a-dreamlaw.com/common/css/top.css" />
 <link rel="stylesheet" media="all" href="https://a-dreamlaw.com/common/css/dream.css" />
+
 <style type="text/css">
 <!--
   html {
@@ -179,6 +180,32 @@ img.img_border {
   padding-top: 0%
 }
 
+* { box-sizing: border-box }
+li { list-style-type: none }
+li:before {
+  content: "";
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+li.twenties:before {
+  background: #9acce3;
+}
+li.thirties:before {
+  background: #70b062;
+}
+li.forties:before {
+  background: #dbdf19;
+}
+li.grandmother:before {
+  background: #a979ad;
+}
+li.hiroshi:before {
+  background: #cd5638;
+}
+
 
 -->
 </style>
@@ -264,8 +291,233 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <h3>遺言書に「〇〇に全財産を相続させる」と記されている場合</h3>
     <p class="content">遺言書に「すべての財産を長男に相続させる」と記されていた場合、他の兄弟姉妹は何ももらえないのでしょうか？ 決してそんなことはありません。<span class="strong">「遺留分」という権利を主張すれば、一定割合（法定相続分の1/2、または1/3）の遺産を受け取ることができます。</span></p>
+
+<!--      円グラフ1　ここから      -->
+  <div style="width: 100%; text-align: center;">
+    <canvas id="pie-chart" height="450" width="450"></canvas>
+  </div>
+  <div style="width: 100%; padding: 50px; ">
+    <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+      <li class="twenties">自由部分：被相続人が自由にできる部分</li>
+      <li class="thirties">遺留分：相続人が持っている聖域部分（遺言でも奪えない）</li>
+    </ul>
+  </div>
+
     <p class="content">ただし、正確な遺留分を計算するための財産評価は非常に複雑です。また、大半の請求手続きが裁判に発展するので、弁護士のサポートを受けることをおすすめします。<span class="strong">なお、遺留分の減殺請求権は1年以内に行使しないと消滅するので、注意してください。</span></p>
-    <p class="content"><img src="http://myben54.com/wp/wp-content/uploads/2016/10/uji-change_2.jpg" alt="会議風景" class="img_border">
+
+    <!--      円グラフ2　ここから      -->
+    <h3>遺留分の比率　例</h3>
+
+    <ul style="overflow: hidden; width: 1200px; margin: 0 auto;">
+      <li style="float: left; margin: 2% 5%;">
+      <div style="width: 100%; text-align: center;">1,配偶者のみが相続人<br />
+        <canvas id="pie-chart2" height="450" width="450"></canvas>
+      </div>
+      <div style="width: 100%; padding: 50px;">
+        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+          <li class="twenties">自由部分：50%</li>
+          <li class="forties">配偶者遺留分：50%</li>
+        </ul>
+      </div>
+      </li>
+      <li style="float: left; margin: 2% 5%;">
+      <div style="width: 100%; text-align: center;">2,配偶者と子供が相続人<br />
+        <canvas id="pie-chart3" height="450" width="450"></canvas>
+      </div>
+      <div style="width: 100%; padding: 50px; ">
+        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+          <li class="twenties">自由部分：50％</li>
+          <li class="forties">配偶者遺留分：25％</li>
+          <li class="grandmother">子の遺留分：25％</li>
+        </ul>
+      </div>
+      </li>
+      <li style="float: left; margin: 2% 5%;">
+      <div style="width: 100%; text-align: center;">3,子供のみが相続人<br />
+        <canvas id="pie-chart5" height="450" width="450"></canvas>
+      </div>
+      <div style="width: 100%; padding: 50px; ">
+        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+          <li class="twenties">自由部分：50％</li>
+          <li class="grandmother">子の遺留分：50％</li>
+        </ul>
+      </div>
+      </li>
+
+      <li style="float: left; margin: 2% 5%;">
+      <div style="width: 100%; text-align: center;">4,配偶者と父母が相続人<br />
+        <canvas id="pie-chart4" height="450" width="450"></canvas>
+      </div>
+      <div style="width: 100%; padding: 50px; ">
+        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+          <li class="twenties">自由部分：50％</li>
+          <li class="forties">配偶者遺留分：約34％</li>
+          <li class="hiroshi">父母の遺留分：約16％</li>
+        </ul>
+      </div>
+      </li>
+      <li style="float: left; margin: 2% 5%;">
+      <div style="width: 100%; text-align: center;">5,父母のみが相続人<br />
+        <canvas id="pie-chart6" height="450" width="450"></canvas>
+      </div>
+      <div style="width: 100%; padding: 50px; ">
+        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+          <li class="twenties">自由部分：約66％</li>
+          <li class="hiroshi">父母の遺留分：約34％</li>
+        </ul>
+      </div>
+      </li>
+      <li style="float: left; margin: 2% 5%;">
+      <div style="width: 100%; text-align: center;">6,兄弟のみが相続人（兄弟には遺留分なし）<br />
+        <canvas id="pie-chart7" height="450" width="450"></canvas>
+      </div>
+      <div style="width: 100%; padding: 50px; ">
+        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+          <li class="twenties">100%、相続人が自由にできる</li>
+        </ul>
+      </div>
+      </li>
+    </ul>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prototype/1.7.3/prototype.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+      <!-- もしくは<script src="Chart.js"></script> -->
+      <script>
+      var pieData = [
+        {
+          value: 50,
+          color:"#9acce3",
+          highlight: "#aadbf2",
+          label: "自由部分"
+        },
+        {
+          value: 50,
+          color: "#70b062",
+          highlight: "#7fc170",
+          label: "遺留分"
+        }
+
+      ];
+
+      var pieData2 = [
+        {
+          value: 50,
+          color:"#9acce3",
+          highlight: "#aadbf2",
+          label: "自由部分"
+        },
+        {
+          value: 50,
+          color: "#dbdf19",
+          highlight: "#ecef23",
+          label: "配偶者遺留分"
+        }
+
+      ];
+
+      var pieData3 = [
+        {
+          value: 50,
+          color:"#9acce3",
+          highlight: "#aadbf2",
+          label: "自由部分"
+        },
+        {
+          value: 25,
+          color: "#dbdf19",
+          highlight: "#ecef23",
+          label: "配偶者遺留分"
+        },
+        {
+          value: 25,
+          color: "#a979ad",
+          highlight: "#bb8ebf",
+          label: "子の遺留分"
+        }
+
+      ];
+
+      var pieData4 = [
+        {
+          value: 50,
+          color:"#9acce3",
+          highlight: "#aadbf2",
+          label: "自由部分"
+        },
+        {
+          value: 34,
+          color: "#dbdf19",
+          highlight: "#ecef23",
+          label: "配偶者遺留分"
+        },
+        {
+          value: 16,
+          color: "#cd5638",
+          highlight: "#e2694a",
+          label: "父母の遺留分"
+        }
+
+      ];
+      var pieData5 = [
+        {
+          value: 50,
+          color:"#9acce3",
+          highlight: "#aadbf2",
+          label: "自由部分"
+        },
+        {
+          value: 50,
+          color: "#a979ad",
+          highlight: "#bb8ebf",
+          label: "子の遺留分"
+        }
+      ];
+      var pieData6 = [
+        {
+          value: 66,
+          color:"#9acce3",
+          highlight: "#aadbf2",
+          label: "自由部分"
+        },
+        {
+          value: 34,
+          color: "#cd5638",
+          highlight: "#e2694a",
+          label: "父母の遺留分"
+        },
+      ];
+      var pieData7 = [
+        {
+          value: 50,
+          color:"#9acce3",
+          highlight: "#aadbf2",
+          label: "100%、相続人が自由にできる"
+        }
+
+      ];
+
+
+      window.addEventListener('load', function(){
+        var ctx = document.getElementById("pie-chart").getContext("2d");
+        window.myPie = new Chart(ctx).Pie(pieData);
+        var ctx2 = document.getElementById("pie-chart2").getContext("2d");
+        window.myPie = new Chart(ctx2).Pie(pieData2);
+        var ctx3 = document.getElementById("pie-chart3").getContext("2d");
+        window.myPie = new Chart(ctx3).Pie(pieData3);
+        var ctx4 = document.getElementById("pie-chart4").getContext("2d");
+        window.myPie = new Chart(ctx4).Pie(pieData4);
+        var ctx5 = document.getElementById("pie-chart5").getContext("2d");
+        window.myPie = new Chart(ctx5).Pie(pieData5);
+        var ctx6 = document.getElementById("pie-chart6").getContext("2d");
+        window.myPie = new Chart(ctx6).Pie(pieData6);
+        var ctx7 = document.getElementById("pie-chart7").getContext("2d");
+        window.myPie = new Chart(ctx7).Pie(pieData7);
+
+      });
+
+      </script>
+    <!--      円グラフ2　ここまで      -->
+
   </div>
   <div class="area">
     <h2>当事務所のページを見てくださった皆様へ</h2>
