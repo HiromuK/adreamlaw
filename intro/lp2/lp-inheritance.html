@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
@@ -118,7 +118,6 @@ img.img_border {
  .box_row li{
    float: left;
    width: 30%;
-   height: 30%;
    margin: 1% 1% 5%;
    list-style: none;
    font-size: 14px;
@@ -143,31 +142,65 @@ img.img_border {
  }
 
  .contactarea_strong{
-   font-size: 5vw;
+   font-size: 24px;
    font-weight: bolder;
    background-image: -webkit-linear-gradient(top, #ffb700, #f38200);
-  background-image: -moz-linear-gradient(top, #ffb700, #f38200);
-  background-image: -ms-linear-gradient(top, #ffb700, #f38200);
-  background-image: -o-linear-gradient(top, #ffb700, #f38200);
-  background-image: linear-gradient(to bottom, #ffb700, #f38200);
+   background-image: -moz-linear-gradient(top, #ffb700, #f38200);
+   background-image: -ms-linear-gradient(top, #ffb700, #f38200);
+   background-image: -o-linear-gradient(top, #ffb700, #f38200);
+   background-image: linear-gradient(to bottom, #ffb700, #f38200);
    border-top: 3px solid #DDD;
 	 border-left: 3px solid #DDD;
 	 border-right: 3px solid #BBB;
 	 border-bottom: 3px solid #BBB;
    margin: 0 auto;
-   clear: both;
    text-align: center;
    padding: 30px 12px;
-   width: 100%;
+   width: 500px;
    max-width: 1400px;
+   float: left;
+ }
+
+ @media screen and (max-width: 768px) {
+   .subarea_ul {
+     overflow: hidden;
+     margin: 0 auto;
+     width: 280px !important;
+     max-width: 480px;
+    }
+
+   .contactarea_strong {
+    font-size: 20px;
+    font-weight: bolder;
+    background-image: -webkit-linear-gradient(top, #ffb700, #f38200);
+   background-image: -moz-linear-gradient(top, #ffb700, #f38200);
+   background-image: -ms-linear-gradient(top, #ffb700, #f38200);
+   background-image: -o-linear-gradient(top, #ffb700, #f38200);
+   background-image: linear-gradient(to bottom, #ffb700, #f38200);
+    border-top: 3px solid #DDD;
+ 	 border-left: 3px solid #DDD;
+ 	 border-right: 3px solid #BBB;
+ 	 border-bottom: 3px solid #BBB;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    padding: 20px 10px;
+    width: 100%;
+  }
+}
+
+.subarea_ul {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1000px;
  }
 
  .contact_text_tel{
    color: #FFF;
    text-shadow: 1px 1px 3px #555;
    background: url(/intro/lp2/images/tel5.gif) no-repeat;
-   background-size: 5vw;
-   padding-left: 10%;
+   background-size: 28px;
+   padding-left: 12%;
    padding-top: 0%
  }
 
@@ -175,14 +208,14 @@ img.img_border {
   color: #FFF;
   text-shadow: 1px 1px 3px #555;
   background: url(/common/images/header_mail_sp.png) no-repeat;
-  background-size: 5vw;
-  padding-left: 10%;
+  background-size: 28px;
+  padding-left: 12%;
   padding-top: 0%
 }
 
 * { box-sizing: border-box }
 li { list-style-type: none }
-li:before {
+.canvas_ul li:before {
   content: "";
   display: inline-block;
   height: 13px;
@@ -206,6 +239,22 @@ li.hiroshi:before {
   background: #cd5638;
 }
 
+.canvas_ul{
+  width: 200px;
+  padding: 10px;
+  box-shadow: 1px 1px 4px 1px #ccc;
+  margin: 0 auto;
+}
+
+  .canvas_div {
+    max-width: 1800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .canvas_div canvas{
+   width: 300px;
+   height: 300px;
+  }
 
 -->
 </style>
@@ -267,11 +316,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- 		inquiry start		-->
   	<div class="subarea">
   		<p class="contactarea">初回相談無料！ まずはお気軽にお問い合わせください。</p>
-      <p class="contactarea_strong"><a href="tel:0335258010" class="contact_text_tel">お電話での問い合わせ</a></p>
-  		<p class="contactarea_strong"><a href="/contact" class="contact_text_mail">メールでの問い合わせ<br /></a></p>
-  	</div>
+      <ul class="subarea_ul">
+          <li class="contactarea_strong"><a href="tel:0335258010" class="contact_text_tel">お電話での問い合わせ</a></li>
+  		    <li class="contactarea_strong"><a href="/contact" class="contact_text_mail">メールでの問い合わせ<br /></a></li>
+      </ul>
+    </div>
   <!-- 		inquiry end		-->
-
   <div class="area">
     <h2>遺産分割のトラブルが生まれる理由とは</h2>
     <h3>人はなぜ相続でもめてしまうのか〜財産の均等な分配に対する不満〜</h3>
@@ -279,8 +329,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <p class="content">法律では子どもの均等な遺産相続が定められています。そのため「均等な分配に納得いかない」と考える人がいると、争いが起きてしまうのです。たとえば、以下のようなケースが想定されます。</p>
 
     <h3>他の兄弟姉妹が親の生前に多額の援助を受けている場合</h3>
-    <p class="content">親（被相続人）の生前から多額の援助を受けていた子ども（相続人）がいた場合、他の兄弟姉妹は均等に遺産を相続しなければならないのでしょうか？答えはケースバイケース。相続前に利益を得ていたことを証明できるかどうかによって変わります。</p>
-    <p class="content"><span class="strong">もしも生前にもらっていた財産を「特別受益」として立証できれば、遺産の前渡しと判断してその金額をさしひくことができます。</span>もちろん「あのときに援助を受けていた」という記憶ではなく、具体的な記録が必要です。まずは弁護士に相談して、必要な資料や今後の見通しなどを確認しましょう。</p>
+    <p class="content">親（被相続人）の生前から多額の援助を受けていた子ども（相続人）がいた場合、他の兄弟姉妹は均等に遺産を相続しなければならないのでしょうか？【図１】<br />答えはケースバイケース。相続前に利益を得ていたことを証明できるかどうかによって変わります。</p>
+    <p class="content"><span class="strong">もしも生前にもらっていた財産を「特別受益」として立証できれば、遺産の前渡しと判断してその金額をさしひくことができます。</span>【図２】【図３】<br />もちろん「あのときに援助を受けていた」という記憶ではなく、具体的な記録が必要です。まずは弁護士に相談して、必要な資料や今後の見通しなどを確認しましょう。</p>
     <p class="content"><img src="/intro/lp2/images/souzoku_lp1.jpg" alt="相続　例1" class="img_border">
     <p class="content"><img src="/intro/lp2/images/souzoku_lp2.jpg" alt="相続　例2" class="img_border">
     <p class="content"><img src="/intro/lp2/images/souzoku_lp3.jpg" alt="相続　例3" class="img_border">
@@ -294,11 +344,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <p class="content">遺言書に「すべての財産を長男に相続させる」と記されていた場合、他の兄弟姉妹は何ももらえないのでしょうか？ 決してそんなことはありません。<span class="strong">「遺留分」という権利を主張すれば、一定割合（法定相続分の1/2、または1/3）の遺産を受け取ることができます。</span></p>
 
 <!--      円グラフ1　ここから      -->
-  <div style=" max-width: 1200px; width: 100%; text-align: center;">
-    <canvas id="pie-chart" height="450" width="450"></canvas>
+  <div class="canvas_div">図：相続財産における「遺留分」と「自由部分」<br />
+    <canvas id="pie-chart"></canvas>
   </div>
   <div style="width: 100%; padding: 50px; ">
-    <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+    <ul class="canvas_ul">
       <li class="twenties">自由部分：被相続人が自由にできる部分</li>
       <li class="thirties">遺留分：相続人が持っている聖域部分（遺言でも奪えない）</li>
     </ul>
@@ -309,24 +359,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!--      円グラフ2　ここから      -->
     <h3>遺留分の比率　例</h3>
 
-    <ul style="overflow: hidden; max-width: 1200px; width: 100%; margin: 0 auto;">
+    <ul style="overflow: hidden; max-width: 1290px; width: 100%; margin: 0 auto;">
       <li style="float: left; margin: 2% 5%;">
-      <div style="width: 100%; text-align: center;">1,配偶者のみが相続人<br />
-        <canvas id="pie-chart2" height="450" width="450"></canvas>
+      <div  class="canvas_div">1,配偶者のみが相続人<br />
+        <canvas id="pie-chart2"></canvas>
       </div>
       <div style="width: 100%; padding: 50px;">
-        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+        <ul class="canvas_ul">
           <li class="twenties">自由部分：50%</li>
           <li class="forties">配偶者遺留分：50%</li>
         </ul>
       </div>
       </li>
       <li style="float: left; margin: 2% 5%;">
-      <div style="width: 100%; text-align: center;">2,配偶者と子供が相続人<br />
-        <canvas id="pie-chart3" height="450" width="450"></canvas>
+      <div  class="canvas_div">2,配偶者と子供が相続人<br />
+        <canvas id="pie-chart3"></canvas>
       </div>
       <div style="width: 100%; padding: 50px; ">
-        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+        <ul class="canvas_ul">
           <li class="twenties">自由部分：50％</li>
           <li class="forties">配偶者遺留分：25％</li>
           <li class="grandmother">子の遺留分：25％</li>
@@ -334,23 +384,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       </li>
       <li style="float: left; margin: 2% 5%;">
-      <div style="width: 100%; text-align: center;">3,子供のみが相続人<br />
-        <canvas id="pie-chart5" height="450" width="450"></canvas>
+      <div  class="canvas_div">3,子供のみが相続人<br />
+        <canvas id="pie-chart5"></canvas>
       </div>
       <div style="width: 100%; padding: 50px; ">
-        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+        <ul class="canvas_ul">
           <li class="twenties">自由部分：50％</li>
           <li class="grandmother">子の遺留分：50％</li>
         </ul>
       </div>
       </li>
-
+    </ul>
+    <ul style="overflow: hidden; max-width: 1290px; width: 100%; margin: 0 auto;">
       <li style="float: left; margin: 2% 5%;">
-      <div style="width: 100%; text-align: center;">4,配偶者と父母が相続人<br />
-        <canvas id="pie-chart4" height="450" width="450"></canvas>
+      <div  class="canvas_div">4,配偶者と父母が相続人<br />
+        <canvas id="pie-chart4"></canvas>
       </div>
       <div style="width: 100%; padding: 50px; ">
-        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+        <ul class="canvas_ul">
           <li class="twenties">自由部分：50％</li>
           <li class="forties">配偶者遺留分：約34％</li>
           <li class="hiroshi">父母の遺留分：約16％</li>
@@ -358,22 +409,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       </li>
       <li style="float: left; margin: 2% 5%;">
-      <div style="width: 100%; text-align: center;">5,父母のみが相続人<br />
-        <canvas id="pie-chart6" height="450" width="450"></canvas>
+      <div  class="canvas_div">5,父母のみが相続人<br />
+        <canvas id="pie-chart6"></canvas>
       </div>
       <div style="width: 100%; padding: 50px; ">
-        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+        <ul class="canvas_ul">
           <li class="twenties">自由部分：約66％</li>
           <li class="hiroshi">父母の遺留分：約34％</li>
         </ul>
       </div>
       </li>
       <li style="float: left; margin: 2% 5%;">
-      <div style="width: 100%; text-align: center;">6,兄弟のみが相続人（兄弟には遺留分なし）<br />
-        <canvas id="pie-chart7" height="450" width="450"></canvas>
+      <div  class="canvas_div">6,兄弟のみが相続人（兄弟には遺留分なし）<br />
+        <canvas id="pie-chart7"></canvas>
       </div>
       <div style="width: 100%; padding: 50px; ">
-        <ul style="width: 200px; padding: 20px; box-shadow: 1px 1px 4px 1px #ccc; margin: 0 auto;">
+        <ul class="canvas_ul">
           <li class="twenties">100%、相続人が自由にできる</li>
         </ul>
       </div>
@@ -498,71 +549,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       window.addEventListener('load', function(){
         var ctx = document.getElementById("pie-chart").getContext("2d");
-        window.myPie = new Chart(ctx).Pie(pieData,{
-　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
-　　　　onAnimationComplete: function(){
-　　　　　　this.showTooltip(this.segments, true);
-　　　　},
-　　　　tooltipEvents: [],
-　　　　showTooltips: true
-　　}
-);
+        window.myPie = new Chart(ctx).Pie(pieData,pieOption);
         var ctx2 = document.getElementById("pie-chart2").getContext("2d");
-        window.myPie = new Chart(ctx2).Pie(pieData2,{
-　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
-　　　　onAnimationComplete: function(){
-　　　　　　this.showTooltip(this.segments, true);
-　　　　},
-　　　　tooltipEvents: [],
-　　　　showTooltips: true
-　　});
+        window.myPie = new Chart(ctx2).Pie(pieData2,pieOption);
         var ctx3 = document.getElementById("pie-chart3").getContext("2d");
-        window.myPie = new Chart(ctx3).Pie(pieData3,{
-　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
-　　　　onAnimationComplete: function(){
-　　　　　　this.showTooltip(this.segments, true);
-　　　　},
-　　　　tooltipEvents: [],
-　　　　showTooltips: true
-　　});
+        window.myPie = new Chart(ctx3).Pie(pieData3,pieOption);
         var ctx4 = document.getElementById("pie-chart4").getContext("2d");
-        window.myPie = new Chart(ctx4).Pie(pieData4,{
-　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
-　　　　onAnimationComplete: function(){
-　　　　　　this.showTooltip(this.segments, true);
-　　　　},
-　　　　tooltipEvents: [],
-　　　　showTooltips: true
-　　});
+        window.myPie = new Chart(ctx4).Pie(pieData4,pieOption);
         var ctx5 = document.getElementById("pie-chart5").getContext("2d");
-        window.myPie = new Chart(ctx5).Pie(pieData5,{
-　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
-　　　　onAnimationComplete: function(){
-　　　　　　this.showTooltip(this.segments, true);
-　　　　},
-　　　　tooltipEvents: [],
-　　　　showTooltips: true
-　　});
+        window.myPie = new Chart(ctx5).Pie(pieData5,pieOption);
         var ctx6 = document.getElementById("pie-chart6").getContext("2d");
-        window.myPie = new Chart(ctx6).Pie(pieData6,{
-　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
-　　　　onAnimationComplete: function(){
-　　　　　　this.showTooltip(this.segments, true);
-　　　　},
-　　　　tooltipEvents: [],
-　　　　showTooltips: true
-　　});
+        window.myPie = new Chart(ctx6).Pie(pieData6,pieOption);
         var ctx7 = document.getElementById("pie-chart7").getContext("2d");
-        window.myPie = new Chart(ctx7).Pie(pieData7,{
-　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
-　　　　onAnimationComplete: function(){
-　　　　　　this.showTooltip(this.segments, true);
-　　　　},
-　　　　tooltipEvents: [],
-　　　　showTooltips: true
-　　});
+        window.myPie = new Chart(ctx7).Pie(pieData7,pieOption);
 
       });
+
+      <!-- オプション項目セット -->
+              var pieOption =
+                  {
+                      animation : false       // アニメーション有無
+                  };
 
       </script>
     <!--      円グラフ2　ここまで      -->
@@ -593,12 +600,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- 		inquiry start		-->
 	<div class="subarea">
 		<p class="contactarea">初回相談無料！ まずはお気軽にお問い合わせください。</p>
-    <p class="contactarea_strong"><a href="tel:0335258010" class="contact_text_tel">お電話での問い合わせ</a></p>
-		<p class="contactarea_strong"><a href="/contact" class="contact_text_mail">メールでの問い合わせ<br /></a></p>
+    <ul class="subarea_ul">
+        <li class="contactarea_strong"><a href="tel:0335258010" class="contact_text_tel">お電話での問い合わせ</a></li>
+		    <li class="contactarea_strong"><a href="/contact" class="contact_text_mail">メールでの問い合わせ<br /></a></li>
+    </ul>
+<!-- 		inquiry end		-->
     <p class="contactarea" style="font-size: 14px; font-weight: normal; margin-top: 50px;">創業平成9年 相続問題の法律問題でお悩みなら弁護士法人 淡路町ドリーム<br />
     © Copyright 2017 弁護士法人 淡路町ドリーム All Rights Reserved.</p>
 	</div>
-<!-- 		inquiry end		-->
 
 </body>
 </html>
