@@ -281,19 +281,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <h3>他の兄弟姉妹が親の生前に多額の援助を受けている場合</h3>
     <p class="content">親（被相続人）の生前から多額の援助を受けていた子ども（相続人）がいた場合、他の兄弟姉妹は均等に遺産を相続しなければならないのでしょうか？答えはケースバイケース。相続前に利益を得ていたことを証明できるかどうかによって変わります。</p>
     <p class="content"><span class="strong">もしも生前にもらっていた財産を「特別受益」として立証できれば、遺産の前渡しと判断してその金額をさしひくことができます。</span>もちろん「あのときに援助を受けていた」という記憶ではなく、具体的な記録が必要です。まずは弁護士に相談して、必要な資料や今後の見通しなどを確認しましょう。</p>
-    <p class="content"><img src="http://myben54.com/wp/wp-content/uploads/2016/10/uji-change_1.jpg" alt="会議風景" class="img_border">
-
+    <p class="content"><img src="/intro/lp2/images/souzoku_lp1.jpg" alt="相続　例1" class="img_border">
+    <p class="content"><img src="/intro/lp2/images/souzoku_lp2.jpg" alt="相続　例2" class="img_border">
+    <p class="content"><img src="/intro/lp2/images/souzoku_lp3.jpg" alt="相続　例3" class="img_border">
     <h3>子どもが親と同居して、亡くなるまで面倒をみていた場合</h3>
     <p class="content">「親の面倒をみていたのだから、遺産を多めにほしい」。亡くなった親と同居していた兄弟姉妹から、こんな主張をされることがあります。<span class="strong">しかし、法的には遺産分割に反映されるケースは限定的。</span>通常程度の看護や介護は、一般的な扶養義務の範囲と判断されます。</p>
     <p class="content">法律では“財産の維持または増加に寄与”しなければ、法定相続分への上乗せ（寄与分）は認められません。具体的には、親の家業を手伝って売上アップに多大な貢献を果たしたり、24時間体制で介護をしていたり（介護費用の支出を防いで財産を維持）した必要があります。</p>
     <p class="content">こういった寄与分をめぐる争いは後を絶たないため、「遺産分割」の調停・審判とは別に「寄与分を定める処分」の調停・審判制度が設けられています。今後の人間関係もふまえて、どこまで争うのか。基本的な方針を立てたうえで、活用を検討してください。</p>
-    <p class="content"><img src="http://myben54.com/wp/wp-content/uploads/2016/10/uji-change_2.jpg" alt="会議風景" class="img_border">
+    <p class="content"><img src="/intro/lp2/images/souzoku_lp4.jpg" alt="相続　例4" class="img_border">
 
     <h3>遺言書に「〇〇に全財産を相続させる」と記されている場合</h3>
     <p class="content">遺言書に「すべての財産を長男に相続させる」と記されていた場合、他の兄弟姉妹は何ももらえないのでしょうか？ 決してそんなことはありません。<span class="strong">「遺留分」という権利を主張すれば、一定割合（法定相続分の1/2、または1/3）の遺産を受け取ることができます。</span></p>
 
 <!--      円グラフ1　ここから      -->
-  <div style="width: 100%; text-align: center;">
+  <div style=" max-width: 1200px; width: 100%; text-align: center;">
     <canvas id="pie-chart" height="450" width="450"></canvas>
   </div>
   <div style="width: 100%; padding: 50px; ">
@@ -308,7 +309,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!--      円グラフ2　ここから      -->
     <h3>遺留分の比率　例</h3>
 
-    <ul style="overflow: hidden; width: 1200px; margin: 0 auto;">
+    <ul style="overflow: hidden; max-width: 1200px; width: 100%; margin: 0 auto;">
       <li style="float: left; margin: 2% 5%;">
       <div style="width: 100%; text-align: center;">1,配偶者のみが相続人<br />
         <canvas id="pie-chart2" height="450" width="450"></canvas>
@@ -378,8 +379,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       </li>
     </ul>
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/prototype/1.7.3/prototype.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
       <!-- もしくは<script src="Chart.js"></script> -->
       <script>
@@ -488,7 +487,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       ];
       var pieData7 = [
         {
-          value: 50,
+          value: 100,
           color:"#9acce3",
           highlight: "#aadbf2",
           label: "100%、相続人が自由にできる"
@@ -499,19 +498,69 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       window.addEventListener('load', function(){
         var ctx = document.getElementById("pie-chart").getContext("2d");
-        window.myPie = new Chart(ctx).Pie(pieData);
+        window.myPie = new Chart(ctx).Pie(pieData,{
+　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
+　　　　onAnimationComplete: function(){
+　　　　　　this.showTooltip(this.segments, true);
+　　　　},
+　　　　tooltipEvents: [],
+　　　　showTooltips: true
+　　}
+);
         var ctx2 = document.getElementById("pie-chart2").getContext("2d");
-        window.myPie = new Chart(ctx2).Pie(pieData2);
+        window.myPie = new Chart(ctx2).Pie(pieData2,{
+　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
+　　　　onAnimationComplete: function(){
+　　　　　　this.showTooltip(this.segments, true);
+　　　　},
+　　　　tooltipEvents: [],
+　　　　showTooltips: true
+　　});
         var ctx3 = document.getElementById("pie-chart3").getContext("2d");
-        window.myPie = new Chart(ctx3).Pie(pieData3);
+        window.myPie = new Chart(ctx3).Pie(pieData3,{
+　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
+　　　　onAnimationComplete: function(){
+　　　　　　this.showTooltip(this.segments, true);
+　　　　},
+　　　　tooltipEvents: [],
+　　　　showTooltips: true
+　　});
         var ctx4 = document.getElementById("pie-chart4").getContext("2d");
-        window.myPie = new Chart(ctx4).Pie(pieData4);
+        window.myPie = new Chart(ctx4).Pie(pieData4,{
+　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
+　　　　onAnimationComplete: function(){
+　　　　　　this.showTooltip(this.segments, true);
+　　　　},
+　　　　tooltipEvents: [],
+　　　　showTooltips: true
+　　});
         var ctx5 = document.getElementById("pie-chart5").getContext("2d");
-        window.myPie = new Chart(ctx5).Pie(pieData5);
+        window.myPie = new Chart(ctx5).Pie(pieData5,{
+　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
+　　　　onAnimationComplete: function(){
+　　　　　　this.showTooltip(this.segments, true);
+　　　　},
+　　　　tooltipEvents: [],
+　　　　showTooltips: true
+　　});
         var ctx6 = document.getElementById("pie-chart6").getContext("2d");
-        window.myPie = new Chart(ctx6).Pie(pieData6);
+        window.myPie = new Chart(ctx6).Pie(pieData6,{
+　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
+　　　　onAnimationComplete: function(){
+　　　　　　this.showTooltip(this.segments, true);
+　　　　},
+　　　　tooltipEvents: [],
+　　　　showTooltips: true
+　　});
         var ctx7 = document.getElementById("pie-chart7").getContext("2d");
-        window.myPie = new Chart(ctx7).Pie(pieData7);
+        window.myPie = new Chart(ctx7).Pie(pieData7,{
+　　　　tooltipTemplate:"<%if (label){%><%=label%><%}%>:<%if (value){%><%=value%><%}%>%",
+　　　　onAnimationComplete: function(){
+　　　　　　this.showTooltip(this.segments, true);
+　　　　},
+　　　　tooltipEvents: [],
+　　　　showTooltips: true
+　　});
 
       });
 
