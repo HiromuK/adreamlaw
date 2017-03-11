@@ -334,7 +334,7 @@ button{
   text-decoration: none;
 }
 .form_btn_back{
-	width: 360px;
+	width: 100%;
 	background: #535353;
   background-image: -webkit-linear-gradient(top, #535353, #686868);
   background-image: -moz-linear-gradient(top, #535353, #686868);
