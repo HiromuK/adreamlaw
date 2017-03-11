@@ -1,4 +1,4 @@
-<!-- google-analytics -->>
+<!-- google-analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,7 +30,7 @@
 		</div>
 	</header><!--/header-->
 	<ul class="header_contact_sp row">
-		<li class="header_sp_left"><a href="tel:03-3525-8010" onclick="ga('send', 'event', 'adreamlaw', 'tel', 'label');">
+		<li class="header_sp_left"><a href="tel:03-3525-8010" onclick="ga('send', 'event', 'CTA', 'Click', 'tel');">
       <img src="/common/images/header_tel.jpg" alt="Call:03-3525-8010" width="400" height="100" onclick="yahoo_report_conversion(undefined); goog_report_conversion('tel:03-3525-8010')" /></a></li>
 		<li class="header_sp_right"><a href="/contact/"><img src="/common/images/header_mail_sp.jpg" alt="メールでのお問い合わせ"></a></li>
 	</ul>

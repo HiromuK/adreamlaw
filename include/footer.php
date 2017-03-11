@@ -22,7 +22,7 @@
 <div class="contact_banner row">
 	<div class="contact_banner-inner container gutters span_12">
 		<div class="gutters col span_4">
-			<div class="contact_banner-tel"><span class="tel" data-action="call" data-tel="0335258010"><a onclick="goog_report_conversion('tel:0335258010');ga('send', 'event', 'adreamlaw', 'tel', 'label');return false;" href="tel:0335258010" >03-3525-8010</a></span>
+			<div class="contact_banner-tel"><span class="tel" data-action="call" data-tel="0335258010"><a onclick="ga('send', 'event', 'CTA', 'Click', 'tel');" href="tel:0335258010" >03-3525-8010</a></span>
 			<p>無料相談実施中！</p>
 			</div>
 		</div>
@@ -42,7 +42,7 @@
 <div class="contact_banner_sp">
 	<div class="contact_banner-tel">
 		<p style="padding: 5px;">無料相談実施中</p>
-		<a onclick="goog_report_conversion('tel:0335258010');ga('send', 'event', 'adreamlaw', 'tel', 'label');return false;" href="tel:0335258010" ><img src="/common/images/header_tel.jpg" alt="電話でのお問い合わせ"></a>
+		<a onclick="ga('send', 'event', 'CTA', 'Click', 'tel');" href="tel:0335258010" ><img src="/common/images/header_tel.jpg" alt="電話でのお問い合わせ"></a>
 	</div>
 	<div class="btn"><a class="contact_btn" href="/contact/" id="form_sptop_area_gtm">
 				<span>メールでのお問い合わせ</span></a>
