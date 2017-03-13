@@ -1044,6 +1044,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   height: 447px;
+  clear: both;
 }
 
 .topvisual-mask {
