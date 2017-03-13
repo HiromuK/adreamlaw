@@ -118,7 +118,10 @@
   float: left;
 }
 .footer__access-googlemap {
-  width: 90%;
+  width: 100%;
+}
+.footer__access-googlemap iframe {
+  width: 100%;
 }
 .footer__access-aside {
   font-size: 13px;
