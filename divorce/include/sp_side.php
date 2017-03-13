@@ -1,14 +1,14 @@
-<section class="sp_side-col">
-  <section class="sp_img-banner centraize sidecolumn__button-fade">
+<section class="sidecolumn__sp">
+  <section class="centraize sidecolumn__button-fade">
     <a href="/contact/">
       <img src="/divorce/images/side_CTA.jpg" alt="お問い合わせバナー">
     </a>
   </section>
 
-  <section class="sp_img-banner">
+  <section>
     <a href="/divorce/contents/merit.html">
     <div class="sidecolumn__button-fade sidecolumn__border">
-      <img src="/divorce/images/early_consultant.jpg" style="width: 240px; margin: 0 20px;" alt="弁護士に早めに相談するメリット">
+      <img src="/divorce/images/early_consultant.jpg" style="width: 240px;" alt="弁護士に早めに相談するメリット">
     </div>
     </a>
   </section>
@@ -22,8 +22,8 @@
     </a>
   </section>
 
-  <section class="acMenu">
-    <ul class="acMenu1">
+  <section class="sidecolumn-sp__acordion">
+    <ul class="sidecolumn-sp__acordion_lists">
       <li><p><span>離婚知識</span></p>
         <ul>
           <li><a href="/divorce/contents/factor.html">離婚原因</a></li>
