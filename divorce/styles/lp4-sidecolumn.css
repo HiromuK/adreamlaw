@@ -158,14 +158,14 @@ strong {
     padding: 10px;
     background-position: 97% center;
     background-repeat: no-repeat;
-    color: #333;
+    color: #fff;
     font-weight: bold;
   }
   .sidecolumn-sp__acordion_lists ul {
     display: none;
   }
   .sidecolumn-sp__acordion_lists > li {
-    background: #ffdbec;
+    background: #e4419c;
     border-bottom: 1px dotted #fcfcfc;
   }
   .sidecolumn-sp__acordion_lists li p {

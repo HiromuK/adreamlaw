@@ -4,7 +4,7 @@
   /*background: #ff8a00;*/
   /*background: orange;*/
   /*background: #ffbfdd;*/
-  background: #ff9cca;
+  background: #e4419c;
   /*background: #ffddba;*/
   clear: both;
   display: inline-flex;
@@ -19,7 +19,7 @@
   float: left;
   padding: 14px 10px;
   margin: 0 0 0 20px;
-  background: #ff9cca;
+  background: #e4419c;
   color: #fff;
 }
 .globalmenu__list:hover {
