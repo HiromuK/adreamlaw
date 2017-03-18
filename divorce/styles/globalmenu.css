@@ -23,7 +23,7 @@
   color: #fff;
 }
 .globalmenu__list:hover {
-  background: lightpink;
+  opacity: .8;
 }
 .globalmenu__list a {
   color: #fff;
