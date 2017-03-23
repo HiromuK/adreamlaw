@@ -99,9 +99,14 @@ img.img_border {
   box-shadow: 0 0 0 3px #CCC, 0 0 0 4px #999;
 }
 
+ .faible {
+  font-size: 80%;
+ }
+
  .strong {
    color: #E65400;
    font-weight: bold;
+   font-size: 120%;
  }
 
  .strong_font {
@@ -256,6 +261,46 @@ li.hiroshi:before {
    height: 300px;
   }
 
+  /*  アコーディオン　CSS　ここから  */
+  label {
+    background: #84b378;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    margin: 0;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+input[type="checkbox"].on-off{
+    display: none;
+}
+
+.menu div {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+input[type="checkbox"].on-off + div{
+    height: 0;
+    overflow: hidden;
+}
+
+input[type="checkbox"].on-off:checked + div{
+    height: auto;
+}
+
+/*  アコーディオン　CSS　ここまで  */
+
+
+
 -->
 </style>
 </head>
@@ -307,11 +352,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <h3>夜間土日祝相談可！相続・不動産分野の実績多数！</h3>
     <p class="content">弁護士法人淡路町ドリームは7名の弁護士が所属する相続に関する法律のスペシャリスト集団です。</p>
     <p class="content">事務所は東京メトロ丸の内線「淡路町」駅より徒歩1分、都営地下鉄新宿線「小川町」駅より徒歩1分、東京メトロ千代田線「新御茶ノ水」駅より徒歩3分と交通アクセスが便利。都内はもちろん、埼玉県・千葉県・神奈川県からも数多くの相談が寄せられています。</p>
-    <p class="content"><span class="strong">初回相談は無料（1時間）</span>なので、お気軽にご相談ください。平日は9時から20時まで営業しており、土日・祝日のご相談も可能です。</p>
+    <p class="content"><span class="strong">初回相談は無料（1時間）</span>なので、お気軽にご相談ください。平日は9時から20時まで営業しており、<span class="strong">土日・祝日のご相談も可能</span>です。</p>
+    <p class="content"><img src="/common/images/map.jpg" alt="淡路町ドリームへのアクセス" class="img_border"><br /><span class="faible">淡路町ドリームへのアクセス</span></p>
     <h3>依頼者に考えるポイントを整理して伝える</h3>
     <p class="content">遺産相続を巡り、いったんトラブルが生じるとなかなか解決の糸口はみつかりません。場合によっては、その後のあなたの人生にも大きな影響を及ぼしかねない事態にまで発展します。そうした問題が起こる前に、あるいは万が一トラブルになってしまった場合には速やかに対処する必要があります。<span class="strong">大切なのは、今後の家族や親族との関係性を考慮したうえで、どのような方針に基づいて遺産相続問題を進めていくのか。</span>当事務所では、依頼者ご自身がその答えを導き出せるようポイントを整理し、わかりやすくお伝えします。<p/>
     <p class="content">弁護士は法律の専門家としてテクニカルな面をサポートする役割を担います。とはいえ、依頼者のご要望通りにそのまま応えることが「本当に役立つこと」につながるとは限りません。<span class="strong">依頼者にとって、何が真の利益になるのかを真剣に考え、おせっかいを焼きながら全力でサポートします。</span></p>
-    <p class="content"><img src="/divorce/images/lawyer-small-mtg.jpg" alt="会議風景" class="img_border">
+    <p class="content"><img src="/divorce/images/lawyer-small-mtg.jpg" alt="会議風景" class="img_border"><br /><span class="faible">依頼者を全力でサポート</span></p>
   </div>
   <!-- 		inquiry start		-->
   	<div class="subarea">
@@ -328,19 +374,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <p class="content">もめるのは、もめるに値する「財産」があるということです。現金だけなら1円まで分けられるのでそこまでもめないことが多いですが、どんなに小さくても不動産が含まれている場合は紛争になるケースが多々あります。</p>
     <p class="content">法律では子どもの均等な遺産相続が定められています。そのため「均等な分配に納得いかない」と考える人がいると、争いが起きてしまうのです。たとえば、以下のようなケースが想定されます。</p>
 
-    <h3>他の兄弟姉妹が親の生前に多額の援助を受けている場合</h3>
+<!-- アコーディオン１ -->
+    <div class="menu">
+        <label for="Panel1">（１）他の兄弟姉妹が親の生前に多額の援助を受けている場合</label>
+        <input type="checkbox" id="Panel1" class="on-off" />
+    <div>
+    <h3>（１）他の兄弟姉妹が親の生前に多額の援助を受けている場合</h3>
     <p class="content">親（被相続人）の生前から多額の援助を受けていた子ども（相続人）がいた場合、他の兄弟姉妹は均等に遺産を相続しなければならないのでしょうか？【図１】<br />答えはケースバイケース。相続前に利益を得ていたことを証明できるかどうかによって変わります。</p>
+    <p class="content"><img src="/intro/lp2/images/souzoku_lp1.jpg" alt="相続　例1" class="img_border"><br /><span class="faible">図1</span></p>
     <p class="content"><span class="strong">もしも生前にもらっていた財産を「特別受益」として立証できれば、遺産の前渡しと判断してその金額をさしひくことができます。</span>【図２】【図３】<br />もちろん「あのときに援助を受けていた」という記憶ではなく、具体的な記録が必要です。まずは弁護士に相談して、必要な資料や今後の見通しなどを確認しましょう。</p>
-    <p class="content"><img src="/intro/lp2/images/souzoku_lp1.jpg" alt="相続　例1" class="img_border">
-    <p class="content"><img src="/intro/lp2/images/souzoku_lp2.jpg" alt="相続　例2" class="img_border">
-    <p class="content"><img src="/intro/lp2/images/souzoku_lp3.jpg" alt="相続　例3" class="img_border">
-    <h3>子どもが親と同居して、亡くなるまで面倒をみていた場合</h3>
+    <p class="content"><img src="/intro/lp2/images/souzoku_lp2.jpg" alt="相続　例2" class="img_border"><br /><span class="faible">図2</span></p>
+    <p class="content"><img src="/intro/lp2/images/souzoku_lp3.jpg" alt="相続　例3" class="img_border"><br /><span class="faible">図3</span></p>
+  </div>
+  <!-- アコーディオン１ ここまで-->
+  <!-- アコーディオン２ ここから-->
+  <label for="Panel2">（２）子どもが親と同居して、亡くなるまで面倒をみていた場合</label>
+  <input type="checkbox" id="Panel2" class="on-off" />
+<div>
+    <h3>（２）子どもが親と同居して、亡くなるまで面倒をみていた場合</h3>
     <p class="content">「親の面倒をみていたのだから、遺産を多めにほしい」。亡くなった親と同居していた兄弟姉妹から、こんな主張をされることがあります。<span class="strong">しかし、法的には遺産分割に反映されるケースは限定的。</span>通常程度の看護や介護は、一般的な扶養義務の範囲と判断されます。</p>
     <p class="content">法律では“財産の維持または増加に寄与”しなければ、法定相続分への上乗せ（寄与分）は認められません。具体的には、親の家業を手伝って売上アップに多大な貢献を果たしたり、24時間体制で介護をしていたり（介護費用の支出を防いで財産を維持）した必要があります。</p>
     <p class="content">こういった寄与分をめぐる争いは後を絶たないため、「遺産分割」の調停・審判とは別に「寄与分を定める処分」の調停・審判制度が設けられています。今後の人間関係もふまえて、どこまで争うのか。基本的な方針を立てたうえで、活用を検討してください。</p>
-    <p class="content"><img src="/intro/lp2/images/souzoku_lp4.jpg" alt="相続　例4" class="img_border">
-
-    <h3>遺言書に「〇〇に全財産を相続させる」と記されている場合</h3>
+    <p class="content"><img src="/intro/lp2/images/souzoku_lp4.jpg" alt="相続　例4" class="img_border"><br /><span class="faible">図4</span></p>
+</div>
+  <!-- アコーディオン２ ここまで-->
+  <!-- アコーディオン２ ここから-->
+  <label for="Panel3">（３）遺言書に「〇〇に全財産を相続させる」と記されている場合</label>
+  <input type="checkbox" id="Panel3" class="on-off" />
+<div>
+    <h3>（３）遺言書に「〇〇に全財産を相続させる」と記されている場合</h3>
     <p class="content">遺言書に「すべての財産を長男に相続させる」と記されていた場合、他の兄弟姉妹は何ももらえないのでしょうか？ 決してそんなことはありません。<span class="strong">「遺留分」という権利を主張すれば、一定割合（法定相続分の1/2、または1/3）の遺産を受け取ることができます。</span></p>
 
 <!--      円グラフ1　ここから      -->
@@ -573,13 +635,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       </script>
     <!--      円グラフ2　ここまで      -->
+    </div>
+  </div>
 
   </div>
   <div class="area">
     <h2>当事務所のページを見てくださった皆様へ</h2>
     <p class="content">私たち弁護士法人淡路町ドリームは、依頼者様が何を望んでいるのか、何に困っているのか、それを探り当て、共に歩んでいきたいと願っております。相続の問題は人それぞれだからこそ、ご本人の思いを突き詰めて探り、「とことん共感した上で依頼者様と弁護士が共に進む」それが当事務所が徹底していることです。</p>
     <p class="content">まずは遠慮せず、当事務所の弁護士にどんどん聞いてください。相続問題はほとんどの方が初めて経験する法律のトラブルですから、不安は当然です。<span class="strong">当事務所では初回相談は無料です。ご依頼いただかなくても、相談者様の不安さえ解消できれば、無料相談をやっている価値があると考えています。</span>まずはお気軽にご相談ください。</p>
-    <p class="content"><img src="/intro/lp2/images/img-total.jpg" alt="全体写真" class="img_border">
+    <p class="content"><img src="/intro/lp2/images/img-total.jpg" alt="全体写真" class="img_border"><br /><span class="faible">相続トラブルでお悩みの方は、まずお電話でお問い合わせを</span></p>
 	</div>
   <div class="area">
     <h2>弁護士紹介</h2>
