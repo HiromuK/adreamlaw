@@ -9,11 +9,108 @@
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 <link rel="shortcut icon" href="http://a-dreamlaw.com/common/images/favicon.ico" >
+<link rel="stylesheet" media="all" href="https://a-dreamlaw.com/common/css/base.css" />
+<link rel="stylesheet" media="all" href="https://a-dreamlaw.com/common/css/top.css" />
+<link rel="stylesheet" media="all" href="https://a-dreamlaw.com/common/css/dream.css" />
 <style type="text/css">
 <!--
  a:hover img {
  	opacity: 0.7;
  	}
+
+  div.subarea {
+   margin: 0 auto;
+   clear: both;
+   padding: 15px 15px 60px;
+   text-align: center;
+   width: 100%;
+   background: #84b378;
+  }
+
+  .contactarea{
+    font-size: 20px;
+    color: #FFF;
+    background-color: #84b378;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .contactarea_strong{
+    font-size: 24px;
+    font-weight: bolder;
+    background-image: -webkit-linear-gradient(top, #ffb700, #f38200);
+    background-image: -moz-linear-gradient(top, #ffb700, #f38200);
+    background-image: -ms-linear-gradient(top, #ffb700, #f38200);
+    background-image: -o-linear-gradient(top, #ffb700, #f38200);
+    background-image: linear-gradient(to bottom, #ffb700, #f38200);
+    border-top: 3px solid #DDD;
+    border-left: 3px solid #DDD;
+    border-right: 3px solid #BBB;
+    border-bottom: 3px solid #BBB;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 12px;
+    width: 500px;
+    max-width: 1400px;
+    float: left;
+  }
+
+  @media screen and (max-width: 768px) {
+    .subarea_ul {
+      overflow: hidden;
+      margin: 0 auto;
+      width: 280px !important;
+      max-width: 480px;
+     }
+
+    .contactarea_strong {
+     font-size: 20px;
+     font-weight: bolder;
+     background-image: -webkit-linear-gradient(top, #ffb700, #f38200);
+    background-image: -moz-linear-gradient(top, #ffb700, #f38200);
+    background-image: -ms-linear-gradient(top, #ffb700, #f38200);
+    background-image: -o-linear-gradient(top, #ffb700, #f38200);
+    background-image: linear-gradient(to bottom, #ffb700, #f38200);
+     border-top: 3px solid #DDD;
+    border-left: 3px solid #DDD;
+    border-right: 3px solid #BBB;
+    border-bottom: 3px solid #BBB;
+     margin: 0 auto;
+     clear: both;
+     text-align: center;
+     padding: 20px 10px;
+     width: 100%;
+   }
+  }
+
+  .subarea_ul {
+   overflow: hidden;
+   margin: 0 auto;
+   width: 1000px;
+  }
+
+  .contact_text_tel{
+    color: #FFF;
+    text-shadow: 1px 1px 3px #555;
+    background: url(/intro/lp2/images/tel5.gif) no-repeat;
+    background-size: 28px;
+    padding-left: 12%;
+    padding-top: 0%
+  }
+
+  .contact_text_mail{
+   color: #FFF;
+   text-shadow: 1px 1px 3px #555;
+   background: url(/common/images/header_mail_sp.png) no-repeat;
+   background-size: 28px;
+   padding-left: 12%;
+   padding-top: 0%
+  }
+
 -->
 </style>
 </head>
@@ -39,8 +136,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WL2L4J');</script>
 <!-- End Google Tag Manager -->
 	<div style="background-color: #FFF;">
-		<div style="float: left; width: 1200px; height: 88px;">
-			<a href="http://a-dreamlaw.com/" target="_blank"><img src="images/lp4_20151230_01.jpg" alt="弁護士法人淡路町ドリーム" /></a>
+		<div style="display: block; margin: 0 auto; width: 100%;">
+			<a href="http://a-dreamlaw.com/" target="_blank"><img src="images/lp4_20151230_01.jpg" alt="弁護士法人淡路町ドリーム" style="display: block; margin: 0 auto;"/></a>
 		</div>
 	</div>
 <!-- 		head end		-->
@@ -53,6 +150,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</p>
 	</div>
 <!-- 		main end		-->
+<!-- 		inquiry start		-->
+  <div class="subarea">
+    <p class="contactarea">初回相談無料！ まずはお気軽にお問い合わせください。</p>
+    <ul class="subarea_ul">
+        <li class="contactarea_strong"><a onclick="ga('send', 'event', 'CTA', 'Click', 'tel');" href="tel:0335258010" class="contact_text_tel">お電話での問い合わせ</a></li>
+        <li class="contactarea_strong"><a href="/contact" class="contact_text_mail">メールでの問い合わせ<br /></a></li>
+    </ul>
+  </div>
+<!-- 		inquiry end		-->
 	<div style="background-color: #e2f2c2; margin: auto 0; clear: both; text-align: center">
 		<h2 style="margin: auto 0; display: inline-block; ">
 			<img src="images/lp4_20151230_04.jpg" alt="その違いって、何なの？／どう知識を得たらいいの？／どの専門家がいいの？" / style="margin: auto 0;">
