@@ -610,7 +610,7 @@ a.inner_links:visited {
 
   .header__logo {
     width: 84%;
-    margin: auto 8%;
+    margin: auto 8% auto 2%;
   }
 
   .header__childwrapper-left {
@@ -620,35 +620,41 @@ a.inner_links:visited {
 
   .header__childwrapper-right {
     float: none;
-    margin: 15px 0 0;
+    margin: 5px 0 0;
   }
 
   .header__childwrapper-right_left {
     float: left;
-    margin-left: 20px;
-    width: 90%;
+    margin-left: 2%;
+    width: 43%;
     position: sticky;
   }
 
-  .header__childwrapper-right_right {
+  .header__childwrapper-right_left-button {
+    width: 54%;
+    margin-left: 0;
     float: right;
+  }
+
+  .header__childwrapper-right_left-button .button {
+    padding: 14px;
   }
 
   .header__childwrapper-right_left-sp-padding {
-    padding: 10px 0 5px;
+    padding: 5px 0;
   }
 
   .header__tel_number {
-    font-size: 16px;
+    display: none;
   }
 
   .header__message {
-    float: right;
-    font-size: 15px;
+    display: none;
   }
 
   .header__time {
     font-size: 10px;
+    border-top: 0;
   }
 
   .column__right {
@@ -902,13 +908,19 @@ a.inner_links:visited {
 
   .button-header {
     padding: 14px 10px;
-    width: 35%;
+    float: right;
+    width: 13%;
+    margin-right: 3%;
   }
 
   .button-header_paragraph {
     color: #fff;
     font-size: 13px;
     text-align: center;
+  }
+
+  .button-header_paragraph-mail-no {
+    display: none;
   }
 
   .advance {
@@ -954,6 +966,18 @@ a.inner_links:visited {
   }
 
 
+}
+
+@media only screen and (max-width: 360px) {
+  .header__childwrapper-right_left {
+    width: 45%;
+  }
+  .header__childwrapper-right_left-button {
+    width: 52%;
+  }
+  .header__childwrapper-right_left-button .button {
+    padding: 14px 5px;
+  }
 }
 
 /*--------------------------------------------------------------------------user_voice------------------------------*/

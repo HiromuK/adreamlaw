@@ -4,21 +4,20 @@
       <a href="/divorce/">
         <img src="https://a-dreamlaw.com/common/images/logo.png" class="header__logo"　alt="淡路町ドリーム　ロゴ">
       </a>
-      <p class="centraize header-mainhedding">離婚相談</p>
     </div>
     <div class="header__childwrapper-right">
-      <div class="header__childwrapper-right_left">
-        <a href="https://a-dreamlaw.com/contact/">
-          <div class="button button-header">
+      <div class="header__childwrapper-right_left header__childwrapper-right_left-button">
+        <a onclick="ga('send', 'event', 'CTA', 'Click', 'tel');" href="tel:0335258010" class="lp4__sumaho-display" style="float: left;">
+          <div class="button">
             <p class="button-header_paragraph">
-              <i class="fa fa-envelope-o" aria-hidden="true"></i> 法律相談予約
+              <i class="fa fa-phone" aria-hidden="true"></i> 03-3525-8010
             </p>
           </div>
         </a>
-        <a onclick="ga('send', 'event', 'CTA', 'Click', 'tel');" href="tel:0335258010" class="lp4__sumaho-display" style="float: right; width: 56%;">
-          <div class="button" style="padding: 14px;">
+        <a href="https://a-dreamlaw.com/contact/">
+          <div class="button button-header">
             <p class="button-header_paragraph">
-              <i class="fa fa-phone" aria-hidden="true"></i> お電話でのお問い合わせ
+              <i class="fa fa-envelope-o" aria-hidden="true"></i> <span class="button-header_paragraph-mail-no">法律相談予約</span>
             </p>
           </div>
         </a>
