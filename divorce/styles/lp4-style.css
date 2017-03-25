@@ -621,6 +621,8 @@ a.inner_links:visited {
   .header__childwrapper-right {
     float: none;
     margin: 5px 0 0;
+    display: inline-block;
+    border-bottom: 1px dotted #cbcbcb;
   }
 
   .header__childwrapper-right_left {
