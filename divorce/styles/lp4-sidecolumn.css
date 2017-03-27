@@ -99,7 +99,7 @@ strong {
   .sidecolumn__border {
     border-radius: 7px;
     width: 280px;
-    margin: 10px 10% 30px;
+    margin: 10px auto 30px;
   }
 
   .sidecontents__border {
@@ -138,7 +138,6 @@ strong {
     width: 100%;
   }
   .sidecolumn-sp__acordion_lists {
-    background: #ececec;
     width: 94%;
     margin: 0 auto 30px;
     padding: 10px;

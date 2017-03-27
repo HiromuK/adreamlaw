@@ -1,9 +1,13 @@
 .drawer-hamburger {
   position: absolute;
-  background: #cbcbcb;
+  background: #e4419c;
   height: 10px;
 }
 
 .drawer-hamburger:hover {
-  background: #cbcbcb;
+  background: #e4419c;
+}
+
+.drawer-hamburger-icon, .drawer-hamburger-icon:after, .drawer-hamburger-icon:before {
+  background-color: #fff;
 }
