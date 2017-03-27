@@ -1,3 +1,9 @@
 .drawer-hamburger {
   position: absolute;
+  background: #cbcbcb;
+  height: 10px;
+}
+
+.drawer-hamburger:hover {
+  background: #cbcbcb;
 }

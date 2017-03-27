@@ -609,12 +609,14 @@ a.inner_links:visited {
   }
 
   .header__logo {
-    width: 84%;
+    width: 75%;
     margin: auto 8% auto 2%;
   }
 
   .header__childwrapper-left {
     width: 100%;
+    height: 48px;
+    border-bottom: 1px solid green;
     float: none;
   }
 
