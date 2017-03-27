@@ -38,7 +38,7 @@ small {
   clear: both;
   padding: 40px 0 10px 0;
   margin: 0 0 40px 0;
-  border-bottom: 2px solid pink;
+  border-bottom: 2px solid #e4419c;
   font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ small {
   font-size: 22px;
   margin: 20px 0;
   font-weight: bold;
-  border-left: 5px solid pink;
+  border-left: 5px solid #e4419c;
   line-height: 2em;
   background: #F6F6F6;
   padding: 1em 0 1em 10px;
@@ -57,7 +57,7 @@ small {
   margin: 2em 0 -0.5em 0;
   font-size: 20px;
   padding: 0 0 10px 0;
-  border-bottom: 2px solid pink;
+  border-bottom: 2px solid #e4419c;
   clear: both;
 }
 
@@ -338,6 +338,7 @@ small {
 
   .contents__mainhedding {
     font-size: 20px;
+    padding: 20px 0 10px;
   }
 
   .contents__subhedding {
@@ -399,4 +400,26 @@ small {
     margin: 0 10px 10px 10px;
     padding-left: 5px;
     position: relative;
+  }
+
+}
+
+
+  /* 関連リンクエリア */
+  #inner_link {
+    width: 92%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: solid 5px #ffdbec;
+  }
+  .link_info {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .inner__link {
+    margin: 10px 20px;
+  }
+  a.inner_links:visited {
+    color: #609;
   }
