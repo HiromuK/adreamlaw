@@ -2,7 +2,7 @@
 	display: none;
 }
 
-button{
+.case__sort button{
   display: inline-block;
   padding: .4em .8em;
   background: #f5a5b3;
@@ -17,31 +17,28 @@ button{
   cursor: pointer;
 }
 
-button.active{
+.case__sort button.active{
   background: #68b8f4;
 }
 
-button:focus{
+.case__sort button:focus{
   outline: 0 none;
 }
 
-button:first-of-type{
+.case__sort button:first-of-type{
   margin-left: 0;
 }
 
-button:last-of-type{
+.case__sort button:last-of-type{
   margin-right: 0;
 }
 
-button:focus{
+.case__sort button:focus{
   outline: 0 none;
 }
 
-.controls{
-  padding: 2%;
-}
 
-fieldset{
+.case__sort fieldset{
   display: inline-block;
   vertical-align: top;
   margin: 0;
@@ -50,11 +47,11 @@ fieldset{
   background: #f6f6f6;
 }
 
-.refine__Reset {
+.case__sort .refine__Reset {
   background: orange;
   clear: both;
 }
-.Reset__button {
+.case__sort .Reset__button {
   margin: 20px auto;
   width: 100px;
 }
@@ -70,7 +67,7 @@ fieldset{
 
 @media screen and (max-width: 700px) {
 
-  fieldset{
+  .case__sort fieldset{
     width: 95%;
   }
 }
