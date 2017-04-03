@@ -173,6 +173,11 @@ small {
   font-family: FontAwesome;
   margin-right: 5px;
 }
+.case__list_img {
+  padding: 3px;
+  margin: 20px 20px 10px 20px;
+}
+
 .user_data {}
 .user_left {
   float: left;
@@ -361,6 +366,9 @@ small {
     height: auto;
   }
   .case__block img {
+    display: none;
+  }
+  .case__list_img {
     display: none;
   }
 
