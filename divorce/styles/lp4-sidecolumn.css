@@ -4,6 +4,10 @@
   margin: 10px 0 30px;
 }
 
+.sidecolumn__border > img {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
 }
