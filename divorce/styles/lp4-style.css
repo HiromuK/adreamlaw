@@ -1359,5 +1359,104 @@ a {
   padding-left: 40px;
 }
 
+/*タブレット用*/
+@media (max-width: 1020px) and (min-width: 768px) {
+  .header__wrapper {
+    width: 100%;
+  }
+  .header__logo {
+    width: 250px;
+  }
+  .button-header_paragraph {
+    font-size: 15px;
+  }
+  .topvisual__paragraph {
+    width: 100%;
+  }
+  .topvisual-bg {
+    background-size: contain;
+    height: 335px;
+    margin-bottom: 100px;
+  }
+  .topvisual__paragraph {
+    display: inline;
+    position: absolute;
+  }
+  .topvisual__button-left {
+    width: 52%;
+  }
+  .topvisual__button-left > .button__paragraph {
+    font-size: 20px;
+  }
+  .topvisual__butoon-right_paragraph {
+    font-size: 14px;
+  }
+  .topvisual__button-tel {
+    font-size: 35px;
+  }
+  .lawyer__wrapper {
+    width: 100%;
+  }
+  .column__right {
+    width: 80%;
+  }
+  .point__lists__wrapper {
+    width: 100%;
+  }
+  .point__lists {
+    width: 100%;
+  }
+  .solution__wrapper {
+    width: 100%;
+  }
+  .contact__middle {
+    width: 95%;
+  }
+  .contact__middle-left {
+    width: 48%;
+  }
+  .contact__middle-left > .topvisual__button-left_paragraph {
+    font-size: 10px;
+  }
+  .contact__middle > .contact__middle-left > a > .topvisual__button-sp > .button__paragraph {
+    font-size: 20px;
+  }
+  .topvisual__button-right {
+    width: 48%;
+  }
+  .contact__middle > .topvisual__button-right > .topvisual__butoon-right_paragraph {
+    font-size: 10px;
+  }
+  .contact__middle > .topvisual__button-right > .topvisual__button-tel {
+    font-size: 28px;
+  }
+  .point__list-contents {
+    width: 49%;
+    padding: 17px;
+  }
+  .contact__wrapper {
+    width: 100%;
+  }
+  .contact__wrapper-border {
+    width: 100%;
+  }
+  .contact__sub-wrapper-left {
+    width: 55%;
+  }
+  .column__left {
+    width: 20%;
+  }
+  .column__left img {
+    width: 100%;
+  }
+  .footer__links-sns-box img {
+    width: 90%;
+  }
+  .sns_ico {
+    width: 40%;
+  }
+}
+
+
 /*author: yuta kimura
 githubID: https://github.com/Masterwood*/

@@ -10,7 +10,7 @@
     <section>
       <a href="/divorce/contents/merit.html">
       <div class="sidecolumn__button-fade sidecolumn__border">
-        <img src="/divorce/images/early_consultant.jpg" style="width: 240px;" alt="弁護士に早めに相談するメリット">
+        <img src="/divorce/images/early_consultant.jpg" alt="弁護士に早めに相談するメリット">
       </div>
       </a>
     </section>
