@@ -164,7 +164,29 @@
   <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/footer.php'); ?>
   <!-- フッター終了 -->
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+  <script type="text/javascript" src="../js/refine-search.js"></script>
+  <script src="/common/scripts/respond.min.js"></script>
+  <script src="/common/scripts/jquery.colorbox-min.js"></script>
+  <script src="/divorce/js/accordion.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+  <script>
+    // グローバルメニュー
+    $(document).ready(function() {
+      $('.drawer').drawer({
+        class: {
+          nav: 'drawer-nav',
+          toggle: 'drawer-toggle',
+          overlay: 'drawer-overlay',
+          open: 'drawer-open',
+          close: 'drawer-close',
+          dropdown: 'drawer-dropdown'
+        },
+        showOverlay: true
+      });
+    });
+  </script>
 </body>
 </html>
-<!-- author: hiromu kusumoto
-githubID: https://github.com/HiromK -->

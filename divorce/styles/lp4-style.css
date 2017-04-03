@@ -93,18 +93,13 @@ a {
 }
 
 .lawyer__photos {
-  /*height: 100px;*/
   width: 13.9%;
   float: left;
-  /*border: 1px solid #ccc;*/
   border-radius: 5px;
   margin: 0 2px;
 }
 
 .lawyer__photos-individual {
-  /*height: 100px;
-  width: 200px;*/
-  /*width: 172px;*/
   width: 100%;
   border-radius: 5px;
 }
@@ -118,7 +113,6 @@ a {
   width: 186px;
   margin: 10px 10px;
   border-radius: 5px;
-  /*border: 1px solid #ccc;*/
   position: relative;
 }
 
@@ -128,7 +122,6 @@ a {
 }
 
 .message__wrapper {
-  /*border: 1px solid #b5ac3e;*/
   border-radius: 10px;
   padding: 10px 30px 0;
   margin: 30px 30px 0;
@@ -137,9 +130,6 @@ a {
 }
 
 .message-background {
-  /*background: #ffafd1;*/
-  /*background: #ff92a2; pink*/
-  /*background: #F8F5ED; ベンコム風 */
   border: 3px solid #ffc4ca;
   padding: 5px 5px;
   width: 830px;
@@ -148,13 +138,9 @@ a {
 .message__mainhedding-white {
   margin: 6px 0;
   padding: 10px 20px;
-  /*color: #de8225;*/
   background: rgba(255, 200, 200, 0.8);
-  /*background: rgba(255,38,38,0.8); red*/
-  /*color: #fff;*/
   text-shadow: 1px 1px 2px #e69696;
   border-radius: 5px;
-  /*float: left;*/
   width: 577px;
   font-weight: bold;
   font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
@@ -193,8 +179,6 @@ a {
 
 .point__mainhedding {
   font-size: 25px;
-  /*color: #ff9aac;*/
-  /*background: #f3e9dc;*/
   background: #f6f6f6;
   border-left: 5px solid #e4419c;
   width: 80%;
@@ -214,9 +198,7 @@ a {
   clear: both;
   margin: 0 auto 10px;
   display: inline-block;
-  /*border: 2px solid orange;*/
   color: #333;
-  /*border: 2px solid #f3e9dc;*/
   padding: 30px 10px;
   box-sizing: border-box;
 }
@@ -227,9 +209,6 @@ a {
   text-align: center;
   padding: 50px 10px;
   display: inline-block;
-  /*font-weight: bold;*/
-  /*border-radius: 100px;
-  border: 1px solid pink;*/
 }
 
 .point__list-number span {
@@ -436,7 +415,7 @@ a {
 }
 
 
-/*--------------------------------------------------------------------Kimura original----------------------------------------------------*/
+/*-----------------後追加------------------*/
 .mainvisual {
   margin: auto;
   width: 1120px;
@@ -511,14 +490,9 @@ a {
   clear: both;
   background: #e4419c;
   box-shadow: 3px 0 10px #ccc;
-  /*background: #ffafd1;*/
-  /*background: #ffdbec;*/
-  /*background: #f6f6f6;*/
-  /*box-shadow: 3px 0 10px #ccc;*/
 }
 
 .advance__wrapper {
-  /*width: 1120px;*/
   margin: auto;
   color: #463b42;
   padding: 10px 0 30px;
@@ -526,8 +500,6 @@ a {
 }
 
 .advance__hedding {
-  /*color: #e4419c;
-  color: #f170b8;*/
   margin: 0 0 20px;
   padding: 5px 0;
   font-weight: bold;
@@ -595,7 +567,7 @@ a {
   margin-top: 5px;
 }
 
-/* ----------------------------------------------------------------------ここからレスポンシブ-----------------------------------------------------------------*/
+/* ----------------ここからレスポンシブ-----------------------*/
 @media only screen and (max-width: 700px) {
   .header__wrapper {
     width: 100%;
@@ -780,8 +752,6 @@ a {
     padding: 0;
     display: inline-block;
     font-weight: bold;
-    /*border-radius: 100px;
-    border: 1px solid pink;*/
   }
 
   .point__list-number-left {
@@ -937,7 +907,6 @@ a {
     padding: 0;
     margin: 0 0 20px;
     font-size: 20px;
-    /*border-bottom: 2px dotted pink;*/
     text-align: center;
   }
 
@@ -977,7 +946,7 @@ a {
   }
 }
 
-/*--------------------------------------------------------------------------user_voice------------------------------*/
+/*---------------------user_voice------------------------*/
 .user_voice__wrapper {
   margin: 10px auto 10px;
   text-align: center;
@@ -986,23 +955,18 @@ a {
 }
 
 .user_voice__h3 {
-  /*color: #ff9aac;*/
   border-left: 5px solid #ff9aac;
-  /*background: #F3E9DC;*/
   background: #f6f6f6;
   width: 80%;
   font-size: 25px;
   margin: 20px auto 0;
   font-weight: bold;
-  /*border-bottom: 3px solid lightpink;*/
   display: inline-block;
   padding: .5em 2em;
 }
 
 .user_voice__box {
   font-size: 13px;
-  /*border: 1px solid #cec81b;
-  border-radius: 15px;*/
   display: inline-block;
   width: 95%;
   margin: 5px 0;
@@ -1010,11 +974,7 @@ a {
 }
 
 .user_voice__lists {
-  /*list-style: disc;
-  padding: 0 2em;*/
   padding: 1em;
-  /*background: #fffde1;*/
-  /*border: 3px solid #fffaae;*/
   border-radius: 10px;
   width: 90%;
   margin: auto;
@@ -1024,7 +984,6 @@ a {
   margin: .5em 5px;
   padding: 1em .5em;
   border-radius: 10px;
-  /*border: 1px solid #f3e9dc;*/
   border: 1px solid #e6e6e6;
   width: 47%;
   height: 100px;
@@ -1082,7 +1041,7 @@ a {
   }
 }
 
-/*----------------------------------------------------------- topvisual --------------------------*/
+/*------------------ topvisual --------------------*/
 
 .topvisual-bg {
   background: url("../images/topvisual3.jpg");
@@ -1122,7 +1081,6 @@ a {
 }
 
 .topvisual__button-tel {
-  /*color: lightpink;*/
   color: #36d900;
   font-size: 45px;
 }
@@ -1193,14 +1151,11 @@ a {
   clear: both;
   margin: 0 auto 30px;
   width: 90%;
-  /*border: 2px solid #e6e6e6;*/
   border-radius: 15px;
 }
 
 .troble__mainhedding {
   font-size: 25px;
-  /*color: #ff9aac;*/
-  /*background: #f3e9dc;*/
   background: #f6f6f6;
   border-left: 5px solid #e4419c;
   width: 80%;
@@ -1284,7 +1239,6 @@ a {
 }
 
 .troble__paragraph strong {
-  /*border-bottom: .2em solid orange;*/
   font-size: 1.2em;
 }
 
@@ -1456,7 +1410,3 @@ a {
     width: 40%;
   }
 }
-
-
-/*author: yuta kimura
-githubID: https://github.com/Masterwood*/

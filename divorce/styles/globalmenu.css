@@ -1,18 +1,12 @@
 .globalmenu {
   width: 100%;
-  /*background: #f6f6f6;*/
-  /*background: #ff8a00;*/
-  /*background: orange;*/
-  /*background: #ffbfdd;*/
   background: #e4419c;
-  /*background: #ffddba;*/
   clear: both;
   display: inline-flex;
 }
 .globalmenu__lists {
   width: 1120px;
   margin: auto;
-  /*display: inline-block;*/
   font-weight: bold;
 }
 .globalmenu__list {
