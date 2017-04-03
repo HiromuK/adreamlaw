@@ -404,6 +404,12 @@ small {
 
 }
 
+  /* タブレット */
+@media (max-width: 1020px) and (min-width: 768px) {
+  .contents__img > img {
+    width: 100%;
+  }
+}
 
   /* 関連リンクエリア */
   #inner_link {
