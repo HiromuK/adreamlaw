@@ -67,7 +67,8 @@
         <li><a href="/divorce/contents/separate.html">「別居」が意味するもの</a></li>
         <li><a href="/divorce/contents/divorce-money.html">知らないと損するお金のこと</a></li>
         <li><a href="/divorce/contents/divorce-child.html">親権を獲得するために知っておくべきこと</a></li>
-         <li><a href="/divorce/contents/kyougisyo.html">離婚協議書の書き方</a></li>
+        <li><a href="/divorce/contents/kyougisyo.html">離婚協議書とはー離婚合意書と公正証書の違いは？</a></li>
+        <li><a href="/divorce/contents/why-need-kyougisyo.html">離婚協議書はなぜ必要か</a></li>
         <li><a href="/divorce/contents/domestic-violence.html">DV (ドメスティックバイオレンス)</a></li>
         <li><a href="/divorce/contents/morahara.html">モラルハラスメント</a></li>
       </ul>
