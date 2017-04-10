@@ -92,7 +92,11 @@
           <li><a href="/divorce/contents/type/adjudicated.html">裁判離婚</a></li>
         </ul>
         <li><a href="/divorce/contents/flow.html">離婚手続きの流れ</a></li>
-        <li><a href="/divorce/contents/kyougisyo.html">離婚協議書</a></li>
+        <li><a href="/divorce/contents/kyougisyo.html">離婚協議書</a>
+          <ul class="sidecontents__lists-child">
+            <li><a href="/divorce/contents/why-need-kyougisyo.html">離婚協議書はなぜ必要か</a></li>
+          </ul>
+        </li>
         <li><a href="/divorce/contents/money/">離婚とお金</a></li>
         <ul class="sidecontents__lists-child">
           <li><a href="/divorce/contents/actual-compensation.html">慰謝料</a></li>
