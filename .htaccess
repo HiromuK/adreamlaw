@@ -16,3 +16,177 @@ RewriteRule .* http://a-dreamlaw.com%{REQUEST_URI} [R=301,L]
 Redirect 301 /business/divorce/type/separation.html /divorce/contents/separate.html
 
 Redirect 301 /fee/why/kyougisyo.html /divorce/contents/why-need-kyougisyo.html
+
+Redirect 301 /business/divorce/case/mediation/case001.html /divorce/case/case001.html
+
+Redirect 301 /business/divorce/case/mediation/case002.html /divorce/case/case002.html
+
+Redirect 301 /business/divorce/case/mediation/case003.html /divorce/case/case003.html
+
+Redirect 301 /business/divorce/case/mediation/case004.html /divorce/case/case004.html
+
+Redirect 301 /business/divorce/case/mediation/case005.html /divorce/case/case005.html
+
+Redirect 301 /business/divorce/case/mediation/case006.html /divorce/case/case006.html
+
+Redirect 301 /business/divorce/case/mediation/case007.html /divorce/case/case007.html
+
+Redirect 301 /business/divorce/case/mediation/case008.html /divorce/case/case008.html
+
+Redirect 301 /business/divorce/case/mediation/case009.html /divorce/case/case009.html
+
+Redirect 301 /business/divorce/case/mediation/case010.html /divorce/case/case010.html
+
+Redirect 301 /business/divorce/case/mediation/case011.html /divorce/case/case011.html
+
+Redirect 301 /business/divorce/case/mediation/case012.html /divorce/case/case012.html
+
+Redirect 301 /business/divorce/case/mediation/case013.html /divorce/case/case013.html
+
+Redirect 301 /business/divorce/case/mediation/case014.html /divorce/case/case014.html
+
+Redirect 301 /business/divorce/case/mediation/case015.html /divorce/case/case015.html
+
+Redirect 301 /business/divorce/case/mediation/case016.html /divorce/case/case016.html
+
+Redirect 301 /business/divorce/case/mediation/case017.html /divorce/case/case017.html
+
+Redirect 301 /business/divorce/case/mediation/case018.html /divorce/case/case018.html
+
+Redirect 301 /business/divorce/case/mediation/case019.html /divorce/case/case019.html
+
+Redirect 301 /business/divorce/case/mediation/case020.html /divorce/case/case020.html
+
+Redirect 301 /business/divorce/case/mediation/case021.html /divorce/case/case021.html
+
+Redirect 301 /business/divorce/case/mediation/case022.html /divorce/case/case022.html
+
+Redirect 301 /business/divorce/case/mediation/case023.html /divorce/case/case023.html
+
+Redirect 301 /business/divorce/case/mediation/case024.html /divorce/case/case024.html
+
+Redirect 301 /business/divorce/case/mediation/case025.html /divorce/case/case025.html
+
+Redirect 301 /business/divorce/case/mediation/case026.html /divorce/case/case026.html
+
+Redirect 301 /business/divorce/case/mediation/case027.html /divorce/case/case027.html
+
+Redirect 301 /business/divorce/case/mediation/case028.html /divorce/case/case028.html
+
+Redirect 301 /business/divorce/case/mediation/case029.html /divorce/case/case029.html
+
+Redirect 301 /business/divorce/case/mediation/case030.html /divorce/case/case030.html
+
+Redirect 301 /business/divorce/case/mediation/case031.html /divorce/case/case031.html
+
+Redirect 301 /business/divorce/case/mediation/case032.html /divorce/case/case032.html
+
+Redirect 301 /business/divorce/case/mediation/case033.html /divorce/case/case033.html
+
+Redirect 301 /business/divorce/case/mediation/case034.html /divorce/case/case034.html
+
+Redirect 301 /business/divorce/case/mediation/case035.html /divorce/case/case035.html
+
+Redirect 301 /business/divorce/case/mediation/case036.html /divorce/case/case036.html
+
+Redirect 301 /business/divorce/case/mediation/case037.html /divorce/case/case037.html
+
+Redirect 301 /business/divorce/case/mediation/case038.html /divorce/case/case038.html
+
+Redirect 301 /business/divorce/case/mediation/case039.html /divorce/case/case039.html
+
+Redirect 301 /business/divorce/case/mediation/case040.html /divorce/case/case040.html
+
+Redirect 301 /business/divorce/case/mediation/case041.html /divorce/case/case041.html
+
+Redirect 301 /business/divorce/case/mediation/case042.html /divorce/case/case042.html
+
+Redirect 301 /business/divorce/case/lawsuit/case043.html /divorce/case/case043.html
+
+Redirect 301 /business/divorce/case/lawsuit/case044.html /divorce/case/case044.html
+
+Redirect 301 /business/divorce/case/lawsuit/case045.html /divorce/case/case045.html
+
+Redirect 301 /business/divorce/case/lawsuit/case046.html /divorce/case/case046.html
+
+Redirect 301 /business/divorce/case/lawsuit/case047.html /divorce/case/case047.html
+
+Redirect 301 /business/divorce/case/lawsuit/case048.html /divorce/case/case048.html
+
+Redirect 301 /business/divorce/case/lawsuit/case049.html /divorce/case/case049.html
+
+Redirect 301 /business/divorce/case/lawsuit/case050.html /divorce/case/case050.html
+
+Redirect 301 /business/divorce/case/lawsuit/case051.html /divorce/case/case051.html
+
+Redirect 301 /business/divorce/case/lawsuit/case052.html /divorce/case/case052.html
+
+Redirect 301 /business/divorce/case/lawsuit/case053.html /divorce/case/case053.html
+
+Redirect 301 /business/divorce/case/lawsuit/case054.html /divorce/case/case054.html
+
+Redirect 301 /business/divorce/case/lawsuit/case055.html /divorce/case/case055.html
+
+Redirect 301 /business/divorce/case/agreement/case056.html /divorce/case/case056.html
+
+Redirect 301 /business/divorce/case/agreement/case057.html /divorce/case/case057.html
+
+Redirect 301 /business/divorce/case/agreement/case058.html /divorce/case/case058.html
+
+Redirect 301 /business/divorce/case/agreement/case059.html /divorce/case/case059.html
+
+Redirect 301 /business/divorce/case/ohter/case060.html /divorce/case/case060.html
+
+Redirect 301 /business/divorce/case/ohter/case061.html /divorce/case/case061.html
+
+Redirect 301 /business/divorce/case/ohter/case062.html /divorce/case/case062.html
+
+Redirect 301 /business/divorce/case/ohter/case063.html /divorce/case/case063.html
+
+Redirect 301 /business/divorce/case/ohter/case064.html /divorce/case/case064.html
+
+Redirect 301 /business/divorce/case/ohter/case065.html /divorce/case/case065.html
+
+Redirect 301 /business/divorce/case/ohter/case066.html /divorce/case/case066.html
+
+Redirect 301 /business/divorce/case/ohter/case067.html /divorce/case/case067.html
+
+Redirect 301 /business/divorce/case/ohter/case068.html /divorce/case/case068.html
+
+Redirect 301 /business/divorce/case/ohter/case069.html /divorce/case/case069.html
+
+Redirect 301 /business/divorce/case/ohter/case070.html /divorce/case/case070.html
+
+Redirect 301 /business/divorce/case/ohter/case071.html /divorce/case/case071.html
+
+Redirect 301 /business/divorce/case/ohter/case072.html /divorce/case/case072.html
+
+Redirect 301 /business/divorce/case/ohter/case073.html /divorce/case/case073.html
+
+Redirect 301 /business/divorce/case/ohter/case074.html /divorce/case/case074.html
+
+Redirect 301 /business/divorce/case/ohter/case075.html /divorce/case/case075.html
+
+Redirect 301 /business/divorce/case/lawsuit/case076.html /divorce/case/case076.html
+
+Redirect 301 /business/divorce/case/lawsuit/case077.html  /divorce/case/case077.html
+
+Redirect 301 /business/divorce/case/ohter/case078.html /divorce/case/case078.html
+
+Redirect 301 /business/divorce/case/lawsuit/case079.html /divorce/case/case079.html
+
+Redirect 301 /business/divorce/case/mediation/case080.html /divorce/case/case080.html
+
+Redirect 301 /business/divorce/case/agreement/case081.html /divorce/case/case081.html
+
+Redirect 301 /business/divorce/case/ohter/case082.html /divorce/case/case082.html
+
+Redirect 301 /business/divorce/case/lawsuit/case084.html /divorce/case/case084.html
+
+Redirect 301 /business/divorce/case/ohter/case085.html /divorce/case/case085.html
+
+Redirect 301 /business/divorce/case/lawsuit/case086.html /divorce/case/case086.html
+
+Redirect 301 /business/divorce/case/ohter/case087.html /divorce/case/case087.html
+
+Redirect 301 /business/divorce/case/lawsuit/case088.html /divorce/case/case088.html
