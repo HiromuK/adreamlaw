@@ -20,7 +20,7 @@
     <li><a class="drawer-brand" href="/divorce/">離婚TOP</a></li>
     <li><a class="drawer-menu-item" href="/divorce/contents/merit.html"><i class="fa fa-chevron-right" aria-hidden="true"></i> 弁護士に早めに相談するメリット</a></li>
     <li><a class="drawer-menu-item" href="/divorce/lawyer/"><i class="fa fa-chevron-right" aria-hidden="true"></i> 弁護士紹介</a></li>
-    <a href="/divorce/intro/"><li class="globalmenu__list"><i class="fa fa-chevron-right" aria-hidden="true"></i> あたなは離婚で幸せになれる？</li></a>
+    <li><a class="drawer-menu-item" href="/divorce/intro/"><i class="fa fa-chevron-right" aria-hidden="true"></i> あたなは離婚で幸せになれる？</a></li>
     <li><a class="drawer-menu-item" href="/divorce/case/"><i class="fa fa-chevron-right" aria-hidden="true"></i> 解決実績</a></li>
     <li><a class="drawer-menu-item" href="/divorce/fee/"><i class="fa fa-chevron-right" aria-hidden="true"></i> 弁護士費用</a></li>
     <li><a class="drawer-menu-item" href="/contact/"><i class="fa fa-chevron-right" aria-hidden="true"></i> 問い合わせ</a></li>
