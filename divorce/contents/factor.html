@@ -18,6 +18,10 @@
   <!-- drawer.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
   <link rel="stylesheet" media="all" href="/divorce/styles/drawer-change.css" />
+
+  <!-- headインクルード -->
+  <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/head.php'); ?>
+  <!-- headインクルード -->
 </head>
 <body class="drawer drawer--right" itemscope="itemscope" itemtype="//schema.org/WebPage">
   <!--
@@ -123,6 +127,9 @@
             <p class="contents__paragraph">
             離婚を考えた原因に自信がない方、<a href="/contact/">こちら</a>から法律相談のご予約ができます。たとえ些細な事であっても、経験豊富な弁護士に打ち明けてみてください。必ずや道が拓けるでしょう。</p>
           </section>
+          <!-- SNSボタン -->
+          <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/social-button.php'); ?>
+          <!-- SNSボタン -->
         </section>
         <section class="contents__box-bottom">
           <div class="contact__wrapper">
