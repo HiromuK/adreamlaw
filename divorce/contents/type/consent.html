@@ -20,6 +20,10 @@
   <!-- drawer.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
   <link rel="stylesheet" media="all" href="/divorce/styles/drawer-change.css" />
+
+  <!-- headインクルード -->
+  <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/head.php'); ?>
+  <!-- headインクルード -->
 </head>
 <body class="drawer drawer--right" itemscope="itemscope" itemtype="//schema.org/WebPage">
   <!--
@@ -131,6 +135,9 @@
             <p class="contents__paragraph">
             協議離婚に関する法律相談は、<a href="/contact/">こちら</a>からご予約できます。数多くの離婚問題を解決してきた経験豊富な弁護士が在籍しております。</p>
           </section>
+          <!-- SNSボタン -->
+          <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/social-button.php'); ?>
+          <!-- SNSボタン -->
         </section>
         <section class="contents__box-bottom">
           <div class="contact__wrapper">
