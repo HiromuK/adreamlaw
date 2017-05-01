@@ -190,3 +190,11 @@ Redirect 301 /business/divorce/case/lawsuit/case086.html /divorce/case/case086.h
 Redirect 301 /business/divorce/case/ohter/case087.html /divorce/case/case087.html
 
 Redirect 301 /business/divorce/case/lawsuit/case088.html /divorce/case/case088.html
+
+Redirect 301 /business/divorce/type/consent.html /divorce/contents/type/consent.html
+
+Redirect 301 /business/divorce/type/arbitration.html /divorce/contents/type/arbitration.html
+
+Redirect 301 /business/divorce/type/judgement.html /divorce/contents/type/judgement.html
+
+Redirect 301 /business/divorce/type/adjudicated.html /divorce/contents/type/adjudicated.html
