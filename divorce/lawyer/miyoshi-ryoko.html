@@ -19,6 +19,10 @@
   <!-- drawer.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
   <link rel="stylesheet" media="all" href="/divorce/styles/drawer-change.css" />
+
+  <!-- headインクルード -->
+  <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/head.php'); ?>
+  <!-- headインクルード -->
 </head>
 <body class="drawer drawer--right" itemscope="itemscope" itemtype="//schema.org/WebPage">
   <!--
@@ -114,6 +118,9 @@
             <p class="contents__paragraph">事案を時系列に沿って整理し、ご自分がどうしたいのかを考えてきていただけるとスムーズかと思います。</p>
             <p class="contents__paragraph">また、重要な証拠になりそうな書類や写真などをお持ちいただけると助かります。</p>
           </section>
+          <!-- SNSボタン -->
+          <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/social-button.php'); ?>
+          <!-- SNSボタン -->
         </section>
         <section class="contents__box-bottom">
           <div class="contact__wrapper">
