@@ -18,6 +18,10 @@
   <!-- drawer.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
   <link rel="stylesheet" media="all" href="/divorce/styles/drawer-change.css" />
+
+  <!-- headインクルード -->
+  <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/head.php'); ?>
+  <!-- headインクルード -->
 </head>
 <body class="drawer drawer--right" itemscope="itemscope" itemtype="//schema.org/WebPage">
   <!--
@@ -132,6 +136,9 @@
             </header>
             <p class="contents__paragraph">はい、できます。ただ、ご希望の日時に弁護士の空きがない場合には、ご要望に添えないこともありますので、まずはお気軽にお問い合わせください。</p>
           </section>
+          <!-- SNSボタン -->
+          <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/social-button.php'); ?>
+          <!-- SNSボタン -->
         </section>
         <section class="contents__box-bottom">
           <div class="contact__wrapper">
