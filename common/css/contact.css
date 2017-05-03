@@ -427,4 +427,7 @@ button{
 .form_btn{
 	width: 100%;
 }
+.form_btn_back{
+  width: 100%;
+}
 }
