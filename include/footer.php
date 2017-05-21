@@ -1,23 +1,3 @@
-<!-- navigation -->
-<nav style="margin-top: 30px; margin-bottom: 30px;"><span id="global" class="footer_subnav global2"><span class="menu-waku">MENU</span></span>
-	<ul id="nav" class="footer_subnav nav2">
-        <li><a href="/flow/">ご相談の流れ</a></li>
-        <li><a href="/business/divorce/">離婚・相続問題</a>
-        <span id="s1"></span></li>
-        <li><a href="/business/building/">不動産・建築問題</a>
-        <span id="s2"></span></li>
-        <li><a href="/lawyer/">弁護士紹介</a>
-        <span id="s3"></span></li>
-        <li><a href="/business/case-index.html">解決事例</a>
-        <span id="s4"></span></li>
-        <li><a href="/fee/">弁護士費用</a>
-        <span id="s5"></span></li>
-        <li><a href="/office">事務所紹介</a>
-        <span id="s6"></span></li>
-        <li class="pc_noactive"><a href="/office/index.html#maplink">アクセス</a>
-        </li>
-    </ul>
-</nav>
 <!-- end navigation -->
 <div class="contact_banner row">
 	<div class="contact_banner-inner container gutters span_12">
