@@ -459,9 +459,9 @@ header{
 
 .header_contact_sp2{
 	display: block;
-	width: 290px;
+	width: 250px;
 	margin: 50px auto 0px;
-	padding: 10px;
+	padding: 10px 10px 0px 10px;
 	background: #fff;
 	}
 
@@ -483,7 +483,7 @@ header{
 }
 
 .header_sp_left{
-	width: 170px;
+	width: 140px;
 	height: 50px;
 	float: left;
 	margin-right: 20px;
@@ -494,7 +494,7 @@ header{
 .header_sp_right{
 	float: left;
 	text-align: center;
-	width: 80px;
+	width: 65px;
 	height: 50px;
 	color: #FFFFFF;
 	display: block;
@@ -984,6 +984,7 @@ a.dont-show:hover {color:#FFF;}
 }
 #global-nav ul li {
     float: left;
+		font-weight: bold;
 }
 #global-nav ul li a {
     padding: 0 30px;
@@ -1090,7 +1091,7 @@ a.dont-show:hover {color:#FFF;}
         width: 100%;
 				height: auto;
         text-align: center;
-        padding: 10px 0;
+        padding: 5px 10px;
         -webkit-transition: .5s ease-in-out;
         -moz-transition: .5s ease-in-out;
         transition: .5s ease-in-out;
@@ -1105,13 +1106,14 @@ a.dont-show:hover {color:#FFF;}
     #global-nav ul li {
         float: none;
         position: static;
+				border-bottom: solid 1px #FFF;
     }
     #top-head #global-nav ul li a,
     #top-head.fixed #global-nav ul li a {
         width: 100%;
         display: block;
         color: #fff;
-        padding: 18px 0;
+        padding: 10px 0;
     }
     #nav-toggle {
         display: block;
@@ -1157,7 +1159,7 @@ a.dont-show:hover {color:#FFF;}
 
 		.info_p2 {
 		text-align: center;
-		font-size: 18px;
+		font-size: 14px;
 		margin-bottom: 10px;
 		}
 
