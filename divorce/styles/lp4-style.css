@@ -1044,11 +1044,13 @@ a {
 /*------------------ topvisual --------------------*/
 
 .topvisual-bg {
-  background: url("../images/topvisual3.jpg");
+  background: url("../images/topvisual4.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 447px;
+  /*height: 447px;*/
+  height: 700px;
   clear: both;
+  background-size: contain;
 }
 
 .topvisual-mask {
@@ -1057,7 +1059,7 @@ a {
 }
 
 .topvisual__paragraph {
-  padding-top: 340px;
+  padding-top: 530px;
   width: 900px;
 }
 
@@ -1088,7 +1090,7 @@ a {
 /* topvisual responsive */
 @media only screen and (max-width: 700px) {
   .topvisual-bg {
-    background: url("../images/topvisual3.jpg");
+    background: url("../images/topvisual4.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 170px;
