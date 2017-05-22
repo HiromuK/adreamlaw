@@ -32,7 +32,7 @@ $(function() {
     }
       var y = 768;
       if (y <= x) {
-          $('h1').css('display','none');
+          $('.logo_ham').css('display','none');
   }
 });
 
@@ -40,7 +40,7 @@ $(function() {
 <header id="top-head">
     <div class="inner">
         <div id="mobile-head">
-            <h1 class="logo_ham"><a href="/"><img src="/common/images/logo.png" width="308" height="47" alt="弁護士法人淡路町ドリーム"></a></h1>
+            <div class="logo_ham"><a href="/"><img src="/common/images/logo.png" width="308" height="47" alt="弁護士法人淡路町ドリーム"></a></div>
             <div id="nav-toggle">
                 <div>
                     <span></span>
