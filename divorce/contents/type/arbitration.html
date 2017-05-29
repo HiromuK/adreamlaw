@@ -65,15 +65,18 @@
     	<div class="contents__box">
     	<!--breadclumb-->
     	<nav id="breadcrumbs">
-          <ul>
-            <li itemscope="itemscope" itemtype="//data-vocabulary.org/Breadcrumb">
-              <a itemprop="url" href="/divorce"><span itemprop="title">離婚TOP</span></a>/
+          <ul itemscope itemtype="//schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="//schema.org/ListItem">
+              <a itemprop="item" href="/divorce"><span itemprop="name">離婚TOP</span></a>/
+              <meta itemprop="position" content="1" />
             </li>
-            <li itemscope="itemscope" itemtype="//data-vocabulary.org/Breadcrumb">
-              <a itemprop="url" href="/divorce/contents/type"><span itemprop="title">離婚の種類</span></a>/
+            <li itemprop="itemListElement" itemscope itemtype="//schema.org/ListItem">
+              <a itemprop="item" href="/divorce/contents/type"><span itemprop="name">離婚の種類</span></a>/
+              <meta itemprop="position" content="2" />
             </li>
-            <li itemscope="itemscope" itemtype="//data-vocabulary.org/Breadcrumb">
-              <span itemprop="title">調停離婚</span>
+            <li itemprop="itemListElement" itemscope itemtype="//schema.org/ListItem">
+              <span itemprop="name">調停離婚</span>
+              <meta itemprop="position" content="3" />
             </li>
           </ul>
         </nav>
