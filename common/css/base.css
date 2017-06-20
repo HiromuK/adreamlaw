@@ -469,6 +469,9 @@ header{
 		border: 2px solid #000;
 	}
 }
+#mobile-head {
+	display: none;
+}
 
 
 .fixed_01 {
@@ -1070,6 +1073,7 @@ a.dont-show:hover {color:#FFF;}
         background: transparent;
     }
     #mobile-head {
+        display: block;
         background: #fff;
         width: 100%;
         height: 56px;
