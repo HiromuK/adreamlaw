@@ -568,9 +568,10 @@ header{
 		display: none;
 	}
 
-	/* MV下　WACUL訴求エリア	SP用*/
+	/* MV下　WACUL訴求エリア	PC用*/
 	.info_wrapper{
-			margin: 0 20%;
+	width: 100%;
+	margin: 0 auto;
 	}
 
 	.info_p1 {
@@ -1152,6 +1153,7 @@ a.dont-show:hover {color:#FFF;}
 
 		/* MV下　WACUL訴求エリア	SP用*/
 		.info_wrapper{
+		    width: 98%;
 		    margin: 0 1%;
 		}
 
