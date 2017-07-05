@@ -1,6 +1,6 @@
 .globalmenu {
   width: 100%;
-  background: #e4419c;
+  background: #009900;
   clear: both;
   display: inline-flex;
 }
@@ -13,7 +13,7 @@
   float: left;
   padding: 14px 10px;
   margin: 0 0 0 20px;
-  background: #e4419c;
+  background: #009900;
   color: #fff;
 }
 .globalmenu__list:hover {
