@@ -10,7 +10,7 @@
         <li class="trouble-list">離婚するのに有利な別居期間はどれくらい？</li>
       </ul>
       <div class="trouble-img"><img src="/divorce/images/woman-trouble.jpg" alt="悩みを抱える女性" style="width:90%; margin:20px"></div>
-      <p class="mention"><span class="font-red">今すぐ離婚専門弁護士に、別居時に取るべき行動をご相談ください！</span></p>
+      <p class="mention"><span class="font-red">今すぐ離婚が得意な弁護士に、別居時に取るべき行動をご相談ください！</span></p>
       <div class="cta__sub-wrapper">
         <a onclick="ga('send', 'event', 'CTA', 'Click', 'tel');" href="tel:0335258010"><div class="cta__button"><p class="centraize">03-3525-8010</p></div></a>
         <a href="/contact/" class="lp4__link"><div class="cta__button"><p class="centraize">メール問い合わせ</p></div></a>

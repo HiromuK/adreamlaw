@@ -119,6 +119,7 @@ a {
 .message {
   width: 80%;
   margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 .message__wrapper {
@@ -149,7 +150,7 @@ a {
 
 .message__mainhedding {
   font-size: 20px;
-  color: #e4419c;
+  color: #009900;
   font-weight: bold;
 }
 
@@ -180,12 +181,14 @@ a {
 .point__mainhedding {
   font-size: 25px;
   background: #f6f6f6;
-  border-left: 5px solid #e4419c;
+  border-left: 5px solid #009900;
   width: 80%;
   padding: .5em 2em;
   margin: 20px auto;
   clear: both;
   font-weight: bold;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .point__lists__wrapper {
@@ -273,8 +276,10 @@ a {
   text-align: center;
   font-size: 17px;
   padding: 15px;
-  background: #e4419c;
+  background: #009900;
   color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .point__list-contents-subhedding_number span {
@@ -283,13 +288,15 @@ a {
 
 .point__list-contents-subhedding {
   color: #fff;
-  background: #e4419c;
+  background: #009900;
   font-size: 25px;
   line-height: 1.5em;
   padding: 10px 0 20px 0;
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .point__list_link {
@@ -310,18 +317,18 @@ a {
 
 .solution-case__button {
   border-radius: 15px;
-  border: 1px solid #e4439d;
+  border: 1px solid #009900;
   box-shadow: 3px 4px 0 #ccc;
   width: 287px;
   margin: 10px auto;
   padding: 14px;
   display: inline-block;
-  color: #e4419c;
+  color: #009900;
   font-size: 23px;
 }
 
 .solution-case__button:hover {
-  background: #e4419c;
+  background: #009900;
   color: #fff;
 }
 
@@ -359,7 +366,7 @@ a {
 }
 
 .contact__wrapper-border {
-  border: 5px solid #e4419c;
+  border: 5px solid #009900;
   float: left;
   margin-bottom: 50px;
 }
@@ -485,11 +492,13 @@ a {
 }
 
 .advance {
-  margin: 30px 0 0;
-  width: 100%;
+  margin: 30px auto 0;
+  width: 95%;
   clear: both;
-  background: #e4419c;
+  border:3px solid #009900;
+  background: #fffffa;
   box-shadow: 3px 0 10px #ccc;
+  border-radius: 15px;
 }
 
 .advance__wrapper {
@@ -505,7 +514,6 @@ a {
   font-weight: bold;
   font-size: 23px;
   text-align: center;
-  color: #fff;
 }
 
 .advance__block {
@@ -542,7 +550,7 @@ a {
 
 .new__mainhedding {
   font-size: 20px;
-  color: #e4419c;
+  color: #009900;
 }
 
 .new__topics {
@@ -582,7 +590,7 @@ a {
   .header__childwrapper-left {
     width: 100%;
     height: 48px;
-    border-bottom: 1px solid #e4419c;
+    border-bottom: 1px solid #009900;
     float: none;
   }
 
@@ -590,7 +598,7 @@ a {
     float: none;
     margin: 5px 0 0;
     display: inline-block;
-    border-bottom: 1px dotted #e4419c;
+    border-bottom: 1px dotted #009900;
   }
 
   .header__childwrapper-right_left {
@@ -709,7 +717,7 @@ a {
   }
 
   .message__mainhedding-bigger {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .message_photo {
@@ -891,8 +899,8 @@ a {
   }
 
   .advance {
-    margin: 30px 0 0;
-    width: 100%;
+    margin: 30px auto 0;
+    width: 95%;
     clear: both;
   }
 
@@ -1048,8 +1056,10 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   /*height: 447px;*/
-  height: 700px;
+  height: 600px;
   clear: both;
+  width: 90%;
+  margin: auto;
   background-size: contain;
 }
 
@@ -1059,7 +1069,7 @@ a {
 }
 
 .topvisual__paragraph {
-  padding-top: 530px;
+  padding-top: 500px;
   width: 900px;
 }
 
@@ -1159,12 +1169,14 @@ a {
 .troble__mainhedding {
   font-size: 25px;
   background: #f6f6f6;
-  border-left: 5px solid #e4419c;
+  border-left: 5px solid #009900;
   width: 80%;
   padding: .5em 2em;
   margin: 20px auto;
   clear: both;
   font-weight: bold;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 @media only screen and (max-width: 700px) {
