@@ -597,15 +597,21 @@ header{
 	}
 
 	.info_box2 {
-	border: 1px solid #009900;
+	border: 1px solid #555;
 	background-color: #009900;
+  width: 70%;
+  border-radius: 15px;
+  box-shadow: 3px 4px 0 #ccc;
 	color: #FFF;
-	margin: 10px;
+	margin: 10px auto;
 	font-size: 36px;
 	text-align: center;
 	font-weight: bolder;
 	padding: 10px 20px;
 	}
+  .info_box2:hover {
+    opacity: 0.8;
+  }
 
 	.info_p3 {
 	font-size: 24px;
@@ -1180,8 +1186,10 @@ a.dont-show:hover {color:#FFF;}
 		}
 
 		.info_box2 {
-		border: 1px solid #009900;
+		border: 1px solid #555;
 		background-color: #009900;
+    border-radius: 15px;
+    box-shadow: 3px 4px 0 #ccc;
 		color: #FFF;
 		margin: 10px;
 		font-size: 28px;
