@@ -7,7 +7,7 @@ a {
 }
 
 .lawyer__wrapper {
-  width: 1160px;
+  width: 90%;
   margin: auto;
 }
 
@@ -73,7 +73,7 @@ a {
 
 .column__right {
   width: 910px;
-  float: right;
+  float: left;
 }
 
 .column__left {
@@ -117,9 +117,10 @@ a {
 }
 
 .message {
+  clear: both;
   width: 80%;
   margin-bottom: 30px;
-  margin-top: 40px;
+  margin-top: 180px;
 }
 
 .message__wrapper {
@@ -685,7 +686,7 @@ a {
   }
 
   .message {
-    margin: 230px auto 0;
+    margin: 40px auto 0;
   }
 
   .message__wrapper {
@@ -1052,7 +1053,7 @@ a {
 /*------------------ topvisual --------------------*/
 
 .topvisual-bg {
-  background: url("../images/topvisual4.jpg");
+  background: url("../images/topvisual5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   /*height: 447px;*/
@@ -1069,7 +1070,7 @@ a {
 }
 
 .topvisual__paragraph {
-  padding-top: 500px;
+  /*padding-top: 500px;*/
   width: 900px;
 }
 
@@ -1100,7 +1101,7 @@ a {
 /* topvisual responsive */
 @media only screen and (max-width: 700px) {
   .topvisual-bg {
-    background: url("../images/topvisual4.jpg");
+    background: url("../images/topvisual5.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 170px;
@@ -1108,7 +1109,7 @@ a {
   }
 
   .topvisual__paragraph {
-    padding-top: 170px;
+    /*padding-top: 170px;*/
     width: 100%;
   }
 
