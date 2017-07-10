@@ -17,6 +17,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
   <link rel="stylesheet" media="all" href="/divorce/styles/drawer-change.css" />
 
+  <style>
+    .cv-link {font-size:17px; text-decoration: underline; color: #54b2de;}
+    .cv-link::before {
+      font-family: FontAwesome;
+      content: "\f138 \00a0";
+    }
+    @media only screen and (max-width: 700px) {
+      .cv-link {font-size:16px;}
+    }
+  </style>
+
   <!-- headインクルード -->
   <?php include($_SERVER['DOCUMENT_ROOT'] . '/divorce/include/head.php'); ?>
   <!-- headインクルード -->
@@ -102,6 +113,9 @@
               <li class="contents__index-list"><a href="#index1" class="link__underline">事案内容</a></li>
               <li class="contents__index-list"><a href="#index2" class="link__underline">弁護士からのアドバイス</a></li>
             </ul>
+          </div>
+          <div>
+            <p class="contents__paragraph"><a href="/contact/" class="cv-link">予備的反訴について、「弁護士」に相談したい方はこちら</a></p>
           </div>
           <section>
             <header>
