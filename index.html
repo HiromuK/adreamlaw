@@ -15,6 +15,26 @@
   <link rel="stylesheet" media="all" href="/common/css/dream.css" />
   <link rel="canonical" href="https://a-dreamlaw.com/" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- -->
+  <style>
+    .flow_wrapper {background-color: #FFF; width: 85%; margin: 20px auto; border: solid 2px #EEE; float: none;}
+    .flow-txt {width: 45%; padding: 5px; margin-left: 5%; float: left;}
+    .flow-txt p {padding: 5px 10px 0 10px; font-size: 16px;}
+    .sub-head {font-weight: bold; font-size: 18px !important; margin-bottom: 15px;}
+    .flow-chart {width: 48.8%; height: 180px; padding: 5px; float: left;}
+    .flow-detail {background-color: #EEE; font-size: 16px; text-align: center; margin: 200px 0 0; padding: 10px 0;}
+    .flow-detail a {color: #0000FF; text-decolation: underline;}
+
+    @media screen and (max-width: 760px) {
+      .flow_wrapper {width: 100%;}
+      .flow-txt {width:100%; margin-left: 0;}
+      .flow-txt p {}
+      .sub-head {text-align: center;}
+      .flow-chart {width:100%;}
+      .flow-detail {margin-top: 430px;}
+    }
+  </style>
 </head>
 
 <body>
@@ -53,37 +73,81 @@
     })(window, document, 'script', 'dataLayer', 'GTM-WL2L4J');
   </script>
   <!-- End Google Tag Manager -->
-  <!-- brick -->
-  <script type="text/javascript" charset="UTF-8" src="//tag.brick.tools/js/brick.js"></script>
-  <script type="text/javascript" charset="UTF-8" src="//tag.brick.tools/js/prop/UA-9561304-10.js"></script>
-  <script>Brick.init();</script>
-  <!-- END brick -->
   <!-- <header> -->
   <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php'); ?>
   <!-- </header> -->
   <!-- <nav> -->
   <?php include($_SERVER['DOCUMENT_ROOT'] . '/include/global_nav.php'); ?>
   <!-- </nav> -->
-  <!--	<div class="container row">	-->
-  <div class="bigimg row mt_30">
+  <!--  <div class="container row"> -->
+  <div class="bigimg row">
     <img src="/common/images/main_img/main_img_new1.jpg" alt="お客様の悩みに応えるスペシャリスト集団">
   </div>
-    <!--  実績＆はじめて訴求エリア -->
+  <!--  実績＆はじめて訴求エリア -->
   <div class="info_wrapper">
+    <div class="pcnone">
       <p class="info_p1"><i class="fa fa-trophy" style="color: Gold; padding-right: 5px;"></i>年間750件以上の実績</p>
       <p class="info_p2">離婚・相続・建築の淡路町ドリーム</p>
-      <div class="info_box1">
-         <span style="font-size: 20px;">離婚や相続でお悩みの方…</span>
-         <div class="info_box2">
-           <i class="fa fa-angle-double-right" aria-hidden="true" style="padding-right: 5px;"></i><a href="/contact/" style="color: #FFF;">まずはご相談（初回無料）</a>
-         </div>
-         <p class="info_p3"><a href="tel:03-3525-8010" onclick="ga('send', 'event', 'CTA', 'Click', 'tel');"><span style="border-bottom: 1px solid #000;"><i class="fa fa-angle-double-right" aria-hidden="true" style="padding-right: 5px;"></i>お電話：03-3525-8010</span></a></p>
+    </div>
+    <div class="info_box1">
+      <span style="font-size: 20px;"><img src="/common/images/Wakaba_mark.png" alt="初心者マーク" style="height: 30px; margin-right: 1em;" class="spnone">離婚や相続でお悩みの方…</span>
+      <div class="info_box2">
+        <a href="/contact/" style="color: #FFF; display: block;text-align: center;"><i class="fa fa-angle-double-right" aria-hidden="true" style="padding-right: 5px;"></i>まずはご相談（初回無料）</a>
       </div>
-      <div class="info_box3"><i class="fa fa-check-square-o" aria-hidden="true" style="color: #009900; padding-right: 5px;"></i><i class="fa fa-angle-double-right" aria-hidden="true" style="padding-right: 5px;"></i><a href="/intro/">はじめて離婚相談をする方へ</a>
-      </div>
+      <p class="info_p3"><a href="tel:03-3525-8010" onclick="ga('send', 'event', 'CTA', 'Click', 'tel');"><span style="border-bottom: 1px solid #000;"><i class="fa fa-angle-double-right" aria-hidden="true" style="padding-right: 5px;"></i>お電話：03-3525-8010</span></a></p>
+    </div>
   </div>
 
-  <!-- バナーエリア	-->
+  <!-- 相談フローエリア -->
+  <div class="flow_wrapper">
+    <div class="flow-txt">
+      <p class="sub-head">ご相談までの流れ</p>
+      <p>ご相談までの流れは、わずか3ステップです。<br>
+      数多くの実績がある弁護士に「<span style="color: #FF0000; font-weight: bold;">無料</span>」でご相談いただけます。<br>
+      現在の状況をお伺いした上で、ご提案差し上げます。</p>
+      <p>
+        <a href="/contact/" class="spnone" style="color: blue;">お問い合わせはこちら</a>
+      </p>
+    </div>
+    <div class="flow-chart">
+      <!-- <p style="font-size: 17px;">
+        <span style="color: white;background-color: #fd7f36; width: 25px; border-radius: 15px; display: inline-block; text-align: center;">1</span>　まずはお問い合わせください。
+        <br>
+        <i class="fa fa-arrow-down" aria-hidden="true" style="color: #fd7f36"></i>
+        <br>
+        <span style="color: white;background-color: #fd7f36; width: 25px; border-radius: 15px; display: inline-block; text-align: center;">2</span>　ご相談日に、事務所までお越しください。
+        <br>
+        <i class="fa fa-arrow-down" aria-hidden="true" style="color: #fd7f36"></i>
+        <br>
+        <span style="color: white;background-color: #fd7f36; width: 25px; border-radius: 15px; display: inline-block; text-align: center;">3</span>　様々なケースを考慮した上で、弁護士がご提案致します。
+      </p> -->
+      <table style="font-size: 17px;">
+        <tr>
+          <td style="width: 30px;"><span style="color: white;background-color: #fd7f36; width: 20px; border-radius: 15px; display: inline-block; text-align: center;">1</span></td><td>まずはお問い合わせください。</td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-arrow-down" aria-hidden="true" style="color: #fd7f36; margin-left: 2px;"></i></td><td></td>
+        </tr>
+        <tr>
+          <td><span style="color: white;background-color: #fd7f36; width: 20px; border-radius: 15px; display: inline-block; text-align: center;">2</span></td><td>ご相談日に、事務所までお越しください。</td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-arrow-down" aria-hidden="true" style="color: #fd7f36; margin-left: 2px;"></i></td><td></td>
+        </tr>
+        <tr>
+          <td><span style="color: white;background-color: #fd7f36; width: 20px; border-radius: 15px; display: inline-block; text-align: center;">3</span></td><td>様々なケースを考慮した上で、弁護士がご提案致します。</td>
+        </tr>
+      </table>
+      <!-- <figure style="width: 98%; margin: 0;"><img src="/common/images/flowC.png" alt="ご相談までの流れ" style="height: 200px;"></figure> -->
+      <div class="info_box2 pcnone">
+        <a href="/contact/" style="color: #FFF; display: block;text-align: center; font-size: 22px;"><i class="fa fa-angle-double-right" aria-hidden="true" style="padding-right: 5px;"></i>相談する（初回無料）</a>
+      </div>
+    </div>
+
+    <div class="flow-detail"><a href="/flow/"><i class="fa fa-chevron-right" aria-hidden="true"></i>　「離婚の流れ」を詳しく知りたい方はこちら</a></div>
+  </div>
+
+  <!-- バナーエリア -->
   <div class="contact_banner-inner container gutters span_12" style="padding-bottom: 50px;">
     <div style="padding-bottom: 50px;" style="clear:both;">
       <div style="margin: auto 0; padding: 30px 0px;">
@@ -96,18 +160,18 @@
         </ol>
         <a href="/office/vision.html" class="toppage_atag arrow">事務所の理念はこちら</a>
       </div>
-    <!-- バナーエリア	-->
+    <!-- バナーエリア -->
       <div style="clear: both;">
-        <div class="gutters col bannar-three span_4 btn sp_txtC" style="margin: 10px 5px;">
-          <a href="http://matsuehitomi.hatenablog.com/" rel="nofollow" target="_blank"><img src="/common/images/banner/hatena_20160423.jpg" alt="代表松江仁美ブログ" class="fade" style="max-height: 82px;"></a>
-        </div>
         <div class="gutters col bannar-three span_4 btn" style="margin: 10px 5px;">
           <a href="/intro/"><img src="/common/images/banner/rikon_intro_banner2_20151107.jpg" alt="はじめて離婚相談する方へ" class="fade" style="max-height: 82px;"></a>
+        </div>
+        <div class="gutters col bannar-three span_4 btn sp_txtC" style="margin: 10px 5px;">
+          <a href="http://matsuehitomi.hatenablog.com/" rel="nofollow" target="_blank"><img src="/common/images/banner/hatena_20160423.jpg" alt="代表松江仁美ブログ" class="fade" style="max-height: 82px;"></a>
         </div>
 
       </div>
     </div>
-    <!-- バナーエリア終わり	-->
+    <!-- バナーエリア終わり  -->
     <div id="tabwrap" class="container main row">
       <ul class="tabs row">
         <li class="current"><a href="#strength">当法人の特長</a></li>
