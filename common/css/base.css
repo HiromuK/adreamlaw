@@ -598,7 +598,7 @@ header{
 
 	.info_box2 {
 	border: 1px solid #555;
-	background-color: #009900;
+	background-color: #36d900;
   width: 70%;
   border-radius: 15px;
   box-shadow: 3px 4px 0 #ccc;
@@ -1187,7 +1187,7 @@ a.dont-show:hover {color:#FFF;}
 
 		.info_box2 {
 		border: 1px solid #555;
-		background-color: #009900;
+		background-color: #36d900;
     border-radius: 15px;
     box-shadow: 3px 4px 0 #ccc;
 		color: #FFF;
