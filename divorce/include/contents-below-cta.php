@@ -4,16 +4,16 @@
       <p class="cta__headding">別居でお悩みのあなたへ</p>
       <p class="cta__subheadding">このようなお悩みはありませんか？</p>
       <ul class="trouble-lists">
-        <li class="trouble-list">生活費はちゃんと貰えるのかしら…</li>
-        <li class="trouble-list">子どもも一緒に連れて行けるのか心配</li>
-        <li class="trouble-list">別居時の新住所を相手にバレたくない！</li>
-        <li class="trouble-list">離婚するのに有利な別居期間はどれくらい？</li>
+        <li class="trouble-list">夫,妻の浮気が原因で別居を考えている。</li>
+        <li class="trouble-list">夫,妻が一方的に別居を要求してくる。</li>
+        <li class="trouble-list">DVを繰り返す夫,妻から逃れたい。</li>
+        <li class="trouble-list">家庭内別居をしていて、子どもへの影響が心配。</li>
       </ul>
       <div class="trouble-img"><img src="/divorce/images/price-table-show.jpg" alt="悩みを抱える女性" style="width:90%; margin:20px"></div>
-      <p class="mention"><span class="font-red">今すぐ離婚が得意な弁護士に、別居時に取るべき行動をご相談ください！</span></p>
+      <p class="mention"><span class="font-red">このような方は、今すぐ当事務所までご相談ください。</span></p>
       <div class="cta__sub-wrapper">
-        <a onclick="ga('send', 'event', 'CTA', 'Click', 'tel');" href="tel:0335258010"><div class="cta__button"><p class="centraize">03-3525-8010</p></div></a>
-        <a href="/contact/" class="lp4__link"><div class="cta__button"><p class="centraize">メール問い合わせ</p></div></a>
+        <a onclick="ga('send', 'event', 'CTA', 'Click', 'tel');" href="tel:0335258010"><div class="cta__button"><p class="centraize"><i class="fa fa-phone" aria-hidden="true"></i> 03-3525-8010</p></div></a>
+        <a href="/contact/" class="lp4__link"><div class="cta__button"><p class="centraize"><i class="fa fa-envelope-o" aria-hidden="true"></i> メール問い合わせ</p></div></a>
       </div>
     </div>
   </div>
