@@ -97,7 +97,8 @@ small {
 }
 
 .font-red {
-  color: #ff5454;
+  color: #e81b1b;
+  font-weight: bold;
 }
 .font-bold {
   font-weight: bold;
