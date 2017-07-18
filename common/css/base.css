@@ -219,16 +219,19 @@ img{
 	background: url(/common/images/icon/arrow.jpg) left no-repeat;
 	background-size: 10px 10px;
 	padding: 4px 0 0 13px;
+  color: #00f;
 }
 .arrow_R{
 	background: url(/common/images/icon/R_link_arrow.jpg) right no-repeat;
 	background-size: 15px 15px;
 	padding: 3px 16px 0 0;
+  color: #00f;
 }
 .arrow_L{
 	background: url(/common/images/icon/L_link_arrow.jpg) left no-repeat;
 	background-size: 15px 15px;
 	padding: 2px 0 0 17px;
+  color: #00f;
 }
 .second_link{
 	padding: 10px;
@@ -618,6 +621,11 @@ header{
 	font-weight: bolder;
 	text-align: center;
 	}
+
+  .info_p3 a {
+    color: #00f;
+    border-bottom: 1px solid #000;
+  }
 
 	.info_box3 {
 	border: 3px solid #009900;
@@ -1203,6 +1211,11 @@ a.dont-show:hover {color:#FFF;}
 		font-weight: bolder;
 		text-align: center;
 		}
+
+    .info_p3 a {
+      color: #00f;
+      border-bottom: 1px solid #000;
+    }
 
 		.info_box3 {
 		border: 3px solid #009900;
