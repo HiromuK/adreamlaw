@@ -78,12 +78,6 @@ src="https://www.facebook.com/tr?id=200999973585283&ev=PageView&noscript=1"
 	</ul>
 	<p class="txt_C txt_red header_appeal">無料相談 土日祝日対応<br>ご相談は、ご来所が必要です。</p>
 <!-- </header> -->
-
-	<div class="form_head_sp">
-	<figure class="img_center">
-				<a onclick="goog_report_conversion('tel:0335258010');ga('send', 'event', 'CTA', 'Click', 'tel'); href="tel:0335258010" ><img src="/common/images/header_tel.jpg" alt="電話でのお問い合わせ" width="160" height="50"></a>
-			</figure>
-		</div>
 		<div class="contact_header"></div>
 <!--/include_head-->
 <div class="row container">
@@ -102,7 +96,6 @@ src="https://www.facebook.com/tr?id=200999973585283&ev=PageView&noscript=1"
 
 <div class="text-%_msg_class_% mb_20 pl_10">
 %_msg_instruct_%<br>
-<span class="txt_red">※</span>がついている箇所は必須項目となります。
 </div>
 <h2 class="sct_h2">お客様情報</h2>
 <!-- form の id 属性は変更不可 -->
@@ -147,10 +140,10 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 <!-- inputfield_select_01 begin -->
 <!-- 選択リスト01 -->
 <div class="control-group %_select_01_if_error_% %_select_01_if_required_%">
-<label class="control-label" for="select_01">%_select_01_local_name_% </span><abbr id="select_01_required" class="required" title="必須項目">※</abbr></label>
+<label class="control-label" for="select_01">%_select_01_local_name_% </span><abbr id="select_01_required" class="required" title="必須項目">必須</abbr></label>
 	<div class="controls">
 	<span class="help-block">%_select_01_msg_%</span>
-	<select name="select_01" id="select_01">
+	<select name="select_01" id="select_01" class="form-required">
 	<option value="">選択して下さい</option>
 	<!--inputfield_select_01_item begin -->
 	<option value="%_value_%" id="select_01_%_no_%">%_value_%</option>
@@ -162,10 +155,10 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 <!-- inputfield_text_01 begin -->
 <!-- 1行テキスト01 -->
 <div class="control-group %_text_01_if_error_% %_text_01_if_required_%">
-<label class="control-label" for="text_01">%_text_01_local_name_% <abbr id="text_01_required" class="required" title="必須項目">※</abbr></label>
+<label class="control-label" for="text_01">%_text_01_local_name_% <abbr id="text_01_required" class="required" title="必須項目">必須</abbr></label>
 	<div class="controls">
 	<span class="help-block">%_text_01_msg_%</span>
-	<input class="input-mini" type="text" name="text_01" id="text_01" value="%_text_01_%" placeholder="フルネームでご記入ください" maxlength="%_text_01_maxlength_%">
+	<input class="input-mini form-required" type="text" name="text_01" id="text_01" value="%_text_01_%" placeholder="フルネームでご記入ください" maxlength="%_text_01_maxlength_%">
 	</div>
 </div>
 <!-- inputfield_text_01 end -->
@@ -193,7 +186,7 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 <!-- inputfield_radio_04 begin -->
 <!-- ラジオボタン04 -->
 <div class="control-group %_radio_04_if_error_% %_radio_04_if_required_%">
-<label class="control-label">%_radio_04_local_name_% <abbr id="radio_04_required" class="required" title="必須項目">※</abbr></label>
+<label class="control-label">%_radio_04_local_name_% <abbr id="radio_04_required" class="required" title="必須項目">必須</abbr></label>
 	<div class="controls">
 	<span class="help-block">%_radio_04_msg_%</span>
 	<!-- inputfield_radio_04_item begin -->
@@ -221,10 +214,10 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 <!-- inputfield_tel begin -->
 <!-- 電話番号 -->
 <div class="control-group %_tel_if_error_% %_tel_if_required_%">
-<label class="control-label" for="tel">%_tel_local_name_% <abbr id="tel_required" class="required" title="必須項目">※</abbr></label>
+<label class="control-label" for="tel">%_tel_local_name_% <abbr id="tel_required" class="required" title="必須項目">必須</abbr></label>
 	<div class="controls">
 	<span class="help-block">%_tel_msg_%</span>
-	<input class="input-medium" type="text" name="tel" id="tel" value="%_tel_%" placeholder="例：03-1234-5678" maxlength="%_tel_maxlength_%" >
+	<input class="input-medium form-required" type="text" name="tel" id="tel" value="%_tel_%" placeholder="例：03-1234-5678" maxlength="%_tel_maxlength_%">
 	</div>
 </div>
 <!-- inputfield_tel end -->
@@ -254,7 +247,7 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 <!-- inputfield_radio_01 begin -->
 <!-- ラジオボタン01 -->
 <div class="control-group %_radio_01_if_error_% %_radio_01_if_required_%">
-<label class="control-label">%_radio_01_local_name_% <abbr id="radio_01_required" class="required" title="必須項目">※</abbr></label>
+<label class="control-label">%_radio_01_local_name_% <abbr id="radio_01_required" class="required" title="必須項目">必須</abbr></label>
 	<div class="controls radio_style1">
 	<span class="help-block">%_radio_01_msg_%</span>
 	<!-- inputfield_radio_01_item begin -->
@@ -295,7 +288,7 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 <!-- inputfield_message begin -->
 <!-- お問合せ内容 -->
 <div class="control-group %_message_if_error_% %_message_if_required_%">
-<label class="control-label" for="message">%_message_local_name_% <abbr id="message_required" class="required" title="必須項目">※</abbr></label>
+<label class="control-label" for="message">%_message_local_name_% <abbr id="message_required" class="required" title="必須項目">必須</abbr></label>
 	<div class="controls">
 	<span class="help-block">%_message_msg_%</span>
 	<textarea class="input-xxlarge" rows="5" name="message" id="message" placeholder="ご相談内容をお書きください。">%_message_%</textarea>
@@ -591,7 +584,7 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 <!-- inputfield_area_01 begin -->
 <!-- テキストエリア01 -->
 <div class="control-group %_area_01_if_error_% %_area_01_if_required_%">
-<label class="control-label" for="area_01">%_area_01_local_name_% <abbr id="area_01_required" class="required" title="必須項目">※</abbr></label>
+<label class="control-label" for="area_01">%_area_01_local_name_% <abbr id="area_01_required" class="required" title="必須項目">必須</abbr></label>
 	<div class="controls">
 	<span class="help-block">%_area_01_msg_%</span>
 	<textarea class="input-block-level" name="area_01" id="area_01" rows="5" placeholder="テキストエリア01の入力案内">%_area_01_%</textarea>

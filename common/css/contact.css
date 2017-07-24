@@ -116,10 +116,10 @@ border-radius: 5px;
 	border: 1px solid #CCC;
 	padding: 5px;
 	background: #fff;
-	background: -webkit-gradient( linear, left top, left bottom, from(#eee), to(#fff) );
+	/*background: -webkit-gradient( linear, left top, left bottom, from(#eee), to(#fff) );
 	background: -moz-linear-gradient( top, #eee, #fff );
 	background: -ms-linear-gradient(#eee, #fff);
-	background: linear-gradient(#eee, #fff);
+	background: linear-gradient(#eee, #fff);*/
 	width: 40%;
 	padding: 5px;
 }
@@ -181,10 +181,10 @@ textarea{
 	border: 1px solid #CCC;
 	padding: 5px;
 	background: #fff;
-	background: -webkit-gradient( linear, left top, left bottom, from(#eee), to(#fff) );
+	/*background: -webkit-gradient( linear, left top, left bottom, from(#eee), to(#fff) );
 	background: -moz-linear-gradient( top, #eee, #fff );
 	background: -ms-linear-gradient(#eee, #fff);
-	background: linear-gradient(#eee, #fff);
+	background: linear-gradient(#eee, #fff);*/
 }
 textarea{
 	width: 50%;
@@ -430,4 +430,17 @@ button{
 .form_btn_back{
   width: 100%;
 }
+}
+
+/* 必須項目　*/
+.form-required {
+  background: #ffeeee;
+}
+.required abbr.required{
+  background: #b94a48;
+  color: #fff;
+  text-decoration-line: none;
+  font-size: 0.8em;
+  padding: 3px;
+  border-radius: 3px;
 }
