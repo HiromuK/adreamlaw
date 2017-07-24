@@ -87,6 +87,11 @@ small {
   margin: auto;
   text-align: center;
 }
+.contents-in__img {
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
 .img_center {
   text-align: center;
   display: block;
