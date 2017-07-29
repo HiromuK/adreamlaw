@@ -13,6 +13,12 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^(www\.)?a-dreamlaw\.sakura\.ne\.jp$ [NC]
 RewriteRule .* http://a-dreamlaw.com%{REQUEST_URI} [R=301,L]
 
+RewriteEngine On
+
+RewriteCond %{ENV:HTTPS} !^on$
+RewriteCond %{HTTP:X-SAKURA-FORWARDED-FOR} ^$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
 Redirect 301 /business/divorce/type/separation.html /divorce/contents/separate.html
 
 Redirect 301 /fee/why/kyougisyo.html /divorce/contents/why-need-kyougisyo.html
