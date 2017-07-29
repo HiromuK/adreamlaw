@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^(www\.)?a-dreamlaw\.com$ [NC]
+RewriteRule .* https://a-dreamlaw.com%{REQUEST_URI} [R=301,L]
