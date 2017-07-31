@@ -66,7 +66,7 @@
 			</div>
 			<div class="footer_link-sns-box">
 					<p><a href="//ameblo.jp/awajichodream/" rel="nofollow" target="blank" class="fade"><img src="/common/images/blog.jpg" alt="淡路町ドリーム公式ブログ"></a></p>
-					<p><a href="http://myben54.com/" rel="nofollow" target="blank" class="fade"><img src="/common/images/myben54bannar.jpg" alt="MY弁護士"></a></p>
+					<p><a href="https://myben54.com/" rel="nofollow" target="blank" class="fade"><img src="/common/images/myben54bannar.jpg" alt="MY弁護士"></a></p>
 				<ul>
 					<li><a href="//ja-jp.facebook.com/pages/%E5%BC%81%E8%AD%B7%E5%A3%AB%E6%B3%95%E4%BA%BA%E6%B7%A1%E8%B7%AF%E7%94%BA%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0/1440368016199684" rel="nofollow" class="fade" target="blank"><img src="/common/images/icon/facebook.jpg" width="50" height="50" alt="淡路町ドリームfacebook公式アカウント"></a></li>
 					<li><a href="//twitter.com/adreamlaw" rel="nofollow" class="fade" target="blank"><img src="/common/images/icon/twitter.jpg" width="50" height="50" alt="淡路町ドリームTwitter公式アカウント"></a></li>
