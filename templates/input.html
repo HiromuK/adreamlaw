@@ -137,21 +137,20 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 <!--
 <legend>ご連絡先情報</legend>
 -->
-<!-- inputfield_select_01 begin -->
-<!-- 選択リスト01 -->
-<div class="control-group %_select_01_if_error_% %_select_01_if_required_%">
-<label class="control-label" for="select_01">%_select_01_local_name_% </span><abbr id="select_01_required" class="required" title="必須項目">必須</abbr></label>
+<!-- inputfield_radio_04 begin -->
+<!-- ラジオボタン04 -->
+<div class="control-group %_radio_04_if_error_% %_radio_04_if_required_%">
+<label class="control-label">%_radio_04_local_name_% <abbr id="radio_04_required" class="required" title="必須項目">必須</abbr></label>
 	<div class="controls">
-	<span class="help-block">%_select_01_msg_%</span>
-	<select name="select_01" id="select_01" class="form-required">
-	<option value="">選択して下さい</option>
-	<!--inputfield_select_01_item begin -->
-	<option value="%_value_%" id="select_01_%_no_%">%_value_%</option>
-	<!-- inputfield_select_01_item end -->
-	</select>
+	<span class="help-block">%_radio_04_msg_%</span>
+	<!-- inputfield_radio_04_item begin -->
+	<label class="radio">
+	<input type="radio" name="radio_04" id="radio_04_%_no_%" value="%_value_%">%_value_%
+	</label>
+	<!-- inputfield_radio_04_item end -->
 	</div>
 </div>
-<!-- inputfield_select_01 end -->
+<!-- inputfield_radio_04 end -->
 <!-- inputfield_text_01 begin -->
 <!-- 1行テキスト01 -->
 <div class="control-group %_text_01_if_error_% %_text_01_if_required_%">
@@ -183,20 +182,6 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 	</div>
 </div>
 <!-- inputfield_text_04 end -->
-<!-- inputfield_radio_04 begin -->
-<!-- ラジオボタン04 -->
-<div class="control-group %_radio_04_if_error_% %_radio_04_if_required_%">
-<label class="control-label">%_radio_04_local_name_% <abbr id="radio_04_required" class="required" title="必須項目">必須</abbr></label>
-	<div class="controls">
-	<span class="help-block">%_radio_04_msg_%</span>
-	<!-- inputfield_radio_04_item begin -->
-	<label class="radio">
-	<input type="radio" name="radio_04" id="radio_04_%_no_%" value="%_value_%">%_value_%
-	</label>
-	<!-- inputfield_radio_04_item end -->
-	</div>
-</div>
-<!-- inputfield_radio_04 end -->
 
 <!-- inputfield_text_05 begin -->
 <!-- 1行テキスト05 -->
@@ -258,6 +243,21 @@ id属性やname属性、コメントに含まれている 「inputfield_xxx」�
 	</div>
 </div>
 <!-- inputfield_radio_01 end -->
+<!-- inputfield_select_01 begin -->
+<!-- 選択リスト01 -->
+<div class="control-group %_select_01_if_error_% %_select_01_if_required_%">
+<label class="control-label" for="select_01">%_select_01_local_name_% </span><abbr id="select_01_required" class="required" title="必須項目">必須</abbr></label>
+	<div class="controls">
+	<span class="help-block">%_select_01_msg_%</span>
+	<select name="select_01" id="select_01" class="form-required">
+	<option value="">選択して下さい</option>
+	<!--inputfield_select_01_item begin -->
+	<option value="%_value_%" id="select_01_%_no_%">%_value_%</option>
+	<!-- inputfield_select_01_item end -->
+	</select>
+	</div>
+</div>
+<!-- inputfield_select_01 end -->
 <!-- inputfield_pref begin -->
 <!-- 都道府県 -->
 <div class="control-group %_pref_if_error_% %_pref_if_required_%">

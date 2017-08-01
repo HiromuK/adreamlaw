@@ -434,13 +434,14 @@ button{
 
 /* 必須項目　*/
 .form-required {
-  background: #ffeeee;
+  background: #fff;
 }
 .required abbr.required{
-  background: #b94a48;
+  background: #ea7472;
   color: #fff;
   text-decoration-line: none;
   font-size: 0.8em;
   padding: 3px;
   border-radius: 3px;
+  margin-left: 1em;
 }

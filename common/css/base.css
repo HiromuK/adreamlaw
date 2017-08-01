@@ -629,13 +629,27 @@ header{
 
 	.info_box3 {
 	border: 3px solid #009900;
-	border-radius: 3px; width: 85%;
+	border-radius: 10px;
+  width: 60%;
 	margin:20px auto 0px;
 	text-align: center;
 	padding: 10px;
 	font-size: 18px;
 	background-color: #FFF;
+  box-shadow: 3px 4px 0 #ccc;
 	}
+
+  .info_box3 a {
+    padding: 10px 160px;
+  }
+
+  .info_box3:hover {
+    opacity: 0.8;
+  }
+
+  .info_box3 a:hover {
+    cursor: pointer;
+  }
 	/* MV下　WACUL訴求エリア	END*/
 
 }
@@ -1225,6 +1239,11 @@ a.dont-show:hover {color:#FFF;}
 		padding: 10px;
 		font-size: 18px;
 		background-color: #FFF;
+    box-shadow: 3px 4px 0 #ccc;
 		}
+
+    .info_box3 a {
+      padding: 10px;
+    }
 		/* MV下　WACUL訴求エリア	END*/
 }
