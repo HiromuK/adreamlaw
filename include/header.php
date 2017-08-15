@@ -35,3 +35,5 @@
 		<li class="header_sp_right"><a href="/contact/"><img src="/common/images/header_mail_sp.jpg" alt="メールでのお問い合わせ"></a></li>
 	</ul>
 </div>
+<p style="text-align:center;color:#e44e4e;"><i class="fa fa-calendar" aria-hidden="true"></i> 夏期休暇期間：平成29年8月11日(金)～平成29年8月16日(水)<br>
+<i class="fa fa-volume-control-phone" aria-hidden="true"></i> この期間中であっても、ご予約は承っております。</p>
