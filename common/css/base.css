@@ -1208,10 +1208,11 @@ a.dont-show:hover {color:#FFF;}
 		}
 
 		.info_box2 {
+		width:  93% !important;
 		border: 1px solid #555;
 		background-color: #36d900;
-    border-radius: 15px;
-    box-shadow: 3px 4px 0 #ccc;
+		border-radius: 15px;
+    		box-shadow: 3px 4px 0 #ccc;
 		color: #FFF;
 		margin: 10px;
 		font-size: 28px;
