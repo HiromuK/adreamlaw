@@ -91,36 +91,33 @@
     .access_list {padding: 0 24px; margin-bottom: 20px;}
   }
 </style>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WL2L4J');</script>
-<!-- End Google Tag Manager -->
-<!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-9561304-10', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<!-- End Google Analytics -->
+<!-- Tag Load -->
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/include/head_script.php'); ?>
+<!-- End Tag Load -->
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WL2L4J"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <!-- brick -->
-  <script type="text/javascript" charset="UTF-8" src="//tag.brick.tools/js/brick.js"></script>
-  <script type="text/javascript" charset="UTF-8" src="//tag.brick.tools/js/prop/UA-9561304-10.js"></script>
-  <script>Brick.init();</script>
-  <!-- End brick -->
+
+  <!-- Ptengine -->
+  <script type="text/javascript">
+  window._pt_lt = new Date().getTime();
+  window._pt_sp_2 = [];
+   _pt_sp_2.push('setAccount,170c650d');
+  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+  (function() {
+    var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+     atag.src = _protocol + 'js.ptengine.jp/pta.js';
+    var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
+     stag.src = _protocol + 'js.ptengine.jp/pts.js';
+    var s = document.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(atag, s); s.parentNode.insertBefore(stag, s);
+    })();
+  </script>
+  <!-- End Ptengine -->
+  
   <!-- header -->
   <header>
     <div style="display: block; margin: 0 auto; width: 100%;">
@@ -135,7 +132,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <h2>初回相談無料！ まずはお気軽にお問い合わせください。</h2>
         <ul class="cta_lists">
           <a onclick="ga('send', 'event', 'CTA', 'Click', 'tel');" href="tel:0335258010" class="contact_text_tel"><li class="cta_list" style="margin-top:14px;"><i class="fa fa-phone-square" aria-hidden="true"></i>お電話での問い合わせ</li></a>
-          <a href="/contact" class="contact_text_mail"><li class="cta_list"><i class="fa fa-envelope" aria-hidden="true"></i>メールでの問い合わせ</li></a>
+          <a href="/contact/" class="contact_text_mail"><li class="cta_list"><i class="fa fa-envelope" aria-hidden="true"></i>メールでの問い合わせ</li></a>
         </ul>
     </section>
     <section class="first-intro">
@@ -262,7 +259,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           $(this).next().slideDown(300);
           $("+.points p",this).fadeIn(1500);
         }
-      });
+      }); 
     });
 
   </script>
