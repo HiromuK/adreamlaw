@@ -14,7 +14,7 @@
 <header class="lp4__header">
   <div class="header__wrapper">
     <div class="header__childwrapper-left">
-      <a href="/divorce/">
+      <a href="/">
         <img src="https://a-dreamlaw.com/common/images/logo.png" class="header__logo"　alt="淡路町ドリーム　ロゴ">
       </a>
     </div>
