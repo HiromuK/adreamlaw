@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<!--  created with free sitemap generation system www.sitemapxml.jp  -->
 <url>
   <loc>https://a-dreamlaw.com/</loc>
   <priority>1.0</priority>
@@ -15,11 +15,19 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://a-dreamlaw.com/business/divorce/</loc>
+  <loc>https://a-dreamlaw.com/office/vision.html</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/</loc>
+  <loc>https://a-dreamlaw.com/intro/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/business/divorce/case</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/lawyer/</loc>
   <priority>0.8</priority>
 </url>
 <url>
@@ -27,72 +35,11 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://a-dreamlaw.com/business/divorce/women/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/case/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/type/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/dv/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/money/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikondojyo/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/child/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/immorality/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/morahara/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/common/images/business/divorce_after.pdf</loc>
-  <priority>0.8</priority>
-  <lastmod>2017-02-21T16:37:59+09:00</lastmod>
-</url>
-<url>
   <loc>https://a-dreamlaw.com/business/divorce/succession/</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://a-dreamlaw.com/business/divorce/succession/succesion_j.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/succession/succesion_case.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/succession/succesion_who.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/succession/succesion_gib.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/succession/succesion_reserved.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/</loc>
+  <loc>https://a-dreamlaw.com/common/images/business/divorce_after.pdf</loc>
   <priority>0.8</priority>
 </url>
 <url>
@@ -116,64 +63,8 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://a-dreamlaw.com/lawyer/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/lawyer/matuehitomi.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/lawyer/matueyoriatu.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/lawyer/iriehideko.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/lawyer/ujiiedaisuke.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/lawyer/simizurisei.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/lawyer/miyosiryoko.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/lawyer/yamasitahiromi.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/enquete/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/fee/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/office/vision.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/office/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/intro/</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/case</loc>
-  <priority>0.8</priority>
-</url>
-<url>
   <loc>https://a-dreamlaw.com/divorce/</loc>
-  <priority>0.8</priority>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/intro/rikon-seminar/</loc>
@@ -188,7 +79,11 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://a-dreamlaw.com/business/case-index.html</loc>
+  <loc>https://a-dreamlaw.com/office/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/fee/</loc>
   <priority>0.8</priority>
 </url>
 <url>
@@ -197,959 +92,599 @@
 </url>
 <url>
   <loc>https://a-dreamlaw.com/public/</loc>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/business/divorce/</loc>
   <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/business/divorce/women/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/business/divorce/case/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/business/divorce/type/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/business/divorce/money/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/business/divorce/qa/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/business/building/</loc>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/info/</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://a-dreamlaw.com/flow/lawyer_merit.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/intro/lp3/</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikon/cheat</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikon/custody</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikon/distribution-of-property</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer01.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer02.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer03.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer04.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer05.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer06.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer07.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer08.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer09.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer10.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer11.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer12.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer13.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer14.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer15.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer16.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer17.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer18.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer19.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer20.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer21.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer22.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer23.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer24.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer25.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer26.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer27.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer28.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer29.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer30.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer31.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer32.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/qa/answer33.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/men/men_roman.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/men/men_other-wife.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/men/men_child.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/women/women_mainstay.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/women/women_good.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/women/women_vintage-year.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/case/ohter/case083.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/case/mediation/case089.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/case/mediation/case090.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/case/ohter/case092.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/type/consent.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/type/arbitration.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/type/judgement.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/type/adjudicated.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/dv/dv_men.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/dv/new_dv.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/dv/protection.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/dv/restraining.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/dv/dv_flow.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/dv/protection_order.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/dv/partner.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/money/compensation.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/money/distribution.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/money/child_support.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/money/notification.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/money/pension.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/money/enforcement.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/money/loan.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikondojyo/01.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikondojyo/02.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikondojyo/03.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikondojyo/04.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikondojyo/05.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikondojyo/06.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/rikondojyo/07.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/child/custody.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/child/custody02.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/child/visitation.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/child/change.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/child/habeas.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/immorality/immorality_men.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/divorce/immorality/immorality_women.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/blog/</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/case/case001.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/case/case002.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/case/case003.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/case/case004.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/case/case005.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/case/case006.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/case/case007.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/case/case008.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/case/case009.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
   <loc>https://a-dreamlaw.com/divorce/contents/merit.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/lawyer/</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/divorce/intro/</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/fee/</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/divorce/intro/</loc>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/message.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/media/</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/first-consultation.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/actual-compensation.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/divorce-money.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/divorce-child.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/separate.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/qa/</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/factor.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/type/</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/type/consent.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/type/arbitration.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://a-dreamlaw.com/divorce/contents/type/judgement.html</loc>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/type/adjudicated.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/flow.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/kyougisyo.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/why-need-kyougisyo.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/money/</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/money/distribution.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/money/notification.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/money/child_support.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/money/real_estate.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/money/pension.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/money/enforcement.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/child/</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/child/custody01.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/child/custody02.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/child/visitation.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/child/habeas.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/domestic-violence.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/morahara.html</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/sitemap/</loc>
-  <priority>0.7</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/public/</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/info/matsuehitomi/senkenkeizai.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/policy/</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/info/yamashita1603.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/blog/protect-unpaid-reward.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/blog/loan-terms.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/blog/land-trading.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://a-dreamlaw.com/business/building/blog/neighboring-relationship-trouble.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/lawyer/matsue-hitomi.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/lawyer/matsue-yoriatu.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/lawyer/irie-hideko.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/lawyer/ujiie-daisuke.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/lawyer/shimizu-risei.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/lawyer/miyoshi-ryoko.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/lawyer/yamashita-hiromi.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case001.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case002.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case003.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case004.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case005.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case016.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case006.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case007.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case008.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case009.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case010.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case011.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case012.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case013.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case014.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case015.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case017.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case018.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case019.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case020.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case021.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case022.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case023.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case024.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case025.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case026.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case027.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case028.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case029.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case030.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case031.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case032.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case033.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case034.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case035.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case036.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case037.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case038.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case039.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case040.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case041.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case042.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case043.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case044.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case045.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case046.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case047.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case048.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case049.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case050.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case051.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case052.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case053.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case054.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case055.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case056.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case057.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case058.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case059.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case060.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case061.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case062.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case063.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case064.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case065.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case066.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case067.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case068.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case069.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case070.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case071.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case072.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case073.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case074.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case075.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case076.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case077.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case078.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case079.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case080.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case081.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case082.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case084.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case085.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case086.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case087.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/case/case088.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/qa/qa_compensation.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/qa/qa_method.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/qa/qa_factor.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/qa/qa_distribution.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/qa/qa_child.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/qa/qa_separation.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/qa/qa_fee.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://a-dreamlaw.com/divorce/contents/qa/qa_concubinage.html</loc>
-  <priority>0.6</priority>
+  <priority>0.8</priority>
 </url>
 
 </urlset>
